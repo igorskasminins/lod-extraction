@@ -1,13 +1,21 @@
 import xml.etree.ElementTree as ET
+from get_endpoints import EndpointRetrieval
+import os
+from dotenv import load_dotenv
 
 class XMLFileReader:
+    """ Read contents of a XML file with endpoints, classes, properties and tripples """
+    endpoint_retrieval = EndpointRetrieval()
     endpoints = {}
 
-    def __init__(self):
-        self.__readUrls()
-
     def __readUrls(self):
-        tree = ET.parse("sparql_results.txt")
+        endpoints_to_extract = os.getenv("ENDPOINTS_TO_EXTRACT")
+
+        if not os.path.exists(f'../{endpoints_to_extract}'):
+            self.endpoint_retrieval.retrieve_endpoints()
+
+        tree = ET.parse(f'../{endpoints_to_extract}')
+
         root = tree.getroot()
 
         namespace = {"sparql": "http://www.w3.org/2005/sparql-results#"}
@@ -34,4 +42,7 @@ class XMLFileReader:
                 }
 
     def getUrls(self):
+        if not self.endpoints:
+            self.__readUrls()
+            
         return self.endpoints
