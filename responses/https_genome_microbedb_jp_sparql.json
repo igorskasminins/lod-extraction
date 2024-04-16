@@ -1,0 +1,3726 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "taxon"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+            "incomingTripleCount": 2037636,
+            "instanceCount": 2037261,
+            "isLiteral": false,
+            "localName": "Taxon",
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "incomingTripleCount": 3,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "incomingTripleCount": 23,
+            "instanceCount": 28,
+            "isLiteral": false,
+            "localName": "DatatypeProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Service",
+            "incomingTripleCount": 2,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 2037351,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "FunctionalProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://identifiers.org/",
+            "instanceCount": 377,
+            "isLiteral": false,
+            "localName": "",
+            "namespace": "http://identifiers.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+            "instanceCount": 377,
+            "isLiteral": false,
+            "localName": "Assembly_Database_Entry",
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Genetic code"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/GeneticCode",
+            "incomingTripleCount": 3363086,
+            "instanceCount": 20,
+            "isLiteral": false,
+            "localName": "GeneticCode",
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "rank"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Rank",
+            "incomingTripleCount": 2037258,
+            "instanceCount": 29,
+            "isLiteral": false,
+            "localName": "Rank",
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "1063496795611514053",
+        "enableLogging": true,
+        "endpointUrl": "https://genome.microbedb.jp/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "sd"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "dct"
+        },
+        {
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://identifiers.org/",
+            "prefix": "n3"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/genbank_accession",
+            "localName": "genbank_accession",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/wasDerivedFrom",
+            "localName": "wasDerivedFrom",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/total-length",
+            "localName": "total-length",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 81233,
+                    "tripleCount": 81233
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 81233,
+                    "tripleCount": 81233
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/sequnece",
+            "localName": "sequnece",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 81233,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 239,
+                    "tripleCountBase": 239
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "blast name"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 239,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 239
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 239,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/blastName",
+            "localName": "blastName",
+            "maxCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 239
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/gbrs_paired_asm",
+            "localName": "gbrs_paired_asm",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/release_date",
+            "localName": "release_date",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 363,
+                    "tripleCount": 363
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 363,
+                    "tripleCount": 363
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/biosample",
+            "localName": "biosample",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 363,
+            "tripleCount": 363
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "localName": "equivalentClass",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 377,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 377,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 376
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/taxon",
+            "localName": "taxon",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 377,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/assembly_level",
+            "localName": "assembly_level",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 44264,
+                    "tripleCountBase": 44264
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "includes"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 44264,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 44264
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 44264,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/includes",
+            "localName": "includes",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 44264
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1106,
+                    "tripleCountBase": 1106
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "genbank synonym"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 1106,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1106
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1106,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/genbankSynonym",
+            "localName": "genbankSynonym",
+            "maxCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 1106
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 26103,
+                    "tripleCountBase": 26103
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "equivalent name"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 26103,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 26103
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 26103,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/equivalentName",
+            "localName": "equivalentName",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 26103
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/asm_name",
+            "localName": "asm_name",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/refseq_category",
+            "localName": "refseq_category",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1154,
+                    "tripleCountBase": 1154
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "acronym"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 1154,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1154
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1154,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/acronym",
+            "localName": "acronym",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 1154
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#feature",
+            "localName": "feature",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/version_status",
+            "localName": "version_status",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/refseq_accession",
+            "localName": "refseq_accession",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2002/07/owl#versionInfo",
+            "localName": "versionInfo",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/top-level-count",
+            "localName": "top-level-count",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Taxonomy rank"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2037261,
+                    "tripleCount": 2037261
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Rank",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2037258
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/rank",
+            "localName": "rank",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 2037261,
+            "tripleCount": 2037261
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/infraspecific_name",
+            "localName": "infraspecific_name",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+            "localName": "ownerUser",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/unspanned-gaps",
+            "localName": "unspanned-gaps",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/molecule-count",
+            "localName": "molecule-count",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/sequence_name",
+            "localName": "sequence_name",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 523,
+                    "tripleCountBase": 523
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "in-part"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 523,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 523
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 523,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/inPart",
+            "localName": "inPart",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 523
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/total-gap-length",
+            "localName": "total-gap-length",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 10186305,
+                    "tripleCount": 10186305
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 10186305,
+            "tripleCount": 10186305
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 23,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 23
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 23,
+            "tripleCount": 23
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 61,
+                    "tripleCountBase": 61
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 61,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/scaffold-N90",
+            "localName": "scaffold-N90",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 61
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 2037261,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2037261
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2037261,
+            "fullName": "http://purl.org/dc/terms/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2037261
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/sequence_role",
+            "localName": "sequence_role",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 61,
+                    "tripleCountBase": 61
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 61,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/scaffold-L50",
+            "localName": "scaffold-L50",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 61
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/bioproject_accession",
+            "localName": "bioproject_accession",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "localName": "supportedLanguage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/organism_name",
+            "localName": "organism_name",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/assembly_id",
+            "localName": "assembly_id",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 2037261,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2037261
+                },
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Rank",
+                    "dataTripleCount": 29,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 29
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 28,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/GeneticCode",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 7,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2037350,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 2037350
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/assigned_molecule",
+            "localName": "assigned_molecule",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Previous taxon ID"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 52276,
+                    "tripleCount": 52276
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/merged",
+            "localName": "merged",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 52276,
+            "tripleCount": 52276
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 61,
+                    "tripleCountBase": 61
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 61,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/scaffold-count",
+            "localName": "scaffold-count",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 61
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/tax_id",
+            "localName": "tax_id",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 293,
+                    "tripleCountBase": 293
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 293,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 293
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 293,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 293
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 293,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/contig-N50",
+            "localName": "contig-N50",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 293
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 28689,
+                    "tripleCountBase": 28689
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "genbank common name"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 28689,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 28689
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 28689,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/genbankCommonName",
+            "localName": "genbankCommonName",
+            "maxCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 28689
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/species_taxid",
+            "localName": "species_taxid",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 479,
+                    "tripleCountBase": 479
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "genbank acronym"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 479,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 479
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 479,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/genbankAcronym",
+            "localName": "genbankAcronym",
+            "maxCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 479
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/ftp_path",
+            "localName": "ftp_path",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 14398,
+                    "tripleCountBase": 14398
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "common name"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 14398,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14398
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14398,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/commonName",
+            "localName": "commonName",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 14398
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 283,
+                    "tripleCountBase": 283
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "anamorph"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 283,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 283
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 283,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/anamorph",
+            "localName": "anamorph",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 283
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/release_type",
+            "localName": "release_type",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Genetic code"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2037261,
+                    "tripleCount": 2037261
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/GeneticCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2037217
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/geneticCode",
+            "localName": "geneticCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 2037261,
+            "tripleCount": 2037261
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2037260,
+                    "tripleCount": 2037260
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2037260
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2037264,
+            "tripleCount": 2037264
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "scientific name"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 2037261,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2037261
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2037261,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/scientificName",
+            "localName": "scientificName",
+            "maxCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 2037261
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Mitochondrial genetic code"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1325869,
+                    "tripleCount": 1325869
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/GeneticCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1325869
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/geneticCodeMt",
+            "localName": "geneticCodeMt",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 1325869,
+            "tripleCount": 1325869
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 5
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 35,
+            "tripleCount": 35
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentProperty",
+            "localName": "equivalentProperty",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 176,
+                    "tripleCountBase": 176
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "teleomorph"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 176,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 176
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 176,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/teleomorph",
+            "localName": "teleomorph",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 176
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 377,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 377,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/bioproject",
+            "localName": "bioproject",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 377,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "unique name"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 138988,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 138988
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 138988,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/uniqueName",
+            "localName": "uniqueName",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 138988
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/biosample_accession",
+            "localName": "biosample_accession",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "localName": "resultFormat",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 61,
+                    "tripleCountBase": 61
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 61,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/scaffold-N75",
+            "localName": "scaffold-N75",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 61
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2037261,
+                    "tripleCount": 2037261
+                },
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 377,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 377,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2037640,
+            "tripleCount": 2037640
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "type material"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 128730,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 128730
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 128730,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/typeMaterial",
+            "localName": "typeMaterial",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 128730
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/relationship",
+            "localName": "relationship",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2037261,
+                    "tripleCount": 2037261
+                },
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 754,
+                    "tripleCount": 754
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 29,
+                    "tripleCount": 29
+                },
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Rank",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 29,
+                    "tripleCount": 29
+                },
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/GeneticCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11,
+                    "tripleCount": 11
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 754,
+                    "tripleCount": 754
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2037310
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2038380,
+            "tripleCount": 2038380
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/spanned-gaps",
+            "localName": "spanned-gaps",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/paired_asm_comp",
+            "localName": "paired_asm_comp",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 293,
+                    "tripleCountBase": 293
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 293,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 293
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 293,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 293
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 293,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/contig-count",
+            "localName": "contig-count",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 293
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/assigned_molecule_location_type",
+            "localName": "assigned_molecule_location_type",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "authority"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 433105,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 433105
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 433105,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/authority",
+            "localName": "authority",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 433105
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+            "localName": "_5",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/genbank",
+            "localName": "genbank",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 81233,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+            "localName": "_3",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/wgs_master",
+            "localName": "wgs_master",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+            "localName": "_4",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+            "localName": "_1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 66,
+            "tripleCount": 66
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+            "localName": "_2",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "genbank anamorph"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/genbankAnamorph",
+            "localName": "genbankAnamorph",
+            "maxCardinality": 1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/genome_rep",
+            "localName": "genome_rep",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 35
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 35,
+            "tripleCount": 35
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 81233,
+                    "tripleCountBase": 81233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 81233,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/assembly_unit",
+            "localName": "assembly_unit",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/region-count",
+            "localName": "region-count",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "synonym"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/Taxon",
+                    "dataTripleCount": 176782,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 176782
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 176782,
+            "fullName": "http://ddbj.nig.ac.jp/ontologies/taxonomy/synonym",
+            "localName": "synonym",
+            "maxCardinality": -1,
+            "namespace": "http://ddbj.nig.ac.jp/ontologies/taxonomy/",
+            "objectTripleCount": 0,
+            "tripleCount": 176782
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/refseq",
+            "localName": "refseq",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 81233,
+            "tripleCount": 81233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/submitter",
+            "localName": "submitter",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 377,
+                    "tripleCountBase": 377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 377,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 377,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/isolate",
+            "localName": "isolate",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 61,
+                    "tripleCountBase": 61
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://identifiers.org/",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                },
+                {
+                    "classFullName": "http://www.ncbi.nlm.nih.gov/assembly/Assembly_Database_Entry",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 61,
+            "fullName": "http://www.ncbi.nlm.nih.gov/assembly/scaffold-N50",
+            "localName": "scaffold-N50",
+            "maxCardinality": 1,
+            "namespace": "http://www.ncbi.nlm.nih.gov/assembly/",
+            "objectTripleCount": 0,
+            "tripleCount": 61
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "localName": "endpoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.ncbi.nlm.nih.gov/assembly/"
+}

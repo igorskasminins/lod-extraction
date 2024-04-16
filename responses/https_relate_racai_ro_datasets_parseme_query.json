@@ -1,0 +1,556 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+            "incomingTripleCount": 1917842,
+            "instanceCount": 1015624,
+            "isLiteral": false,
+            "localName": "Word",
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+            "incomingTripleCount": 113403,
+            "instanceCount": 56703,
+            "isLiteral": false,
+            "localName": "Sentence",
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "946857674352483206",
+        "enableLogging": true,
+        "endpointUrl": "https://relate.racai.ro/datasets/parseme/query",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "prefix": "nif"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 1015624,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1015624
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1015624,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+            "localName": "ID",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 1015624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 1015624,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1015624
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1015624,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+            "localName": "UPOS",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 1015624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 1015624,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1015624
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1015624,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+            "localName": "XPOS",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 1015624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 56700,
+                    "tripleCount": 56700
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 56700
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+            "localName": "nextSentence",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "objectTripleCount": 56700,
+            "tripleCount": 56700
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 745455,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 745455
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 745455,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+            "localName": "FEATS",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 745455
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 994226,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 994226
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 994226,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+            "localName": "FORM",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 994226
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 1015624,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1015624
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1015624,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#PARSEME:MWE",
+            "localName": "PARSEME:MWE",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 1015624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 994764,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 994764
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 994764,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+            "localName": "LEMMA",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 994764
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 1015624,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1015624
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1015624,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+            "localName": "DEPREL",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 1015624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 230858,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 230858
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 230858,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+            "localName": "MISC",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 230858
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1015624,
+                    "tripleCount": 1015624
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 958921
+                },
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 56703
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+            "localName": "HEAD",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 1015624,
+            "tripleCount": 1015624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 56703,
+                    "tripleCountBase": 56703
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "dataTripleCount": 56703,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 56703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 56703,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 56703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 958921,
+                    "tripleCount": 958921
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 958921
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+            "localName": "nextWord",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "objectTripleCount": 958921,
+            "tripleCount": 958921
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1015624,
+                    "tripleCount": 1015624
+                },
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 56703,
+                    "tripleCount": 56703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1072327,
+            "tripleCount": 1072327
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#"
+}

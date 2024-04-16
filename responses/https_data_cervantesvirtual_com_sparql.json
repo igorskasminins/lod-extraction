@@ -1,0 +1,5394 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "dataType": "http://www.w3.org/2001/XMLSchema#string",
+            "fullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+            "incomingTripleCount": 0,
+            "instanceCount": 1534,
+            "isLiteral": true,
+            "localName": "http://www.w3.org/2006/time#Instant",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.geonames.org/ontology#Feature",
+            "incomingTripleCount": 28390,
+            "instanceCount": 703,
+            "isLiteral": false,
+            "localName": "Feature",
+            "namespace": "http://www.geonames.org/ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdaregistry.info/Elements/c/#C10007",
+            "instanceCount": 22166,
+            "isLiteral": false,
+            "localName": "C10007",
+            "namespace": "http://rdaregistry.info/Elements/c/#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+            "incomingTripleCount": 5581,
+            "instanceCount": 153,
+            "isLiteral": false,
+            "localName": "Translation",
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "1943435326856478889",
+        "enableLogging": true,
+        "endpointUrl": "https://data.cervantesvirtual.com/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.geonames.org/ontology#",
+            "prefix": "geonames"
+        },
+        {
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "prefix": "madsrdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "skos"
+        },
+        {
+            "namespace": "http://rdvocab.info/Elements/#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "dc"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://schema.org/",
+            "prefix": "schema"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "dct"
+        },
+        {
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "sd"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "foaf"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/m/#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://purl.org/vocab/changeset/schema#",
+            "prefix": "cs"
+        },
+        {
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/i/",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://creativecommons.org/ns#",
+            "prefix": "cc"
+        },
+        {
+            "namespace": "http://www.w3.org/2006/time#",
+            "prefix": "time"
+        },
+        {
+            "namespace": "http://www.w3.org/2008/05/skos-xl#",
+            "prefix": "skosxl"
+        },
+        {
+            "namespace": "http://isni.org/ontology#",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://id.loc.gov/vocabulary/identifiers/",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "http://iflastandards.info/ns/isbd/elements/",
+            "prefix": "isbd"
+        },
+        {
+            "namespace": "http://rdaregistry.info/Elements/c/#",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "prefix": "n14"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/language",
+            "localName": "language",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 278262,
+            "tripleCount": 278262
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/e/manifestationOfExpression",
+            "localName": "manifestationOfExpression",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 336740,
+            "tripleCount": 336740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 143,
+                    "tripleCountBase": 143
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 143,
+            "fullName": "http://xmlns.com/foaf/0.1/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 143
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 349651,
+            "fullName": "http://rdvocab.info/Elements/#title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 349651
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 661,
+                    "tripleCount": 661
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 656
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#parentCountry",
+            "localName": "parentCountry",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 661,
+            "tripleCount": 661
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5,
+                    "tripleCountBase": 5
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 5,
+            "fullName": "http://rdaregistry.info/Elements/a/countryAssociatedWithThePerson",
+            "localName": "countryAssociatedWithThePerson",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://www.w3.org/2004/02/skos/core#note",
+            "localName": "note",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 703
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://creativecommons.org/ns#attributionURL",
+            "localName": "attributionURL",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://creativecommons.org/ns#",
+            "objectTripleCount": 825,
+            "tripleCount": 825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/otherPFCManifestationOf",
+            "localName": "otherPFCManifestationOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 50021,
+            "tripleCount": 50021
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 0
+                }
+            ],
+            "dataTripleCount": 87590,
+            "fullName": "http://rdaregistry.info/Elements/m/dateOfPublication",
+            "localName": "dateOfPublication",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 166308,
+            "tripleCount": 253898
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/printer",
+            "localName": "printer",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 17661,
+            "tripleCount": 17661
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4659,
+                    "tripleCountBase": 4659
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 4659,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4659
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4659,
+            "fullName": "http://www.geonames.org/ontology#postalCode",
+            "localName": "postalCode",
+            "maxCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 4659
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 153,
+                    "tripleCountBase": 153
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+                    "dataTripleCount": 153,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 153
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 153,
+            "fullName": "http://data.cervantesvirtual.com/publicationStatement/#hasCountryCode",
+            "localName": "hasCountryCode",
+            "maxCardinality": 1,
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "objectTripleCount": 0,
+            "tripleCount": 153
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "equivalentClass"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "localName": "equivalentClass",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 349123,
+            "fullName": "http://rdaregistry.info/Elements/w/titleOfTheWork",
+            "localName": "titleOfTheWork",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 0,
+            "tripleCount": 349123
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/vocab/changeset/schema#subjectOfChange",
+            "localName": "subjectOfChange",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/vocab/changeset/schema#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 38,
+                    "tripleCountBase": 38
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 38,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#citationSource",
+            "localName": "citationSource",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 38
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 583,
+                    "tripleCountBase": 583
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 583,
+            "fullName": "http://purl.org/dc/elements/1.1/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "priorVersion"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#priorVersion",
+            "localName": "priorVersion",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#changeNote",
+            "localName": "changeNote",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 196,
+                    "tripleCountBase": 196
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 196,
+            "fullName": "http://rdaregistry.info/Elements/a/compilerOf",
+            "localName": "compilerOf",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 196
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "localName": "closeMatch",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 191675,
+            "fullName": "http://rdaregistry.info/Elements/i/itemSpecificCarrierCharacteristic",
+            "localName": "itemSpecificCarrierCharacteristic",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/i/",
+            "objectTripleCount": 0,
+            "tripleCount": 191675
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 35,
+                    "tripleCountBase": 35
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 35,
+            "fullName": "http://rdvocab.info/Elements/#parallelTitleProper",
+            "localName": "parallelTitleProper",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 35
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/e/illustrator",
+            "localName": "illustrator",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 976,
+            "tripleCount": 976
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 105951,
+            "fullName": "http://rdaregistry.info/Elements/a/identifierForThePerson",
+            "localName": "identifierForThePerson",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 105951
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 481,
+                    "tripleCountBase": 481
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 481,
+            "fullName": "http://schema.org/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 481
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6282,
+                    "tripleCountBase": 6282
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 6282,
+            "fullName": "http://rdaregistry.info/Elements/a/nameOfTheCorporateBody",
+            "localName": "nameOfTheCorporateBody",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 6282
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1698148,
+            "tripleCount": 1698148
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 210872,
+            "fullName": "http://rdaregistry.info/Elements/m/placeOfProduction",
+            "localName": "placeOfProduction",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 210872
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/homepage",
+            "localName": "homepage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 145343,
+            "tripleCount": 145343
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasEarlierEstablishedForm",
+            "localName": "hasEarlierEstablishedForm",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/illustratorOf",
+            "localName": "illustratorOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 971,
+            "tripleCount": 971
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 660,
+                    "tripleCount": 660
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#nearbyFeatures",
+            "localName": "nearbyFeatures",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 660,
+            "tripleCount": 660
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/exemplarOfManifestation",
+            "localName": "exemplarOfManifestation",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 181030,
+            "tripleCount": 181030
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 153,
+                    "tripleCountBase": 153
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+                    "dataTripleCount": 153,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 153
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 153,
+            "fullName": "http://data.cervantesvirtual.com/publicationStatement/#hasEnglishText",
+            "localName": "hasEnglishText",
+            "maxCardinality": 1,
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "objectTripleCount": 0,
+            "tripleCount": 153
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 750,
+                    "tripleCountBase": 1573
+                },
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 823,
+                    "tripleCountBase": 1573
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1573,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1573
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/vocab/changeset/schema#creatorName",
+            "localName": "creatorName",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/vocab/changeset/schema#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/e/contributor",
+            "localName": "contributor",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 3221,
+            "tripleCount": 3221
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 26555,
+                    "tripleCountBase": 26555
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdaregistry.info/Elements/c/#C10007",
+                    "dataTripleCount": 26555,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 26555
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 26555,
+            "fullName": "http://rdaregistry.info/Elements/m/#title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/#",
+            "objectTripleCount": 0,
+            "tripleCount": 26555
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "sameAs"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1243,
+                    "tripleCount": 1243
+                },
+                {
+                    "classFullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 146,
+                    "tripleCount": 146
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2309,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 20016,
+            "tripleCount": 22325
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/carrierType",
+            "localName": "carrierType",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 128037,
+            "tripleCount": 128037
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#languageOfCataloging",
+            "localName": "languageOfCataloging",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/w/author",
+            "localName": "author",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 239960,
+            "tripleCount": 239960
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 100763,
+            "fullName": "http://rdaregistry.info/Elements/u/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 0,
+            "tripleCount": 100763
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdaregistry.info/Elements/c/#C10007",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 26390,
+                    "tripleCount": 26390
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/#P30111",
+            "localName": "P30111",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/#",
+            "objectTripleCount": 26390,
+            "tripleCount": 26390
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 86,
+            "tripleCount": 86
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 178,
+                    "tripleCountBase": 178
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 178,
+            "fullName": "http://rdaregistry.info/Elements/a/dateAssociatedWithTheCorporateBody",
+            "localName": "dateAssociatedWithTheCorporateBody",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 178
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2004/02/skos/core#example",
+            "localName": "example",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#recordContentSource",
+            "localName": "recordContentSource",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#elementList",
+            "localName": "elementList",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 84,
+            "tripleCount": 84
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 733,
+                    "tripleCountBase": 733
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 733,
+            "fullName": "http://purl.org/dc/terms/extent",
+            "localName": "extent",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 733
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 99998,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 0
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1149417,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1149417
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3175,
+                    "tripleCountBase": 3175
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3175,
+            "fullName": "http://rdaregistry.info/Elements/m/publishersName",
+            "localName": "publishersName",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 3175
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 994,
+                    "tripleCountBase": 994
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 994,
+            "fullName": "http://rdaregistry.info/Elements/a/otherDesignationAssociatedWithTheCorporateBody",
+            "localName": "otherDesignationAssociatedWithTheCorporateBody",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 994
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://rdaregistry.info/Elements/a/dateAssociatedWithTheFamily",
+            "localName": "dateAssociatedWithTheFamily",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://rdvocab.info/Elements/#earlierTitleProper",
+            "localName": "earlierTitleProper",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 13,
+                    "tripleCountBase": 198
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 185,
+                    "tripleCountBase": 198
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 198,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 198
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 13,
+                    "tripleCountBase": 123
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 110,
+                    "tripleCountBase": 123
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 123,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+            "localName": "authoritativeLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 123
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 636,
+                    "tripleCountBase": 636
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 636,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 636
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 636,
+            "fullName": "http://www.geonames.org/ontology#population",
+            "localName": "population",
+            "maxCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 636
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 583,
+                    "tripleCountBase": 583
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 583,
+            "fullName": "http://purl.org/dc/elements/1.1/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 26326
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/#P30088",
+            "localName": "P30088",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/#",
+            "objectTripleCount": 26363,
+            "tripleCount": 26363
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 888,
+                    "tripleCountBase": 20398
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 19510,
+                    "tripleCountBase": 20398
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 20398,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20398
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20398,
+            "fullName": "http://www.geonames.org/ontology#alternateName",
+            "localName": "alternateName",
+            "maxCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 20398
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/u/continuationOf",
+            "localName": "continuationOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 106,
+            "tripleCount": 106
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 703,
+                    "tripleCountBase": 703
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 703,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 703,
+            "fullName": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+            "localName": "long",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "objectTripleCount": 0,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 11,
+                    "tripleCountBase": 11
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 11,
+            "fullName": "http://rdaregistry.info/Elements/a/identifierForTheFamily",
+            "localName": "identifierForTheFamily",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 11
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 25002,
+                    "tripleCountBase": 25002
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 25002,
+            "fullName": "http://rdaregistry.info/Elements/m/dimensions",
+            "localName": "dimensions",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 25002
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 12,
+                    "tripleCountBase": 12
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 12,
+            "fullName": "http://id.loc.gov/vocabulary/identifiers/lccn",
+            "localName": "lccn",
+            "maxCardinality": 1,
+            "namespace": "http://id.loc.gov/vocabulary/identifiers/",
+            "objectTripleCount": 0,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 842,
+                    "tripleCountBase": 842
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 842,
+            "fullName": "http://isni.org/ontology#identifierValid",
+            "localName": "identifierValid",
+            "maxCardinality": 1,
+            "namespace": "http://isni.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 842
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://rdvocab.info/Elements/#laterTitleProper",
+            "localName": "laterTitleProper",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 191675,
+            "fullName": "http://rdaregistry.info/Elements/i/identifierForTheItem",
+            "localName": "identifierForTheItem",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/i/",
+            "objectTripleCount": 0,
+            "tripleCount": 191675
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/u/supplementTo",
+            "localName": "supplementTo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 7,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 24,
+                    "tripleCountBase": 24
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 24,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#recordChangeDate",
+            "localName": "recordChangeDate",
+            "maxCardinality": 1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 0,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/i/manifestationExemplified",
+            "localName": "manifestationExemplified",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/i/",
+            "objectTripleCount": 550180,
+            "tripleCount": 550180
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasBroaderAuthority",
+            "localName": "hasBroaderAuthority",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 703,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#featureClass",
+            "localName": "featureClass",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 703,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2536,
+                    "tripleCountBase": 2536
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 2536,
+            "fullName": "http://rdaregistry.info/Elements/m/noteOnTitle",
+            "localName": "noteOnTitle",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 2536
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/wholePartManifestationRelationship",
+            "localName": "wholePartManifestationRelationship",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 112210,
+            "tripleCount": 112210
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/isBasedOnUrl",
+            "localName": "isBasedOnUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 601,
+            "tripleCount": 601
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 23,
+                    "tripleCountBase": 23
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 23,
+            "fullName": "http://rdvocab.info/Elements/#abbreviatedTitle",
+            "localName": "abbreviatedTitle",
+            "maxCardinality": -1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 23
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/thumbnailUrl",
+            "localName": "thumbnailUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 583,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4528,
+                    "tripleCountBase": 4528
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4528,
+            "fullName": "http://rdvocab.info/Elements/#titleProper",
+            "localName": "titleProper",
+            "maxCardinality": -1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 4528
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 0
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/dateOfBirth",
+            "localName": "dateOfBirth",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 18749,
+            "tripleCount": 18749
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 5581
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://data.cervantesvirtual.com/publicationStatement/#hasTranslation",
+            "localName": "hasTranslation",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "objectTripleCount": 5581,
+            "tripleCount": 5581
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 208,
+                    "tripleCountBase": 208
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 208,
+            "fullName": "http://rdaregistry.info/Elements/a/biographicalInformation",
+            "localName": "biographicalInformation",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 208
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/directorOf",
+            "localName": "directorOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 1248,
+            "tripleCount": 1248
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 988,
+                    "tripleCountBase": 988
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 988,
+            "fullName": "http://rdaregistry.info/Elements/a/fieldOfActivityOfTheCorporateBody",
+            "localName": "fieldOfActivityOfTheCorporateBody",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 988
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 601,
+                    "tripleCountBase": 601
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 601,
+            "fullName": "http://schema.org/datePublished",
+            "localName": "datePublished",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 601
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "localName": "resultFormat",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 291,
+                    "tripleCountBase": 291
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 291,
+            "fullName": "http://rdaregistry.info/Elements/m/chronologicalDesignationOfLastIssueOrPartOfSequence",
+            "localName": "chronologicalDesignationOfLastIssueOrPartOfSequence",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 291
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://rdaregistry.info/Elements/a/otherDesignationAssociatedWithThePerson",
+            "localName": "otherDesignationAssociatedWithThePerson",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2127,
+                    "tripleCountBase": 2127
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 2127,
+            "fullName": "http://rdaregistry.info/Elements/m/variantTitle",
+            "localName": "variantTitle",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 2127
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 583,
+                    "tripleCountBase": 583
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 583,
+            "fullName": "http://schema.org/about",
+            "localName": "about",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "complementOf"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#complementOf",
+            "localName": "complementOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/e/translator",
+            "localName": "translator",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 2175,
+            "tripleCount": 2175
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 43675,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 335661,
+            "fullName": "http://purl.org/dc/elements/1.1/subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 56325,
+            "tripleCount": 391986
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#related",
+            "localName": "related",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 703,
+                    "tripleCountBase": 703
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 703,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 703,
+            "fullName": "http://www.geonames.org/ontology#countryCode",
+            "localName": "countryCode",
+            "maxCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#useFor",
+            "localName": "useFor",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 6,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 869,
+                    "tripleCountBase": 869
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 869,
+            "fullName": "http://rdaregistry.info/Elements/a/variantNameForTheCorporateBody",
+            "localName": "variantNameForTheCorporateBody",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 869
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 336740,
+            "fullName": "http://purl.org/dc/terms/bibliographicCitation",
+            "localName": "bibliographicCitation",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 336740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 9,
+                    "tripleCountBase": 2256
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2247,
+                    "tripleCountBase": 2256
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 2256,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2256
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2256,
+            "fullName": "http://www.geonames.org/ontology#officialName",
+            "localName": "officialName",
+            "maxCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 2256
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 105343,
+            "fullName": "http://rdaregistry.info/Elements/m/publicationStatement",
+            "localName": "publicationStatement",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 105343
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 84,
+                    "tripleCountBase": 84
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 84,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#elementValue",
+            "localName": "elementValue",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 84
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 60,
+                    "tripleCountBase": 60
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 60,
+            "fullName": "http://www.w3.org/2008/05/skos-xl#literalForm",
+            "localName": "literalForm",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2008/05/skos-xl#",
+            "objectTripleCount": 0,
+            "tripleCount": 60
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2008/05/skos-xl#altLabel",
+            "localName": "altLabel",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2008/05/skos-xl#",
+            "objectTripleCount": 60,
+            "tripleCount": 60
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 825,
+                    "tripleCountBase": 825
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 825,
+            "fullName": "http://creativecommons.org/ns#attributionName",
+            "localName": "attributionName",
+            "maxCardinality": 1,
+            "namespace": "http://creativecommons.org/ns#",
+            "objectTripleCount": 0,
+            "tripleCount": 825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 826,
+                    "tripleCount": 826
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#wikipediaArticle",
+            "localName": "wikipediaArticle",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 826,
+            "tripleCount": 826
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/u/contentType",
+            "localName": "contentType",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 128038,
+            "tripleCount": 128038
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 0
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/dateOfDeath",
+            "localName": "dateOfDeath",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 14427,
+            "tripleCount": 14427
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 24,
+                    "tripleCountBase": 24
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 24,
+            "fullName": "http://purl.org/vocab/changeset/schema#changeReason",
+            "localName": "changeReason",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/vocab/changeset/schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 0
+                }
+            ],
+            "dataTripleCount": 26,
+            "fullName": "http://rdaregistry.info/Elements/m/dateOfDistribution",
+            "localName": "dateOfDistribution",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 79206,
+            "tripleCount": 79232
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/publisherOf",
+            "localName": "publisherOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 6297,
+            "tripleCount": 6297
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 26388,
+                    "tripleCountBase": 26388
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 26388,
+            "fullName": "http://data.cervantesvirtual.com/publicationStatement/#hasDescription",
+            "localName": "hasDescription",
+            "maxCardinality": 1,
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "objectTripleCount": 0,
+            "tripleCount": 26388
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 7449,
+                    "tripleCountBase": 7449
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 7449,
+            "fullName": "http://rdaregistry.info/Elements/w/variantTitleForTheWork",
+            "localName": "variantTitleForTheWork",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 0,
+            "tripleCount": 7449
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 64,
+                    "tripleCountBase": 64
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 64,
+            "fullName": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "localName": "altLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 64
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4,
+                    "tripleCountBase": 103
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 99,
+                    "tripleCountBase": 103
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 103,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 103
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 103,
+            "fullName": "http://www.geonames.org/ontology#shortName",
+            "localName": "shortName",
+            "maxCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 103
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+            "localName": "hasVariant",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 60,
+            "tripleCount": 60
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/w/P10055",
+            "localName": "P10055",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 199,
+            "tripleCount": 199
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 86,
+            "tripleCount": 86
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1417,
+                    "tripleCountBase": 1417
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1417,
+            "fullName": "http://rdaregistry.info/Elements/a/placeAssociatedWithTheCorporateBody",
+            "localName": "placeAssociatedWithTheCorporateBody",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 1417
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/u/adaptationOf",
+            "localName": "adaptationOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 7,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6282,
+                    "tripleCountBase": 6282
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 6282,
+            "fullName": "http://rdaregistry.info/Elements/a/identifierForTheCorporateBody",
+            "localName": "identifierForTheCorporateBody",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 6282
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSScheme",
+            "localName": "isMemberOfMADSScheme",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 703,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+            "localName": "isDefinedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 706,
+            "tripleCount": 706
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 24,
+                    "tripleCountBase": 24
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 24,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#recordStatus",
+            "localName": "recordStatus",
+            "maxCardinality": 1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 0,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 583,
+                    "tripleCountBase": 583
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 583,
+            "fullName": "http://purl.org/dc/elements/1.1/rights",
+            "localName": "rights",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 153,
+                    "tripleCountBase": 153
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+                    "dataTripleCount": 153,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 153
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 153,
+            "fullName": "http://data.cervantesvirtual.com/publicationStatement/#hasLatinText",
+            "localName": "hasLatinText",
+            "maxCardinality": 1,
+            "namespace": "http://data.cervantesvirtual.com/publicationStatement/#",
+            "objectTripleCount": 0,
+            "tripleCount": 153
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 703,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#parentFeature",
+            "localName": "parentFeature",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 703,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/u/continuedBy",
+            "localName": "continuedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 106,
+            "tripleCount": 106
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/P50171",
+            "localName": "P50171",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 227,
+            "tripleCount": 227
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1423,
+                    "tripleCountBase": 1952
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 0
+                }
+            ],
+            "dataTripleCount": 1952,
+            "fullName": "http://rdaregistry.info/Elements/a/dateAssociatedWithThePerson",
+            "localName": "dateAssociatedWithThePerson",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 749,
+            "tripleCount": 2701
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/otherPFCManifestation",
+            "localName": "otherPFCManifestation",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 50158,
+            "tripleCount": 50158
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#feature",
+            "localName": "feature",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "unionOf"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#unionOf",
+            "localName": "unionOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasSource",
+            "localName": "hasSource",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 38,
+            "tripleCount": 38
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "versionInfo"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2002/07/owl#versionInfo",
+            "localName": "versionInfo",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#exampleNote",
+            "localName": "exampleNote",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 14973,
+                    "tripleCountBase": 14973
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 14973,
+            "fullName": "http://rdaregistry.info/Elements/a/variantNameForThePerson",
+            "localName": "variantNameForThePerson",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 14973
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/publisher",
+            "localName": "publisher",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 3179,
+            "tripleCount": 3179
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/translatorOf",
+            "localName": "translatorOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 2186,
+            "tripleCount": 2186
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 67,
+                    "tripleCountBase": 67
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 67,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#variantLabel",
+            "localName": "variantLabel",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 67
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+            "localName": "ownerUser",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "objectTripleCount": 750,
+            "tripleCount": 750
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 67,
+                    "tripleCountBase": 67
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 67,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#code",
+            "localName": "code",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 67
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/w/director",
+            "localName": "director",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 1263,
+            "tripleCount": 1263
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/e/workExpressed",
+            "localName": "workExpressed",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 349651,
+            "tripleCount": 349651
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 16,
+                    "tripleCountBase": 16
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 16,
+            "fullName": "http://rdvocab.info/Elements/#natureOfTheContent",
+            "localName": "natureOfTheContent",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 16
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/authorOf",
+            "localName": "authorOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 240082,
+            "tripleCount": 240082
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 9,
+                    "tripleCountBase": 9
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 9,
+            "fullName": "http://rdaregistry.info/Elements/a/typeOfFamily",
+            "localName": "typeOfFamily",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 9
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#note",
+            "localName": "note",
+            "maxCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 9,
+                    "tripleCountBase": 9
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 9,
+            "fullName": "http://rdaregistry.info/Elements/a/placeAssociatedWithTheFamily",
+            "localName": "placeAssociatedWithTheFamily",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 9
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 370,
+                    "tripleCountBase": 370
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 370,
+            "fullName": "http://rdaregistry.info/Elements/m/chronologicalDesignationOfFirstIssueOrPartOfSequence",
+            "localName": "chronologicalDesignationOfFirstIssueOrPartOfSequence",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 370
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1186,
+                    "tripleCountBase": 1186
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1186,
+            "fullName": "http://rdaregistry.info/Elements/a/fieldOfActivityOfThePerson",
+            "localName": "fieldOfActivityOfThePerson",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 1186
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasNarrowerAuthority",
+            "localName": "hasNarrowerAuthority",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 88,
+            "tripleCount": 88
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrower",
+            "localName": "narrower",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 88,
+            "tripleCount": 88
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://creativecommons.org/ns#license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://creativecommons.org/ns#",
+            "objectTripleCount": 825,
+            "tripleCount": 825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 703,
+                    "tripleCountBase": 703
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 703,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 703,
+            "fullName": "http://www.geonames.org/ontology#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 349651,
+            "fullName": "http://rdaregistry.info/Elements/e/identifierForTheExpression",
+            "localName": "identifierForTheExpression",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 0,
+            "tripleCount": 349651
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "localName": "supportedLanguage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 105951,
+            "fullName": "http://rdaregistry.info/Elements/a/nameOfThePerson",
+            "localName": "nameOfThePerson",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 105951
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/workManifested",
+            "localName": "workManifested",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 336740,
+            "tripleCount": 336740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 703,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#locationMap",
+            "localName": "locationMap",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 703,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 601,
+                    "tripleCountBase": 601
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 601,
+            "fullName": "http://schema.org/isFamilyFriendly",
+            "localName": "isFamilyFriendly",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 601
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/w/manifestationOfWork",
+            "localName": "manifestationOfWork",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 351863,
+            "tripleCount": 351863
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/w/expressionOfWork",
+            "localName": "expressionOfWork",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 349651,
+            "tripleCount": 349651
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 588470,
+            "fullName": "http://rdaregistry.info/Elements/m/noteOnManifestation",
+            "localName": "noteOnManifestation",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 588470
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/depicts",
+            "localName": "depicts",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 583,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 11,
+                    "tripleCountBase": 11
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 11,
+            "fullName": "http://rdaregistry.info/Elements/a/nameOfTheFamily",
+            "localName": "nameOfTheFamily",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 11
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1534,
+                    "tripleCountBase": 1534
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1534,
+            "fullName": "http://www.w3.org/2006/time#year",
+            "localName": "year",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2006/time#",
+            "objectTripleCount": 0,
+            "tripleCount": 1534
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "localName": "inScheme",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 24,
+                    "tripleCountBase": 24
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 24,
+            "fullName": "http://purl.org/vocab/changeset/schema#createdDate",
+            "localName": "createdDate",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/vocab/changeset/schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/uniformResourceLocator",
+            "localName": "uniformResourceLocator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 336740,
+            "tripleCount": 336740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 28,
+                    "tripleCountBase": 28
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 28,
+            "fullName": "http://rdvocab.info/Elements/#keyTitle",
+            "localName": "keyTitle",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/#",
+            "objectTripleCount": 0,
+            "tripleCount": 28
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 15,
+            "tripleCount": 15
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasReciprocalAuthority",
+            "localName": "hasReciprocalAuthority",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection",
+            "localName": "isMemberOfMADSCollection",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 583,
+                    "tripleCountBase": 583
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 583,
+            "fullName": "http://purl.org/dc/elements/1.1/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 20,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "equivalentProperty"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentProperty",
+            "localName": "equivalentProperty",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/printerOf",
+            "localName": "printerOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 17709,
+            "tripleCount": 17709
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 20772,
+                    "tripleCountBase": 20772
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 20772,
+            "fullName": "http://rdaregistry.info/Elements/m/#P30011",
+            "localName": "P30011",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/#",
+            "objectTripleCount": 0,
+            "tripleCount": 20772
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 703,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#featureCode",
+            "localName": "featureCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 703,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 43,
+                    "tripleCount": 43
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#childrenFeatures",
+            "localName": "childrenFeatures",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 43,
+            "tripleCount": 43
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 20144,
+                    "tripleCountBase": 20144
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 20144,
+            "fullName": "http://iflastandards.info/ns/isbd/elements/P1154",
+            "localName": "P1154",
+            "maxCardinality": 1,
+            "namespace": "http://iflastandards.info/ns/isbd/elements/",
+            "objectTripleCount": 0,
+            "tripleCount": 20144
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 144901,
+            "tripleCount": 144901
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 337413,
+            "fullName": "http://rdaregistry.info/Elements/m/title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 337413
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#adminMetadata",
+            "localName": "adminMetadata",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 42,
+                    "tripleCount": 42
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#neighbouringFeatures",
+            "localName": "neighbouringFeatures",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 42,
+            "tripleCount": 42
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 383,
+                    "tripleCountBase": 383
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 383,
+            "fullName": "http://rdaregistry.info/Elements/m/frequency",
+            "localName": "frequency",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 383
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/u/concordance",
+            "localName": "concordance",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/u/",
+            "objectTripleCount": 14176,
+            "tripleCount": 14176
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/expressionManifested",
+            "localName": "expressionManifested",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 336740,
+            "tripleCount": 336740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 523,
+                    "tripleCount": 523
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 523,
+            "tripleCount": 523
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 0
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2006/time#inDateTime",
+            "localName": "inDateTime",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2006/time#",
+            "objectTripleCount": 1534,
+            "tripleCount": 1534
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 38,
+                    "tripleCountBase": 38
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 38,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#citationNote",
+            "localName": "citationNote",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 38
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdaregistry.info/Elements/c/#C10007",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 26390,
+                    "tripleCount": 26390
+                },
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 703,
+                    "tripleCount": 703
+                },
+                {
+                    "classFullName": "http://data.cervantesvirtual.com/publicationStatement/#Translation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 153,
+                    "tripleCount": 153
+                },
+                {
+                    "classFullName": "\"http://www.w3.org/2006/time#Instant\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 0
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1534,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2219271,
+            "tripleCount": 2220805
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 193445,
+            "fullName": "http://rdaregistry.info/Elements/m/noteOnEditionStatement",
+            "localName": "noteOnEditionStatement",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 193445
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "imports"
+                }
+            ],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#imports",
+            "localName": "imports",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 546,
+                    "tripleCount": 546
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#parentADM3",
+            "localName": "parentADM3",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 546,
+            "tripleCount": 546
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 82,
+                    "tripleCount": 82
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#parentADM4",
+            "localName": "parentADM4",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 82,
+            "tripleCount": 82
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 38,
+                    "tripleCountBase": 38
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 38,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#citationStatus",
+            "localName": "citationStatus",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 38
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 659,
+                    "tripleCount": 659
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#parentADM1",
+            "localName": "parentADM1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 659,
+            "tripleCount": 659
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/mediaType",
+            "localName": "mediaType",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 128037,
+            "tripleCount": 128037
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 607,
+                    "tripleCount": 607
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geonames.org/ontology#parentADM2",
+            "localName": "parentADM2",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 607,
+            "tripleCount": 607
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/e/languageOfExpression",
+            "localName": "languageOfExpression",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/e/",
+            "objectTripleCount": 280598,
+            "tripleCount": 280598
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 601,
+                    "tripleCountBase": 601
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 601,
+            "fullName": "http://schema.org/headline",
+            "localName": "headline",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 601
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1035514,
+            "fullName": "http://purl.org/dc/elements/1.1/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1035514
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 87,
+                    "tripleCountBase": 87
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 87,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 87
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 87,
+            "fullName": "http://www.w3.org/2003/01/geo/wgs84_pos#alt",
+            "localName": "alt",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "objectTripleCount": 0,
+            "tripleCount": 87
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 20144,
+                    "tripleCountBase": 20144
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 20144,
+            "fullName": "http://rdaregistry.info/Elements/m/identifierForTheManifestation",
+            "localName": "identifierForTheManifestation",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 0,
+            "tripleCount": 20144
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/m/insertedIn",
+            "localName": "insertedIn",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/m/",
+            "objectTripleCount": 526121,
+            "tripleCount": 526121
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasCloseExternalAuthority",
+            "localName": "hasCloseExternalAuthority",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+            "localName": "_5",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+            "localName": "_3",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 703
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/primaryTopic",
+            "localName": "primaryTopic",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 825,
+            "tripleCount": 825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+            "localName": "_4",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+            "localName": "_1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 66,
+            "tripleCount": 66
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+            "localName": "_2",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 703,
+                    "tripleCountBase": 703
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.geonames.org/ontology#Feature",
+                    "dataTripleCount": 703,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 703
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 703,
+            "fullName": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+            "localName": "lat",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "objectTripleCount": 0,
+            "tripleCount": 703
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 988,
+                    "tripleCountBase": 988
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 988,
+            "fullName": "http://rdaregistry.info/Elements/a/languageOfTheCorporateBody",
+            "localName": "languageOfTheCorporateBody",
+            "maxCardinality": 1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 0,
+            "tripleCount": 988
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdaregistry.info/Elements/c/#C10007",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 26379,
+                    "tripleCount": 26379
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2309,
+            "fullName": "http://xmlns.com/foaf/0.1/depiction",
+            "localName": "depiction",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 295044,
+            "tripleCount": 297353
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/w/formOfWork",
+            "localName": "formOfWork",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/w/",
+            "objectTripleCount": 113924,
+            "tripleCount": 113924
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 750,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 98425,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 825,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1699723,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1699723
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/contributorOf",
+            "localName": "contributorOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 62,
+            "tripleCount": 62
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdaregistry.info/Elements/a/P50190",
+            "localName": "P50190",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdaregistry.info/Elements/a/",
+            "objectTripleCount": 11,
+            "tripleCount": 11
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "localName": "endpoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://rdaregistry.info/Elements/a/"
+}

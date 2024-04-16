@@ -1,0 +1,1671 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "List",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "incomingTripleCount": 25,
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "incomingTripleCount": 162,
+            "instanceCount": 18,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Datatype",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+            "incomingTripleCount": 187,
+            "instanceCount": 41,
+            "isLiteral": false,
+            "localName": "Resource",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Document",
+            "incomingTripleCount": 2256,
+            "instanceCount": 12681,
+            "isLiteral": false,
+            "localName": "Document",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Person",
+            "incomingTripleCount": 2093395,
+            "instanceCount": 141139,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "377286113435314045",
+        "enableLogging": true,
+        "endpointUrl": "http://data.rism.info/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://purl.org/ontology/mo/",
+            "prefix": "mo"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "foaf"
+        },
+        {
+            "namespace": "http://bsb-muenchen.de/ont/bsbMusicOntology#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://d-nb.info/standards/elementset/gnd#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "dc"
+        },
+        {
+            "namespace": "http://rdvocab.info/Elements/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://purl.org/vocab/frbr/core#",
+            "prefix": "frbr"
+        },
+        {
+            "namespace": "http://purl.org/ontology/bibo/",
+            "prefix": "bibo"
+        },
+        {
+            "namespace": "http://umbel.org/umbel#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "https://creativecommons.org/ns#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.geonames.org/ontology#",
+            "prefix": "geonames"
+        },
+        {
+            "namespace": "http://uri.gbv.de/ontology/daia/",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/org#",
+            "prefix": "org"
+        },
+        {
+            "namespace": "http://metadataregistry.org/uri/schema/RDARelationshipsGR2/",
+            "prefix": "n7"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 141139,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 141139
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 149088,
+            "fullName": "http://xmlns.com/foaf/0.1/name",
+            "localName": "name",
+            "maxCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 149088
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1190706,
+            "fullName": "http://purl.org/ontology/mo/key",
+            "localName": "key",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 1190706
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1633322,
+            "fullName": "http://purl.org/ontology/mo/arrangement_of",
+            "localName": "arrangement_of",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 1633322
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1068541,
+            "fullName": "http://purl.org/ontology/mo/lyrics",
+            "localName": "lyrics",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 1068541
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1336319,
+            "fullName": "http://purl.org/dc/elements/1.1/subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1336319
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 29880,
+                    "tripleCountBase": 29880
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 29880,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 29880
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 29880,
+            "fullName": "http://www.geonames.org/ontology#countryCode",
+            "localName": "countryCode",
+            "maxCardinality": -1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 29880
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 23002,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 23002
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1614876,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1614876
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 49158,
+                    "tripleCount": 49158
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2256
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+            "localName": "isPrimaryTopicOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 522928,
+            "tripleCount": 522928
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 84278,
+                    "tripleCountBase": 84278
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 84278,
+            "fullName": "http://purl.org/ontology/mo/performance_of",
+            "localName": "performance_of",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 84278
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6722,
+                    "tripleCountBase": 6722
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 6722,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6722
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6722,
+            "fullName": "http://d-nb.info/standards/elementset/gnd#variantNameForTheConferenceOrEvent",
+            "localName": "variantNameForTheConferenceOrEvent",
+            "maxCardinality": -1,
+            "namespace": "http://d-nb.info/standards/elementset/gnd#",
+            "objectTripleCount": 0,
+            "tripleCount": 6722
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 117339,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 117339
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 117339,
+            "fullName": "http://metadataregistry.org/uri/schema/RDARelationshipsGR2/alternateIdentity",
+            "localName": "alternateIdentity",
+            "maxCardinality": -1,
+            "namespace": "http://metadataregistry.org/uri/schema/RDARelationshipsGR2/",
+            "objectTripleCount": 0,
+            "tripleCount": 117339
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 206693
+                }
+            ],
+            "dataTripleCount": 206585,
+            "fullName": "http://d-nb.info/standards/elementset/gnd#formerOwner",
+            "localName": "formerOwner",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://d-nb.info/standards/elementset/gnd#",
+            "objectTripleCount": 343183,
+            "tripleCount": 549768
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 64766,
+                    "tripleCountBase": 64766
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 64766,
+            "fullName": "http://rdvocab.info/Elements/placeOfPublication",
+            "localName": "placeOfPublication",
+            "maxCardinality": -1,
+            "namespace": "http://rdvocab.info/Elements/",
+            "objectTripleCount": 0,
+            "tripleCount": 64766
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 364004,
+            "fullName": "http://bsb-muenchen.de/ont/bsbMusicOntology#lexicon",
+            "localName": "lexicon",
+            "maxCardinality": -1,
+            "namespace": "http://bsb-muenchen.de/ont/bsbMusicOntology#",
+            "objectTripleCount": 0,
+            "tripleCount": 364004
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1193261,
+            "fullName": "http://uri.gbv.de/ontology/daia/label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://uri.gbv.de/ontology/daia/",
+            "objectTripleCount": 0,
+            "tripleCount": 1193261
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 47,
+                    "tripleCount": 47
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 47,
+                    "tripleCount": 47
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 47
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 47
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 47,
+            "tripleCount": 47
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6863,
+                    "tripleCountBase": 6863
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 6863,
+            "fullName": "http://bsb-muenchen.de/ont/bsbMusicOntology#bibliographicCitation",
+            "localName": "bibliographicCitation",
+            "maxCardinality": -1,
+            "namespace": "http://bsb-muenchen.de/ont/bsbMusicOntology#",
+            "objectTripleCount": 0,
+            "tripleCount": 6863
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5562,
+                    "tripleCountBase": 5562
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 5558,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5558
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5562,
+            "fullName": "http://purl.org/ontology/bibo/pages",
+            "localName": "pages",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/bibo/",
+            "objectTripleCount": 0,
+            "tripleCount": 5562
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 150945,
+            "fullName": "http://bsb-muenchen.de/ont/bsbMusicOntology#watermark",
+            "localName": "watermark",
+            "maxCardinality": -1,
+            "namespace": "http://bsb-muenchen.de/ont/bsbMusicOntology#",
+            "objectTripleCount": 0,
+            "tripleCount": 150945
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 16
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 16,
+            "tripleCount": 16
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 25,
+                    "tripleCount": 25
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 25,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 25
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 25
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 25,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 141139,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 141139
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 12681,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12681
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1368725,
+            "fullName": "http://purl.org/dc/terms/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1368725
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 141139,
+                    "tripleCount": 141139
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12681,
+                    "tripleCount": 12681
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://creativecommons.org/ns#License",
+            "localName": "License",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://creativecommons.org/ns#",
+            "objectTripleCount": 1368725,
+            "tripleCount": 1368725
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1190706,
+            "fullName": "http://rdvocab.info/Elements/otherTitleInformation",
+            "localName": "otherTitleInformation",
+            "maxCardinality": 1,
+            "namespace": "http://rdvocab.info/Elements/",
+            "objectTripleCount": 0,
+            "tripleCount": 1190706
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 359472,
+            "fullName": "http://purl.org/ontology/mo/catalogue_number",
+            "localName": "catalogue_number",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 359472
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/language",
+            "localName": "language",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1854024,
+            "tripleCount": 1854024
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 16
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 16,
+            "tripleCount": 16
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 36875,
+                    "tripleCountBase": 36875
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 36875,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 36875
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 51526,
+                    "tripleCountBase": 51526
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 6832,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6832
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 51526,
+            "fullName": "http://purl.org/dc/elements/1.1/creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 51526
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 37696,
+                    "tripleCountBase": 37696
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 35199,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 35199
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 2497,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2497
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 37696,
+            "fullName": "http://d-nb.info/standards/elementset/gnd#dateOfDeath",
+            "localName": "dateOfDeath",
+            "maxCardinality": 1,
+            "namespace": "http://d-nb.info/standards/elementset/gnd#",
+            "objectTripleCount": 0,
+            "tripleCount": 37696
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 525646,
+            "fullName": "http://purl.org/dc/terms/format",
+            "localName": "format",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 525646
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6832,
+                    "tripleCount": 6832
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1155368
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1155482,
+            "tripleCount": 1155482
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/vocab/frbr/core#owner",
+            "localName": "owner",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/vocab/frbr/core#",
+            "objectTripleCount": 1731338,
+            "tripleCount": 1731338
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8486,
+                    "tripleCount": 8486
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 821,
+                    "tripleCount": 821
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://umbel.org/umbel#isLike",
+            "localName": "isLike",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://umbel.org/umbel#",
+            "objectTripleCount": 9307,
+            "tripleCount": 9307
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 625254,
+            "fullName": "http://purl.org/dc/terms/issued",
+            "localName": "issued",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 625254
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5766,
+                    "tripleCountBase": 5766
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 5762,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5762
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5766,
+            "fullName": "http://purl.org/ontology/bibo/shortTitle",
+            "localName": "shortTitle",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/bibo/",
+            "objectTripleCount": 0,
+            "tripleCount": 5766
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 98994,
+                    "tripleCountBase": 98994
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 92563,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 92563
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 6431,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6431
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 98994,
+            "fullName": "http://d-nb.info/standards/elementset/gnd#dateOfBirth",
+            "localName": "dateOfBirth",
+            "maxCardinality": -1,
+            "namespace": "http://d-nb.info/standards/elementset/gnd#",
+            "objectTripleCount": 0,
+            "tripleCount": 98994
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 731334
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/contributor",
+            "localName": "contributor",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1024560,
+            "tripleCount": 1024560
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1244062,
+            "fullName": "http://purl.org/dc/terms/extent",
+            "localName": "extent",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1244062
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 233,
+                    "tripleCountBase": 233
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 233,
+            "fullName": "http://www.w3.org/ns/org#roleProperty",
+            "localName": "roleProperty",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/org#",
+            "objectTripleCount": 0,
+            "tripleCount": 233
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8376,
+                    "tripleCountBase": 8376
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8376,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 8376
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 12681,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12681
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1161320,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1161320
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1609524,
+            "fullName": "http://bsb-muenchen.de/ont/bsbMusicOntology#incipit",
+            "localName": "incipit",
+            "maxCardinality": -1,
+            "namespace": "http://bsb-muenchen.de/ont/bsbMusicOntology#",
+            "objectTripleCount": 0,
+            "tripleCount": 1609524
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12607,
+                    "tripleCount": 12607
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 686999,
+            "fullName": "http://purl.org/dc/elements/1.1/contributor",
+            "localName": "contributor",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 12617,
+            "tripleCount": 699616
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/vocab/frbr/core#exemplar",
+            "localName": "exemplar",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/vocab/frbr/core#",
+            "objectTripleCount": 1731338,
+            "tripleCount": 1731338
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/homepage",
+            "localName": "homepage",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 115189,
+            "tripleCount": 115189
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 141139,
+                    "tripleCount": 141139
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12681,
+                    "tripleCount": 12681
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 44,
+                    "tripleCount": 44
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 83,
+                    "tripleCount": 83
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 37,
+                    "tripleCount": 37
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 83
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 83
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 153903,
+            "tripleCount": 153903
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/dc/terms/"
+}

@@ -1,0 +1,340 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.org/ns/void#Dataset",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://rdfs.org/ns/void#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCodeSet",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "CategoryCodeSet",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "instanceCount": 35,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "MajorGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+            "instanceCount": 77,
+            "isLiteral": false,
+            "localName": "MinorGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+            "instanceCount": 299,
+            "isLiteral": false,
+            "localName": "UnitGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+            "instanceCount": 1675,
+            "isLiteral": false,
+            "localName": "MicroGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "https://iisg.amsterdam/resource/hisco/MicroGroup"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCode",
+            "instanceCount": 1675,
+            "isLiteral": false,
+            "localName": "CategoryCode",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+            "instanceCount": 2290,
+            "isLiteral": false,
+            "localName": "AmsterdamCode",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+            "instanceCount": 3384,
+            "isLiteral": false,
+            "localName": "Municipality",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/provincie",
+            "instanceCount": 24,
+            "isLiteral": false,
+            "localName": "provincie",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/departement",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "departement",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Assertion",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "Assertion",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Provenance",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "Provenance",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#PublicationInfo",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "PublicationInfo",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Nanopublication",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "Nanopublication",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/vocab/bio/0.1/Death",
+            "instanceCount": 929615,
+            "isLiteral": false,
+            "localName": "Death",
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/hdng/gemeente",
+            "instanceCount": 1312,
+            "isLiteral": false,
+            "localName": "gemeente",
+            "namespace": "https://iisg.amsterdam/hdng/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/hdng/observation",
+            "instanceCount": 148256,
+            "isLiteral": false,
+            "localName": "observation",
+            "namespace": "https://iisg.amsterdam/hdng/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/hdng/variable",
+            "instanceCount": 1201,
+            "isLiteral": false,
+            "localName": "variable",
+            "namespace": "https://iisg.amsterdam/hdng/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Person",
+            "instanceCount": 2788845,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "7943390556210250564",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/dataLegend/deaths-1910-1920/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.nanopub.org/nschema#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://schema.org/",
+            "prefix": "schema"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/hdng/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "prefix": "bio"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "void"
+        }
+    ],
+    "Properties": [],
+    "SchemaName": "Schema",
+    "namespace": "https://iisg.amsterdam/resource/hisco/"
+}

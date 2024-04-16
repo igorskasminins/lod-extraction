@@ -1,0 +1,1348 @@
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="EffectiveURL"/>
+  <variable name="classes"/>
+  <variable name="properties"/>
+  <variable name="triples"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.string-db.org/</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">0</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">443541930</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG-DA/Collectie-Interviews-Wim-Kok-deel-2/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">0</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">9774</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lipidmaps.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">457751</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG/Images/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">235847</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://idsm.elixir-czech.cz/sparql/endpoint/chebi</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1117182</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/MiconSchorsij/thesaurus/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12454</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://relate.racai.ro/datasets/parseme/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">11203698</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://relate.racai.ro/datasets/simonero/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1396182</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://relate.racai.ro/datasets/rolex/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2501217</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://zbw.eu/beta/sparql/stwv/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">218</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/AdamNet/Geography/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">22</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">153975</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/ESTA-DEMO/esta-demo-viz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">59</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">937</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://query.wikidata.org/bigdata/namespace/dcatap/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">646</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://imagesnippets.com/sparql/images</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1294</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6021310</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG-DA/ORCID-data/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7252</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/MiconSchorsij/OnTheWaterfront/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">11</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5017</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/RubenS/marc21/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">40</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1051</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/nlgis/gemeentegeschiedenis/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">30</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">47368</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">28</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7141731</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/nlgis/cshapes/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">39</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6006</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://147.100.179.235:8082/blazegraph/namespace/AnaEE_sites/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5014</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://data.rism.info/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">47</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">28256929</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabs.ands.org.au/repository/api/sparql/anzsrc-for</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">15</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12578</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://zbw.eu/beta/sparql/pm20/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">60</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1487473</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabs.ardc.edu.au/repository/api/sparql/aas_the-unified-astronomy-thesaurus_4-0-1</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">29</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18805</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG/sicada/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">51</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">28843</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/nlgis/mint/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">36</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6985</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabs.ands.org.au/repository/api/sparql/ga_geologic-unit-type_v0-1</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">421</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG/historic-maps/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">29</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">79490</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://beta.sparql.swisslipids.org/</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">59</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">15270356</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/mromanello/hucit/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">799847</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ontology.inrae.fr/frenchcropusage/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">60</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12396</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://bittich.be/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">11</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">40</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">302</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://dbtune.org/bbc/peel/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">11</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">25</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">349720</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/HistoryOfWork/HISCO-latest/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">11</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">40</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">16257</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/Catasto/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">173</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4076244</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.kunstmuseum.nl/query/proxy/wdqs/bigdata/namespace/wdq/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">361</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4013493</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://hamap.expasy.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">52</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13720</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/strikes/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">12</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">71</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">334843</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://opendata.mfcr.cz/lod/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">78</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">41297</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://dbtune.org/jamendo/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">26</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1385598</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG/VanMeerendonk/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">243505</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://agrovoc.fao.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">133</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">9272646</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.rhea-db.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">121</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4477726</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://dbtune.org/classical/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">38</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">419519</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://query.portal.mardi4nfdi.de/proxy/wdqs/bigdata/namespace/wdq/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3994</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">454072849</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/CLARIAH-VL/Ghent-Gazetteer/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">27</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">300530</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/CEDAR-S/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">53</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10654352</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://zbw.eu/beta/sparql/stw/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">79</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">569870</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ldf.fi/folklore/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">43</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">306549</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lingualibre.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">175</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">66482154</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://relate.racai.ro/datasets/rtasc/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">59</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">284683</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/jobHoard/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">111</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1717098</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ldf.fi/mufi/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">60</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">210986</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lingualibre.org/bigdata/namespace/wdq/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">175</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">66455349</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://www.ss-framework.com/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">19</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">115</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5611</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">19</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">78</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10122</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://resource.geolba.ac.at/PoolParty/sparql/lithology</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">81</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8607</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://coxpresdb.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">121</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">245948932</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">90</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8528</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/andb/andb-leden/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">476</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2894645</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://relate.racai.ro/datasets/legalnero/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">55</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5761781</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://data.mimo-db.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">127</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">101262</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://atted.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">132</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1276428768</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://druid.datalegend.net/AdamNet/Heritage/sparql/Heritage</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">98</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8744254</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://edan.si.edu/saam/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">47</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2542142</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.genome.jp/sparql/linkdb</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">113</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13343778972</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/Clio-Infra/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">173</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1962997</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/deaths-1910-1920/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1301</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">25598173</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ontology.inrae.fr/bsv/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">48</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1352654</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG/jobHoard/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">22</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">72</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">308369</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/andb/adb-leden/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">22</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">142</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">804983</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://ariadne-registry.dcu.gr:8890/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">175</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2210644</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://genome.microbedb.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">185</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">29767602</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">98</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">36782</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/andb/andb-leerlingen/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1010</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1170962</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://alma.uni.lu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">127</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8152</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.cinematheque.qc.ca/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">68</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6230572</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/IISG/Labourconflicts/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">80</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">544790</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/Per-LOD-ad-Astra/Sleutelkastje/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">120</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">493</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ld.ncl.edu.tw/fuseki/lod/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">25</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">47</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23858949</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://linkedwiki.com/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">25</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">132</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">9677</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/Admissies-Haarlem/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">25</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">182</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2294022</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/ATM-DEMO/ATM-CLARIAH-DEMO/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">26</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">122</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1837001</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/Baghdad-to-London/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">26</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">136</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1197656</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.mpsv.cz/sparql/</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">27</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">569</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">210389197</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://datos.bne.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">28</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">329</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">258140051</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.nakala.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">28</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">224</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">40047218</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://hkcan.julac.org/lod/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">29</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">32</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">21047597</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://rdf.metanetx.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">29</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">176</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">118259463</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/sparql/Muziekweb</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">30</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">59</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">37093353</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/AdamNet/all/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">30</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">135</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">9543756</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://cultura.linkeddata.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">31</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">354</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">867535</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://lod.b3kat.de/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">31</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">265</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1022898443</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://makg.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">32</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">179</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8449773452</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ontology.inrae.fr/weather/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">32</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">77</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">22207397</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabs.ands.org.au/repository/api/sparql/csiro_international-chronostratigraphic-chart_2018</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">33</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">83</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14532</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabs.ardc.edu.au/repository/api/sparql/csiro_international-chronostratigraphic-chart_geologic-time-scale-2020</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">33</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">85</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">15421</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://clara.univ-nantes.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">33</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">189</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">70195632</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://data.bibliotheken.nl/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">34</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">138</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">240402129</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.govdata.de/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">34</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">169</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7292101</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/andb/andb/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">34</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1503</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4897896</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://aemet.linkeddata.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">35</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">156</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">61545575</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://id.nlm.nih.gov/mesh/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">37</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">174</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">157692631</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://aopwiki.rdf.bigcat-bioinformatics.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">38</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">164</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">179458</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.bnf.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">38</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">885</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">615638230</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://digitaalerfgoed.poolparty.biz/PoolParty/sparql/term/id/cht</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">40</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">162</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">583604</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://ldf.fi/corresp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">41</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">74</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2913993</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/andb/ANDB-ADB-all/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">43</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">206</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4320129</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://joinup.ec.europa.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">44</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">796</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">499224</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://regulatorycircuits-lod.genouest.org/sparql/</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">44</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1061</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3952410103</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/Admissies-DH/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">44</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">274</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2985666</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.mvcr.gov.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">45</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">186</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14279</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ideal-rdf.dbcls.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">45</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">189</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2628415</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.dia.gov.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">46</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">194</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">19098</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.cssz.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">47</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">260</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10573921</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.cervantesvirtual.com/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">51</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">317</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18481694</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://colil.dbcls.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">52</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">179</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3517804013</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">52</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2638</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2487022</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://sparql.archives-ouvertes.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">53</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">208</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">443215783</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://sparql.nibb.ac.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">53</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">275</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">2981939207</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.proconsortium.org/virtuoso/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">54</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">293</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">15841960</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.allie.dbcls.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">55</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">201</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">280041664</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://xn--slovnk-7va.gov.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">55</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">178</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">724275</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://open.bydata.de/api/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">56</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">284</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3363495</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://sparql.lynx-project.eu</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">57</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">262</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">69960083</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://linguistic.linkeddata.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">57</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">231</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10664488</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.snik.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">57</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">235</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">50222</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.wikipathways.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">58</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">274</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10638208</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ldf.fi/mmm/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">58</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">152</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">24009834</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://data.archaeologydataservice.ac.uk/sparql/repositories/archives</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">59</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">124</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1547192</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://hitontology.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">59</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">205</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">18472</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.mff.cuni.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">61</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">241</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3635112</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.bgee.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">63</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">208</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6609905398</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://db.project-hobbit.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">64</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1493</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2674943</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://slod.fiz-karlsruhe.de/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">66</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2705</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1010769</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://weakg.i3s.unice.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">66</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">247</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">190037243</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://webenemasuno.linkeddata.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">67</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">181</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4631527</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://tuskegee.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">69</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">97</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">715734</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://rdf.insee.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">75</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">222</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4076090</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://virtuoso.plateforme.dipso.inrae.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">76</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">394</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">436377</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://opendata1.opendata.u-psud.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">78</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">178</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3421775</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.gov.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">83</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">312</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">87712440</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.performing-arts.ch/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">84</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">197</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">11948053</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://psm.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">86</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">102</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">716317</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.idref.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">86</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">470</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">281422286</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ldf.fi/ww1lod/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">86</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">187</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">63828</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">88</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">80</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3456</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.escr.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">90</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">258</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13731</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ldf.fi/warsa/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">90</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">310</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14385118</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://environment.data.gov.uk/sparql/bwq/query</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">92</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">269</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17715531</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://glyconnect.expasy.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">95</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">32</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">462681</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ldf.fi/kirjasampo/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">95</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">174</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8917772</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://tsu.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">97</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">98</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">717036</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://rpp-opendata.egon.gov.cz/odrpp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">97</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">380</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">23432326</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ruian.linked.opendata.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">98</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">291</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">870638692</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://eventmedia.eurecom.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">102</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">241</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">15656573</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://utep.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">103</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">103</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">716858</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://dati.camera.it/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">104</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">366</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">317612480</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://data.logainm.ie/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">114</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">172</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1344905</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lod.abes.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">116</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">578</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">250481992</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://premon.fbk.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">123</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">234</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">32063834</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://chemblmirror.rdf.bigcat-bioinformatics.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">129</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">259</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">671773049</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://uccaribe.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">132</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">106</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">718265</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://dati.isprambiente.it/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">133</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">353</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">385194720</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.europa.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">138</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">523</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">854289111</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.persee.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">141</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">244</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">50845336</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://kaiko.getalp.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">147</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">296</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">511590596</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.doremus.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">151</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">507</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">91093032</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://d2kab.i3s.unice.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">153</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">237</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">26970919</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lod.tamtamresearch.com/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">154</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">255</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">124987717</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.uniprot.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">165</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">238</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">148676238741</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://msm.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">169</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">140</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">722264</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://schema.gov.it/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">182</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">274</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">359385</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://jsu.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">184</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">136</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">722705</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://xula.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">194</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">109</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">721587</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://lod.xdams.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">200</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">582</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6955921</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.finto.fi/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">206</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">303</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17316391</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://opendata.aragon.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">214</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1344</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">69475032</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.glycoinfo.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">242</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1426</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10837575</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://triplestore.iccu.sbn.it/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">248</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">523</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">45815850</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://sparql.southgreen.fr</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">269</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">484</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">848380075</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://ld.cultural.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">272</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">267</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">76068014</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://alaska.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">282</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">126</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">726162</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://cr.eionet.europa.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">283</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2092</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">484762216</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://cs.dbpedia.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">296</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8751</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">48814261</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://landportal.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">311</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">503</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17215669</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://opendatacommunities.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">334</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">605</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">105079166</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://statistics.gov.scot/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">359</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">483</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">773788117</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://geo.linkeddata.es/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">360</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">213</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">29884998</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://data.gesis.org/claimskg/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">390</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2221</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">30100733</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://upr.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">395</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">164</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">750294</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://ohsu.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">419</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">197</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">787330</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://hawaii.eagle-i.net/sparqler/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">426</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">169</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1055742</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://semantic.eea.europa.eu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">440</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2800</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">439488636</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://linked.opendata.cz/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">451</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1432</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">611085390</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.thegazette.co.uk/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">460</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">411</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">559089305</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://knowledge.brc.riken.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">489</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5381</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6769710184</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lod.sztaki.hu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">507</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">405</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">49559875</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vocabulary.semantic-web.at/PoolParty/sparql/semweb</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">522</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">166</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">134806</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://sparql.glyconavi.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">525</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">914</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">383357429</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://jpsearch.go.jp/rdf/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">531</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">289</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1277843284</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://libris.kb.se/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">539</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">938</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">2678433003</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://datos.bcn.cl/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">542</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">357</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">51908294</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://dba-rdf.biosciencedbc.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">566</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">5989</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1293528112</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://publications.europa.eu/webapi/rdf/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">622</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1363</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1049260832</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://vulcan.cs.uga.edu/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">755</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">226</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">58776791</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://db.artsdata.ca/repositories/artsdata</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">995</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1715</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">7349632</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://factforge.net/repositories/ff-news</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1052</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">14</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">601408416</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://www.foodie-cloud.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1246</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1800</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#decimal">2418553136</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://geosparql.demo.openlinksw.com/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1259</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">37</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1816758038</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/HistoryOfWork/jobHoard-latest/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1488</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">56</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4697472</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/HistoryOfWork/historyOfWork-all-latest/services/historyOfWork-all-latest/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1501</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">86</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4793150</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/HistoryOfWork/historyOfWork-all-latest/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1503</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">95</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4793161</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://api.druid.datalegend.net/datasets/dataLegend/microHeights/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1510</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">247</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">13818992</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://orkg.org/triplestore</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1609</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">8641</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2631965</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://taxref.mnhn.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1925</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">697</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">82745498</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://lov.linkeddata.es/dataset/lov/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2351</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1751</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1088886</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://es.dbpedia.org/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">2942</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10000</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">140189823</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://sparql.glygen.org:8880/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3148</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">270</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">139003045</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://metadb.riken.jp/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">3915</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1894</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">234118044</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>http://linkeddata.finki.ukim.mk/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">4981</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">336</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">533007021</literal></binding>
+  </result>
+  <result>
+   <binding name="EffectiveURL"><uri>https://covidontheweb.inria.fr/sparql</uri></binding>
+   <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">10356</literal></binding>
+   <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">6222</literal></binding>
+   <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">1582601078</literal></binding>
+  </result>
+ </results>
+</sparql>

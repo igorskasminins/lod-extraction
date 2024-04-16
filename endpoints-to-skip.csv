@@ -3,3 +3,6 @@ http://db.artsdata.ca/repositories/artsdata
 https://beta.sparql.swisslipids.org
 https://colil.dbcls.jp/sparql
 https://lsd.dbcls.jp/sparql
+https://api.druid.datalegend.net/datasets/HistoryOfWork/jobHoard-latest/sparql
+https://api.druid.datalegend.net/datasets/HistoryOfWork/historyOfWork-all-latest/services/historyOfWork-all-latest/sparql
+https://api.druid.datalegend.net/datasets/HistoryOfWork/historyOfWork-all-latest/sparql

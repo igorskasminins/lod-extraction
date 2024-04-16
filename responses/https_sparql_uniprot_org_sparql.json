@@ -1,0 +1,2832 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/bibo/Journal",
+            "instanceCount": 4807,
+            "isLiteral": false,
+            "localName": "Journal",
+            "namespace": "http://purl.org/ontology/bibo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.obolibrary.org/obo/STATO_0000193",
+            "instanceCount": 544084,
+            "isLiteral": false,
+            "localName": "STATO_0000193",
+            "namespace": "http://purl.obolibrary.org/obo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+            "instanceCount": 59,
+            "isLiteral": false,
+            "localName": "SPARQLExecutable",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/ns/shacl#SPARQLExecutable"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#SPARQLAskExecutable",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "SPARQLAskExecutable",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "instanceCount": 84,
+            "isLiteral": false,
+            "localName": "DatatypeProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Disease"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Disease",
+            "instanceCount": 6585,
+            "isLiteral": false,
+            "localName": "Disease",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Proteome"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Proteome",
+            "instanceCount": 544084,
+            "isLiteral": false,
+            "localName": "Proteome",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "instanceCount": 20,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Non standard residue"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Non-standard_Residue_Annotation",
+            "instanceCount": 21329,
+            "isLiteral": false,
+            "localName": "Non-standard_Residue_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Coiled-Coil"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Coiled_Coil_Annotation",
+            "instanceCount": 11477295,
+            "isLiteral": false,
+            "localName": "Coiled_Coil_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Citation Statement"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Citation_Statement",
+            "instanceCount": 335790148,
+            "isLiteral": false,
+            "localName": "Citation_Statement",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Modified Residue"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Modified_Residue_Annotation",
+            "instanceCount": 4697910,
+            "isLiteral": false,
+            "localName": "Modified_Residue_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Plasmid"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Plasmid",
+            "instanceCount": 1299697,
+            "isLiteral": false,
+            "localName": "Plasmid",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Disease Annotation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Disease_Annotation",
+            "instanceCount": 8340,
+            "isLiteral": false,
+            "localName": "Disease_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Motif"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Motif_Annotation",
+            "instanceCount": 2305663,
+            "isLiteral": false,
+            "localName": "Motif_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Initiator Methionine"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Initiator_Methionine_Annotation",
+            "instanceCount": 110041,
+            "isLiteral": false,
+            "localName": "Initiator_Methionine_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Non self interaction"
+                }
+            ],
+            "SuperClasses": [
+                "http://purl.uniprot.org/core/Interaction"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Non_Self_Interaction",
+            "instanceCount": 104379,
+            "isLiteral": false,
+            "localName": "Non_Self_Interaction",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Thesis Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Thesis_Citation",
+            "instanceCount": 2966,
+            "isLiteral": false,
+            "localName": "Thesis_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://biohackathon.org/resource/faldo#Position"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://biohackathon.org/resource/faldo#InRangePosition",
+            "instanceCount": 12155,
+            "isLiteral": false,
+            "localName": "InRangePosition",
+            "namespace": "http://biohackathon.org/resource/faldo#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Binding Site"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Binding_Site_Annotation",
+            "instanceCount": 94256497,
+            "isLiteral": false,
+            "localName": "Binding_Site_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Repeat"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Repeat_Annotation",
+            "instanceCount": 10235059,
+            "isLiteral": false,
+            "localName": "Repeat_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Strand"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Beta_Strand_Annotation",
+            "instanceCount": 344389,
+            "isLiteral": false,
+            "localName": "Beta_Strand_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Subcellular Location Annotation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Subcellular_Location_Annotation",
+            "instanceCount": 51413130,
+            "isLiteral": false,
+            "localName": "Subcellular_Location_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Genomic RNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Genomic_RNA",
+            "instanceCount": 1362838,
+            "isLiteral": false,
+            "localName": "Genomic_RNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Ribosomal Frameshifting"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Ribosomal_Frameshifting",
+            "instanceCount": 769,
+            "isLiteral": false,
+            "localName": "Ribosomal_Frameshifting",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Electronic Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Electronic_Citation",
+            "instanceCount": 1012,
+            "isLiteral": false,
+            "localName": "Electronic_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Polymorphism"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Polymorphism_Annotation",
+            "instanceCount": 1504,
+            "isLiteral": false,
+            "localName": "Polymorphism_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Viral cRNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Viral_cRNA",
+            "instanceCount": 870099,
+            "isLiteral": false,
+            "localName": "Viral_cRNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Unassigned RNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Unassigned_RNA",
+            "instanceCount": 318,
+            "isLiteral": false,
+            "localName": "Unassigned_RNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://biohackathon.org/resource/faldo#Position"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://biohackathon.org/resource/faldo#ExactPosition",
+            "instanceCount": 1439729010,
+            "isLiteral": false,
+            "localName": "ExactPosition",
+            "namespace": "http://biohackathon.org/resource/faldo#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://biohackathon.org/resource/faldo#Region",
+            "instanceCount": 827279686,
+            "isLiteral": false,
+            "localName": "Region",
+            "namespace": "http://biohackathon.org/resource/faldo#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Similarity"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Similarity_Annotation",
+            "instanceCount": 91911187,
+            "isLiteral": false,
+            "localName": "Similarity_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Lipid Binding"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Lipidation_Annotation",
+            "instanceCount": 486267,
+            "isLiteral": false,
+            "localName": "Lipidation_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Peptide"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Peptide_Annotation",
+            "instanceCount": 13823,
+            "isLiteral": false,
+            "localName": "Peptide_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Citation",
+            "instanceCount": 13590,
+            "isLiteral": false,
+            "localName": "Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Representative_Proteome"
+                }
+            ],
+            "SuperClasses": [
+                "http://purl.uniprot.org/core/Proteome"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Representative_Proteome",
+            "instanceCount": 22854,
+            "isLiteral": false,
+            "localName": "Representative_Proteome",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#FunctionalProperty",
+            "instanceCount": 38,
+            "isLiteral": false,
+            "localName": "FunctionalProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Sequence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Sequence",
+            "instanceCount": 1163067364,
+            "isLiteral": false,
+            "localName": "Sequence",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Helix"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Helix_Annotation",
+            "instanceCount": 338046,
+            "isLiteral": false,
+            "localName": "Helix_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Turn"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Turn_Annotation",
+            "instanceCount": 81756,
+            "isLiteral": false,
+            "localName": "Turn_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "DNA Binding"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Nucleotide_Binding_Annotation",
+            "instanceCount": 1966856,
+            "isLiteral": false,
+            "localName": "Nucleotide_Binding_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "INTRAMEM"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Intramembrane_Annotation",
+            "instanceCount": 5915,
+            "isLiteral": false,
+            "localName": "Intramembrane_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Simple Sequence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Simple_Sequence",
+            "instanceCount": 248805732,
+            "isLiteral": false,
+            "localName": "Simple_Sequence",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Splice Variant"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Alternative_Sequence_Annotation",
+            "instanceCount": 53250,
+            "isLiteral": false,
+            "localName": "Alternative_Sequence_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Alternative Splicing"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Alternative_Splicing_Annotation",
+            "instanceCount": 24172,
+            "isLiteral": false,
+            "localName": "Alternative_Splicing_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Interaction participant"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Participant",
+            "instanceCount": 30879,
+            "isLiteral": false,
+            "localName": "Participant",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Erroneous Translation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Erroneous_Translation_Annotation",
+            "instanceCount": 451,
+            "isLiteral": false,
+            "localName": "Erroneous_Translation_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Transmembrane"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Transmembrane_Annotation",
+            "instanceCount": 216517062,
+            "isLiteral": false,
+            "localName": "Transmembrane_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Other RNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Other_RNA",
+            "instanceCount": 16694,
+            "isLiteral": false,
+            "localName": "Other_RNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/ns/shacl#SPARQLExecutable"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#SPARQLConstructExecutable",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "SPARQLConstructExecutable",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/ns/shacl#SPARQLExecutable"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+            "instanceCount": 56,
+            "isLiteral": false,
+            "localName": "SPARQLSelectExecutable",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Image",
+            "instanceCount": 14042,
+            "isLiteral": false,
+            "localName": "Image",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "instanceCount": 89,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "List",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Database (description of)"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Database",
+            "instanceCount": 187,
+            "isLiteral": false,
+            "localName": "Database",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Orientation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Orientation",
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "Orientation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Proteome_Component"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Proteome_Component",
+            "instanceCount": 599996,
+            "isLiteral": false,
+            "localName": "Proteome_Component",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Taxon rank"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Rank",
+            "instanceCount": 32,
+            "isLiteral": false,
+            "localName": "Rank",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Reference_Proteome"
+                }
+            ],
+            "SuperClasses": [
+                "http://purl.uniprot.org/core/Proteome"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Reference_Proteome",
+            "instanceCount": 1014,
+            "isLiteral": false,
+            "localName": "Reference_Proteome",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Structure Resource"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Structure_Resource",
+            "instanceCount": 199995,
+            "isLiteral": false,
+            "localName": "Structure_Resource",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Sequence Variant"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Natural_Variant_Annotation",
+            "instanceCount": 104035,
+            "isLiteral": false,
+            "localName": "Natural_Variant_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Tissue"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Tissue",
+            "instanceCount": 23040919,
+            "isLiteral": false,
+            "localName": "Tissue",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Redox Potential"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Redox_Potential_Annotation",
+            "instanceCount": 129,
+            "isLiteral": false,
+            "localName": "Redox_Potential_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Active Site"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Active_Site_Annotation",
+            "instanceCount": 18992202,
+            "isLiteral": false,
+            "localName": "Active_Site_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+            "instanceCount": 6,
+            "isLiteral": false,
+            "localName": "Datatype",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Pathway"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Pathway",
+            "instanceCount": 3117,
+            "isLiteral": false,
+            "localName": "Pathway",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Protein existence evidence"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Protein_Existence",
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "Protein_Existence",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Status"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Status",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Status",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Structure Determination"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Structure_Determination_Method",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "Structure_Determination_Method",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "pH Dependence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/PH_Dependence_Annotation",
+            "instanceCount": 5165,
+            "isLiteral": false,
+            "localName": "PH_Dependence_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Unknown Sequence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Unknown_Sequence",
+            "instanceCount": 274,
+            "isLiteral": false,
+            "localName": "Unknown_Sequence",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Alternative Initiation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Alternative_Initiation_Annotation",
+            "instanceCount": 1072,
+            "isLiteral": false,
+            "localName": "Alternative_Initiation_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Alternative Promoter Usage"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Alternative_Promoter_Usage_Annotation",
+            "instanceCount": 318,
+            "isLiteral": false,
+            "localName": "Alternative_Promoter_Usage_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Crosslink"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Cross-link_Annotation",
+            "instanceCount": 112171,
+            "isLiteral": false,
+            "localName": "Cross-link_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Tissue Specificity"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Tissue_Specificity_Annotation",
+            "instanceCount": 51165,
+            "isLiteral": false,
+            "localName": "Tissue_Specificity_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Mutagenesis Site"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Mutagenesis_Annotation",
+            "instanceCount": 97494,
+            "isLiteral": false,
+            "localName": "Mutagenesis_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Transit Peptide"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Transit_Peptide_Annotation",
+            "instanceCount": 9890,
+            "isLiteral": false,
+            "localName": "Transit_Peptide_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Book Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Book_Citation",
+            "instanceCount": 1577,
+            "isLiteral": false,
+            "localName": "Book_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Catalytic Activity"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Catalytic_Activity",
+            "instanceCount": 42031079,
+            "isLiteral": false,
+            "localName": "Catalytic_Activity",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#AllDifferent",
+            "instanceCount": 14,
+            "isLiteral": false,
+            "localName": "AllDifferent",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Thing",
+            "instanceCount": 64,
+            "isLiteral": false,
+            "localName": "Thing",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Cellular Component"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Cellular_Component",
+            "instanceCount": 542,
+            "isLiteral": false,
+            "localName": "Cellular_Component",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Organelle"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Organelle",
+            "instanceCount": 9,
+            "isLiteral": false,
+            "localName": "Organelle",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Annotation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Annotation",
+            "instanceCount": 26083919,
+            "isLiteral": false,
+            "localName": "Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#Thing"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "instanceCount": 64,
+            "isLiteral": false,
+            "localName": "NamedIndividual",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Unassigned DNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Unassigned_DNA",
+            "instanceCount": 2115,
+            "isLiteral": false,
+            "localName": "Unassigned_DNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Observation Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Observation_Citation",
+            "instanceCount": 446,
+            "isLiteral": false,
+            "localName": "Observation_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Region"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Region_Annotation",
+            "instanceCount": 97863470,
+            "isLiteral": false,
+            "localName": "Region_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Toxic Dose"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Toxic_Dose_Annotation",
+            "instanceCount": 862,
+            "isLiteral": false,
+            "localName": "Toxic_Dose_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Propeptide"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Propeptide_Annotation",
+            "instanceCount": 57659,
+            "isLiteral": false,
+            "localName": "Propeptide_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Developmental Stage"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Developmental_Stage_Annotation",
+            "instanceCount": 14366,
+            "isLiteral": false,
+            "localName": "Developmental_Stage_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Self protein interaction"
+                }
+            ],
+            "SuperClasses": [
+                "http://purl.uniprot.org/core/Interaction"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Self_Interaction",
+            "instanceCount": 3122,
+            "isLiteral": false,
+            "localName": "Self_Interaction",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Disulfide Bond"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Disulfide_Bond_Annotation",
+            "instanceCount": 6139668,
+            "isLiteral": false,
+            "localName": "Disulfide_Bond_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Induction"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Induction_Annotation",
+            "instanceCount": 164891,
+            "isLiteral": false,
+            "localName": "Induction_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Site"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Site_Annotation",
+            "instanceCount": 5031815,
+            "isLiteral": false,
+            "localName": "Site_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "External Sequence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/External_Sequence",
+            "instanceCount": 131064,
+            "isLiteral": false,
+            "localName": "External_Sequence",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Other DNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Other_DNA",
+            "instanceCount": 9413,
+            "isLiteral": false,
+            "localName": "Other_DNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Axiom",
+            "instanceCount": 15956,
+            "isLiteral": false,
+            "localName": "Axiom",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Concept"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Concept",
+            "instanceCount": 1201,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://busco.ezlab.org/schema#Score",
+            "instanceCount": 429259,
+            "isLiteral": false,
+            "localName": "Score",
+            "namespace": "http://busco.ezlab.org/schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Biotechnology"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Biotechnology_Annotation",
+            "instanceCount": 2020,
+            "isLiteral": false,
+            "localName": "Biotechnology_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Genomic DNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Genomic_DNA",
+            "instanceCount": 28878024,
+            "isLiteral": false,
+            "localName": "Genomic_DNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Disruption Phenotype"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Disruption_Phenotype_Annotation",
+            "instanceCount": 20930,
+            "isLiteral": false,
+            "localName": "Disruption_Phenotype_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Frameshift"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Frameshift_Annotation",
+            "instanceCount": 7856,
+            "isLiteral": false,
+            "localName": "Frameshift_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Interaction"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Interaction",
+            "instanceCount": 107501,
+            "isLiteral": false,
+            "localName": "Interaction",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "mRNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/MRNA",
+            "instanceCount": 1749739,
+            "isLiteral": false,
+            "localName": "MRNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Non-consecutive Residues"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Non-adjacent_Residues_Annotation",
+            "instanceCount": 2680,
+            "isLiteral": false,
+            "localName": "Non-adjacent_Residues_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Sequence Caution"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Sequence_Caution_Annotation",
+            "instanceCount": 2949,
+            "isLiteral": false,
+            "localName": "Sequence_Caution_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Pathway annotation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Pathway_Annotation",
+            "instanceCount": 18747571,
+            "isLiteral": false,
+            "localName": "Pathway_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://biohackathon.org/resource/faldo#Position"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://biohackathon.org/resource/faldo#OneOfPosition",
+            "instanceCount": 355,
+            "isLiteral": false,
+            "localName": "OneOfPosition",
+            "namespace": "http://biohackathon.org/resource/faldo#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+            "instanceCount": 3928789374,
+            "isLiteral": false,
+            "localName": "Statement",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Mass Measurement"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#NamedIndividual"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Mass_Measurement_Method",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "Mass_Measurement_Method",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Gene"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Gene",
+            "instanceCount": 4983742266,
+            "isLiteral": false,
+            "localName": "Gene",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Structured_Name"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Structured_Name",
+            "instanceCount": 5289054976,
+            "isLiteral": false,
+            "localName": "Structured_Name",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Domain"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Domain_Annotation",
+            "instanceCount": 2495674,
+            "isLiteral": false,
+            "localName": "Domain_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Chain"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Chain_Annotation",
+            "instanceCount": 19249388,
+            "isLiteral": false,
+            "localName": "Chain_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Journal Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Journal_Citation",
+            "instanceCount": 2109438,
+            "isLiteral": false,
+            "localName": "Journal_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "PTM"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/PTM_Annotation",
+            "instanceCount": 1939708,
+            "isLiteral": false,
+            "localName": "PTM_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Protein part"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Part",
+            "instanceCount": 1947678,
+            "isLiteral": false,
+            "localName": "Part",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Erroneous Gene Model Prediction"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Erroneous_Gene_Model_Prediction_Annotation",
+            "instanceCount": 13335,
+            "isLiteral": false,
+            "localName": "Erroneous_Gene_Model_Prediction_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Sequence Conflict"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Sequence_Conflict_Annotation",
+            "instanceCount": 158162,
+            "isLiteral": false,
+            "localName": "Sequence_Conflict_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Submission Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Submission_Citation",
+            "instanceCount": 843073,
+            "isLiteral": false,
+            "localName": "Submission_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Cofactor"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Cofactor_Annotation",
+            "instanceCount": 25585860,
+            "isLiteral": false,
+            "localName": "Cofactor_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Enzyme"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Enzyme",
+            "instanceCount": 8643,
+            "isLiteral": false,
+            "localName": "Enzyme",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Restriction",
+            "instanceCount": 108468,
+            "isLiteral": false,
+            "localName": "Restriction",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Absorption"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Absorption_Annotation",
+            "instanceCount": 133,
+            "isLiteral": false,
+            "localName": "Absorption_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Transcribed RNA"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Transcribed_RNA",
+            "instanceCount": 4189811,
+            "isLiteral": false,
+            "localName": "Transcribed_RNA",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Allergen"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Allergen_Annotation",
+            "instanceCount": 951,
+            "isLiteral": false,
+            "localName": "Allergen_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Caution"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Caution_Annotation",
+            "instanceCount": 163227761,
+            "isLiteral": false,
+            "localName": "Caution_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Function"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Function_Annotation",
+            "instanceCount": 37901286,
+            "isLiteral": false,
+            "localName": "Function_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Protein"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Protein",
+            "instanceCount": 419026527,
+            "isLiteral": false,
+            "localName": "Protein",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Compositionally Biased Region"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Compositional_Bias_Annotation",
+            "instanceCount": 80506848,
+            "isLiteral": false,
+            "localName": "Compositional_Bias_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Glycosylation Site"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Glycosylation_Annotation",
+            "instanceCount": 239986,
+            "isLiteral": false,
+            "localName": "Glycosylation_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Transposon"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Transposon",
+            "instanceCount": 145,
+            "isLiteral": false,
+            "localName": "Transposon",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Topological Domain"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Topological_Domain_Annotation",
+            "instanceCount": 614092,
+            "isLiteral": false,
+            "localName": "Topological_Domain_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Patent Citation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Patent_Citation",
+            "instanceCount": 268,
+            "isLiteral": false,
+            "localName": "Patent_Citation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Pharmaceutical"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Pharmaceutical_Annotation",
+            "instanceCount": 171,
+            "isLiteral": false,
+            "localName": "Pharmaceutical_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Taxon"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Taxon",
+            "instanceCount": 2923482,
+            "isLiteral": false,
+            "localName": "Taxon",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#FunctionalProperty"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "InverseFunctionalProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Service",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Mass"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Mass_Spectrometry_Annotation",
+            "instanceCount": 7569,
+            "isLiteral": false,
+            "localName": "Mass_Spectrometry_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "RNA Editing"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/RNA_Editing_Annotation",
+            "instanceCount": 636,
+            "isLiteral": false,
+            "localName": "RNA_Editing_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://biohackathon.org/resource/faldo#Position",
+            "instanceCount": 1439741520,
+            "isLiteral": false,
+            "localName": "Position",
+            "namespace": "http://biohackathon.org/resource/faldo#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Resource"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Resource",
+            "instanceCount": 334361249,
+            "isLiteral": false,
+            "localName": "Resource",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Strain"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Strain",
+            "instanceCount": 229102336,
+            "isLiteral": false,
+            "localName": "Strain",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Transcript Resource"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Transcript_Resource",
+            "instanceCount": 23874144,
+            "isLiteral": false,
+            "localName": "Transcript_Resource",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Kinetics"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Kinetics_Annotation",
+            "instanceCount": 9264,
+            "isLiteral": false,
+            "localName": "Kinetics_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Non-terminal Residue"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Non-terminal_Residue_Annotation",
+            "instanceCount": 42907019,
+            "isLiteral": false,
+            "localName": "Non-terminal_Residue_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Domain Extent"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Domain_Extent_Annotation",
+            "instanceCount": 195928702,
+            "isLiteral": false,
+            "localName": "Domain_Extent_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Signal Peptide"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Signal_Peptide_Annotation",
+            "instanceCount": 18166369,
+            "isLiteral": false,
+            "localName": "Signal_Peptide_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Erroneous Initiation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Erroneous_Initiation_Annotation",
+            "instanceCount": 36103,
+            "isLiteral": false,
+            "localName": "Erroneous_Initiation_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Cluster (UniRef)"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Cluster",
+            "instanceCount": 649632318,
+            "isLiteral": false,
+            "localName": "Cluster",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+            "instanceCount": 13,
+            "isLiteral": false,
+            "localName": "AnnotationProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "instanceCount": 250375,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Member Of Redudant Proteome"
+                }
+            ],
+            "SuperClasses": [
+                "http://purl.uniprot.org/core/Protein"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Member_Of_Redudant_Proteome",
+            "instanceCount": 132129775,
+            "isLiteral": false,
+            "localName": "Member_Of_Redudant_Proteome",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Topology"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Topology",
+            "instanceCount": 11,
+            "isLiteral": false,
+            "localName": "Topology",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#ObjectProperty"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "TransitiveProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Activity Regulation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Activity_Regulation_Annotation",
+            "instanceCount": 632208,
+            "isLiteral": false,
+            "localName": "Activity_Regulation_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Zinc Finger"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Zinc_Finger_Annotation",
+            "instanceCount": 782352,
+            "isLiteral": false,
+            "localName": "Zinc_Finger_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Nucleotide Resource"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Nucleotide_Resource",
+            "instanceCount": 267672171,
+            "isLiteral": false,
+            "localName": "Nucleotide_Resource",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Modified Sequence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Modified_Sequence",
+            "instanceCount": 41135,
+            "isLiteral": false,
+            "localName": "Modified_Sequence",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Unsure Residue"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Sequence_Uncertainty_Annotation",
+            "instanceCount": 119823,
+            "isLiteral": false,
+            "localName": "Sequence_Uncertainty_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Temperature Dependence"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Temperature_Dependence_Annotation",
+            "instanceCount": 2946,
+            "isLiteral": false,
+            "localName": "Temperature_Dependence_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Erroneous Termination"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Erroneous_Termination_Annotation",
+            "instanceCount": 1147,
+            "isLiteral": false,
+            "localName": "Erroneous_Termination_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "Graph",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Catalytic Activity Annotation"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Catalytic_Activity_Annotation",
+            "instanceCount": 42023854,
+            "isLiteral": false,
+            "localName": "Catalytic_Activity_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Subunit"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.uniprot.org/core/Subunit_Annotation",
+            "instanceCount": 21008140,
+            "isLiteral": false,
+            "localName": "Subunit_Annotation",
+            "namespace": "http://purl.uniprot.org/core/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "713207697487612315",
+        "enableLogging": true,
+        "endpointUrl": "https://sparql.uniprot.org/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.uniprot.org/core/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "http://biohackathon.org/resource/faldo#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "sd"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://purl.obolibrary.org/obo/",
+            "prefix": "obo"
+        },
+        {
+            "namespace": "http://busco.ezlab.org/schema#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://purl.org/ontology/bibo/",
+            "prefix": "bibo"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "foaf"
+        }
+    ],
+    "Properties": [],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.uniprot.org/core/"
+}

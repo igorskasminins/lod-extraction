@@ -1,0 +1,3191 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+            "incomingTripleCount": 457156,
+            "instanceCount": 457156,
+            "isLiteral": false,
+            "localName": "RecordInfo",
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.loc.gov/mads/rdf/v1#Authority"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+            "incomingTripleCount": 2,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "GenreForm",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#TemporalElement",
+            "incomingTripleCount": 11022,
+            "instanceCount": 11022,
+            "isLiteral": false,
+            "localName": "TemporalElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+            "incomingTripleCount": 6072,
+            "instanceCount": 7892,
+            "isLiteral": false,
+            "localName": "ConferenceName",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#GeographicElement",
+            "incomingTripleCount": 3766,
+            "instanceCount": 3766,
+            "isLiteral": false,
+            "localName": "GeographicElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+            "incomingTripleCount": 672787,
+            "instanceCount": 896569,
+            "isLiteral": false,
+            "localName": "PersonalName",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#TitleElement",
+            "incomingTripleCount": 29108,
+            "instanceCount": 29108,
+            "isLiteral": false,
+            "localName": "TitleElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+            "incomingTripleCount": 23589,
+            "instanceCount": 29094,
+            "isLiteral": false,
+            "localName": "NameTitle",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+            "incomingTripleCount": 174884,
+            "instanceCount": 208972,
+            "isLiteral": false,
+            "localName": "CorporateName",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#MainTitleElement",
+            "incomingTripleCount": 175180,
+            "instanceCount": 175180,
+            "isLiteral": false,
+            "localName": "MainTitleElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+            "incomingTripleCount": 376788,
+            "instanceCount": 698066,
+            "isLiteral": false,
+            "localName": "Authority",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#FullNameElement",
+            "incomingTripleCount": 897431,
+            "instanceCount": 897431,
+            "isLiteral": false,
+            "localName": "FullNameElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#Title",
+            "incomingTripleCount": 148225,
+            "instanceCount": 204294,
+            "isLiteral": false,
+            "localName": "Title",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#PartNameElement",
+            "incomingTripleCount": 14795,
+            "instanceCount": 14795,
+            "isLiteral": false,
+            "localName": "PartNameElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.loc.gov/mads/rdf/v1#Authority"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+            "incomingTripleCount": 75,
+            "instanceCount": 78,
+            "isLiteral": false,
+            "localName": "ComplexSubject",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#LanguageElement",
+            "incomingTripleCount": 1964,
+            "instanceCount": 1964,
+            "isLiteral": false,
+            "localName": "LanguageElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+            "incomingTripleCount": 70,
+            "instanceCount": 70,
+            "isLiteral": false,
+            "localName": "Topic",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#PartNumberElement",
+            "incomingTripleCount": 6135,
+            "instanceCount": 6135,
+            "isLiteral": false,
+            "localName": "PartNumberElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#NameElement",
+            "incomingTripleCount": 317120,
+            "instanceCount": 317120,
+            "isLiteral": false,
+            "localName": "NameElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#DateNameElement",
+            "incomingTripleCount": 461093,
+            "instanceCount": 461093,
+            "isLiteral": false,
+            "localName": "DateNameElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#TopicElement",
+            "incomingTripleCount": 70,
+            "instanceCount": 70,
+            "isLiteral": false,
+            "localName": "TopicElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
+            "incomingTripleCount": 27369,
+            "instanceCount": 27369,
+            "isLiteral": false,
+            "localName": "TermsOfAddressNameElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#NamePartElement",
+            "incomingTripleCount": 13,
+            "instanceCount": 13,
+            "isLiteral": false,
+            "localName": "NamePartElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.loc.gov/mads/rdf/v1#Variant"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "DeprecatedAuthority",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#Source",
+            "incomingTripleCount": 618284,
+            "instanceCount": 618284,
+            "isLiteral": false,
+            "localName": "Source",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#GenreFormElement",
+            "incomingTripleCount": 2055,
+            "instanceCount": 2055,
+            "isLiteral": false,
+            "localName": "GenreFormElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+            "incomingTripleCount": 649127,
+            "instanceCount": 649129,
+            "isLiteral": false,
+            "localName": "Variant",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+            "incomingTripleCount": 211,
+            "instanceCount": 224,
+            "isLiteral": false,
+            "localName": "Geographic",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.loc.gov/mads/rdf/v1#SubTitleElement",
+            "incomingTripleCount": 111,
+            "instanceCount": 111,
+            "isLiteral": false,
+            "localName": "SubTitleElement",
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": false,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "7501082251090064719",
+        "enableLogging": true,
+        "endpointUrl": "https://hkcan.julac.org/lod/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://id.loc.gov/vocabulary/identifiers/",
+            "prefix": "n2"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3152,
+                    "tripleCount": 3152
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3035,
+                    "tripleCount": 3035
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 86,
+                    "tripleCount": 86
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3152
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3035
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 86
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 9
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasLaterEstablishedForm",
+            "localName": "hasLaterEstablishedForm",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 3152,
+            "tripleCount": 3152
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 29094,
+                    "tripleCount": 29094
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 18062,
+                    "tripleCount": 18062
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11176,
+                    "tripleCount": 11176
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 78,
+                    "tripleCount": 78
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 36,
+                    "tripleCount": 36
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 18,
+                    "tripleCount": 18
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#componentList",
+            "localName": "componentList",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 29238,
+            "tripleCount": 29238
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 342014,
+                    "tripleCount": 342014
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 241019,
+                    "tripleCount": 241019
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 56162,
+                    "tripleCount": 56162
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 37420,
+                    "tripleCount": 37420
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5533,
+                    "tripleCount": 5533
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1854,
+                    "tripleCount": 1854
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 23,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 342014
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 241020
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 56164
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 37423
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 5529
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1854
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 13
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 11
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasExactExternalAuthority",
+            "localName": "hasExactExternalAuthority",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 342014,
+            "tripleCount": 342014
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 116532,
+                    "tripleCount": 116532
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 80688,
+                    "tripleCount": 80688
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20615,
+                    "tripleCount": 20615
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11802,
+                    "tripleCount": 11802
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2499,
+                    "tripleCount": 2499
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 918,
+                    "tripleCount": 918
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 116532
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 80678
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 20621
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 11721
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2576
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 919
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 17
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasEarlierEstablishedForm",
+            "localName": "hasEarlierEstablishedForm",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 116532,
+            "tripleCount": 116532
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 619173,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 619173
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 427709,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 427709
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 111995,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 111995
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 64869,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 64869
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 10982,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10982
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 3586,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3586
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 26,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 26
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 619173,
+            "fullName": "http://id.loc.gov/vocabulary/identifiers/local",
+            "localName": "local",
+            "maxCardinality": -1,
+            "namespace": "http://id.loc.gov/vocabulary/identifiers/",
+            "objectTripleCount": 0,
+            "tripleCount": 619173
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 649125,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 649125
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 415706,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415706
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 130585,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 130585
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 80501,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 80501
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 18010,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18010
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 4191,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4191
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 131,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 131
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 649125,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#variantLabel",
+            "localName": "variantLabel",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 649125
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 496499,
+                    "tripleCount": 496499
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 321161,
+                    "tripleCount": 321161
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 105812,
+                    "tripleCount": 105812
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 46493,
+                    "tripleCount": 46493
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 19745,
+                    "tripleCount": 19745
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3204,
+                    "tripleCount": 3204
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 83,
+                    "tripleCount": 83
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 496499
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 321137
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 105820
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 50762
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 15434
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3251
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 94
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+            "localName": "hasVariant",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 496499,
+            "tripleCount": 496499
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Source",
+                    "dataTripleCount": 618276,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 618276
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 618276,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#citation-source",
+            "localName": "citation-source",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 618276
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 134280,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 134280
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 103359,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 103359
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 17932,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17932
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 10226,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10226
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 2276,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2276
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 475,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 475
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 134280,
+            "fullName": "http://id.loc.gov/vocabulary/identifiers/oclcnum",
+            "localName": "oclcnum",
+            "maxCardinality": -1,
+            "namespace": "http://id.loc.gov/vocabulary/identifiers/",
+            "objectTripleCount": 0,
+            "tripleCount": 134280
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2005657,
+            "tripleCount": 2005657
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 9613,
+                    "tripleCountBase": 9613
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 9613,
+                    "tripleCountBase": 9613
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 9612,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9612
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 9329,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9329
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 267,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 267
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 9613,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#note",
+            "localName": "note",
+            "maxCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 9613
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 258169,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 258169
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 210319,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 210319
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 40838,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 40838
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 5388,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5388
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 834,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 834
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 785,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 785
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 258170,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#editorialNote",
+            "localName": "editorialNote",
+            "maxCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 258170
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 147168,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 147168
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 113110,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 113110
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 18864,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18864
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 12015,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12015
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 2566,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2566
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 599,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 599
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 13,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 13
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 147168,
+            "fullName": "http://id.loc.gov/vocabulary/identifiers/lccn",
+            "localName": "lccn",
+            "maxCardinality": 1,
+            "namespace": "http://id.loc.gov/vocabulary/identifiers/",
+            "objectTripleCount": 0,
+            "tripleCount": 147168
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8643,
+                    "tripleCount": 8643
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4987,
+                    "tripleCount": 4987
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3218,
+                    "tripleCount": 3218
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 386,
+                    "tripleCount": 386
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 38,
+                    "tripleCount": 38
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 14,
+                    "tripleCount": 14
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8643
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4906
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3315
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 375
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 41
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasReciprocalAuthority",
+            "localName": "hasReciprocalAuthority",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 8643,
+            "tripleCount": 8643
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Source",
+                    "dataTripleCount": 618284,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 618284
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 618284,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#citation-status",
+            "localName": "citation-status",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 618284
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#FullNameElement",
+                    "dataTripleCount": 897431,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 897431
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DateNameElement",
+                    "dataTripleCount": 461093,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 461093
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameElement",
+                    "dataTripleCount": 317120,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 317120
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#MainTitleElement",
+                    "dataTripleCount": 175180,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 175180
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TitleElement",
+                    "dataTripleCount": 29108,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 29108
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
+                    "dataTripleCount": 27369,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 27369
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PartNameElement",
+                    "dataTripleCount": 14795,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14795
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TemporalElement",
+                    "dataTripleCount": 11022,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 11022
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PartNumberElement",
+                    "dataTripleCount": 6135,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6135
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GeographicElement",
+                    "dataTripleCount": 3766,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3766
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreFormElement",
+                    "dataTripleCount": 2055,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2055
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#LanguageElement",
+                    "dataTripleCount": 1964,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1964
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#SubTitleElement",
+                    "dataTripleCount": 111,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 111
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TopicElement",
+                    "dataTripleCount": 70,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 70
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NamePartElement",
+                    "dataTripleCount": 13,
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 13
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1947232,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#elementValue",
+            "localName": "elementValue",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 1947232
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 5584,
+                    "tripleCountBase": 5584
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 5584,
+                    "tripleCountBase": 5584
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 5584,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5584
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 5564,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5564
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 17,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5584,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#classification",
+            "localName": "classification",
+            "maxCardinality": -1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 5584
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 584,
+                    "tripleCount": 584
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 576,
+                    "tripleCount": 576
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 584
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 576
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#see",
+            "localName": "see",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 584,
+            "tripleCount": 584
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasAcronymVariant",
+            "localName": "hasAcronymVariant",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 274932,
+                    "tripleCount": 274932
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#languageOfCataloging",
+            "localName": "languageOfCataloging",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 274932,
+            "tripleCount": 274932
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+                    "dataTripleCount": 457156,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 457156
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 457156,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#recordChangeDate",
+            "localName": "recordChangeDate",
+            "maxCardinality": 1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 0,
+            "tripleCount": 457156
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 30,
+                    "tripleCount": 30
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 29,
+                    "tripleCount": 29
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 30
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 30
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasBroaderAuthority",
+            "localName": "hasBroaderAuthority",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 30,
+            "tripleCount": 30
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+                    "dataTripleCount": 457156,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 457156
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 457156,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#recordStatus",
+            "localName": "recordStatus",
+            "maxCardinality": 1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 0,
+            "tripleCount": 457156
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#FullNameElement",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 897431
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DateNameElement",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 461093
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameElement",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 317120
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#MainTitleElement",
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "tripleCount": 175180
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "tripleCount": 36094
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "tripleCount": 29116
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TitleElement",
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "tripleCount": 29108
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "tripleCount": 27369
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "tripleCount": 24470
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "tripleCount": 22331
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PartNameElement",
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "tripleCount": 14795
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TemporalElement",
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "tripleCount": 11022
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PartNumberElement",
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "tripleCount": 6135
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GeographicElement",
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "tripleCount": 3766
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreFormElement",
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "tripleCount": 2055
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#LanguageElement",
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "tripleCount": 1964
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#SubTitleElement",
+                    "importanceIndex": 17,
+                    "isPrincipal": false,
+                    "tripleCount": 111
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TopicElement",
+                    "importanceIndex": 18,
+                    "isPrincipal": false,
+                    "tripleCount": 70
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NamePartElement",
+                    "importanceIndex": 19,
+                    "isPrincipal": false,
+                    "tripleCount": 13
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4661
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 84
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 69
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2005657,
+            "tripleCount": 2005657
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 457152,
+                    "tripleCount": 457152
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 325429,
+                    "tripleCount": 325429
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 67439,
+                    "tripleCount": 67439
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53508,
+                    "tripleCount": 53508
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8279,
+                    "tripleCount": 8279
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2471,
+                    "tripleCount": 2471
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 26,
+                    "tripleCount": 26
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 457156
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#adminMetadata",
+            "localName": "adminMetadata",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 457156,
+            "tripleCount": 457156
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 34,
+                    "tripleCount": 34
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 34,
+                    "tripleCount": 34
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 34
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 34
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasRelatedAuthority",
+            "localName": "hasRelatedAuthority",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 34,
+            "tripleCount": 34
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 896533,
+                    "tripleCount": 896533
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 686890,
+                    "tripleCount": 686890
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 631067,
+                    "tripleCount": 631067
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 208954,
+                    "tripleCount": 208954
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 204286,
+                    "tripleCount": 204286
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7888,
+                    "tripleCount": 7888
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 224,
+                    "tripleCount": 224
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 70,
+                    "tripleCount": 70
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#elementList",
+            "localName": "elementList",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 1317957,
+            "tripleCount": 1317957
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 457149,
+                    "tripleCount": 457149
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://id.loc.gov/ontologies/RecordInfo#recordContentSource",
+            "localName": "recordContentSource",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://id.loc.gov/ontologies/RecordInfo#",
+            "objectTripleCount": 457149,
+            "tripleCount": 457149
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 618284,
+                    "tripleCount": 618284
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 466279,
+                    "tripleCount": 466279
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 73550,
+                    "tripleCount": 73550
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 66296,
+                    "tripleCount": 66296
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9569,
+                    "tripleCount": 9569
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2524,
+                    "tripleCount": 2524
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 64,
+                    "tripleCount": 64
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Source",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 618284
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#hasSource",
+            "localName": "hasSource",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 618284,
+            "tripleCount": 618284
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Source",
+                    "dataTripleCount": 594706,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 594706
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 594706,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#citation-note",
+            "localName": "citation-note",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 594706
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1793139,
+                    "tripleCount": 1793139
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1396132,
+                    "tripleCount": 1396132
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Variant",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1298260,
+                    "tripleCount": 1298260
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#FullNameElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 897431,
+                    "tripleCount": 897431
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Source",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 618284,
+                    "tripleCount": 618284
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DateNameElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 461093,
+                    "tripleCount": 461093
+                },
+                {
+                    "classFullName": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 457156,
+                    "tripleCount": 457156
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 317120,
+                    "tripleCount": 317120
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#MainTitleElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 175180,
+                    "tripleCount": 175180
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TitleElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 29108,
+                    "tripleCount": 29108
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TermsOfAddressNameElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 27369,
+                    "tripleCount": 27369
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PartNameElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 14795,
+                    "tripleCount": 14795
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TemporalElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11022,
+                    "tripleCount": 11022
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PartNumberElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6135,
+                    "tripleCount": 6135
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GeographicElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3766,
+                    "tripleCount": 3766
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreFormElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2055,
+                    "tripleCount": 2055
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#LanguageElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 17,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1964,
+                    "tripleCount": 1964
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#SubTitleElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 18,
+                    "isPrincipal": false,
+                    "objectTripleCount": 111,
+                    "tripleCount": 111
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#TopicElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 19,
+                    "isPrincipal": false,
+                    "objectTripleCount": 70,
+                    "tripleCount": 70
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NamePartElement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 20,
+                    "isPrincipal": false,
+                    "objectTripleCount": 13,
+                    "tripleCount": 13
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 417944,
+                    "tripleCount": 417944
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 408589,
+                    "tripleCount": 408589
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 58188,
+                    "tripleCount": 58188
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15784,
+                    "tripleCount": 15784
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 448,
+                    "tripleCount": 448
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 156,
+                    "tripleCount": 156
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 140,
+                    "tripleCount": 140
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#DeprecatedAuthority",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 5717064,
+            "tripleCount": 5717064
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Authority",
+                    "dataTripleCount": 698062,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 698062
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+                    "dataTripleCount": 480861,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 480861
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Title",
+                    "dataTripleCount": 123793,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 123793
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#CorporateName",
+                    "dataTripleCount": 78381,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 78381
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#NameTitle",
+                    "dataTripleCount": 11084,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 11084
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ConferenceName",
+                    "dataTripleCount": 3701,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3701
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Geographic",
+                    "dataTripleCount": 93,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 93
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#ComplexSubject",
+                    "dataTripleCount": 78,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 78
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#Topic",
+                    "dataTripleCount": 69,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 69
+                },
+                {
+                    "classFullName": "http://www.loc.gov/mads/rdf/v1#GenreForm",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 698062,
+            "fullName": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+            "localName": "authoritativeLabel",
+            "maxCardinality": 1,
+            "namespace": "http://www.loc.gov/mads/rdf/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 698062
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.loc.gov/mads/rdf/v1#"
+}
