@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 # Available commands
 
-## 1. Extracting endpoints from http://85.254.199.72:8890/sparql.
+### 1. Extracting endpoints from http://85.254.199.72:8890/sparql.
 
 <br>
 
@@ -40,7 +40,7 @@ python -m extraction start-source
 ```
 <br>
 
-## 2. Providing own list of endpoints.
+### 2. Providing own list of endpoints.
 <br>
 
 The list of endpoints for extraction sohuld be inserted into _endpoints.csv_ file. Where each endpoint should be separated by a new line.
