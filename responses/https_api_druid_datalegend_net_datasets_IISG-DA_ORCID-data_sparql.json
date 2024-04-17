@@ -1,0 +1,826 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Organization",
+            "incomingTripleCount": 73,
+            "instanceCount": 63,
+            "isLiteral": false,
+            "localName": "Organization",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/PropertyValue",
+            "incomingTripleCount": 1175,
+            "instanceCount": 1175,
+            "isLiteral": false,
+            "localName": "PropertyValue",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/PostalAddress",
+            "incomingTripleCount": 7,
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "PostalAddress",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Person",
+            "incomingTripleCount": 717,
+            "instanceCount": 27,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CreativeWork",
+            "instanceCount": 671,
+            "isLiteral": false,
+            "localName": "CreativeWork",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "2947552002093221346",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG-DA/ORCID-data/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://schema.org/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n1"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 78,
+                    "tripleCountBase": 78
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "dataTripleCount": 72,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 72
+                },
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 78,
+            "fullName": "http://schema.org/alternateName",
+            "localName": "alternateName",
+            "maxCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 78
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Person",
+                    "TargetClass": "http://schema.org/Organization",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 17
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 17,
+                    "tripleCount": 17
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 17
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/alumniOf",
+            "localName": "alumniOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 17,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CreativeWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 68,
+                    "tripleCount": 68
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 68,
+            "tripleCount": 68
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1175,
+                    "tripleCountBase": 1175
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/PropertyValue",
+                    "dataTripleCount": 1175,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1175
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1175,
+            "fullName": "http://schema.org/value",
+            "localName": "value",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1175
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/CreativeWork",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 681
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CreativeWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 681,
+                    "tripleCount": 681
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 681
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 681,
+            "tripleCount": 681
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 27,
+                    "tripleCountBase": 27
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 27,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 27
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 27,
+            "fullName": "http://schema.org/givenName",
+            "localName": "givenName",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 27
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 38,
+                    "tripleCount": 38
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/url",
+            "localName": "url",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 38,
+            "tripleCount": 38
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Organization",
+                    "TargetClass": "http://schema.org/PropertyValue",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 53
+                },
+                {
+                    "SourceClass": "http://schema.org/Person",
+                    "TargetClass": "http://schema.org/PropertyValue",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 19
+                },
+                {
+                    "SourceClass": "http://schema.org/CreativeWork",
+                    "TargetClass": "http://schema.org/PropertyValue",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1103
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CreativeWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1103,
+                    "tripleCount": 1103
+                },
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53,
+                    "tripleCount": 53
+                },
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 19,
+                    "tripleCount": 19
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/PropertyValue",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1175
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/identifier",
+            "localName": "identifier",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 1175,
+            "tripleCount": 1175
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Organization",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 9,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 9
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/funder",
+            "localName": "funder",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 9,
+            "tripleCount": 9
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 742,
+                    "tripleCountBase": 742
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CreativeWork",
+                    "dataTripleCount": 675,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 675
+                },
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "dataTripleCount": 64,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 64
+                },
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 742,
+            "fullName": "http://schema.org/name",
+            "localName": "name",
+            "maxCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 742
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Person",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 27
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 27,
+                    "tripleCount": 27
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 27
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/mainEntityOfPage",
+            "localName": "mainEntityOfPage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 27,
+            "tripleCount": 27
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1175,
+                    "tripleCountBase": 1175
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/PropertyValue",
+                    "dataTripleCount": 1175,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1175
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1175,
+            "fullName": "http://schema.org/propertyID",
+            "localName": "propertyID",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1175
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Person",
+                    "TargetClass": "http://schema.org/PostalAddress",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/PostalAddress",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 7
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/address",
+            "localName": "address",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 7,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 7,
+                    "tripleCountBase": 7
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/PostalAddress",
+                    "dataTripleCount": 7,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7,
+            "fullName": "http://schema.org/addressCountry",
+            "localName": "addressCountry",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 27,
+                    "tripleCountBase": 27
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 27,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 27
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 27,
+            "fullName": "http://schema.org/familyName",
+            "localName": "familyName",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 27
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Person",
+                    "TargetClass": "http://schema.org/Organization",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 56
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 56,
+                    "tripleCount": 56
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 56
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/affiliation",
+            "localName": "affiliation",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 56,
+            "tripleCount": 56
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/PropertyValue",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1175,
+                    "tripleCount": 1175
+                },
+                {
+                    "classFullName": "http://schema.org/CreativeWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 671,
+                    "tripleCount": 671
+                },
+                {
+                    "classFullName": "http://schema.org/Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 63,
+                    "tripleCount": 63
+                },
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 27,
+                    "tripleCount": 27
+                },
+                {
+                    "classFullName": "http://schema.org/PostalAddress",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1943,
+            "tripleCount": 1943
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://schema.org/"
+}

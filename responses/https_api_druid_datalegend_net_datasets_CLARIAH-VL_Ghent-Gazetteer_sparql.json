@@ -1,0 +1,2056 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "incomingTripleCount": 59857,
+            "instanceCount": 76,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "incomingTripleCount": 183,
+            "instanceCount": 309,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "ConceptScheme",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+            "incomingTripleCount": 9765,
+            "instanceCount": 9765,
+            "isLiteral": false,
+            "localName": "E41_Appellation",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+            "incomingTripleCount": 13264,
+            "instanceCount": 16292,
+            "isLiteral": false,
+            "localName": "E52_Time-Span",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+            "incomingTripleCount": 12794,
+            "instanceCount": 12794,
+            "isLiteral": false,
+            "localName": "E53_Place",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.opengis.net/ont/geosparql#Geometry",
+            "incomingTripleCount": 3028,
+            "instanceCount": 3028,
+            "isLiteral": false,
+            "localName": "Geometry",
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.cidoc-crm.org/cidoc-crm/E93_Presence"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+            "incomingTripleCount": 3028,
+            "instanceCount": 3028,
+            "isLiteral": false,
+            "localName": "",
+            "namespace": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.opengis.net/ont/geosparql#Feature"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+            "incomingTripleCount": 42560,
+            "instanceCount": 12794,
+            "isLiteral": false,
+            "localName": "E93_Presence",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.opengis.net/ont/geosparql#Feature",
+            "incomingTripleCount": 42560,
+            "instanceCount": 12794,
+            "isLiteral": false,
+            "localName": "Feature",
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+            "incomingTripleCount": 20958,
+            "instanceCount": 4295,
+            "isLiteral": false,
+            "localName": "E92_Spacetime_Volume",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+            "incomingTripleCount": 3028,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "E55_Type",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+            "incomingTripleCount": 3028,
+            "instanceCount": 3028,
+            "isLiteral": false,
+            "localName": "E42_Identifier",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+            "incomingTripleCount": 19530,
+            "instanceCount": 202,
+            "isLiteral": false,
+            "localName": "E31_Document",
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "dataType": "http://www.w3.org/2001/XMLSchema#string",
+            "fullName": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+            "incomingTripleCount": 9765,
+            "instanceCount": 191,
+            "isLiteral": true,
+            "localName": "IIIF manifest URI",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.cidoc-crm.org/cidoc-crm/E31_Document"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "dataType": "http://www.w3.org/2001/XMLSchema#string",
+            "fullName": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+            "incomingTripleCount": 9765,
+            "instanceCount": 10,
+            "isLiteral": true,
+            "localName": "Zotero URI",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "7439835982340559128",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/CLARIAH-VL/Ghent-Gazetteer/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n7"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 12794
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 12794
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3028
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 12794,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12794,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3028,
+                    "tripleCount": 3028
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3028
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 12794,
+            "tripleCount": 12794
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 19530
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 19530
+                },
+                {
+                    "SourceClass": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1519,
+                    "tripleCountBase": 3028
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 19530,
+                    "tripleCount": 22558
+                },
+                {
+                    "classFullName": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9765,
+                    "tripleCount": 9765
+                },
+                {
+                    "classFullName": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9765,
+                    "tripleCount": 9765
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 19530
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 19530
+                }
+            ],
+            "dataTripleCount": 3028,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+            "localName": "P70_documents",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 19530,
+            "tripleCount": 22558
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 12793,
+                    "tripleCountBase": 15821
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 15821
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "dataTripleCount": 15821,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15821
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15821,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+            "localName": "P82a_begin_of_the_begin",
+            "maxCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 0,
+            "tripleCount": 15821
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 34,
+                    "tripleCount": 34
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "localName": "hasTopConcept",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 34,
+            "tripleCount": 34
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 6056
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 6056
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "dataTripleCount": 6056,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6056
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6056,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end",
+            "localName": "P81b_begin_of_the_end",
+            "maxCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 0,
+            "tripleCount": 6056
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 89
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 89,
+                    "tripleCount": 89
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 89
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 89,
+            "tripleCount": 89
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 235,
+                    "tripleCountBase": 235
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 160,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 160
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 75,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 75
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 235,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 235
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 12793,
+                    "tripleCountBase": 15821
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 15821
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "dataTripleCount": 15821,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15821
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15821,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+            "localName": "P82b_end_of_the_end",
+            "maxCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 0,
+            "tripleCount": 15821
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 289
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 308,
+                    "tripleCount": 308
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 289
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 308,
+            "tripleCount": 308
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 183
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 183,
+                    "tripleCount": 183
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 183
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 183,
+            "tripleCount": 183
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 20958
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 20958
+                },
+                {
+                    "SourceClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3957
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 12794,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12794,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3028,
+                    "tripleCount": 3028
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 20958
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P166_was_a_presence_of",
+            "localName": "P166_was_a_presence_of",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 12794,
+            "tripleCount": 12794
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 20958
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 20958
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "TargetClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3957
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 20958,
+                    "tripleCount": 20958
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 12794
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3028
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P166i_had_presence",
+            "localName": "P166i_had_presence",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 12794,
+            "tripleCount": 12794
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:asWKT",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 6056
+                },
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 6056
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3028
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3028
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6056,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 6056
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 191,
+                    "tripleCountBase": 191
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 191,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 191
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "dataTripleCount": 191,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 191
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 191,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation",
+            "localName": "P138i_has_representation",
+            "maxCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 0,
+            "tripleCount": 191
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 308
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 308,
+                    "tripleCount": 308
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 308
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 308,
+            "tripleCount": 308
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9765
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5120,
+                    "tripleCountBase": 6042
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9765,
+                    "tripleCount": 12793
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "dataTripleCount": 3930,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3930
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9765,
+                    "tripleCount": 12793
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3028
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 9765
+                }
+            ],
+            "dataTripleCount": 6042,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+            "localName": "P1_is_identified_by",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 9765,
+            "tripleCount": 15807
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#inDataset",
+            "localName": "inDataset",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 10236
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 10236
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 10236,
+                    "tripleCount": 10236
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 10236
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 10236
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P164i_temporally_specifies",
+            "localName": "P164i_temporally_specifies",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 10236,
+            "tripleCount": 10236
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 11047,
+                    "tripleCountBase": 11047
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 9766,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9766
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "dataTripleCount": 2197,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2197
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 9766,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9766
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 11047,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier",
+            "localName": "P48_has_preferred_identifier",
+            "maxCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 0,
+            "tripleCount": 11047
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 24115,
+                    "tripleCountBase": 33880
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 9765,
+                    "tripleCountBase": 33880
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 22017,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22017
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "dataTripleCount": 9765,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9765
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 1658,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1658
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 22017,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22017
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "dataTripleCount": 3028,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3028
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 440,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 440
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 33880,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 33880
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 19530
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 19530
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 19530,
+                    "tripleCount": 19530
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 19530,
+                    "tripleCount": 19530
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 19530
+                },
+                {
+                    "classFullName": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 9765
+                },
+                {
+                    "classFullName": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 9765
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in",
+            "localName": "P70i_is_documented_in",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 19530,
+            "tripleCount": 19530
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 13264
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 13264
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 13264,
+                    "tripleCount": 13264
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 13264,
+                    "tripleCount": 13264
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3028,
+                    "tripleCount": 3028
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 13264
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P164_is_temporally_specified_by",
+            "localName": "P164_is_temporally_specified_by",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 13264,
+            "tripleCount": 13264
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3957
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 1514,
+                    "tripleCountBase": 3028
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "dataTripleCount": 3957,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3957,
+                    "tripleCount": 7914
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 3028
+                }
+            ],
+            "dataTripleCount": 3028,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 3028,
+            "tripleCount": 6056
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9765
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 16292
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 12794
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 12794
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 12794
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 5,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 6127
+                },
+                {
+                    "SourceClass": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 191
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 7,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 202
+                },
+                {
+                    "SourceClass": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "http://www.opengis.net/ont/geosparql#Feature",
+                    "TargetClass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3028
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 8,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 6,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3028
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E93_Presence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28616,
+                    "tripleCount": 28616
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16292,
+                    "tripleCount": 16292
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15822,
+                    "tripleCount": 15822
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9765,
+                    "tripleCount": 9765
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6127,
+                    "tripleCount": 6127
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3028,
+                    "tripleCount": 3028
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+                    "dataTripleCount": 201,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 202,
+                    "tripleCount": 403
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 309,
+                    "tripleCount": 309
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Feature",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28616,
+                    "tripleCount": 28616
+                },
+                {
+                    "classFullName": "https://id.erfgoed.net/thesauri/erfgoedtypes/1212",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9084,
+                    "tripleCount": 9084
+                },
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6056,
+                    "tripleCount": 6056
+                },
+                {
+                    "classFullName": "\"IIIF manifest URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 191,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 191,
+                    "tripleCount": 382
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 76,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "\"Zotero URI\"^^<http://www.w3.org/2001/XMLSchema#string>",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 3028
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 59171
+                }
+            ],
+            "dataTripleCount": 201,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 78407,
+            "tripleCount": 78608
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 6056
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3028,
+                    "tripleCountBase": 6056
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "dataTripleCount": 6056,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6056
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6056,
+            "fullName": "http://www.cidoc-crm.org/cidoc-crm/P81a_end_of_the_begin",
+            "localName": "P81a_end_of_the_begin",
+            "maxCardinality": 1,
+            "namespace": "http://www.cidoc-crm.org/cidoc-crm/",
+            "objectTripleCount": 0,
+            "tripleCount": 6056
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.cidoc-crm.org/cidoc-crm/"
+}

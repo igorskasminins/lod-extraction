@@ -31,7 +31,7 @@ class EndpointRetrieval:
   ?EffectiveURL void:properties ?properties.
     ?EffectiveURL void:triples ?triples.
   FILTER(?properties <= 10000)
-  FILTER(?classes <= 11000)
+  FILTER(?classes <= 10000)
   FILTER(NOT EXISTS{?EffectiveURL n1:isDublicate ?isDublicate. })
   }
     ORDER BY ?classes

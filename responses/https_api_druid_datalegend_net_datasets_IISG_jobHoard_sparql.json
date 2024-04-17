@@ -1,0 +1,3649 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#DimensionProperty",
+            "incomingTripleCount": 445,
+            "instanceCount": 24,
+            "isLiteral": false,
+            "localName": "DimensionProperty",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#DatatypeProperty"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#MeasureProperty",
+            "incomingTripleCount": 12,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "MeasureProperty",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "incomingTripleCount": 12,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "DatatypeProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+            "incomingTripleCount": 144,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "DataStructureDefinition",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 4224,
+            "instanceCount": 8,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+            "incomingTripleCount": 77,
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "MajorGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCode",
+            "incomingTripleCount": 53402,
+            "instanceCount": 2090,
+            "isLiteral": false,
+            "localName": "CategoryCode",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/prov#Person",
+            "incomingTripleCount": 152,
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://www.w3.org/ns/prov#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Person",
+            "incomingTripleCount": 152,
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/bibo/Book",
+            "incomingTripleCount": 25,
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "Book",
+            "namespace": "http://purl.org/ontology/bibo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+            "incomingTripleCount": 298,
+            "instanceCount": 77,
+            "isLiteral": false,
+            "localName": "MinorGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+            "incomingTripleCount": 1666,
+            "instanceCount": 298,
+            "isLiteral": false,
+            "localName": "UnitGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCodeSet",
+            "incomingTripleCount": 8424,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "CategoryCodeSet",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+            "incomingTripleCount": 183,
+            "instanceCount": 6,
+            "isLiteral": false,
+            "localName": "ProductCode",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/RelationCode",
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "RelationCode",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/StatusCode",
+            "instanceCount": 15,
+            "isLiteral": false,
+            "localName": "StatusCode",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Assertion",
+            "incomingTripleCount": 21,
+            "instanceCount": 21,
+            "isLiteral": false,
+            "localName": "Assertion",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Provenance",
+            "incomingTripleCount": 21,
+            "instanceCount": 21,
+            "isLiteral": false,
+            "localName": "Provenance",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#PublicationInfo",
+            "incomingTripleCount": 21,
+            "instanceCount": 21,
+            "isLiteral": false,
+            "localName": "PublicationInfo",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Nanopublication",
+            "instanceCount": 21,
+            "isLiteral": false,
+            "localName": "Nanopublication",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+            "incomingTripleCount": 51178,
+            "instanceCount": 1674,
+            "isLiteral": false,
+            "localName": "MicroGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Occupation",
+            "instanceCount": 39613,
+            "isLiteral": false,
+            "localName": "Occupation",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "6050068565338867052",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG/jobHoard/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://schema.org/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.nanopub.org/nschema#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://purl.org/linked-data/cube#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/prov#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://purl.org/linked-data/sdmx/2009/measure#",
+            "prefix": "n14"
+        },
+        {
+            "namespace": "http://www.geonames.org/ontology#",
+            "prefix": "n15"
+        },
+        {
+            "namespace": "http://purl.org/ontology/bibo/",
+            "prefix": "n16"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 36,
+                    "tripleCountBase": 36
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 36,
+            "fullName": "http://www.w3.org/ns/csvw#title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 36
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 40
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2090
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8360
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 308
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 24
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 40
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 60
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1192
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1674
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 6696
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2090,
+                    "tripleCount": 2090
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1674,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 298,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 77,
+                    "tripleCount": 77
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8360
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2090
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/inCodeSet",
+            "localName": "inCodeSet",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 2090,
+            "tripleCount": 2090
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 10,
+                    "tripleCountBase": 10
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "dataTripleCount": 38,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 38,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://xmlns.com/foaf/0.1/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#component",
+            "localName": "component",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 48,
+                    "tripleCountBase": 48
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 48,
+            "fullName": "http://www.w3.org/ns/csvw#value",
+            "localName": "value",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 48
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 21,
+                    "tripleCountBase": 21
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 21,
+            "fullName": "http://www.w3.org/ns/csvw#delimiter",
+            "localName": "delimiter",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#dialect",
+            "localName": "dialect",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 73,
+                    "tripleCountBase": 73
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 73,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 73
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1674,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1674,
+                    "tripleCount": 1674
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 1695,
+            "tripleCount": 1695
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 163,
+            "tripleCount": 163
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 77
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "TargetClass": "http://schema.org/CategoryCode",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://schema.org/CategoryCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2041
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 298
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "TargetClass": "http://schema.org/CategoryCode",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1666
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "TargetClass": "http://schema.org/CategoryCode",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1666
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1666
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2049,
+                    "tripleCount": 2049
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1674,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 298,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 77,
+                    "tripleCount": 77
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2041
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1666
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 77
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2053,
+            "tripleCount": 2053
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2090,
+                    "tripleCountBase": 2090
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 2090,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2090
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1674,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 298,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 77,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2090,
+            "fullName": "http://schema.org/codeValue",
+            "localName": "codeValue",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 2090
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 21,
+                    "tripleCountBase": 21
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 21,
+            "fullName": "https://iisg.amsterdam/vocab/path",
+            "localName": "path",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.nanopub.org/nschema#Assertion",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 21
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 21
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.nanopub.org/nschema#hasAssertion",
+            "localName": "hasAssertion",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.nanopub.org/nschema#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 13584
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 13584
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/hisco",
+            "localName": "hisco",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 15600,
+            "tripleCount": 15600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/prov#wasGeneratedBy",
+            "localName": "wasGeneratedBy",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 21,
+                    "tripleCountBase": 21
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 21,
+            "fullName": "http://www.w3.org/ns/csvw#encoding",
+            "localName": "encoding",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/be",
+            "localName": "be",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 21,
+                    "tripleCountBase": 21
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 21,
+            "fullName": "http://www.w3.org/ns/csvw#url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Occupation",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 37594
+                },
+                {
+                    "SourceClass": "http://schema.org/Occupation",
+                    "TargetClass": "http://schema.org/CategoryCode",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 37777
+                },
+                {
+                    "SourceClass": "http://schema.org/Occupation",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 183
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Occupation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53887,
+                    "tripleCount": 53887
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 37777
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 37594
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 183
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/occupationalCategory",
+            "localName": "occupationalCategory",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 53888,
+            "tripleCount": 53888
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 37,
+                    "tripleCountBase": 43
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Occupation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 39613,
+                    "tripleCount": 39613
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 42,
+                    "tripleCount": 42
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/bibo/Book",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 25
+                }
+            ],
+            "dataTripleCount": 43,
+            "fullName": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "localName": "wasDerivedFrom",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 39665,
+            "tripleCount": 39708
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/bibo/Book",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 21,
+            "tripleCount": 26
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 15600,
+                    "tripleCountBase": 15600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 15600,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/measure#obsValue",
+            "localName": "obsValue",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/measure#",
+            "objectTripleCount": 0,
+            "tripleCount": 15600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/nl",
+            "localName": "nl",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/dimension#sex",
+            "localName": "sex",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "objectTripleCount": 3900,
+            "tripleCount": 3900
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Assertion",
+                    "TargetClass": "http://www.w3.org/ns/prov#Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 38
+                },
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Assertion",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 38
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/bibo/Book",
+                    "dataTripleCount": 75,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 75
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 76
+                }
+            ],
+            "dataTripleCount": 15,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 20,
+            "tripleCount": 35
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/ns/csvw#primaryKey",
+            "localName": "primaryKey",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Assertion",
+                    "TargetClass": "http://www.w3.org/ns/prov#Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 38
+                },
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Assertion",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 38
+                },
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.w3.org/ns/prov#Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 38
+                },
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 38
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 76
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/prov#wasAttributedTo",
+            "localName": "wasAttributedTo",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 20,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 21,
+                    "tripleCountBase": 21
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 21,
+            "fullName": "https://iisg.amsterdam/vocab/sha1_hash",
+            "localName": "sha1_hash",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2090
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 77
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 298
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1674
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 6
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 15
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Occupation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 39613,
+                    "tripleCount": 39613
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4180,
+                    "tripleCount": 4180
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 218,
+                    "tripleCount": 218
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 76,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/bibo/Book",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 25,
+                    "tripleCount": 25
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Provenance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#PublicationInfo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3348,
+                    "tripleCount": 3348
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 596,
+                    "tripleCount": 596
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 154,
+                    "tripleCount": 154
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 76,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 30,
+                    "tripleCount": 30
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2090
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 43974,
+            "tripleCount": 43974
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 25,
+                    "tripleCountBase": 25
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 25,
+            "fullName": "http://www.w3.org/ns/csvw#lang",
+            "localName": "lang",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 42,
+                    "tripleCountBase": 42
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 21,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 21,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 21
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 42,
+            "fullName": "http://www.w3.org/ns/prov#generatedAtTime",
+            "localName": "generatedAtTime",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 0,
+            "tripleCount": 42
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.nanopub.org/nschema#Provenance",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 21
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Provenance",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 21
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.nanopub.org/nschema#hasProvenance",
+            "localName": "hasProvenance",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.nanopub.org/nschema#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 218
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#dimension",
+            "localName": "dimension",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:Year",
+                    "tripleCount": 5,
+                    "tripleCountBase": 5
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/bibo/Book",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5,
+            "fullName": "http://purl.org/dc/terms/date",
+            "localName": "date",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 12
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#measure",
+            "localName": "measure",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 17,
+                    "tripleCountBase": 17
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 17,
+            "fullName": "http://www.geonames.org/ontology#countryCode",
+            "localName": "countryCode",
+            "maxCardinality": 1,
+            "namespace": "http://www.geonames.org/ontology#",
+            "objectTripleCount": 0,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/u1",
+            "localName": "u1",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#tableSchema",
+            "localName": "tableSchema",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/gb",
+            "localName": "gb",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/ca",
+            "localName": "ca",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/u3",
+            "localName": "u3",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/u2",
+            "localName": "u2",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 48,
+                    "tripleCountBase": 48
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 48,
+            "fullName": "http://www.w3.org/ns/csvw#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 48
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 68369,
+                    "tripleCountBase": 70460
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2091,
+                    "tripleCountBase": 70460
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Occupation",
+                    "dataTripleCount": 68347,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 68347
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 2090,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2090
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1674,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 298,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 77,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 70460,
+            "fullName": "http://schema.org/name",
+            "localName": "name",
+            "maxCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 70460
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 10,
+                    "tripleCountBase": 10
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "dataTripleCount": 38,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 38,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://xmlns.com/foaf/0.1/familyName",
+            "localName": "familyName",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/csvw#null",
+            "localName": "null",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 13,
+                    "tripleCountBase": 2077
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2064,
+                    "tripleCountBase": 2077
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 2059,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2059
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "dataTripleCount": 144,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1674,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 298,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 77,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2077,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 2077
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 21,
+                    "tripleCountBase": 21
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 21,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 227
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#propertyUrl",
+            "localName": "propertyUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 163,
+            "tripleCount": 163
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/e",
+            "localName": "e",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/se",
+            "localName": "se",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/fr",
+            "localName": "fr",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/l",
+            "localName": "l",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 38,
+                    "tripleCount": 38
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 38,
+                    "tripleCount": 38
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/mbox",
+            "localName": "mbox",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 128,
+                    "tripleCountBase": 128
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 128,
+            "fullName": "http://www.w3.org/ns/csvw#virtual",
+            "localName": "virtual",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 128
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 88,
+                    "tripleCount": 88
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 88,
+                    "tripleCount": 88
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 20,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 144
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#structure",
+            "localName": "structure",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 18
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#valueUrl",
+            "localName": "valueUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 86,
+            "tripleCount": 86
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 17,
+                    "tripleCountBase": 17
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 17,
+            "fullName": "http://www.w3.org/ns/csvw#quoteChar",
+            "localName": "quoteChar",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 163,
+            "tripleCount": 163
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/de",
+            "localName": "de",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod",
+            "localName": "refPeriod",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "objectTripleCount": 15601,
+            "tripleCount": 15601
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 10,
+                    "tripleCountBase": 10
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Person",
+                    "dataTripleCount": 38,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 38,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://xmlns.com/foaf/0.1/givenName",
+            "localName": "givenName",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 22
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#aboutUrl",
+            "localName": "aboutUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 61,
+            "tripleCount": 61
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#column",
+            "localName": "column",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.nanopub.org/nschema#PublicationInfo",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 21
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#PublicationInfo",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 21
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.nanopub.org/nschema#hasPublicationInfo",
+            "localName": "hasPublicationInfo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.nanopub.org/nschema#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 21,
+                    "tripleCountBase": 26
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5,
+                    "tripleCountBase": 26
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/bibo/Book",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 26,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 26
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 4660,
+                    "tripleCountBase": 6751
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2091,
+                    "tripleCountBase": 6751
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Occupation",
+                    "dataTripleCount": 4648,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4648
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 2090,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2090
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 1674,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1674
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/UnitGroup",
+                    "dataTripleCount": 298,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 298
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MinorGroup",
+                    "dataTripleCount": 77,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 77
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/StatusCode",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MajorGroup",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/RelationCode",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/ProductCode",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6751,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 6751
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#datatype",
+            "localName": "datatype",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 50,
+            "tripleCount": 50
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.w3.org/ns/csvw#"
+}

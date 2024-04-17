@@ -1,0 +1,3181 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+            "instanceCount": 75111,
+            "isLiteral": false,
+            "localName": "DataResource",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+            "incomingTripleCount": 97260,
+            "instanceCount": 97261,
+            "isLiteral": false,
+            "localName": "Spatial",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+            "incomingTripleCount": 53351,
+            "instanceCount": 53351,
+            "isLiteral": false,
+            "localName": "Temporal",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Agent",
+            "incomingTripleCount": 265729,
+            "instanceCount": 15906,
+            "isLiteral": false,
+            "localName": "Agent",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+            "incomingTripleCount": 200994,
+            "instanceCount": 24,
+            "isLiteral": false,
+            "localName": "Distribution",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+            "incomingTripleCount": 14,
+            "instanceCount": 16,
+            "isLiteral": false,
+            "localName": "DataFormat",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#DBSchema",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "DBSchema",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Licence",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Licence",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+            "instanceCount": 14,
+            "isLiteral": false,
+            "localName": "MetadataSchema",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+            "instanceCount": 40,
+            "isLiteral": false,
+            "localName": "Vocabulary",
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "4186127391378010412",
+        "enableLogging": true,
+        "endpointUrl": "http://ariadne-registry.dcu.gr:8890/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.recshop.fake/cd#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "prefix": "n7"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/ns/dcat#downloadURL",
+            "localName": "downloadURL",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 53351
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 60009,
+                    "tripleCount": 60009
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 53351
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#temporal",
+            "localName": "temporal",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 60009,
+            "tripleCount": 60009
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "dataTripleCount": 15906,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15906
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15906,
+            "fullName": "http://xmlns.com/foaf/0.1/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 15906
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 20376,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20376
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20376,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#postcode",
+            "localName": "postcode",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 20376
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6,
+            "fullName": "http://www.w3.org/ns/dcat#audience",
+            "localName": "audience",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 20744
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 12
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22320,
+                    "tripleCount": 22320
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 20750
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#owner",
+            "localName": "owner",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 22334,
+            "tripleCount": 22334
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#OAI-PMHServerURI",
+            "localName": "OAI-PMHServerURI",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/dcat#rights",
+            "localName": "rights",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 45077,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 45077
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 45077,
+            "fullName": "http://purl.org/dc/terms/accessRights",
+            "localName": "accessRights",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 45077
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 44945,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 44945
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 40,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 40
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 44975,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 44975
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 48929,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48929
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 48929,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#lat",
+            "localName": "lat",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 48929
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 36,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 36
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 18,
+            "fullName": "http://purl.org/dc/terms/licence",
+            "localName": "licence",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 28,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#standardUsed",
+            "localName": "standardUsed",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 14
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 1576,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1576
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1576,
+            "fullName": "http://www.w3.org/ns/dcat#accrualPeriodicity",
+            "localName": "accrualPeriodicity",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 1576
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 96597,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 96597
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "dataTripleCount": 53349,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 53349
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 149946,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 149946
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "dataTripleCount": 9769,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9769
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 9769,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#temporal_to_date",
+            "localName": "temporal_to_date",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 9769
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 144731
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 12
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 72
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 177183,
+                    "tripleCount": 177183
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 80,
+                    "tripleCount": 80
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 144773
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 177237,
+            "tripleCount": 177237
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 6
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 6
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#hasItemMetadataStructure",
+            "localName": "hasItemMetadataStructure",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DBSchema",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.recshop.fake/cd#year",
+            "localName": "year",
+            "maxCardinality": 1,
+            "namespace": "http://www.recshop.fake/cd#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#applyTo",
+            "localName": "applyTo",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#hasRecordStructure",
+            "localName": "hasRecordStructure",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#usesVocabulary",
+            "localName": "usesVocabulary",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/dcat#modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 43354,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 43354
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 43364,
+            "fullName": "http://www.w3.org/ns/dcat#keyword",
+            "localName": "keyword",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 43364
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.recshop.fake/cd#country",
+            "localName": "country",
+            "maxCardinality": 1,
+            "namespace": "http://www.recshop.fake/cd#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-genre",
+            "localName": "dbpedia-owl-genre",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 40,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 40
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20,
+            "fullName": "http://www.w3.org/ns/dcat#accessURL",
+            "localName": "accessURL",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "dataTripleCount": 9769,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9769
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 9769,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#temporal_to_era",
+            "localName": "temporal_to_era",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 9769
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-operatingSystem",
+            "localName": "dbpedia-owl-operatingSystem",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 20
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 22311
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 12
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 72
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22323,
+                    "tripleCount": 22323
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 80,
+                    "tripleCount": 80
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 36,
+                    "tripleCount": 36
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 22363
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#publisher",
+            "localName": "publisher",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 22395,
+            "tripleCount": 22395
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.recshop.fake/cd#artist",
+            "localName": "artist",
+            "maxCardinality": 1,
+            "namespace": "http://www.recshop.fake/cd#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 72,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 72
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 46,
+            "fullName": "http://www.w3.org/ns/dcat#description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 46
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/dcat#accessRights",
+            "localName": "accessRights",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 200994
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 100497,
+                    "tripleCount": 100497
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 200994
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+            "localName": "Distribution",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 100497,
+            "tripleCount": 100497
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 96,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 96
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 40,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 40
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 68,
+            "fullName": "http://www.w3.org/ns/dcat#language",
+            "localName": "language",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 68
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 25228,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25228
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 25238,
+            "fullName": "http://www.w3.org/ns/dcat#subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 25238
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 24,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 24
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 12,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#expressedIn",
+            "localName": "expressedIn",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#numOfRecords",
+            "localName": "numOfRecords",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#proprietaryFormatDesc",
+            "localName": "proprietaryFormatDesc",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/ns/dcat#mediaType",
+            "localName": "mediaType",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 20739,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20739
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20739,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#accessPolicy",
+            "localName": "accessPolicy",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 20739
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.recshop.fake/cd#price",
+            "localName": "price",
+            "maxCardinality": 1,
+            "namespace": "http://www.recshop.fake/cd#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 64,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 64
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 40,
+            "fullName": "http://xmlns.com/foaf/0.1/homepage",
+            "localName": "homepage",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 40
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 97261,
+                    "tripleCount": 97261
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 75111,
+                    "tripleCount": 75111
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53351,
+                    "tripleCount": 53351
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15906,
+                    "tripleCount": 15906
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 80,
+                    "tripleCount": 80
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 48,
+                    "tripleCount": 48
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DBSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Licence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 241963,
+            "tripleCount": 241963
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-latestReleaseVersion",
+            "localName": "dbpedia-owl-latestReleaseVersion",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 20715,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20715
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20715,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#country",
+            "localName": "country",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 20715
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-license",
+            "localName": "dbpedia-owl-license",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 75111,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 75111
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 75111,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#DataResourceType",
+            "localName": "DataResourceType",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 75111
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 83989,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 83989
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 83989,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 83989
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 22298,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22298
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 22298,
+            "fullName": "http://purl.org/dc/terms/audience",
+            "localName": "audience",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 22298
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#installationRequirements",
+            "localName": "installationRequirements",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.recshop.fake/cd#company",
+            "localName": "company",
+            "maxCardinality": 1,
+            "namespace": "http://www.recshop.fake/cd#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+            "localName": "ownerUser",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 12
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 34,
+                    "tripleCount": 34
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 15
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#technicalResponsible",
+            "localName": "technicalResponsible",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 48,
+            "tripleCount": 48
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://www.w3.org/ns/dcat#landingPage",
+            "localName": "landingPage",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "dataTripleCount": 12081,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12081
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 12081,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#temporal_from_era",
+            "localName": "temporal_from_era",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 12081
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+            "localName": "_5",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 51833,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 51833
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 51845,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 51845
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+            "localName": "_3",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+            "localName": "_4",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-abstract",
+            "localName": "dbpedia-owl-abstract",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+            "localName": "_1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 62,
+            "tripleCount": 62
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+            "localName": "_2",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "dataTripleCount": 15906,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15906
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15906,
+            "fullName": "http://xmlns.com/foaf/0.1/subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 15906
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Licence",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#uri",
+            "localName": "uri",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Licence",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 52628,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 52628
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 52628,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#coordinate_system",
+            "localName": "coordinate_system",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 52628
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#exportFacility",
+            "localName": "exportFacility",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 20539,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20539
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20539,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#address",
+            "localName": "address",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 20539
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 176793,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 176793
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 176793,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#originalId",
+            "localName": "originalId",
+            "maxCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 176793
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/dcat#byteSize",
+            "localName": "byteSize",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 44940,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 44940
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 44940,
+            "fullName": "http://purl.org/dc/terms/language",
+            "localName": "language",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 44940
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://www.w3.org/ns/dcat#issued",
+            "localName": "issued",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Temporal",
+                    "dataTripleCount": 12081,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12081
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 12081,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#temporal_from_date",
+            "localName": "temporal_from_date",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 12081
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 21674,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 21674
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 21674,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#placename",
+            "localName": "placename",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 21674
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 75111,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 75111
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 48,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 75135,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dr_type",
+            "localName": "dr_type",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 75135
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 75110,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 75111
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Vocabulary",
+                    "dataTripleCount": 80,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 80
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 48,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 28,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 28,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DBSchema",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Licence",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 75214,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 3,
+            "tripleCount": 75217
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#characterSet",
+            "localName": "characterSet",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-status",
+            "localName": "dbpedia-owl-status",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 28,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14,
+            "fullName": "http://purl.org/dc/terms/format",
+            "localName": "format",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 14
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 97260
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 97294,
+                    "tripleCount": 97294
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 97260
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#spatial",
+            "localName": "spatial",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 97294,
+            "tripleCount": 97294
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 57081
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 57666,
+                    "tripleCount": 57666
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 57085
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#scientificResponsible",
+            "localName": "scientificResponsible",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 57680,
+            "tripleCount": 57680
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 72672,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 72672
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 72682,
+            "fullName": "http://purl.org/dc/terms/issued",
+            "localName": "issued",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 72682
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Agent",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 20739
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22319,
+                    "tripleCount": 22319
+                },
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#MetadataSchema",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 20743
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#legalResponsible",
+            "localName": "legalResponsible",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 22333,
+            "tripleCount": 22333
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 1579,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1579
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1580,
+            "fullName": "http://purl.org/dc/terms/extent",
+            "localName": "extent",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1580
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#hasTechnicalSupport",
+            "localName": "hasTechnicalSupport",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Spatial",
+                    "dataTripleCount": 26231,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 26231
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 26231,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#lon",
+            "localName": "lon",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 26231
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Service",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#dbpedia-owl-developer",
+            "localName": "dbpedia-owl-developer",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 70551,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 70551
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 70551,
+            "fullName": "http://purl.org/dc/terms/landingPage",
+            "localName": "landingPage",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 70551
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataFormat",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#xsd",
+            "localName": "xsd",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#Distribution",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6,
+            "fullName": "http://ariadne-registry.dcu.gr/acdm#platformDescription",
+            "localName": "platformDescription",
+            "maxCardinality": 1,
+            "namespace": "http://ariadne-registry.dcu.gr/acdm#",
+            "objectTripleCount": 0,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://ariadne-registry.dcu.gr/acdm#DataResource",
+                    "dataTripleCount": 38953,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 38953
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 38953,
+            "fullName": "http://purl.org/dc/terms/rights",
+            "localName": "rights",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 38953
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://ariadne-registry.dcu.gr/acdm#"
+}

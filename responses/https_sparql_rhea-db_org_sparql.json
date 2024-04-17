@@ -1,0 +1,3581 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 418106,
+            "instanceCount": 197619,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "incomingTripleCount": 57,
+            "instanceCount": 26,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Axiom",
+            "instanceCount": 15956,
+            "isLiteral": false,
+            "localName": "Axiom",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+            "instanceCount": 17,
+            "isLiteral": false,
+            "localName": "SPARQLSelectExecutable",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+            "incomingTripleCount": 17,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "AnnotationProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/ns/shacl#SPARQLSelectExecutable"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+            "instanceCount": 17,
+            "isLiteral": false,
+            "localName": "SPARQLExecutable",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "incomingTripleCount": 249829,
+            "instanceCount": 20,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+            "incomingTripleCount": 5,
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "Graph",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "incomingTripleCount": 17,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Service",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "incomingTripleCount": 91612,
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Restriction",
+            "incomingTripleCount": 100307,
+            "instanceCount": 100307,
+            "isLiteral": false,
+            "localName": "Restriction",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#ObjectProperty"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+            "incomingTripleCount": 4009,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "TransitiveProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "6207917503646052282",
+        "enableLogging": true,
+        "endpointUrl": "https://sparql.rhea-db.org/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://rdf.rhea-db.org/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://ldf.fi/void-ext#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://purl.uniprot.org/core/",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://purl.obolibrary.org/obo/",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "http://purl.org/pav/",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n14"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 17
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 17
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 17,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 17,
+                    "tripleCount": 17
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 17
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#prefixes",
+            "localName": "prefixes",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 17,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 4,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://rdfs.org/ns/void#classes",
+            "localName": "classes",
+            "maxCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/compound",
+            "localName": "compound",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 79780,
+            "tripleCount": 79780
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 15956,
+                    "tripleCountBase": 15956
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Axiom",
+                    "dataTripleCount": 15956,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15956
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15956,
+            "fullName": "http://www.w3.org/2002/07/owl#annotatedTarget",
+            "localName": "annotatedTarget",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 15956
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#inverseOf",
+            "localName": "inverseOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/ec",
+            "localName": "ec",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 7635,
+            "tripleCount": 7635
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 357409,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 357409
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 357409,
+            "fullName": "http://www.geneontology.org/formats/oboInOwl#hasSynonym",
+            "localName": "hasSynonym",
+            "maxCardinality": -1,
+            "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+            "objectTripleCount": 0,
+            "tripleCount": 357409
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 65640,
+                    "tripleCountBase": 65640
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 65640,
+            "fullName": "http://rdf.rhea-db.org/isTransport",
+            "localName": "isTransport",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 65640
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/containsNminus1",
+            "localName": "containsNminus1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 55377,
+                    "tripleCountBase": 55377
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 55377,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 55377
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 55377,
+            "fullName": "http://purl.obolibrary.org/obo/IAO_0000115",
+            "localName": "IAO_0000115",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/",
+            "objectTripleCount": 0,
+            "tripleCount": 55377
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://ldf.fi/void-ext#datatypePartition",
+            "localName": "datatypePartition",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ldf.fi/void-ext#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 80328,
+                    "tripleCountBase": 80328
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 80328,
+            "fullName": "http://rdf.rhea-db.org/accession",
+            "localName": "accession",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 80328
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains5",
+            "localName": "contains5",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 112,
+            "tripleCount": 112
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains6",
+            "localName": "contains6",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 131,
+            "tripleCount": 131
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains3",
+            "localName": "contains3",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 748,
+            "tripleCount": 748
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains4",
+            "localName": "contains4",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 393,
+            "tripleCount": 393
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://ldf.fi/void-ext#distinctBlankNodeSubjects",
+            "localName": "distinctBlankNodeSubjects",
+            "maxCardinality": 1,
+            "namespace": "http://ldf.fi/void-ext#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains9",
+            "localName": "contains9",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 25,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://ldf.fi/void-ext#distinctIRIReferenceSubjects",
+            "localName": "distinctIRIReferenceSubjects",
+            "maxCardinality": 1,
+            "namespace": "http://ldf.fi/void-ext#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains7",
+            "localName": "contains7",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 43,
+            "tripleCount": 43
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains8",
+            "localName": "contains8",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 100,
+            "tripleCount": 100
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains1",
+            "localName": "contains1",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 73693,
+            "tripleCount": 73693
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/substrates",
+            "localName": "substrates",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 32820,
+            "tripleCount": 32820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 15956,
+                    "tripleCountBase": 15956
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 15956,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15956
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15956,
+            "fullName": "http://purl.uniprot.org/core/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://purl.uniprot.org/core/",
+            "objectTripleCount": 0,
+            "tripleCount": 15956
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains2",
+            "localName": "contains2",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 4259,
+            "tripleCount": 4259
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 132,
+                    "tripleCountBase": 132
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 132,
+            "fullName": "http://rdfs.org/ns/void#distinctObjects",
+            "localName": "distinctObjects",
+            "maxCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 0,
+            "tripleCount": 132
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 65640,
+                    "tripleCountBase": 65640
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 65640,
+            "fullName": "http://rdf.rhea-db.org/htmlEquation",
+            "localName": "htmlEquation",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 65640
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Restriction",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 100302
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Restriction",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 100307,
+                    "tripleCount": 100307
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 100302
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#someValuesFrom",
+            "localName": "someValuesFrom",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 100307,
+            "tripleCount": 100307
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 252
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/underlyingChebi",
+            "localName": "underlyingChebi",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 252,
+            "tripleCount": 252
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#feature",
+            "localName": "feature",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://ldf.fi/void-ext#datatype",
+            "localName": "datatype",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ldf.fi/void-ext#",
+            "objectTripleCount": 28,
+            "tripleCount": 28
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/ns/shacl#namesapce",
+            "localName": "namesapce",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 197619,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 197619
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 197619,
+            "fullName": "http://www.geneontology.org/formats/oboInOwl#hasId",
+            "localName": "hasId",
+            "maxCardinality": 1,
+            "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+            "objectTripleCount": 0,
+            "tripleCount": 197619
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "TargetClass": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "localName": "defaultDataset",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/transformableTo",
+            "localName": "transformableTo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 32820,
+            "tripleCount": 32820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 183761,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 183761
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 183761,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/smiles",
+            "localName": "smiles",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 183761
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 252,
+                    "tripleCountBase": 252
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 252,
+            "fullName": "http://rdf.rhea-db.org/polymerizationIndex",
+            "localName": "polymerizationIndex",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 252
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 65640,
+                    "tripleCountBase": 65640
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 65640,
+            "fullName": "http://rdf.rhea-db.org/equation",
+            "localName": "equation",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 65640
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 174361,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 174361
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 174361,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+            "localName": "inchikey",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 174361
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "localName": "namedGraph",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/directionalReaction",
+            "localName": "directionalReaction",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 33370,
+            "tripleCount": 33370
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 66740
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/status",
+            "localName": "status",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 66740,
+            "tripleCount": 66740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/reactivePart",
+            "localName": "reactivePart",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1883,
+            "tripleCount": 1883
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 31
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 31,
+            "tripleCount": 31
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 66,
+                    "tripleCountBase": 66
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 66,
+            "fullName": "http://www.w3.org/ns/shacl#namespace",
+            "localName": "namespace",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 66
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 185385,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 185385
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 185385,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/formula",
+            "localName": "formula",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 185385
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2135,
+                    "tripleCountBase": 13676
+                },
+                {
+                    "dataType": "xsd:int",
+                    "tripleCount": 11541,
+                    "tripleCountBase": 13676
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 13676,
+            "fullName": "http://rdf.rhea-db.org/charge",
+            "localName": "charge",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 13676
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "localName": "supportedLanguage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/side",
+            "localName": "side",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 32820,
+            "tripleCount": 32820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/issued",
+            "localName": "issued",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4951
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/location",
+            "localName": "location",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 4951,
+            "tripleCount": 4951
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 197619,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 197619
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 263275,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 263275
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5,
+                    "tripleCountBase": 5
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 130,
+                    "tripleCountBase": 130
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 130,
+            "fullName": "http://rdfs.org/ns/void#distinctSubjects",
+            "localName": "distinctSubjects",
+            "maxCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 0,
+            "tripleCount": 130
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#graph",
+            "localName": "graph",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/substratesOrProducts",
+            "localName": "substratesOrProducts",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 32820,
+            "tripleCount": 32820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains14",
+            "localName": "contains14",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains13",
+            "localName": "contains13",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 13676,
+                    "tripleCountBase": 13676
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 13676,
+            "fullName": "http://rdf.rhea-db.org/formula",
+            "localName": "formula",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 13676
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 174361,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 174361
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 174361,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/inchi",
+            "localName": "inchi",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 174361
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains12",
+            "localName": "contains12",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 80328,
+                    "tripleCountBase": 80328
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 80328,
+            "fullName": "http://rdf.rhea-db.org/id",
+            "localName": "id",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 80328
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains11",
+            "localName": "contains11",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 15,
+            "tripleCount": 15
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains10",
+            "localName": "contains10",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://ldf.fi/void-ext#distinctIRIReferenceObjects",
+            "localName": "distinctIRIReferenceObjects",
+            "maxCardinality": 1,
+            "namespace": "http://ldf.fi/void-ext#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Axiom",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 15956
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Axiom",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 15956,
+                    "tripleCount": 15956
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 15956
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#annotatedSource",
+            "localName": "annotatedSource",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 15956,
+            "tripleCount": 15956
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 13426
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/chebi",
+            "localName": "chebi",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 13426,
+            "tripleCount": 13426
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Restriction",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 100307
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 274744
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 12
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 375051,
+                    "tripleCount": 375051
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 288170
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Restriction",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 100307
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 178138
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 680296,
+            "tripleCount": 680296
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 197619,
+                    "tripleCount": 197619
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.geneontology.org/formats/oboInOwl#inSubset",
+            "localName": "inSubset",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+            "objectTripleCount": 197619,
+            "tripleCount": 197619
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/citation",
+            "localName": "citation",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 140368,
+            "tripleCount": 140368
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains19",
+            "localName": "contains19",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 15471,
+                    "tripleCountBase": 15471
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 15471,
+            "fullName": "http://rdf.rhea-db.org/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 15471
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains18",
+            "localName": "contains18",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 17,
+                    "tripleCountBase": 17
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+                    "dataTripleCount": 17,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+                    "dataTripleCount": 17,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 17,
+            "fullName": "http://www.w3.org/ns/shacl#select",
+            "localName": "select",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains17",
+            "localName": "contains17",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains16",
+            "localName": "contains16",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 14,
+            "tripleCount": 14
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains26",
+            "localName": "contains26",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 32820,
+                    "tripleCountBase": 32820
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 32820,
+            "fullName": "http://rdf.rhea-db.org/curatedOrder",
+            "localName": "curatedOrder",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 32820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains24",
+            "localName": "contains24",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains22",
+            "localName": "contains22",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains21",
+            "localName": "contains21",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 67,
+                    "tripleCountBase": 67
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 67,
+            "fullName": "http://www.w3.org/ns/shacl#prefix",
+            "localName": "prefix",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 67
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains20",
+            "localName": "contains20",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 5,
+                    "tripleCountBase": 5
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5,
+            "fullName": "http://ldf.fi/void-ext#distinctLiterals",
+            "localName": "distinctLiterals",
+            "maxCardinality": 1,
+            "namespace": "http://ldf.fi/void-ext#",
+            "objectTripleCount": 0,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 127,
+                    "tripleCount": 127
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#propertyPartition",
+            "localName": "propertyPartition",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 182,
+            "tripleCount": 182
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 15471,
+                    "tripleCountBase": 15471
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 15471,
+            "fullName": "http://rdf.rhea-db.org/htmlName",
+            "localName": "htmlName",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 15471
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/pav/version",
+            "localName": "version",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/pav/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "localName": "resultFormat",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 7,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains",
+            "localName": "contains",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 79786,
+            "tripleCount": 79786
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 23719,
+            "tripleCount": 23719
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains28",
+            "localName": "contains28",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 31,
+                    "tripleCountBase": 31
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 31,
+            "fullName": "http://rdf.rhea-db.org/coefficient",
+            "localName": "coefficient",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 31
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains27",
+            "localName": "contains27",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 197619,
+                    "tripleCount": 197619
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Restriction",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 100307,
+                    "tripleCount": 100307
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Axiom",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15956,
+                    "tripleCount": 15956
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 34,
+                    "tripleCount": 34
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 26,
+                    "tripleCount": 26
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11,
+                    "tripleCount": 11
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 34,
+                    "tripleCount": 34
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 313993,
+            "tripleCount": 313993
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains32",
+            "localName": "contains32",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#imports",
+            "localName": "imports",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/containsNplus1",
+            "localName": "containsNplus1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 5,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 374198,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 374198
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Axiom",
+                    "dataTripleCount": 15956,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15956
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 390154,
+            "fullName": "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+            "localName": "hasDbXref",
+            "maxCardinality": -1,
+            "namespace": "http://www.geneontology.org/formats/oboInOwl#",
+            "objectTripleCount": 0,
+            "tripleCount": 390154
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/containsN",
+            "localName": "containsN",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 166,
+            "tripleCount": 166
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 449,
+                    "tripleCountBase": 449
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 449,
+            "fullName": "http://rdf.rhea-db.org/position",
+            "localName": "position",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 449
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Axiom",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 15956,
+                    "tripleCount": 15956
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#annotatedProperty",
+            "localName": "annotatedProperty",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 15956,
+            "tripleCount": 15956
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 67,
+                    "tripleCount": 67
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#declare",
+            "localName": "declare",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 67,
+            "tripleCount": 67
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 10779,
+                    "tripleCountBase": 10794
+                },
+                {
+                    "dataType": "rdf:html",
+                    "tripleCount": 10,
+                    "tripleCountBase": 10794
+                },
+                {
+                    "dataType": "rdf:HTML",
+                    "tripleCount": 5,
+                    "tripleCountBase": 10794
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLExecutable",
+                    "dataTripleCount": 17,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#SPARQLSelectExecutable",
+                    "dataTripleCount": 17,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10794,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 10794
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:long",
+                    "tripleCount": 187,
+                    "tripleCountBase": 187
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 187,
+            "fullName": "http://rdfs.org/ns/void#triples",
+            "localName": "triples",
+            "maxCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 0,
+            "tripleCount": 187
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/bidirectionalReaction",
+            "localName": "bidirectionalReaction",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 16685,
+            "tripleCount": 16685
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 185879,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 185879
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 185879,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/charge",
+            "localName": "charge",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 185879
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/products",
+            "localName": "products",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 32820,
+            "tripleCount": 32820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains40",
+            "localName": "contains40",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdf.rhea-db.org/contains2n",
+            "localName": "contains2n",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 11,
+            "tripleCount": 11
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Restriction",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4008
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Restriction",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 91608
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Restriction",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 100307,
+                    "tripleCount": 100307
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 91608
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#TransitiveProperty",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4008
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#onProperty",
+            "localName": "onProperty",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 100307,
+            "tripleCount": 100307
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 14,
+                    "tripleCount": 14
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#classPartition",
+            "localName": "classPartition",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 29,
+            "tripleCount": 29
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "TargetClass": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Graph",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "localName": "defaultGraph",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 26
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 17
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#property",
+            "localName": "property",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 182,
+            "tripleCount": 182
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#class",
+            "localName": "class",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 29,
+            "tripleCount": 29
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 65640,
+                    "tripleCountBase": 65640
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 65640,
+            "fullName": "http://rdf.rhea-db.org/isChemicallyBalanced",
+            "localName": "isChemicallyBalanced",
+            "maxCardinality": 1,
+            "namespace": "http://rdf.rhea-db.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 65640
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/primaryTopicOf",
+            "localName": "primaryTopicOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "TargetClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "localName": "endpoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://rdf.rhea-db.org/"
+}

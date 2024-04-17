@@ -1,0 +1,1345 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.org/ns/void#Dataset",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://rdfs.org/ns/void#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#NodeShape",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "NodeShape",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Capital",
+            "incomingTripleCount": 246,
+            "instanceCount": 201,
+            "isLiteral": false,
+            "localName": "Capital",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.opengis.net/ont/geosparql#Geometry",
+            "incomingTripleCount": 447,
+            "instanceCount": 447,
+            "isLiteral": false,
+            "localName": "Geometry",
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/CountrySlice",
+            "incomingTripleCount": 246,
+            "instanceCount": 246,
+            "isLiteral": false,
+            "localName": "CountrySlice",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Country",
+            "instanceCount": 207,
+            "isLiteral": false,
+            "localName": "Country",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "1656886785574834014",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/nlgis/cshapes/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n7"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 246,
+                    "tripleCountBase": 246
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 246,
+            "fullName": "https://iisg.amsterdam/vocab/isoName",
+            "localName": "isoName",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://xmlns.com/foaf/0.1/page",
+            "localName": "page",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#path",
+            "localName": "path",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 4,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/shacl#closed",
+            "localName": "closed",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Capital",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 201
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "TargetClass": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 246
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 246,
+                    "tripleCount": 246
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Capital",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 201,
+                    "tripleCount": 201
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 447
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 447,
+            "tripleCount": 447
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/elements/1.1/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Capital",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 246
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 246,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Capital",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 246
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/capital",
+            "localName": "capital",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 246,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 245,
+                    "tripleCountBase": 245
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 245,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 245
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 245,
+            "fullName": "https://iisg.amsterdam/vocab/cowCode",
+            "localName": "cowCode",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 245
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Country",
+                    "TargetClass": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 246
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Country",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 246,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 246
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/hasTemporalSlice",
+            "localName": "hasTemporalSlice",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 246,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 246,
+                    "tripleCountBase": 246
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 246,
+            "fullName": "https://iisg.amsterdam/vocab/cowEnd",
+            "localName": "cowEnd",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 248,
+                    "tripleCountBase": 248
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 248,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 248
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 248,
+            "fullName": "https://iisg.amsterdam/vocab/gwEnd",
+            "localName": "gwEnd",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 248
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/elements/1.1/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/ns/shacl#maxCount",
+            "localName": "maxCount",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 14,
+                    "tripleCountBase": 14
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 14,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 14
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 4,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/shacl#minCount",
+            "localName": "minCount",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:positiveInteger",
+                    "tripleCount": 222,
+                    "tripleCountBase": 222
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 222,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 222
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 222,
+            "fullName": "https://iisg.amsterdam/vocab/isoNumber",
+            "localName": "isoNumber",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 222
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 456,
+                    "tripleCountBase": 456
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "dataTripleCount": 456,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 456
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 456,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": -1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 456
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/elements/1.1/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 255,
+                    "tripleCountBase": 255
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 255,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 255
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 255,
+            "fullName": "https://iisg.amsterdam/vocab/area",
+            "localName": "area",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 255
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#class",
+            "localName": "class",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#subset",
+            "localName": "subset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 246,
+                    "tripleCountBase": 246
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 246,
+            "fullName": "https://iisg.amsterdam/vocab/isoAlpha3",
+            "localName": "isoAlpha3",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 246,
+                    "tripleCountBase": 246
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 246,
+            "fullName": "https://iisg.amsterdam/vocab/isoAlpha2",
+            "localName": "isoAlpha2",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#datatype",
+            "localName": "datatype",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 14,
+            "tripleCount": 14
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/elements/1.1/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#ignoredProperties",
+            "localName": "ignoredProperties",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#targetClass",
+            "localName": "targetClass",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 241,
+                    "tripleCountBase": 241
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 241,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 241
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 241,
+            "fullName": "https://iisg.amsterdam/vocab/gwCode",
+            "localName": "gwCode",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 241
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 675,
+                    "tripleCountBase": 675
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Country",
+                    "dataTripleCount": 207,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 207
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Capital",
+                    "dataTripleCount": 201,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 201
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 675,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 675
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#nodeKind",
+            "localName": "nodeKind",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 18,
+                    "tripleCount": 18
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#property",
+            "localName": "property",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 246,
+                    "tripleCountBase": 246
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 246,
+            "fullName": "https://iisg.amsterdam/vocab/cowStart",
+            "localName": "cowStart",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 248,
+                    "tripleCountBase": 248
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 248,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 248
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 248,
+            "fullName": "https://iisg.amsterdam/vocab/gwStart",
+            "localName": "gwStart",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 248
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.opengis.net/ont/geosparql#Geometry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 447,
+                    "tripleCount": 447
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/CountrySlice",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 246,
+                    "tripleCount": 246
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Country",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 207,
+                    "tripleCount": 207
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Capital",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 201,
+                    "tripleCount": 201
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1106,
+            "tripleCount": 1106
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "https://iisg.amsterdam/vocab/"
+}

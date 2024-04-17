@@ -1,0 +1,4540 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "BusinessEntity",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+            "incomingTripleCount": 3,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "TypeAndQuantityNode",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder",
+            "incomingTripleCount": 3,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "ProductOrServicesSomeInstancesPlaceholder",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKJ315005-tax",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "C_AKJ315005-tax",
+            "namespace": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#Manufacturer",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Manufacturer",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#DataService",
+            "incomingTripleCount": 32,
+            "instanceCount": 32,
+            "isLiteral": false,
+            "localName": "DataService",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#work",
+            "incomingTripleCount": 8,
+            "instanceCount": 8,
+            "isLiteral": false,
+            "localName": "work",
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+            "incomingTripleCount": 2,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "InverseFunctionalProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.openlinksw.com/schemas/VSPX#",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "",
+            "namespace": "http://www.openlinksw.com/schemas/VSPX#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "OntologyProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+            "incomingTripleCount": 5,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "ActualProductOrServicesInstance",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Distribution",
+            "incomingTripleCount": 174,
+            "instanceCount": 174,
+            "isLiteral": false,
+            "localName": "Distribution",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AAB316003-tax",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "C_AAB316003-tax",
+            "namespace": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "C_AKE112003-tax",
+            "namespace": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#internet",
+            "incomingTripleCount": 8,
+            "instanceCount": 8,
+            "isLiteral": false,
+            "localName": "internet",
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "incomingTripleCount": 364,
+            "instanceCount": 56,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+            "incomingTripleCount": 7,
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "AnnotationProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "incomingTripleCount": 2,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#inverseFunctionalProperty",
+            "incomingTripleCount": 11,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "inverseFunctionalProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Catalog",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Catalog",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+            "incomingTripleCount": 174,
+            "instanceCount": 174,
+            "isLiteral": false,
+            "localName": "Specifikace",
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Concept",
+            "instanceCount": 247,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "incomingTripleCount": 1,
+            "instanceCount": 170,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 17,
+            "instanceCount": 6,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#Offering",
+            "incomingTripleCount": 3,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "Offering",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+            "incomingTripleCount": 3,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "LocationOfSalesOrServiceProvisioning",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Dataset",
+            "incomingTripleCount": 64,
+            "instanceCount": 32,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+            "incomingTripleCount": 15,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "ProductOrServiceSomeInstancePlaceholder",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2001/vcard-rdf/3.0#work"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#voice",
+            "incomingTripleCount": 8,
+            "instanceCount": 8,
+            "isLiteral": false,
+            "localName": "voice",
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Service",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "incomingTripleCount": 247,
+            "instanceCount": 14,
+            "isLiteral": false,
+            "localName": "ConceptScheme",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+            "incomingTripleCount": 9,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "PriceSpecification",
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2006/vcard/ns#Organization",
+            "incomingTripleCount": 32,
+            "instanceCount": 32,
+            "isLiteral": false,
+            "localName": "Organization",
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "2233509397926654229",
+        "enableLogging": true,
+        "endpointUrl": "https://data.mvcr.gov.cz/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.openlinksw.com/schemas/VSPX#",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "prefix": "n14"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 142,
+                    "tripleCount": 142
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#downloadURL",
+            "localName": "downloadURL",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 142,
+            "tripleCount": 142
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 14,
+                    "tripleCount": 14
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/page",
+            "localName": "page",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 14,
+            "tripleCount": 14
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6,
+            "fullName": "http://www.w3.org/2004/02/skos/core#note",
+            "localName": "note",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/goodrelations/v1#hasUnitOfMeasurement",
+            "localName": "hasUnitOfMeasurement",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/spatial",
+            "localName": "spatial",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 33,
+            "tripleCount": 33
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Organization",
+                    "dataTripleCount": 32,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 32,
+            "fullName": "http://www.w3.org/2006/vcard/ns#fn",
+            "localName": "fn",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "objectTripleCount": 0,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://www.w3.org/2006/vcard/ns#Organization",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Organization",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 32
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#contactPoint",
+            "localName": "contactPoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 9,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#eligibleCustomerTypes",
+            "localName": "eligibleCustomerTypes",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 9,
+            "tripleCount": 9
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Manufacturer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "localName": "equivalentClass",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 65,
+            "tripleCount": 65
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 32
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#dataset",
+            "localName": "dataset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#hasPriceSpecification",
+            "localName": "hasPriceSpecification",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 139,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 139
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 139,
+            "fullName": "http://www.w3.org/ns/dcat#keyword",
+            "localName": "keyword",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 139
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+            "localName": "isDefinedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#availableDeliveryMethods",
+            "localName": "availableDeliveryMethods",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#Street",
+            "localName": "Street",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-chr\u00e1n\u011bn\u00e1-zvl\u00e1\u0161tn\u00edmi-pr\u00e1vy",
+            "localName": "datab\u00e1ze-chr\u00e1n\u011bn\u00e1-zvl\u00e1\u0161tn\u00edmi-pr\u00e1vy",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#priorVersion",
+            "localName": "priorVersion",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "TargetClass": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 174
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 174
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/specifikace",
+            "localName": "specifikace",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/goodrelations/v1#validThrough",
+            "localName": "validThrough",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#ADR",
+            "localName": "ADR",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#feature",
+            "localName": "feature",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#unionOf",
+            "localName": "unionOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 142,
+                    "tripleCount": 142
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#mediaType",
+            "localName": "mediaType",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 142,
+            "tripleCount": 142
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2002/07/owl#versionInfo",
+            "localName": "versionInfo",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/homepage",
+            "localName": "homepage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "TargetClass": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+            "localName": "BusinessEntity",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "TargetClass": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKJ315005-tax",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "TargetClass": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AAB316003-tax",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "TargetClass": "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                },
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "TargetClass": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKJ315005-tax",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AAB316003-tax",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#typeOfGood",
+            "localName": "typeOfGood",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#themeTaxonomy",
+            "localName": "themeTaxonomy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/maker",
+            "localName": "maker",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 738,
+                    "tripleCountBase": 738
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 738,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 738
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 738,
+            "fullName": "http://purl.org/goodrelations/v1#eligibleRegions",
+            "localName": "eligibleRegions",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 738
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+            "localName": "ownerUser",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "objectTripleCount": 1159,
+            "tripleCount": 1159
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#availableAtOrFrom",
+            "localName": "availableAtOrFrom",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#endpointURL",
+            "localName": "endpointURL",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.openlinksw.com/schemas/VSPX#pageId",
+            "localName": "pageId",
+            "maxCardinality": 1,
+            "namespace": "http://www.openlinksw.com/schemas/VSPX#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 1159,
+                    "tripleCountBase": 1159
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1159,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1159
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 44,
+                    "tripleCount": 44
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#inverseFunctionalProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 9
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 482,
+            "tripleCount": 482
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/logo",
+            "localName": "logo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 247,
+                    "tripleCountBase": 247
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 247,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 247
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 247,
+            "fullName": "http://www.w3.org/2004/02/skos/core#notation",
+            "localName": "notation",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 247
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/language",
+            "localName": "language",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#includes",
+            "localName": "includes",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "localName": "supportedLanguage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "TargetClass": "http://purl.org/goodrelations/v1#Offering",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#offers",
+            "localName": "offers",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 142,
+                    "tripleCount": 142
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/format",
+            "localName": "format",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 142,
+            "tripleCount": 142
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 1122,
+                    "tripleCountBase": 1122
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1122,
+            "fullName": "http://purl.org/dc/terms/extent",
+            "localName": "extent",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1122
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 230,
+                    "tripleCountBase": 230
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 170,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 170
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 56,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 56
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 230,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 230
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 285,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 285
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "dataTripleCount": 61,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 61
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 32,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 379,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 379
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 474,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 474
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 26,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 26
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 500,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 500
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:float",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/goodrelations/v1#amountOfThisGood",
+            "localName": "amountOfThisGood",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#internet",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#EMAIL",
+            "localName": "EMAIL",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 16,
+                    "tripleCountBase": 16
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#work",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#internet",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#voice",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+            "localName": "value",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 0,
+            "tripleCount": 16
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 32,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 33,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 33
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.openlinksw.com/schemas/VSPX#title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://www.openlinksw.com/schemas/VSPX#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 247
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 247,
+                    "tripleCount": 247
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 247
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "localName": "inScheme",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 247,
+            "tripleCount": 247
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#isDescribedUsing",
+            "localName": "isDescribedUsing",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 32
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 49,
+                    "tripleCount": 49
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 32
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 78,
+            "tripleCount": 78
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/goodrelations/v1#Offering",
+                    "TargetClass": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#includesObject",
+            "localName": "includesObject",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 30,
+                    "tripleCount": 30
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/conformsTo",
+            "localName": "conformsTo",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 90,
+            "tripleCount": 90
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 45
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 167,
+                    "tripleCount": 167
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 45
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 167,
+            "tripleCount": 167
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#inverseFunctionalProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentProperty",
+            "localName": "equivalentProperty",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 194,
+            "tripleCount": 194
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#Pcode",
+            "localName": "Pcode",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#accessURL",
+            "localName": "accessURL",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 33,
+            "tripleCount": 33
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 18,
+                    "tripleCount": 18
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#acceptedPaymentMethods",
+            "localName": "acceptedPaymentMethods",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "localName": "resultFormat",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#Country",
+            "localName": "Country",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 5,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 5,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 247,
+                    "tripleCount": 247
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 175,
+                    "tripleCount": 175
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                },
+                {
+                    "classFullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#work",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 14,
+                    "tripleCount": 14
+                },
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#internet",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#inverseFunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 17,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 18,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 19,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 20,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 21,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 22,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 23,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#LocationOfSalesOrServiceProvisioning",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 24,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Manufacturer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 25,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 26,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 27,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 59,
+                    "tripleCount": 59
+                },
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#voice",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKJ315005-tax",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AAB316003-tax",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 20
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1270,
+            "tripleCount": 1270
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.openlinksw.com/schemas/VSPX#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "namespace": "http://www.openlinksw.com/schemas/VSPX#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 5,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 5
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#complementOf",
+            "localName": "complementOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 5,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2006/vcard/ns#hasEmail",
+            "localName": "hasEmail",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#imports",
+            "localName": "imports",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#City",
+            "localName": "City",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+            "localName": "datab\u00e1ze-jako-autorsk\u00e9-d\u00edlo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#endpointDescription",
+            "localName": "endpointDescription",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "TargetClass": "http://www.w3.org/ns/dcat#DataService",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 32
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#accessService",
+            "localName": "accessService",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/goodrelations/v1#hasBusinessFunction",
+            "localName": "hasBusinessFunction",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 6,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 56,
+                    "tripleCountBase": 56
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#TypeAndQuantityNode",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServicesSomeInstancesPlaceholder",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 41,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 41
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKJ315005-tax",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AAB316003-tax",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#C_AKE112003-tax",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 56,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 56
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+            "localName": "_5",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+            "localName": "_3",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#Offering",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/goodrelations/v1#validFrom",
+            "localName": "validFrom",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+            "localName": "_4",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+            "localName": "_1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 66,
+            "tripleCount": 66
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/osobn\u00ed-\u00fadaje",
+            "localName": "osobn\u00ed-\u00fadaje",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+            "localName": "_2",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#work",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.w3.org/2001/vcard-rdf/3.0#voice",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2001/vcard-rdf/3.0#TEL",
+            "localName": "TEL",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2001/vcard-rdf/3.0#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#BusinessEntity",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/goodrelations/v1#legalName",
+            "localName": "legalName",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/goodrelations/v1#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#DataService",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#DataService",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 32
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#servesDataset",
+            "localName": "servesDataset",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/accrualPeriodicity",
+            "localName": "accrualPeriodicity",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/Specifikace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/autorsk\u00e9-d\u00edlo",
+            "localName": "autorsk\u00e9-d\u00edlo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://data.gov.cz/slovn\u00edk/podm\u00ednky-u\u017eit\u00ed/",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 262
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 13
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 6
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 4,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 279,
+                    "tripleCount": 279
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ProductOrServiceSomeInstancePlaceholder",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 13
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#PriceSpecification",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://purl.org/goodrelations/v1#ActualProductOrServicesInstance",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 262
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 279,
+            "tripleCount": 279
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 174
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 174,
+                    "tripleCount": 174
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 174
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#distribution",
+            "localName": "distribution",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 1159,
+                    "tripleCountBase": 1159
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.openlinksw.com/schemas/VSPX#",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1159,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1159
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 47,
+                    "tripleCount": 47
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#theme",
+            "localName": "theme",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 47,
+            "tripleCount": 47
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "localName": "endpoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/goodrelations/v1#"
+}

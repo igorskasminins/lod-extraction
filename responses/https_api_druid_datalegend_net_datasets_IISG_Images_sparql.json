@@ -1,0 +1,495 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+            "instanceCount": 17385,
+            "isLiteral": false,
+            "localName": "Description",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "2315971606072795422",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG/Images/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n5"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 16418,
+                    "tripleCountBase": 16418
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 16418,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16418
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16418,
+            "fullName": "http://purl.org/dc/elements/1.1/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 16418
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8994,
+                    "tripleCountBase": 8994
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 8994,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8994
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8994,
+            "fullName": "http://purl.org/dc/elements/1.1/description",
+            "localName": "description",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 8994
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 41149,
+                    "tripleCountBase": 41149
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 41149,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 41149
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 41149,
+            "fullName": "http://purl.org/dc/elements/1.1/subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 41149
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8344,
+                    "tripleCountBase": 10423
+                },
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 2079,
+                    "tripleCountBase": 10423
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 10423,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10423
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10423,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEndTimeStamp",
+            "localName": "hasEndTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 10423
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 17365,
+                    "tripleCountBase": 17365
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 17365,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17365
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 17365,
+            "fullName": "http://purl.org/dc/elements/1.1/rights",
+            "localName": "rights",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 17365
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 13,
+                    "tripleCountBase": 394
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 394,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 18359,
+                    "tripleCount": 18753
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 394,
+            "fullName": "http://purl.org/dc/elements/1.1/type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 18359,
+            "tripleCount": 18753
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 15540,
+                    "tripleCountBase": 18131
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 18131,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2308,
+                    "tripleCount": 20439
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 18131,
+            "fullName": "http://purl.org/dc/terms/spatial",
+            "localName": "spatial",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 2591,
+            "tripleCount": 20722
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4636,
+                    "tripleCount": 4636
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 4636,
+            "tripleCount": 4636
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 34770,
+                    "tripleCount": 34770
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#inDataset",
+            "localName": "inDataset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 34770,
+            "tripleCount": 34770
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 17385,
+                    "tripleCountBase": 17385
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 17385,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17385
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 17385,
+            "fullName": "http://purl.org/dc/elements/1.1/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 17385
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 17424,
+                    "tripleCount": 17424
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/depiction",
+            "localName": "depiction",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 17424,
+            "tripleCount": 17424
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8344,
+                    "tripleCountBase": 10423
+                },
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 2079,
+                    "tripleCountBase": 10423
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 10423,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10423
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10423,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasBeginTimeStamp",
+            "localName": "hasBeginTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 10423
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Description",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 17385,
+                    "tripleCount": 17385
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 17385,
+            "tripleCount": 17385
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/dc/elements/1.1/"
+}

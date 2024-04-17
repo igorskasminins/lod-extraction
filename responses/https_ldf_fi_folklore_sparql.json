@@ -1,0 +1,2869 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#runo",
+            "incomingTripleCount": 50,
+            "instanceCount": 52,
+            "isLiteral": false,
+            "localName": "runo",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 2529,
+            "instanceCount": 23,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "instanceCount": 7,
+            "isLiteral": false,
+            "localName": "DatatypeProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+            "incomingTripleCount": 3067,
+            "instanceCount": 104,
+            "isLiteral": false,
+            "localName": "kalevala_toimijat",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#tarina",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "tarina",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+            "incomingTripleCount": 1778,
+            "instanceCount": 49,
+            "isLiteral": false,
+            "localName": "annotationObjectClass",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+            "incomingTripleCount": 1,
+            "instanceCount": 8,
+            "isLiteral": false,
+            "localName": "annotationObjectInstance",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://yso.fi/tilanne#runoTilanne",
+            "incomingTripleCount": 2194,
+            "instanceCount": 2227,
+            "isLiteral": false,
+            "localName": "runoTilanne",
+            "namespace": "http://yso.fi/tilanne#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Collection",
+            "incomingTripleCount": 1,
+            "instanceCount": 181,
+            "isLiteral": false,
+            "localName": "Collection",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://yso.fi/YSO#kalevala",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "kalevala",
+            "namespace": "http://yso.fi/YSO#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Concept",
+            "incomingTripleCount": 91086,
+            "instanceCount": 26122,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+            "incomingTripleCount": 167,
+            "instanceCount": 79,
+            "isLiteral": false,
+            "localName": "DeprecatedConcept",
+            "namespace": "http://purl.org/finnonto/schema/skosext#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#placeRole",
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "placeRole",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+            "incomingTripleCount": 503,
+            "instanceCount": 24,
+            "isLiteral": false,
+            "localName": "annotationKalevalaPlace",
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/koko/p1489",
+            "incomingTripleCount": 2,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "p1489",
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "instanceCount": 17,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "incomingTripleCount": 26639,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "ConceptScheme",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "2385167287006817545",
+        "enableLogging": true,
+        "endpointUrl": "https://ldf.fi/folklore/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://yso.fi/YSO#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://purl.org/finnonto/schema/skosext#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://yso.fi/tilanne#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/yso-meta/2007-03-02/",
+            "prefix": "n11"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#placeRole",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#nimi",
+            "localName": "nimi",
+            "maxCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 269,
+                    "tripleCountBase": 13443
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 13174,
+                    "tripleCountBase": 13443
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 13327,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 13327
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 81,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 81
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 31,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 31
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 56,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 56
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 13443,
+            "fullName": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "localName": "altLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 13443
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#instanceOf",
+            "localName": "instanceOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 26588
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 26588,
+                    "tripleCount": 26588
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 26588
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#related",
+            "localName": "related",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 26588,
+            "tripleCount": 26588
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 26735
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 26735,
+                    "tripleCount": 26735
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 26735
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 26735,
+            "tripleCount": 26735
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 909
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 8
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 909,
+                    "tripleCount": 909
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 909
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "localName": "narrowMatch",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 909,
+            "tripleCount": 909
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "TargetClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 79
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 517
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 517,
+                    "tripleCount": 517
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 517
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 79
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "localName": "hasTopConcept",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 517,
+            "tripleCount": 517
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 79
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 26122
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 26122,
+                    "tripleCount": 26122
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 79,
+                    "tripleCount": 79
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 26122
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "localName": "inScheme",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 26122,
+            "tripleCount": 26122
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#relatesToKalevalaActor",
+            "localName": "relatesToKalevalaActor",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "TargetClass": "http://yso.fi/tilanne#runoTilanne",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2194
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2194,
+                    "tripleCount": 2194
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2194
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#hasScene",
+            "localName": "hasScene",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 2194,
+            "tripleCount": 2194
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 10
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 10
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1270,
+                    "tripleCountBase": 2183
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 913,
+                    "tripleCountBase": 2183
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 2179,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2179
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 81,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 81
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2183,
+            "fullName": "http://www.w3.org/2004/02/skos/core#scopeNote",
+            "localName": "scopeNote",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 2183
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1363,
+                    "tripleCountBase": 1406
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 43,
+                    "tripleCountBase": 1406
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 1392,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1392
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 9,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 14,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1406,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1406
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 35
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 36,
+                    "tripleCount": 36
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 35
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 36,
+            "tripleCount": 36
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 292
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 292,
+                    "tripleCount": 292
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 292
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/finnonto/schema/skosext#partOf",
+            "localName": "partOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/finnonto/schema/skosext#",
+            "objectTripleCount": 292,
+            "tripleCount": 292
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 18
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 18,
+                    "tripleCount": 18
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 18
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 26735
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 26735,
+                    "tripleCount": 26735
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 26735
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrower",
+            "localName": "narrower",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 26735,
+            "tripleCount": 26735
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 50
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 50,
+                    "tripleCount": 50
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 50
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://yso.fi/YSO#partitiveRelationInstance",
+            "localName": "partitiveRelationInstance",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://yso.fi/YSO#",
+            "objectTripleCount": 50,
+            "tripleCount": 50
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 77
+                },
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 77
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 77,
+                    "tripleCount": 77
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 77,
+                    "tripleCount": 77
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 77
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "localName": "broadMatch",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 77,
+            "tripleCount": 77
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 79
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 517
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 517,
+                    "tripleCount": 517
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 79,
+                    "tripleCount": 79
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 517
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "localName": "topConceptOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 517,
+            "tripleCount": 517
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2218,
+                    "tripleCountBase": 2218
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 2218,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2218
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2218,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#poemEndRow",
+            "localName": "poemEndRow",
+            "maxCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 0,
+            "tripleCount": 2218
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 106,
+                    "tripleCount": 106
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 42,
+                    "tripleCount": 42
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#tietolahde",
+            "localName": "tietolahde",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 148,
+            "tripleCount": 148
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 79,
+                    "tripleCountBase": 79
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 79,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 79
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 79,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 79
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 79,
+            "fullName": "http://www.w3.org/2002/07/owl#deprecated",
+            "localName": "deprecated",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 79
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1291
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "TargetClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 79
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1291,
+                    "tripleCount": 1291
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1291
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 79
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#member",
+            "localName": "member",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 1291,
+            "tripleCount": 1291
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 44
+                },
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 42
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 44,
+                    "tripleCount": 44
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 42,
+                    "tripleCount": 42
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 44
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/isReplacedBy",
+            "localName": "isReplacedBy",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 44,
+            "tripleCount": 44
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 19
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 19,
+                    "tripleCount": 19
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11,
+                    "tripleCount": 11
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 29
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 30,
+            "tripleCount": 30
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 48083,
+                    "tripleCount": 48083
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 100,
+                    "tripleCount": 100
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "localName": "closeMatch",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 48083,
+            "tripleCount": 48083
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 24,
+                    "tripleCountBase": 24
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 18,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 24,
+            "fullName": "http://purl.org/dc/elements/1.1/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2219,
+                    "tripleCountBase": 2219
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 2219,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2219
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2219,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#poemStartRow",
+            "localName": "poemStartRow",
+            "maxCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 0,
+            "tripleCount": 2219
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.yso.fi/onto/yso-meta/2007-03-02/deprecatedSuperClassOf",
+            "localName": "deprecatedSuperClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.yso.fi/onto/yso-meta/2007-03-02/",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://yso.fi/tilanne#runoTilanne",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 4,
+                    "tripleCount": 474
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://yso.fi/tilanne#runoTilanne",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7561
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 4,
+                    "tripleCount": 11
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 132
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 29
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 255
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "TargetClass": "http://www.yso.fi/onto/koko/p1489",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://yso.fi/tilanne#runoTilanne",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 1767
+                },
+                {
+                    "SourceClass": "http://yso.fi/tilanne#runoTilanne",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 5,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://yso.fi/tilanne#runoTilanne",
+                    "TargetClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 2933
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 13768,
+                    "tripleCount": 13768
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 459,
+                    "tripleCount": 459
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53,
+                    "tripleCount": 53
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 46,
+                    "tripleCount": 46
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 7826
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 3065
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 1778
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "tripleCount": 503
+                },
+                {
+                    "classFullName": "http://www.yso.fi/onto/koko/p1489",
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://yso.fi/tilanne#elementtiInstance",
+            "localName": "elementtiInstance",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://yso.fi/tilanne#",
+            "objectTripleCount": 14326,
+            "tripleCount": 14326
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2473,
+                    "tripleCountBase": 2557
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 84,
+                    "tripleCountBase": 2557
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 2227,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2227
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 104,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 104
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "dataTripleCount": 52,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 52
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "dataTripleCount": 49,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 49
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 40,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 40
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 31,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 31
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 24,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 14,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#placeRole",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.yso.fi/onto/koko/p1489",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://yso.fi/YSO#kalevala",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2557,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 2557
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 99,
+                    "tripleCountBase": 99
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 70,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 70
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 21,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 7,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 99,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 0,
+            "tripleCount": 99
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#unionOf",
+            "localName": "unionOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32
+                },
+                {
+                    "SourceClass": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 32,
+                    "tripleCount": 32
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 32
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+            "localName": "relatedMatch",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 32,
+            "tripleCount": 32
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1548,
+                    "tripleCountBase": 1708
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 160,
+                    "tripleCountBase": 1708
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 1708,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1708
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1708,
+            "fullName": "http://purl.org/dc/elements/1.1/source",
+            "localName": "source",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1708
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2002/07/owl#versionInfo",
+            "localName": "versionInfo",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#placeRole",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 7,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 5,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 24
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 52
+                },
+                {
+                    "SourceClass": "http://yso.fi/tilanne#runoTilanne",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2227
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 49
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 8,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 6,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 104
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 26201,
+                    "tripleCount": 26201
+                },
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2227,
+                    "tripleCount": 2227
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 181,
+                    "tripleCount": 181
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 104,
+                    "tripleCount": 104
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 52,
+                    "tripleCount": 52
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 49,
+                    "tripleCount": 49
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 23,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 17,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#placeRole",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.yso.fi/onto/koko/p1489",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://yso.fi/YSO#kalevala",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 158,
+                    "tripleCount": 158
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2468
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 28903,
+            "tripleCount": 28903
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2465,
+                    "tripleCountBase": 76930
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 74465,
+                    "tripleCountBase": 76930
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 74245,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 74245
+                },
+                {
+                    "classFullName": "http://yso.fi/tilanne#runoTilanne",
+                    "dataTripleCount": 2227,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2227
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 220,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 220
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#kalevala_toimijat",
+                    "dataTripleCount": 104,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 104
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#runo",
+                    "dataTripleCount": 52,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 52
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectClass",
+                    "dataTripleCount": 49,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 49
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationKalevalaPlace",
+                    "dataTripleCount": 24,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#annotationObjectInstance",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://kulttuurisampo.fi/annotaatio#tarina",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/finnonto/schema/skosext#DeprecatedConcept",
+                    "dataTripleCount": 217,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 217
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 76930,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 76930
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+}

@@ -1,0 +1,2734 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Period",
+            "incomingTripleCount": 91,
+            "instanceCount": 91,
+            "isLiteral": false,
+            "localName": "Period",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Person",
+            "incomingTripleCount": 1131,
+            "instanceCount": 1131,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/ns/dcat#Dataset"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Dataset",
+            "incomingTripleCount": 608,
+            "instanceCount": 304,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Dataset",
+            "incomingTripleCount": 608,
+            "instanceCount": 304,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "https://iisg.amsterdam/vocab/Dataverse"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Catalog",
+            "incomingTripleCount": 55,
+            "instanceCount": 58,
+            "isLiteral": false,
+            "localName": "Catalog",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Dataverse",
+            "incomingTripleCount": 55,
+            "instanceCount": 58,
+            "isLiteral": false,
+            "localName": "Dataverse",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "https://iisg.amsterdam/vocab/File"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Distribution",
+            "incomingTripleCount": 2198,
+            "instanceCount": 1099,
+            "isLiteral": false,
+            "localName": "Distribution",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/File",
+            "incomingTripleCount": 2198,
+            "instanceCount": 1099,
+            "isLiteral": false,
+            "localName": "File",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "905385305621133908",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG/sicada/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://schema.org/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n5"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 303
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 303
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 303,
+                    "tripleCount": 303
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 303,
+                    "tripleCount": 303
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 303
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/depositor",
+            "localName": "depositor",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 303,
+            "tripleCount": 303
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5,
+                    "tripleCountBase": 5
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5,
+            "fullName": "http://schema.org/alternateName",
+            "localName": "alternateName",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 5
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1099,
+                    "tripleCountBase": 1099
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1099,
+            "fullName": "http://www.w3.org/ns/dcat#downloadURL",
+            "localName": "downloadURL",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 1099
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 76,
+                    "tripleCountBase": 76
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 76,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 76,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 76
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 76,
+            "fullName": "https://iisg.amsterdam/vocab/contactEmail",
+            "localName": "contactEmail",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 76
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 602,
+                    "tripleCountBase": 602
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 602,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 602
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 602,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 602
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 602,
+            "fullName": "http://schema.org/keywords",
+            "localName": "keywords",
+            "maxCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 602
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 566,
+                    "tripleCountBase": 634
+                },
+                {
+                    "dataType": "rdf:HTML",
+                    "tripleCount": 68,
+                    "tripleCountBase": 634
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 288,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 288
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 42,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 42
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 288,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 288
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 42,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 42
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 634,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 634
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 362,
+                    "tripleCountBase": 362
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 362,
+            "fullName": "http://schema.org/dateCreated",
+            "localName": "dateCreated",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 362
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1403,
+                    "tripleCountBase": 1403
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1403,
+            "fullName": "http://schema.org/url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1403
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 64,
+                    "tripleCountBase": 64
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 64,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 64
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 64,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 64
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 64,
+            "fullName": "https://iisg.amsterdam/vocab/publicationCitation",
+            "localName": "publicationCitation",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 64
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 314,
+                    "tripleCountBase": 314
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 314,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 314
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 314,
+            "fullName": "http://schema.org/email",
+            "localName": "email",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 314
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 314
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 314
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 324,
+                    "tripleCount": 324
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 324,
+                    "tripleCount": 324
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 314
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/datasetContact",
+            "localName": "datasetContact",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 324,
+            "tripleCount": 324
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 196,
+                    "tripleCountBase": 196
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 196,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 196
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 196,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 196
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 196,
+            "fullName": "https://iisg.amsterdam/vocab/country",
+            "localName": "country",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 196
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 23,
+                    "tripleCountBase": 23
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 23,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 23,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 23
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 23,
+            "fullName": "https://iisg.amsterdam/vocab/continent",
+            "localName": "continent",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 23
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://schema.org/Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "TargetClass": "http://schema.org/Dataset",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 304,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 304,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 304
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#dataset",
+            "localName": "dataset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 304,
+            "tripleCount": 304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 36,
+                    "tripleCountBase": 36
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 36,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 36
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 36,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 36
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 36,
+            "fullName": "https://iisg.amsterdam/vocab/kindOfData",
+            "localName": "kindOfData",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 36
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://schema.org/Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "TargetClass": "http://schema.org/Dataset",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 55
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 55
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 55
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Dataverse",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 55
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 359,
+                    "tripleCount": 359
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 359,
+                    "tripleCount": 359
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 55
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 55
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/hasPart",
+            "localName": "hasPart",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 359,
+            "tripleCount": 359
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 602,
+                    "tripleCountBase": 602
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 602,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 602
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 602,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 602
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 602,
+            "fullName": "http://www.w3.org/ns/dcat#keyword",
+            "localName": "keyword",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 602
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 415,
+                    "tripleCountBase": 415
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 415,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 415,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 415,
+            "fullName": "https://iisg.amsterdam/vocab/originalFormatLabel",
+            "localName": "originalFormatLabel",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 415
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:polygon",
+                    "tripleCount": 114,
+                    "tripleCountBase": 114
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 114,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 114
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 114,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 114
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 114,
+            "fullName": "https://iisg.amsterdam/vocab/boundingBox",
+            "localName": "boundingBox",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 114
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1099
+                },
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/File",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1099
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/File",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1099
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1099,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1099,
+                    "tripleCount": 1099
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1099
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/hasFile",
+            "localName": "hasFile",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 1099,
+            "tripleCount": 1099
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 566,
+                    "tripleCountBase": 634
+                },
+                {
+                    "dataType": "rdf:HTML",
+                    "tripleCount": 68,
+                    "tripleCountBase": 634
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 288,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 288
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 42,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 42
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 288,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 288
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 42,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 42
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 634,
+            "fullName": "http://schema.org/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 634
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 304,
+                    "tripleCountBase": 304
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 304,
+            "fullName": "http://schema.org/datePublished",
+            "localName": "datePublished",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1099,
+                    "tripleCountBase": 1099
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1099,
+            "fullName": "http://www.w3.org/ns/dcat#mediaType",
+            "localName": "mediaType",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 1099
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2198,
+                    "tripleCount": 2198
+                },
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1131,
+                    "tripleCount": 1131
+                },
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 608,
+                    "tripleCount": 608
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 116,
+                    "tripleCount": 116
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Period",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 91,
+                    "tripleCount": 91
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2198,
+                    "tripleCount": 2198
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 608,
+                    "tripleCount": 608
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 116,
+                    "tripleCount": 116
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 4144,
+            "tripleCount": 4144
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 304,
+                    "tripleCountBase": 304
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 304,
+            "fullName": "http://schema.org/dateModified",
+            "localName": "dateModified",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1099,
+                    "tripleCountBase": 1099
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1099,
+            "fullName": "https://iisg.amsterdam/vocab/md5",
+            "localName": "md5",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 1099
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 512,
+                    "tripleCountBase": 512
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 512,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 512
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 512,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 512
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 512,
+            "fullName": "http://schema.org/about",
+            "localName": "about",
+            "maxCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 512
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 89,
+                    "tripleCountBase": 89
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 89,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 89
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 89,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 89
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 89,
+            "fullName": "https://iisg.amsterdam/vocab/note",
+            "localName": "note",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 89
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 25,
+                    "tripleCountBase": 25
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 25,
+            "fullName": "http://schema.org/inLanguage",
+            "localName": "inLanguage",
+            "maxCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1099,
+                    "tripleCountBase": 1099
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1099,
+            "fullName": "http://schema.org/contentType",
+            "localName": "contentType",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1099
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2592,
+                    "tripleCountBase": 2592
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 1131,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1131
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2592,
+            "fullName": "http://schema.org/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 2592
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1104,
+                    "tripleCountBase": 1104
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 1104,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1104
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1104,
+            "fullName": "http://xmlns.com/foaf/0.1/familyName",
+            "localName": "familyName",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1104
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 304,
+                    "tripleCountBase": 304
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 304,
+            "fullName": "http://www.w3.org/ns/dcat#landingPage",
+            "localName": "landingPage",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 304,
+                    "tripleCountBase": 304
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 304,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 302,
+                    "tripleCountBase": 302
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 302,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 302
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 302,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 302
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 302,
+            "fullName": "https://iisg.amsterdam/vocab/dateOfDeposit",
+            "localName": "dateOfDeposit",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 302
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 415,
+                    "tripleCountBase": 415
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 415,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 415,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 415,
+            "fullName": "https://iisg.amsterdam/vocab/originalFileFormat",
+            "localName": "originalFileFormat",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 415
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 700,
+                    "tripleCountBase": 700
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 644,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 644
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 56,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 56
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 56,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 56
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 700,
+            "fullName": "http://schema.org/affiliation",
+            "localName": "affiliation",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 700
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 314,
+                    "tripleCountBase": 314
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 314,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 314
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 314,
+            "fullName": "http://xmlns.com/foaf/0.1/mbox",
+            "localName": "mbox",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 314
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Period",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 91
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Period",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 91
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 91,
+                    "tripleCount": 91
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 91,
+                    "tripleCount": 91
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Period",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 91
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/period",
+            "localName": "period",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 91,
+            "tripleCount": 91
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 16,
+                    "tripleCountBase": 16
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16,
+            "fullName": "https://iisg.amsterdam/vocab/dataSources",
+            "localName": "dataSources",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 16
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 91,
+                    "tripleCountBase": 91
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Period",
+                    "dataTripleCount": 91,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 91
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 91,
+            "fullName": "https://iisg.amsterdam/vocab/end",
+            "localName": "end",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 91
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 91,
+                    "tripleCountBase": 91
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Period",
+                    "dataTripleCount": 91,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 91
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 91,
+            "fullName": "https://iisg.amsterdam/vocab/begin",
+            "localName": "begin",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 91
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 304,
+                    "tripleCountBase": 304
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 304,
+            "fullName": "http://purl.org/dc/terms/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 25,
+                    "tripleCountBase": 25
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 25,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 25,
+            "fullName": "http://purl.org/dc/terms/language",
+            "localName": "language",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1104,
+                    "tripleCountBase": 1104
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 1104,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1104
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1104,
+            "fullName": "http://xmlns.com/foaf/0.1/givenName",
+            "localName": "givenName",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1104
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 514
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://schema.org/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 514
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 514,
+                    "tripleCount": 514
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 514,
+                    "tripleCount": 514
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 514
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/author",
+            "localName": "author",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 514,
+            "tripleCount": 514
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1099
+                },
+                {
+                    "SourceClass": "http://schema.org/Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/File",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "http://www.w3.org/ns/dcat#Distribution",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1099
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/File",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1099
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1099,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1099,
+                    "tripleCount": 1099
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1099
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#distribution",
+            "localName": "distribution",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 1099,
+            "tripleCount": 1099
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6,
+                    "tripleCountBase": 6
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6,
+            "fullName": "https://iisg.amsterdam/vocab/subtitle",
+            "localName": "subtitle",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 362,
+                    "tripleCountBase": 362
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 362,
+            "fullName": "http://purl.org/dc/terms/issued",
+            "localName": "issued",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 362
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://schema.org/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1461,
+                    "tripleCountBase": 1461
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Distribution",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://schema.org/Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/File",
+                    "dataTripleCount": 1099,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1099
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Dataset",
+                    "dataTripleCount": 304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 304
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Dataverse",
+                    "dataTripleCount": 58,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 58
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1461,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1461
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "https://iisg.amsterdam/vocab/"
+}

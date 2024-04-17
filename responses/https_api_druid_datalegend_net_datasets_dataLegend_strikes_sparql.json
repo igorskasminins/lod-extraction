@@ -1,0 +1,2854 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.org/ns/void#Dataset",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://rdfs.org/ns/void#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 17,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/ActionType",
+            "incomingTripleCount": 16563,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "ActionType",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Result",
+            "incomingTripleCount": 11442,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Result",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Character",
+            "incomingTripleCount": 9370,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Character",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/shacl#NodeShape",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "NodeShape",
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+            "incomingTripleCount": 2571,
+            "instanceCount": 1145,
+            "isLiteral": false,
+            "localName": "AmsterdamCode",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+            "incomingTripleCount": 9215,
+            "instanceCount": 1679,
+            "isLiteral": false,
+            "localName": "Municipality",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/provincie",
+            "incomingTripleCount": 3358,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "provincie",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/departement",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "departement",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Company",
+            "incomingTripleCount": 14557,
+            "instanceCount": 9668,
+            "isLiteral": false,
+            "localName": "Company",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/Strike",
+            "instanceCount": 16559,
+            "isLiteral": false,
+            "localName": "Strike",
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "5948225676266570258",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/dataLegend/strikes/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n12"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://xmlns.com/foaf/0.1/page",
+            "localName": "page",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 12654,
+                    "tripleCountBase": 16559
+                },
+                {
+                    "dataType": "xsd:gYearMonth",
+                    "tripleCount": 3140,
+                    "tripleCountBase": 16559
+                },
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 764,
+                    "tripleCountBase": 16559
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 16559
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 16559,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16559,
+            "fullName": "https://iisg.amsterdam/vocab/date",
+            "localName": "date",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 16559
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 16418,
+                    "tripleCountBase": 16418
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 16418,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16418
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16418,
+            "fullName": "https://iisg.amsterdam/vocab/type-of-strike",
+            "localName": "type-of-strike",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 16418
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#path",
+            "localName": "path",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 25,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3219,
+                    "tripleCount": 3219
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 3219,
+            "tripleCount": 3219
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 10705,
+                    "tripleCountBase": 10705
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 10705,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10705
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10705,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-days",
+            "localName": "number-of-days",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 10705
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 14820,
+                    "tripleCountBase": 14820
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 14820,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14820
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14820,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-companies",
+            "localName": "number-of-companies",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 14820
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1357,
+                    "tripleCountBase": 1357
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 1357,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1357
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1357,
+            "fullName": "https://iisg.amsterdam/vocab/specification-of-action",
+            "localName": "specification-of-action",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 1357
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 17,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 646
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 647,
+                    "tripleCount": 647
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 646
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+            "localName": "absorbed",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 647,
+            "tripleCount": 647
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 14516,
+                    "tripleCountBase": 14516
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 14516,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14516
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14516,
+            "fullName": "https://iisg.amsterdam/vocab/occupation",
+            "localName": "occupation",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 14516
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1679,
+                    "tripleCount": 1679
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+            "localName": "cbsCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1679,
+            "tripleCount": 1679
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 564,
+                    "tripleCountBase": 564
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 564,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 564
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 564,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-locked-out-workers",
+            "localName": "number-of-locked-out-workers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 564
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#oneOf",
+            "localName": "oneOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 16559,
+                    "tripleCountBase": 16559
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 16559,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16559,
+            "fullName": "https://iisg.amsterdam/vocab/id",
+            "localName": "id",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 16559
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 3219,
+                    "tripleCountBase": 3219
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3219,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 3219
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+            "localName": "inDepartement",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1145,
+            "tripleCount": 1145
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 10448,
+                    "tripleCountBase": 10448
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 10447,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10447
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10448,
+            "fullName": "http://purl.org/dc/elements/1.1/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 10448
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 446,
+                    "tripleCount": 446
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+            "localName": "resourceGeonames",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 446,
+            "tripleCount": 446
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#class",
+            "localName": "class",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 7,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#datatype",
+            "localName": "datatype",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 20,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 16549,
+                    "tripleCountBase": 16549
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 16549,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16549
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16549,
+            "fullName": "https://iisg.amsterdam/vocab/sector",
+            "localName": "sector",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 16549
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 15918,
+                    "tripleCountBase": 15918
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 15918,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15918
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15918,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-actions",
+            "localName": "number-of-actions",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 15918
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 6,
+                    "tripleCountBase": 6
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/shacl#NodeShape",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#targetClass",
+            "localName": "targetClass",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 631,
+                    "tripleCountBase": 631
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 631,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 631
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 631,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-indirect-strikers",
+            "localName": "number-of-indirect-strikers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 631
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Strike",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Result",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 11438
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 11438,
+                    "tripleCount": 11438
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Result",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 11438
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/result",
+            "localName": "result",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 11438,
+            "tripleCount": 11438
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#unionOf",
+            "localName": "unionOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 25,
+                    "tripleCount": 25
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#property",
+            "localName": "property",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 25,
+            "tripleCount": 25
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://xmlns.com/foaf/0.1/homepage",
+            "localName": "homepage",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1426
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1428,
+                    "tripleCount": 1428
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1426
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+            "localName": "identifies",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1428,
+            "tripleCount": 1428
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/ActionType",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Result",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Character",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16559,
+                    "tripleCount": 16559
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Company",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9668,
+                    "tripleCount": 9668
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1679,
+                    "tripleCount": 1679
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/ActionType",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Result",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Character",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 10
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 29083,
+            "tripleCount": 29083
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 4898,
+                    "tripleCountBase": 4898
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1679,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1679
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4898,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 4898
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 1292,
+                    "tripleCountBase": 1292
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1292,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1292
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1292,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+            "localName": "endDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1292
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1335
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1341,
+                    "tripleCount": 1341
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1335
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+            "localName": "absorbedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1341,
+            "tripleCount": 1341
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 4,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://www.w3.org/ns/shacl#closed",
+            "localName": "closed",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1679
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2824,
+                    "tripleCount": 2824
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1679
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2824,
+            "tripleCount": 2824
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1426
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1679,
+                    "tripleCount": 1679
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1426
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+            "localName": "amsterdamCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1679,
+            "tripleCount": 1679
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Strike",
+                    "TargetClass": "https://iisg.amsterdam/vocab/ActionType",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 16559
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 16559,
+                    "tripleCount": 16559
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/ActionType",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 16559
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/action",
+            "localName": "action",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 16559,
+            "tripleCount": 16559
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1679
+                },
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/departement",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1145
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1680,
+                    "tripleCount": 1680
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2824
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+            "localName": "municipalityIn",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 2825,
+            "tripleCount": 2825
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Strike",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Company",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 14557
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 14557,
+                    "tripleCount": 14557
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Company",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 14557
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/company",
+            "localName": "company",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 14557,
+            "tripleCount": 14557
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 621,
+                    "tripleCountBase": 621
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 621,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 621
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 621,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-days-indirect-strikers",
+            "localName": "number-of-days-indirect-strikers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 621
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/elements/1.1/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#or",
+            "localName": "or",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 491,
+                    "tripleCountBase": 491
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 491,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 491
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 491,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-days-locked-out-workers",
+            "localName": "number-of-days-locked-out-workers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 491
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/Strike",
+                    "TargetClass": "https://iisg.amsterdam/vocab/Character",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9368
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 9368,
+                    "tripleCount": 9368
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Character",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 9368
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/character",
+            "localName": "character",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 9368,
+            "tripleCount": 9368
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 535,
+                    "tripleCountBase": 535
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 535,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 535
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 535,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+            "localName": "startDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 535
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 547,
+                    "tripleCountBase": 547
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 547,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 547
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 547,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-laid-off-workers",
+            "localName": "number-of-laid-off-workers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 547
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1679
+                },
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/departement",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1145
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1680,
+                    "tripleCount": 1680
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1679
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1145
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrower",
+            "localName": "narrower",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2825,
+            "tripleCount": 2825
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 898
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 912,
+                    "tripleCount": 912
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 898
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+            "localName": "originatedFrom",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 912,
+            "tripleCount": 912
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 11688,
+                    "tripleCountBase": 11688
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 11688,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 11688
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 11688,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-workers",
+            "localName": "number-of-workers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 11688
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 84
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1761,
+                    "tripleCount": 1761
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 84
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+            "localName": "resourceWikipedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1761,
+            "tripleCount": 1761
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 3219,
+                    "tripleCountBase": 3219
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3219,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+            "localName": "year",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 3219
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#subset",
+            "localName": "subset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 6,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Result",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/ActionType",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Character",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 17,
+            "tripleCount": 17
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/shacl#NodeShape",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#ignoredProperties",
+            "localName": "ignoredProperties",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 113
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1761,
+                    "tripleCount": 1761
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 113
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+            "localName": "resourceDbpedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1761,
+            "tripleCount": 1761
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 19166,
+                    "tripleCountBase": 19166
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 19166,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 19166
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 19166,
+            "fullName": "https://iisg.amsterdam/vocab/place",
+            "localName": "place",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 19166
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 360,
+                    "tripleCountBase": 360
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 360,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 360
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 360,
+            "fullName": "https://iisg.amsterdam/vocab/number-of-campaigners",
+            "localName": "number-of-campaigners",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 360
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1679
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1679,
+                    "tripleCount": 1679
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1679
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+            "localName": "inProvince",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1679,
+            "tripleCount": 1679
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 11429,
+                    "tripleCountBase": 12586
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1157,
+                    "tripleCountBase": 12586
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Company",
+                    "dataTripleCount": 9678,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9678
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1679,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1679
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 1145,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1145
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Result",
+                    "dataTripleCount": 8,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/ActionType",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Character",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 12586,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 12586
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 210
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 210,
+                    "tripleCount": 210
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 210
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+            "localName": "originated",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 210,
+            "tripleCount": 210
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:nonNegativeInteger",
+                    "tripleCount": 14529,
+                    "tripleCountBase": 14529
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 14529,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14529
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14529,
+            "fullName": "https://iisg.amsterdam/vocab/duration",
+            "localName": "duration",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 14529
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1681,
+                    "tripleCountBase": 1693
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 12,
+                    "tripleCountBase": 1693
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1679,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1679
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1693,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 1693
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 17381,
+                    "tripleCountBase": 17381
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/Strike",
+                    "dataTripleCount": 17381,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17381
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 17381,
+            "fullName": "https://iisg.amsterdam/vocab/province",
+            "localName": "province",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 17381
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "https://iisg.amsterdam/vocab/"
+}

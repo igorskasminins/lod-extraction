@@ -1,0 +1,1347 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kauno-meta/Concept",
+            "instanceCount": 5865,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/kauno-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/koko/p2794",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "p2794",
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#province",
+            "instanceCount": 23,
+            "isLiteral": false,
+            "localName": "province",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.yso.fi/onto/yso-meta/Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/yso-meta/Individual",
+            "instanceCount": 1881,
+            "isLiteral": false,
+            "localName": "Individual",
+            "namespace": "http://www.yso.fi/onto/yso-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lexvo.org/ontology#GeographicRegion",
+            "instanceCount": 291,
+            "isLiteral": false,
+            "localName": "GeographicRegion",
+            "namespace": "http://lexvo.org/ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#teos",
+            "instanceCount": 1816,
+            "isLiteral": false,
+            "localName": "teos",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/koko/p36950",
+            "instanceCount": 63,
+            "isLiteral": false,
+            "localName": "p36950",
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Organization",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Organization",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#naytelma",
+            "instanceCount": 2901,
+            "isLiteral": false,
+            "localName": "naytelma",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Group",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Group",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/mero-meta/Concept",
+            "instanceCount": 1373,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/mero-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/Pakinat",
+            "instanceCount": 118,
+            "isLiteral": false,
+            "localName": "Pakinat",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#novellikokoelma",
+            "instanceCount": 7092,
+            "isLiteral": false,
+            "localName": "novellikokoelma",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#sarjaOsa",
+            "instanceCount": 32440,
+            "isLiteral": false,
+            "localName": "sarjaOsa",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#Tietolahde",
+            "instanceCount": 18,
+            "isLiteral": false,
+            "localName": "Tietolahde",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/Sadut",
+            "instanceCount": 15800,
+            "isLiteral": false,
+            "localName": "Sadut",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "instanceCount": 87,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kokoomateos",
+            "instanceCount": 2973,
+            "isLiteral": false,
+            "localName": "kokoomateos",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#romaani",
+            "instanceCount": 84968,
+            "isLiteral": false,
+            "localName": "romaani",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#review",
+            "instanceCount": 14644,
+            "isLiteral": false,
+            "localName": "review",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/ResonerandeBokkatalog",
+            "instanceCount": 5217,
+            "isLiteral": false,
+            "localName": "ResonerandeBokkatalog",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/KirjailijanKuva",
+            "instanceCount": 4203,
+            "isLiteral": false,
+            "localName": "KirjailijanKuva",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/Kansanrunot",
+            "instanceCount": 43,
+            "isLiteral": false,
+            "localName": "Kansanrunot",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#Gender",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Gender",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#Link",
+            "instanceCount": 25311,
+            "isLiteral": false,
+            "localName": "Link",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#Boolean",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Boolean",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kirjastoLuokka",
+            "instanceCount": 15,
+            "isLiteral": false,
+            "localName": "kirjastoLuokka",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/juho-meta/Concept",
+            "instanceCount": 6520,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/juho-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#hobby",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "hobby",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/tao-meta/Concept",
+            "instanceCount": 2600,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/tao-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#henkiloHahmo",
+            "instanceCount": 50366,
+            "isLiteral": false,
+            "localName": "henkiloHahmo",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kasikirjoitus",
+            "instanceCount": 75,
+            "isLiteral": false,
+            "localName": "kasikirjoitus",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#keyword",
+            "instanceCount": 1657,
+            "isLiteral": false,
+            "localName": "keyword",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/afo-meta/Concept",
+            "instanceCount": 5972,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/afo-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#palkinto",
+            "instanceCount": 295,
+            "isLiteral": false,
+            "localName": "palkinto",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.yso.fi/onto/yso-meta/Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/yso-meta/Hierarchy",
+            "instanceCount": 102,
+            "isLiteral": false,
+            "localName": "Hierarchy",
+            "namespace": "http://www.yso.fi/onto/yso-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kito-meta/Concept",
+            "instanceCount": 839,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/kito-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.seco.tkk.fi/applications/saha#Instance_ID1237530959951",
+            "instanceCount": 41924,
+            "isLiteral": false,
+            "localName": "Instance_ID1237530959951",
+            "namespace": "http://www.seco.tkk.fi/applications/saha#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/muso-meta/Concept",
+            "instanceCount": 942,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/muso-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "instanceCount": 93,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#Place",
+            "instanceCount": 1718,
+            "isLiteral": false,
+            "localName": "Place",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lexvo.org/ontology#Script",
+            "instanceCount": 160,
+            "isLiteral": false,
+            "localName": "Script",
+            "namespace": "http://lexvo.org/ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kustantaja",
+            "instanceCount": 5555,
+            "isLiteral": false,
+            "localName": "kustantaja",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "ConceptScheme",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#essee",
+            "instanceCount": 685,
+            "isLiteral": false,
+            "localName": "essee",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Agent",
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "Agent",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Restriction",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Restriction",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#fyysinen_teos",
+            "instanceCount": 223613,
+            "isLiteral": false,
+            "localName": "fyysinen_teos",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kulo-meta/Concept",
+            "instanceCount": 1548,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/kulo-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lexvo.org/ontology#CJKRadical",
+            "instanceCount": 214,
+            "isLiteral": false,
+            "localName": "CJKRadical",
+            "namespace": "http://lexvo.org/ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#palkintoInstanssi",
+            "instanceCount": 6355,
+            "isLiteral": false,
+            "localName": "palkintoInstanssi",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/tsr-meta/Concept",
+            "instanceCount": 5098,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/tsr-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kansanruno",
+            "instanceCount": 247,
+            "isLiteral": false,
+            "localName": "kansanruno",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.seco.tkk.fi/applications/saha#Instance_ID1238070215614",
+            "instanceCount": 16011,
+            "isLiteral": false,
+            "localName": "Instance_ID1238070215614",
+            "namespace": "http://www.seco.tkk.fi/applications/saha#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/time-schema#Time",
+            "instanceCount": 16013,
+            "isLiteral": false,
+            "localName": "Time",
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#SymmetricProperty",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "SymmetricProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#film",
+            "instanceCount": 2010,
+            "isLiteral": false,
+            "localName": "film",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/jupo-meta/Concept",
+            "instanceCount": 2307,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/jupo-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://seco.tkk.fi/saha3/u578baac2-f84b-4906-af9e-99f85ce645a4"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/koko/p35819",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "p35819",
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kuvakirjat",
+            "instanceCount": 20647,
+            "isLiteral": false,
+            "localName": "kuvakirjat",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#sarjakuva",
+            "instanceCount": 6222,
+            "isLiteral": false,
+            "localName": "sarjakuva",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/liito-meta/Concept",
+            "instanceCount": 3460,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/liito-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lexvo.org/ontology#Character",
+            "instanceCount": 98944,
+            "isLiteral": false,
+            "localName": "Character",
+            "namespace": "http://lexvo.org/ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#sarja",
+            "instanceCount": 9056,
+            "isLiteral": false,
+            "localName": "sarja",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/yso-meta/Concept",
+            "instanceCount": 27857,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/yso-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/koko/p31290",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "p31290",
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/Sarjakuvat",
+            "instanceCount": 787,
+            "isLiteral": false,
+            "localName": "Sarjakuvat",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Concept",
+            "instanceCount": 50994,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kansi",
+            "instanceCount": 120799,
+            "isLiteral": false,
+            "localName": "kansi",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#pakina",
+            "instanceCount": 1384,
+            "isLiteral": false,
+            "localName": "pakina",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#asiasanaYhdiste",
+            "instanceCount": 2113,
+            "isLiteral": false,
+            "localName": "asiasanaYhdiste",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#fyysisen_teoksen_osa",
+            "instanceCount": 80076,
+            "isLiteral": false,
+            "localName": "fyysisen_teoksen_osa",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.seco.tkk.fi/applications/saha#Instance_ID1237984819752",
+            "instanceCount": 2079,
+            "isLiteral": false,
+            "localName": "Instance_ID1237984819752",
+            "namespace": "http://www.seco.tkk.fi/applications/saha#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/u0a6a963d-2b8c-40ee-b213-560653d9806b",
+            "instanceCount": 442,
+            "isLiteral": false,
+            "localName": "u0a6a963d-2b8c-40ee-b213-560653d9806b",
+            "namespace": "http://seco.tkk.fi/saha3/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Person",
+            "instanceCount": 64532,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "instanceCount": 43,
+            "isLiteral": false,
+            "localName": "DatatypeProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#satu",
+            "instanceCount": 2995,
+            "isLiteral": false,
+            "localName": "satu",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kto-meta/Concept",
+            "instanceCount": 952,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/kto-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.yso.fi/onto/koko/p31290",
+                "http://www.seco.tkk.fi/applications/saha#Instance_ID1237984819752"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/koko/p36274",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "p36274",
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/tero-meta/Concept",
+            "instanceCount": 2470,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/tero-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/u578baac2-f84b-4906-af9e-99f85ce645a4",
+            "instanceCount": 750,
+            "isLiteral": false,
+            "localName": "u578baac2-f84b-4906-af9e-99f85ce645a4",
+            "namespace": "http://seco.tkk.fi/saha3/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#runo",
+            "instanceCount": 5646,
+            "isLiteral": false,
+            "localName": "runo",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/Kuunnelmat",
+            "instanceCount": 78,
+            "isLiteral": false,
+            "localName": "Kuunnelmat",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://ldf.fi/ykl-schema#Class",
+            "instanceCount": 2332,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://ldf.fi/ykl-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lexvo.org/ontology#Language",
+            "instanceCount": 7909,
+            "isLiteral": false,
+            "localName": "Language",
+            "namespace": "http://lexvo.org/ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#School",
+            "instanceCount": 31,
+            "isLiteral": false,
+            "localName": "School",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#Luetteloija",
+            "instanceCount": 126,
+            "isLiteral": false,
+            "localName": "Luetteloija",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/onto/toimo/roles/Role",
+            "instanceCount": 158,
+            "isLiteral": false,
+            "localName": "Role",
+            "namespace": "http://seco.tkk.fi/onto/toimo/roles/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/saha3/kirjasampo/Aforismikokoelmat",
+            "instanceCount": 596,
+            "isLiteral": false,
+            "localName": "Aforismikokoelmat",
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#positionOfTrust",
+            "instanceCount": 128,
+            "isLiteral": false,
+            "localName": "positionOfTrust",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://seco.tkk.fi/onto/toimo/nationalities/Nationality",
+            "instanceCount": 87,
+            "isLiteral": false,
+            "localName": "Nationality",
+            "namespace": "http://seco.tkk.fi/onto/toimo/nationalities/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/mao-meta/Concept",
+            "instanceCount": 7581,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/mao-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/valo-meta/Concept",
+            "instanceCount": 1932,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.yso.fi/onto/valo-meta/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/kaunokki#kuunnelma",
+            "instanceCount": 155,
+            "isLiteral": false,
+            "localName": "kuunnelma",
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "948704516703589760",
+        "enableLogging": true,
+        "endpointUrl": "https://ldf.fi/kirjasampo/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.yso.fi/onto/kaunokki#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://seco.tkk.fi/saha3/kirjasampo/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://lexvo.org/ontology#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/koko/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/yso-meta/",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.seco.tkk.fi/applications/saha#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://seco.tkk.fi/saha3/",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/mao-meta/",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/tero-meta/",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/juho-meta/",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/jupo-meta/",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/kauno-meta/",
+            "prefix": "n14"
+        },
+        {
+            "namespace": "http://seco.tkk.fi/onto/toimo/roles/",
+            "prefix": "n15"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "prefix": "n16"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/kulo-meta/",
+            "prefix": "n17"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/kito-meta/",
+            "prefix": "n18"
+        },
+        {
+            "namespace": "http://ldf.fi/ykl-schema#",
+            "prefix": "n19"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/muso-meta/",
+            "prefix": "n20"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/valo-meta/",
+            "prefix": "n21"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/liito-meta/",
+            "prefix": "n22"
+        },
+        {
+            "namespace": "http://seco.tkk.fi/onto/toimo/nationalities/",
+            "prefix": "n23"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/afo-meta/",
+            "prefix": "n24"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/kto-meta/",
+            "prefix": "n25"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/mero-meta/",
+            "prefix": "n26"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/tsr-meta/",
+            "prefix": "n27"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/tao-meta/",
+            "prefix": "n28"
+        }
+    ],
+    "Properties": [],
+    "SchemaName": "Schema",
+    "namespace": "http://www.yso.fi/onto/kaunokki#"
+}

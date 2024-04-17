@@ -1,0 +1,4467 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/Person",
+            "incomingTripleCount": 2,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Assertion",
+            "incomingTripleCount": 22,
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "Assertion",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Provenance",
+            "incomingTripleCount": 22,
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "Provenance",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#PublicationInfo",
+            "incomingTripleCount": 22,
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "PublicationInfo",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.nanopub.org/nschema#Nanopublication",
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "Nanopublication",
+            "namespace": "http://www.nanopub.org/nschema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2004/02/skos/core#Concept"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdf.histograph.io/district",
+            "incomingTripleCount": 3258,
+            "instanceCount": 743,
+            "isLiteral": false,
+            "localName": "district",
+            "namespace": "http://rdf.histograph.io/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Concept",
+            "incomingTripleCount": 3258,
+            "instanceCount": 743,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#Observation",
+            "incomingTripleCount": 1516,
+            "instanceCount": 1516,
+            "isLiteral": false,
+            "localName": "Observation",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#Slice",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Slice",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#DimensionProperty",
+            "incomingTripleCount": 426,
+            "instanceCount": 24,
+            "isLiteral": false,
+            "localName": "DimensionProperty",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#MeasureProperty",
+            "incomingTripleCount": 12,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "MeasureProperty",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "incomingTripleCount": 12,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "DatatypeProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+            "incomingTripleCount": 144,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "DataStructureDefinition",
+            "namespace": "http://purl.org/linked-data/cube#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "sem:Event"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Recording",
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "Recording",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "sem:Event",
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "Event",
+            "namespace": "sem:",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCodeSet",
+            "incomingTripleCount": 2103,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "CategoryCodeSet",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 2069,
+            "instanceCount": 35,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCode",
+            "incomingTripleCount": 14747,
+            "instanceCount": 1675,
+            "isLiteral": false,
+            "localName": "CategoryCode",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lemon-model.net/lemon#LexicalEntry",
+            "incomingTripleCount": 7782,
+            "instanceCount": 7782,
+            "isLiteral": false,
+            "localName": "LexicalEntry",
+            "namespace": "http://lemon-model.net/lemon#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://rdfs.co/juso/Point"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+            "incomingTripleCount": 428971,
+            "instanceCount": 53214,
+            "isLiteral": false,
+            "localName": "Observation",
+            "namespace": "http://purl.oclc.org/NET/ssnx/ssn#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.co/juso/Point",
+            "incomingTripleCount": 428971,
+            "instanceCount": 53214,
+            "isLiteral": false,
+            "localName": "Point",
+            "namespace": "http://rdfs.co/juso/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/prov#Entity",
+            "incomingTripleCount": 10317,
+            "instanceCount": 8377,
+            "isLiteral": false,
+            "localName": "Entity",
+            "namespace": "http://www.w3.org/ns/prov#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2006/time#DateTimeDescription",
+            "incomingTripleCount": 8373,
+            "instanceCount": 8373,
+            "isLiteral": false,
+            "localName": "DateTimeDescription",
+            "namespace": "http://www.w3.org/2006/time#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/dc/elements/1.1/Location",
+            "incomingTripleCount": 3983,
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "Location",
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://lemon-model.net/lemon#Lexicon",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Lexicon",
+            "namespace": "http://lemon-model.net/lemon#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Collection",
+            "incomingTripleCount": 8,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "Collection",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "3704274889578869455",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/ATM-DEMO/ATM-CLARIAH-DEMO/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://lemon-model.net/lemon#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/linked-data/cube#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://schema.org/",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.nanopub.org/nschema#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/prov#",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://rdfs.co/juso/",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n14"
+        },
+        {
+            "namespace": "http://lod.cedar-project.nl/vocab/cedar#",
+            "prefix": "n15"
+        },
+        {
+            "namespace": "http://dbpedia.org/ontology/",
+            "prefix": "n16"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n17"
+        },
+        {
+            "namespace": "http://www.w3.org/2006/time#",
+            "prefix": "n18"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/cinemadata_overzicht.csv/column/",
+            "prefix": "n19"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n20"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "n21"
+        },
+        {
+            "namespace": "http://purl.oclc.org/NET/ssnx/ssn#",
+            "prefix": "n22"
+        },
+        {
+            "namespace": "sem:",
+            "prefix": "n23"
+        },
+        {
+            "namespace": "http://www.loa-cnr.it/ontologies/DUL.owl#",
+            "prefix": "n24"
+        },
+        {
+            "namespace": "http://www.lexinfo.net/ontology/2.0/lexinfo#",
+            "prefix": "n25"
+        },
+        {
+            "namespace": "http://rdf.histograph.io/",
+            "prefix": "n26"
+        },
+        {
+            "namespace": "http://purl.org/linked-data/sdmx/2009/measure#",
+            "prefix": "n27"
+        },
+        {
+            "namespace": "http://purl.org/ontology/bibo/",
+            "prefix": "n28"
+        },
+        {
+            "namespace": "http://purl.org/ontology/mo/",
+            "prefix": "n29"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 62,
+                    "tripleCountBase": 62
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 62,
+            "fullName": "http://www.w3.org/ns/csvw#title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 62
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 31
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://schema.org/CategoryCodeSet",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1675
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1675,
+                    "tripleCount": 1675
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 31,
+                    "tripleCount": 31
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2092
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/inCodeSet",
+            "localName": "inCodeSet",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 2092,
+            "tripleCount": 2092
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 35,
+                    "tripleCountBase": 35
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 35,
+            "fullName": "http://www.w3.org/ns/csvw#value",
+            "localName": "value",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 35
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "http://www.w3.org/ns/csvw#delimiter",
+            "localName": "delimiter",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "sem:Event",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://www.w3.org/2004/02/skos/core#note",
+            "localName": "note",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#dialect",
+            "localName": "dialect",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 212856,
+            "fullName": "http://rdfs.co/juso/Address",
+            "localName": "Address",
+            "maxCardinality": 1,
+            "namespace": "http://rdfs.co/juso/",
+            "objectTripleCount": 0,
+            "tripleCount": 212856
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 1674,
+                    "tripleCountBase": 1675
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1675
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1675,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1675
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1675,
+            "fullName": "http://schema.org/value",
+            "localName": "value",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1675
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lemon-model.net/lemon#context",
+            "localName": "context",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 8373,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 82,
+                    "tripleCountBase": 82
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 82,
+            "fullName": "https://iisg.amsterdam/vocab/OpeningYear",
+            "localName": "OpeningYear",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 82
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 268572
+                },
+                {
+                    "classFullName": "http://rdfs.co/juso/Point",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 268572
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/spatial",
+            "localName": "spatial",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 268572,
+            "tripleCount": 268572
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 187,
+            "tripleCount": 187
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 82,
+                    "tripleCountBase": 82
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 82,
+            "fullName": "https://iisg.amsterdam/vocab/CityNeighborhood1850",
+            "localName": "CityNeighborhood1850",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 82
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 212856,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasTime",
+            "localName": "hasTime",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 212856
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2092,
+                    "tripleCountBase": 2092
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1675,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1675
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 31,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 31
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2092,
+            "fullName": "http://schema.org/codeValue",
+            "localName": "codeValue",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 2092
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "https://iisg.amsterdam/vocab/path",
+            "localName": "path",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8373,
+                    "tripleCountBase": 8373
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 8373,
+            "fullName": "http://lemon-model.net/lemon#reference",
+            "localName": "reference",
+            "maxCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 0,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/prov#Entity",
+                    "TargetClass": "http://www.w3.org/2006/time#DateTimeDescription",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8373
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8373,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/time#DateTimeDescription",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8373
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/date",
+            "localName": "date",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 8373,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 53214,
+                    "tripleCountBase": 53214
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 53214,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 53214
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/be",
+            "localName": "be",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 1516,
+                    "tripleCountBase": 1516
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 1516,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1516
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1516,
+            "fullName": "http://lod.cedar-project.nl/vocab/cedar#population",
+            "localName": "population",
+            "maxCardinality": 1,
+            "namespace": "http://lod.cedar-project.nl/vocab/cedar#",
+            "objectTripleCount": 0,
+            "tripleCount": 1516
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 15600,
+                    "tripleCountBase": 15600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 15600,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/measure#obsValue",
+            "localName": "obsValue",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/measure#",
+            "objectTripleCount": 0,
+            "tripleCount": 15600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2061,
+                    "tripleCountBase": 2061
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1675,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1675
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2061,
+            "fullName": "http://schema.org/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 2061
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:int",
+                    "tripleCount": 990,
+                    "tripleCountBase": 990
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 990,
+            "fullName": "https://iisg.amsterdam/vocab/pblz",
+            "localName": "pblz",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 990
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6113,
+                    "tripleCountBase": 6113
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 6113,
+            "fullName": "http://lemon-model.net/lemon#usage",
+            "localName": "usage",
+            "maxCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 0,
+            "tripleCount": 6113
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "sem:Event",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/bibo/URI",
+            "localName": "URI",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/bibo/",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:int",
+                    "tripleCount": 752,
+                    "tripleCountBase": 752
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 752,
+            "fullName": "https://iisg.amsterdam/vocab/pbly",
+            "localName": "pbly",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 752
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/CinemaContextLink",
+            "localName": "CinemaContextLink",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 80,
+            "tripleCount": 80
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 44,
+                    "tripleCountBase": 44
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 22,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 22,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 44,
+            "fullName": "http://www.w3.org/ns/prov#generatedAtTime",
+            "localName": "generatedAtTime",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 0,
+            "tripleCount": 44
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.nanopub.org/nschema#Provenance",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 22
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Provenance",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 22
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.nanopub.org/nschema#hasProvenance",
+            "localName": "hasProvenance",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.nanopub.org/nschema#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 12
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#measure",
+            "localName": "measure",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "sem:Event",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/gb",
+            "localName": "gb",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1080,
+                    "tripleCount": 1080
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lod.cedar-project.nl/vocab/cedar#residenceStatus",
+            "localName": "residenceStatus",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://lod.cedar-project.nl/vocab/cedar#",
+            "objectTripleCount": 1080,
+            "tripleCount": 1080
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 22,
+                    "tripleCountBase": 2114
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2092,
+                    "tripleCountBase": 2114
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1675,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1675
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 31,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 31
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2114,
+            "fullName": "http://schema.org/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 2114
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 208
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#propertyUrl",
+            "localName": "propertyUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 174,
+            "tripleCount": 174
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/e",
+            "localName": "e",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.co/juso/Street",
+            "localName": "Street",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.co/juso/",
+            "objectTripleCount": 106428,
+            "tripleCount": 106428
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/fr",
+            "localName": "fr",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 82,
+                    "tripleCountBase": 82
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 82,
+            "fullName": "https://iisg.amsterdam/vocab/ClosingYear",
+            "localName": "ClosingYear",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 82
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/l",
+            "localName": "l",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 119,
+                    "tripleCountBase": 119
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 119,
+            "fullName": "http://www.w3.org/ns/csvw#virtual",
+            "localName": "virtual",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 119
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 79,
+                    "tripleCountBase": 79
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 79,
+            "fullName": "http://purl.org/dc/terms/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 79
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 7782,
+                    "tripleCountBase": 7782
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#LexicalEntry",
+                    "dataTripleCount": 7782,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7782
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7782,
+            "fullName": "http://lemon-model.net/lemon#property",
+            "localName": "property",
+            "maxCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 0,
+            "tripleCount": 7782
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1163
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/dimension#occupation",
+            "localName": "occupation",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "objectTripleCount": 1741,
+            "tripleCount": 1741
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "http://www.w3.org/ns/csvw#quoteChar",
+            "localName": "quoteChar",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 181,
+            "tripleCount": 181
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "TargetClass": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 159642
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "TargetClass": "http://rdfs.co/juso/Point",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 159642
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 212856,
+                    "tripleCount": 212856
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 159642
+                },
+                {
+                    "classFullName": "http://rdfs.co/juso/Point",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 159642
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#member",
+            "localName": "member",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 212856,
+            "tripleCount": 212856
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/elements/1.1/Location",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3983
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/coverage",
+            "localName": "coverage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 3983,
+            "tripleCount": 3983
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 144,
+                    "tripleCountBase": 1744
+                },
+                {
+                    "dataType": "xsd:int",
+                    "tripleCount": 2,
+                    "tripleCountBase": 1744
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Slice",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1744,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod",
+            "localName": "refPeriod",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "objectTripleCount": 15600,
+            "tripleCount": 17344
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 212856,
+                    "tripleCount": 212856
+                },
+                {
+                    "classFullName": "http://rdfs.co/juso/Point",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 212856,
+                    "tripleCount": 212856
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.loa-cnr.it/ontologies/DUL.owl#hasPart",
+            "localName": "hasPart",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.loa-cnr.it/ontologies/DUL.owl#",
+            "objectTripleCount": 212856,
+            "tripleCount": 212856
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 3510,
+                    "tripleCountBase": 8373
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4863,
+                    "tripleCountBase": 8373
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "dataTripleCount": 8373,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8373,
+            "fullName": "http://purl.org/dc/elements/1.1/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#LexicalEntry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8373,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lemon-model.net/lemon#otherForm",
+            "localName": "otherForm",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 8373,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#column",
+            "localName": "column",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 165,
+                    "tripleCountBase": 165
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 165,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestBeginTimeStamp",
+            "localName": "hasLatestBeginTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 165
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 356,
+                    "tripleCount": 356
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lod.cedar-project.nl/vocab/cedar#houseType",
+            "localName": "houseType",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://lod.cedar-project.nl/vocab/cedar#",
+            "objectTripleCount": 356,
+            "tripleCount": 356
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 757,
+                    "tripleCountBase": 769
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 12,
+                    "tripleCountBase": 769
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 743,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 743
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://purl.org/dc/elements/1.1/Location",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 743,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 743
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 769,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 769
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#datatype",
+            "localName": "datatype",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 101,
+            "tripleCount": 101
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 743,
+                    "tripleCountBase": 743
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 743,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 743
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 743,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 743
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 743,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 743
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 3510,
+                    "tripleCountBase": 8373
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4863,
+                    "tripleCountBase": 8373
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "dataTripleCount": 8373,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8373,
+            "fullName": "http://purl.org/dc/elements/1.1/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#component",
+            "localName": "component",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:int",
+                    "tripleCount": 752,
+                    "tripleCountBase": 752
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 752,
+            "fullName": "http://dbpedia.org/ontology/age",
+            "localName": "age",
+            "maxCardinality": 1,
+            "namespace": "http://dbpedia.org/ontology/",
+            "objectTripleCount": 0,
+            "tripleCount": 752
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 280,
+                    "tripleCountBase": 743
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53212,
+                    "tripleCount": 53212
+                },
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 743,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 743
+                },
+                {
+                    "classFullName": "http://rdfs.co/juso/Point",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 53212,
+                    "tripleCount": 53212
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 743,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 743
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 743,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 53214,
+            "tripleCount": 53957
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 165,
+                    "tripleCountBase": 165
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 165,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestEndTimeStamp",
+            "localName": "hasEarliestEndTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 165
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 98,
+                    "tripleCountBase": 98
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 98,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 98
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 6399,
+                    "tripleCountBase": 8373
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1974,
+                    "tripleCountBase": 8373
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/time#DateTimeDescription",
+                    "dataTripleCount": 8373,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8373,
+            "fullName": "http://www.w3.org/2006/time#year",
+            "localName": "year",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2006/time#",
+            "objectTripleCount": 0,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://schema.org/url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://schema.org/",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2740,
+                    "tripleCountBase": 2740
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 2740,
+            "fullName": "http://www.lexinfo.net/ontology/2.0/lexinfo#etymology",
+            "localName": "etymology",
+            "maxCardinality": 1,
+            "namespace": "http://www.lexinfo.net/ontology/2.0/lexinfo#",
+            "objectTripleCount": 0,
+            "tripleCount": 2740
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "sem:Event",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "sem:hasPlace",
+            "localName": "sem:hasPlace",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 16746,
+                    "tripleCountBase": 16746
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 16746,
+            "fullName": "http://lemon-model.net/lemon#writtenRep",
+            "localName": "writtenRep",
+            "maxCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 0,
+            "tripleCount": 16746
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1675
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3350,
+                    "tripleCount": 3350
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2061
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 4112,
+            "tripleCount": 4112
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 82,
+                    "tripleCountBase": 82
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 82,
+            "fullName": "https://iisg.amsterdam/vocab/Name",
+            "localName": "Name",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 82
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.nanopub.org/nschema#Assertion",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 22
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 22
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.nanopub.org/nschema#hasAssertion",
+            "localName": "hasAssertion",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.nanopub.org/nschema#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 13584
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/hisco",
+            "localName": "hisco",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 15600,
+            "tripleCount": 15600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 3665,
+                    "tripleCountBase": 8373
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4708,
+                    "tripleCountBase": 8373
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "dataTripleCount": 8373,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8373,
+            "fullName": "http://purl.org/dc/elements/1.1/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/prov#wasGeneratedBy",
+            "localName": "wasGeneratedBy",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "http://www.w3.org/ns/csvw#encoding",
+            "localName": "encoding",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "http://www.w3.org/ns/csvw#url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 37,
+                    "tripleCountBase": 48
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 44,
+                    "tripleCount": 44
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 8373
+                }
+            ],
+            "dataTripleCount": 48,
+            "fullName": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "localName": "wasDerivedFrom",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 8417,
+            "tripleCount": 8465
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 165,
+                    "tripleCountBase": 165
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 165,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasEarliestBeginTimeStamp",
+            "localName": "hasEarliestBeginTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 165
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#LexicalEntry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8373,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lemon-model.net/lemon#canonicalform",
+            "localName": "canonicalform",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 8373,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/nl",
+            "localName": "nl",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1079,
+                    "tripleCount": 1079
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/dimension#sex",
+            "localName": "sex",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "objectTripleCount": 4979,
+            "tripleCount": 4979
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 10,
+                    "tripleCountBase": 10
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "http://www.w3.org/ns/csvw#primaryKey",
+            "localName": "primaryKey",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1944
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/prov#wasAttributedTo",
+            "localName": "wasAttributedTo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 1944,
+            "tripleCount": 1944
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 165,
+                    "tripleCountBase": 165
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 165,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 165
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 165,
+            "fullName": "http://semanticweb.cs.vu.nl/2009/11/sem/hasLatestEndTimeStamp",
+            "localName": "hasLatestEndTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+            "objectTripleCount": 0,
+            "tripleCount": 165
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 22,
+                    "tripleCountBase": 22
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 22,
+            "fullName": "https://iisg.amsterdam/vocab/sha1_hash",
+            "localName": "sha1_hash",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 106428,
+                    "tripleCount": 106428
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/prov#Entity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8377,
+                    "tripleCount": 8377
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#DateTimeDescription",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8373,
+                    "tripleCount": 8373
+                },
+                {
+                    "classFullName": "http://lemon-model.net/lemon#LexicalEntry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7782,
+                    "tripleCount": 7782
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1675,
+                    "tripleCount": 1675
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1516,
+                    "tripleCount": 1516
+                },
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1486,
+                    "tripleCount": 1486
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 218,
+                    "tripleCount": 218
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 35,
+                    "tripleCount": 35
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#MeasureProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Assertion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Provenance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#PublicationInfo",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://purl.org/dc/elements/1.1/Location",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 17,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 18,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 19,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 20,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Slice",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 21,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://lemon-model.net/lemon#Lexicon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 22,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://rdfs.co/juso/Point",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 106428,
+                    "tripleCount": 106428
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1486,
+                    "tripleCount": 1486
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "sem:Event",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 135863,
+            "tripleCount": 135863
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 20,
+                    "tripleCountBase": 20
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 20,
+            "fullName": "http://www.w3.org/ns/csvw#lang",
+            "localName": "lang",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#LexicalEntry",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8373,
+                    "tripleCount": 8373
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lemon-model.net/lemon#sense",
+            "localName": "sense",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 8373,
+            "tripleCount": 8373
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 10,
+                    "tripleCountBase": 10
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "sem:Event",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10,
+            "fullName": "sem:hasTimeStamp",
+            "localName": "sem:hasTimeStamp",
+            "maxCardinality": 1,
+            "namespace": "",
+            "objectTripleCount": 0,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://lemon-model.net/lemon#Lexicon",
+                    "TargetClass": "http://lemon-model.net/lemon#LexicalEntry",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7782
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#Lexicon",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 7782,
+                    "tripleCount": 7782
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#LexicalEntry",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 7782
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://lemon-model.net/lemon#entry",
+            "localName": "entry",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 7782,
+            "tripleCount": 7782
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DimensionProperty",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 218
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#dimension",
+            "localName": "dimension",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 24,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/u1",
+            "localName": "u1",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#tableSchema",
+            "localName": "tableSchema",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/ca",
+            "localName": "ca",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/u3",
+            "localName": "u3",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/u2",
+            "localName": "u2",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 75,
+                    "tripleCountBase": 75
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 75,
+            "fullName": "http://www.w3.org/ns/csvw#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 0,
+            "tripleCount": 75
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 578,
+                    "tripleCountBase": 578
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "dataTripleCount": 578,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 578
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 578,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 578
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 578,
+            "fullName": "http://purl.org/dc/elements/1.1/identifier",
+            "localName": "identifier",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 578
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.co/juso/Neighborhood",
+            "localName": "Neighborhood",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.co/juso/",
+            "objectTripleCount": 106428,
+            "tripleCount": 106428
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 12,
+                    "tripleCountBase": 12
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "dataTripleCount": 144,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 144
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 12,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 123,
+                    "tripleCountBase": 123
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 123,
+            "fullName": "https://iisg.amsterdam/cinemadata_overzicht.csv/column/TopCountry",
+            "localName": "TopCountry",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/cinemadata_overzicht.csv/column/",
+            "objectTripleCount": 0,
+            "tripleCount": 123
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/se",
+            "localName": "se",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 376,
+                    "tripleCountBase": 752
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1742
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1742
+                }
+            ],
+            "dataTripleCount": 752,
+            "fullName": "http://dbpedia.org/ontology/residence",
+            "localName": "residence",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://dbpedia.org/ontology/",
+            "objectTripleCount": 1742,
+            "tripleCount": 2494
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/linked-data/cube#Slice",
+                    "TargetClass": "http://purl.org/linked-data/cube#Observation",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1516
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Slice",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1516,
+                    "tripleCount": 1516
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1516
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#observation",
+            "localName": "observation",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 1516,
+            "tripleCount": 1516
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 116,
+                    "tripleCountBase": 116
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 116,
+            "fullName": "https://iisg.amsterdam/cinemadata_overzicht.csv/column/TopGenre",
+            "localName": "TopGenre",
+            "maxCardinality": -1,
+            "namespace": "https://iisg.amsterdam/cinemadata_overzicht.csv/column/",
+            "objectTripleCount": 0,
+            "tripleCount": 116
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#DataStructureDefinition",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 144
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/cube#structure",
+            "localName": "structure",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/cube#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#valueUrl",
+            "localName": "valueUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 83,
+            "tripleCount": 83
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1742,
+                    "tripleCountBase": 1742
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 1742,
+            "fullName": "http://dbpedia.org/ontology/birthPlace",
+            "localName": "birthPlace",
+            "maxCardinality": 1,
+            "namespace": "http://dbpedia.org/ontology/",
+            "objectTripleCount": 0,
+            "tripleCount": 1742
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/linked-data/cube#Observation",
+                    "TargetClass": "http://rdf.histograph.io/district",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1516
+                },
+                {
+                    "SourceClass": "http://purl.org/linked-data/cube#Observation",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1516
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1516,
+                    "tripleCount": 1516
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://rdf.histograph.io/district",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1516
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1516
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
+            "localName": "refArea",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/linked-data/sdmx/2009/dimension#",
+            "objectTripleCount": 1516,
+            "tripleCount": 1516
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:decimal",
+                    "tripleCount": 2600,
+                    "tripleCountBase": 2600
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 1132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2600,
+            "fullName": "https://iisg.amsterdam/resource/hiscam/de",
+            "localName": "de",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/resource/hiscam/",
+            "objectTripleCount": 0,
+            "tripleCount": 2600
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://schema.org/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Collection",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCodeSet",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/csvw#aboutUrl",
+            "localName": "aboutUrl",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/csvw#",
+            "objectTripleCount": 88,
+            "tripleCount": 88
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 568,
+                    "tripleCountBase": 944
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.oclc.org/NET/ssnx/ssn#Observation",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 757
+                },
+                {
+                    "classFullName": "http://rdfs.co/juso/Point",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 757
+                }
+            ],
+            "dataTripleCount": 944,
+            "fullName": "http://rdfs.co/juso/address",
+            "localName": "address",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.co/juso/",
+            "objectTripleCount": 757,
+            "tripleCount": 1701
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/linked-data/cube#Observation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1516,
+                    "tripleCount": 1516
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://lod.cedar-project.nl/vocab/cedar#Kom",
+            "localName": "Kom",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://lod.cedar-project.nl/vocab/cedar#",
+            "objectTripleCount": 1516,
+            "tripleCount": 1516
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.nanopub.org/nschema#Nanopublication",
+                    "TargetClass": "http://www.nanopub.org/nschema#PublicationInfo",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 22
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#Nanopublication",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.nanopub.org/nschema#PublicationInfo",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 22
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.nanopub.org/nschema#hasPublicationInfo",
+            "localName": "hasPublicationInfo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.nanopub.org/nschema#",
+            "objectTripleCount": 22,
+            "tripleCount": 22
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://lemon-model.net/lemon#Lexicon",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://lemon-model.net/lemon#language",
+            "localName": "language",
+            "maxCardinality": 1,
+            "namespace": "http://lemon-model.net/lemon#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.w3.org/ns/csvw#"
+}

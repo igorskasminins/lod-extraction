@@ -1,0 +1,958 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+            "incomingTripleCount": 61,
+            "instanceCount": 31,
+            "isLiteral": false,
+            "localName": "ExperimentalSite",
+            "namespace": "http://www.anaee-france.fr/ontology/anaee-france_ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2006/vcard/ns#Individual",
+            "incomingTripleCount": 30,
+            "instanceCount": 50,
+            "isLiteral": false,
+            "localName": "Individual",
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Catalog",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Catalog",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/org#Organization",
+            "incomingTripleCount": 30,
+            "instanceCount": 16,
+            "isLiteral": false,
+            "localName": "Organization",
+            "namespace": "http://www.w3.org/ns/org#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/agent",
+            "incomingTripleCount": 1,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "agent",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+            "incomingTripleCount": 31,
+            "instanceCount": 62,
+            "isLiteral": false,
+            "localName": "ExperimentalBlock",
+            "namespace": "http://www.anaee-france.fr/ontology/anaee-france_ontology#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalPlot",
+            "incomingTripleCount": 455,
+            "instanceCount": 733,
+            "isLiteral": false,
+            "localName": "ExperimentalPlot",
+            "namespace": "http://www.anaee-france.fr/ontology/anaee-france_ontology#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "3331703219935301620",
+        "enableLogging": true,
+        "endpointUrl": "http://147.100.179.235:8082/blazegraph/namespace/AnaEE_sites/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.anaee-france.fr/ontology/anaee-france_ontology#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/prov#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/org#",
+            "prefix": "n10"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 50,
+                    "tripleCountBase": 50
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Individual",
+                    "dataTripleCount": 50,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 50
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 50,
+            "fullName": "http://www.w3.org/2006/vcard/ns#hasEmail",
+            "localName": "hasEmail",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "objectTripleCount": 0,
+            "tripleCount": 50
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 30,
+                    "tripleCountBase": 30
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 30,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 30
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 30,
+            "fullName": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+            "localName": "lat",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "objectTripleCount": 0,
+            "tripleCount": 30
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/prov#hadPlan",
+            "localName": "hadPlan",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 50,
+                    "tripleCountBase": 50
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Individual",
+                    "dataTripleCount": 50,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 50
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 50,
+            "fullName": "http://www.w3.org/2006/vcard/ns#hasName",
+            "localName": "hasName",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2006/vcard/ns#",
+            "objectTripleCount": 0,
+            "tripleCount": 50
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/prov#wasDerivedFrom",
+            "localName": "wasDerivedFrom",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/prov#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 30,
+                    "tripleCountBase": 30
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 30,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 30
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 30,
+            "fullName": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+            "localName": "long",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+            "objectTripleCount": 0,
+            "tripleCount": 30
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/agent",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "TargetClass": "http://www.w3.org/2006/vcard/ns#Individual",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 30
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 30,
+                    "tripleCount": 30
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Individual",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 30
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#contactPoint",
+            "localName": "contactPoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 30,
+            "tripleCount": 30
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "TargetClass": "http://www.w3.org/ns/org#Organization",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 30
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 30,
+                    "tripleCount": 30
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/org#Organization",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 30
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 30,
+            "tripleCount": 30
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "TargetClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalPlot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 455
+                },
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 30
+                },
+                {
+                    "SourceClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "TargetClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 31
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 455,
+                    "tripleCount": 455
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 51,
+                    "tripleCount": 51
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 30,
+                    "tripleCount": 30
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalPlot",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 455
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 31
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 30
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/hasPart",
+            "localName": "hasPart",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 536,
+            "tripleCount": 536
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/issued",
+            "localName": "issued",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1646,
+                    "tripleCountBase": 1646
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalPlot",
+                    "dataTripleCount": 1466,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1466
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "dataTripleCount": 124,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 124
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 56,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 56
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1646,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1646
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1650,
+                    "tripleCountBase": 1650
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalPlot",
+                    "dataTripleCount": 1466,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1466
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "dataTripleCount": 124,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 124
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 60,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 60
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1650,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1650
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/org#Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/homepage",
+            "localName": "homepage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 36,
+            "tripleCount": 36
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "TargetClass": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 31
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalPlot",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 733,
+                    "tripleCount": 733
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalBlock",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 62,
+                    "tripleCount": 62
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/vcard/ns#Individual",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 50,
+                    "tripleCount": 50
+                },
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 31,
+                    "tripleCount": 31
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/org#Organization",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/agent",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.anaee-france.fr/ontology/anaee-france_ontology#ExperimentalSite",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 31
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 894,
+            "tripleCount": 894
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 16,
+                    "tripleCountBase": 16
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/org#Organization",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 16,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 16
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/dc/terms/"
+}

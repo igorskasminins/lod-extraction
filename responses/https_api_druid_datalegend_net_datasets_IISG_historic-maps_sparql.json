@@ -1,0 +1,1459 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+            "incomingTripleCount": 3752,
+            "instanceCount": 1876,
+            "isLiteral": false,
+            "localName": "Map",
+            "namespace": "https://druid.datalegend.net/IISG/historic-maps/def/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+            "incomingTripleCount": 4812,
+            "instanceCount": 3106,
+            "isLiteral": false,
+            "localName": "BoundingBox",
+            "namespace": "https://triplydb.com/Triply/tg/def/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2006/time#Instant",
+            "incomingTripleCount": 830,
+            "instanceCount": 550,
+            "isLiteral": false,
+            "localName": "Instant",
+            "namespace": "http://www.w3.org/2006/time#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/dc/terms/PeriodOfTime",
+            "incomingTripleCount": 3126,
+            "instanceCount": 275,
+            "isLiteral": false,
+            "localName": "PeriodOfTime",
+            "namespace": "http://purl.org/dc/terms/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2006/time#ProperInterval",
+            "incomingTripleCount": 3126,
+            "instanceCount": 275,
+            "isLiteral": false,
+            "localName": "ProperInterval",
+            "namespace": "http://www.w3.org/2006/time#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://triplydb.com/Triply/tg/def/Layer",
+            "incomingTripleCount": 9253,
+            "instanceCount": 1752,
+            "isLiteral": false,
+            "localName": "Layer",
+            "namespace": "https://triplydb.com/Triply/tg/def/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+            "incomingTripleCount": 5628,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "SemanticVersion",
+            "namespace": "https://triplydb.com/Triply/tv/def/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/dcat#Catalog",
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "Catalog",
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://triplydb.com/Triply/wms/def/Service",
+            "instanceCount": 1876,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "8635864541132125131",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG/historic-maps/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "https://triplydb.com/Triply/tg/def/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2006/time#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "https://triplydb.com/Triply/tv/def/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "https://schema.org/",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "https://druid.datalegend.net/IISG/historic-maps/def/",
+            "prefix": "n10"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "dataTripleCount": 9,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "https://triplydb.com/Triply/tv/def/major",
+            "localName": "major",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/tv/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 5658,
+                    "tripleCount": 5658
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://triplydb.com/Triply/wms/def/exceptionFormat",
+            "localName": "exceptionFormat",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "objectTripleCount": 5628,
+            "tripleCount": 5628
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/dc/terms/PeriodOfTime",
+                    "TargetClass": "http://www.w3.org/2006/time#Instant",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 719
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2006/time#ProperInterval",
+                    "TargetClass": "http://www.w3.org/2006/time#Instant",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 719
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/PeriodOfTime",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 415,
+                    "tripleCount": 415
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#ProperInterval",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 415,
+                    "tripleCount": 415
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/time#Instant",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 415
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2006/time#hasEnd",
+            "localName": "hasEnd",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2006/time#",
+            "objectTripleCount": 275,
+            "tripleCount": 275
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://triplydb.com/Triply/tg/def/Layer",
+                    "TargetClass": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2424
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1842,
+                    "tripleCount": 1842
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2406
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 1836,
+            "tripleCount": 1836
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://triplydb.com/Triply/wms/def/Service",
+                    "TargetClass": "https://triplydb.com/Triply/tg/def/Layer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7544
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3772,
+                    "tripleCount": 3772
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 7504
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://triplydb.com/Triply/tg/def/layer",
+            "localName": "layer",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://triplydb.com/Triply/tg/def/",
+            "objectTripleCount": 3752,
+            "tripleCount": 3752
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/dc/terms/PeriodOfTime",
+                    "TargetClass": "http://www.w3.org/2006/time#Instant",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 719
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2006/time#ProperInterval",
+                    "TargetClass": "http://www.w3.org/2006/time#Instant",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 719
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/PeriodOfTime",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 415,
+                    "tripleCount": 415
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#ProperInterval",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 415,
+                    "tripleCount": 415
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/time#Instant",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 415
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2006/time#hasBeginning",
+            "localName": "hasBeginning",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2006/time#",
+            "objectTripleCount": 275,
+            "tripleCount": 275
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://triplydb.com/Triply/wms/def/Service",
+                    "TargetClass": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5658
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1886,
+                    "tripleCount": 1886
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 5628
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://triplydb.com/Triply/tv/def/version",
+            "localName": "version",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://triplydb.com/Triply/tv/def/",
+            "objectTripleCount": 1876,
+            "tripleCount": 1876
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://triplydb.com/Triply/tg/def/Layer",
+                    "TargetClass": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2424
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1842,
+                    "tripleCount": 1842
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2406
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://triplydb.com/Triply/tg/def/boundingBox",
+            "localName": "boundingBox",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://triplydb.com/Triply/tg/def/",
+            "objectTripleCount": 1836,
+            "tripleCount": 1836
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://triplydb.com/Triply/tg/def/Layer",
+                    "TargetClass": "https://triplydb.com/Triply/tg/def/Layer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5247
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 5247,
+                    "tripleCount": 5247
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1749
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#sfContains",
+            "localName": "sfContains",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 1749,
+            "tripleCount": 1749
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1752,
+                    "tripleCountBase": 1752
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 1758,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1758
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1752,
+            "fullName": "https://schema.org/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 1752
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1876,
+                    "tripleCountBase": 1876
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 1886,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1886
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1876,
+            "fullName": "http://www.w3.org/ns/dcat#endpointURL",
+            "localName": "endpointURL",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 0,
+            "tripleCount": 1876
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1060,
+                    "tripleCountBase": 1060
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "dataTripleCount": 1057,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1057
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 9,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1060,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1060
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/dcat#Catalog",
+                    "TargetClass": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1876
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1876,
+                    "tripleCount": 1876
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1876
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#dataset",
+            "localName": "dataset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 1876,
+            "tripleCount": 1876
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 550,
+                    "tripleCountBase": 550
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2006/time#Instant",
+                    "dataTripleCount": 830,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 830
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 550,
+            "fullName": "http://www.w3.org/2006/time#inXSDDate",
+            "localName": "inXSDDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2006/time#",
+            "objectTripleCount": 0,
+            "tripleCount": 550
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "TargetClass": "http://purl.org/dc/terms/PeriodOfTime",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3126
+                },
+                {
+                    "SourceClass": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "TargetClass": "http://www.w3.org/2006/time#ProperInterval",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3126
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1876,
+                    "tripleCount": 1876
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/PeriodOfTime",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3126
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#ProperInterval",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3126
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/temporal",
+            "localName": "temporal",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1876,
+            "tripleCount": 1876
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://triplydb.com/Triply/wms/def/Service",
+                    "TargetClass": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1886
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1886,
+                    "tripleCount": 1886
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1876
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#servesDataset",
+            "localName": "servesDataset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 1876,
+            "tripleCount": 1876
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 1547,
+                    "tripleCountBase": 1553
+                },
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 6,
+                    "tripleCountBase": 1553
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 1559,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1553,
+            "fullName": "https://triplydb.com/Triply/wms/def/westBoundLongitude",
+            "localName": "westBoundLongitude",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 1553
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 1539,
+                    "tripleCountBase": 1539
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 1539,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1539
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1539,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 1539
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 1549,
+                    "tripleCountBase": 1553
+                },
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 4,
+                    "tripleCountBase": 1553
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 1559,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1553,
+            "fullName": "https://triplydb.com/Triply/wms/def/southBoundLongitude",
+            "localName": "southBoundLongitude",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 1553
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7023,
+                    "tripleCount": 7023
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1559,
+                    "tripleCount": 1559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://triplydb.com/Triply/tg/def/crs",
+            "localName": "crs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://triplydb.com/Triply/tg/def/",
+            "objectTripleCount": 8558,
+            "tripleCount": 8558
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 5,
+                    "tripleCountBase": 1553
+                },
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 1548,
+                    "tripleCountBase": 1553
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 1559,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1553,
+            "fullName": "https://triplydb.com/Triply/wms/def/northBoundLongitude",
+            "localName": "northBoundLongitude",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 1553
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 11916,
+                    "tripleCount": 11916
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/format",
+            "localName": "format",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 11846,
+            "tripleCount": 11846
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 3,
+                    "tripleCountBase": 1553
+                },
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 1550,
+                    "tripleCountBase": 1553
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 1559,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1559
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1553,
+            "fullName": "https://triplydb.com/Triply/wms/def/eastBoundLongitude",
+            "localName": "eastBoundLongitude",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/wms/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 1553
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "dataTripleCount": 9,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "https://triplydb.com/Triply/tv/def/minor",
+            "localName": "minor",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/tv/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1876,
+                    "tripleCountBase": 1876
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "dataTripleCount": 1876,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1876
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1876,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1876
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 7889,
+                    "tripleCountBase": 7889
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 1886,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1886
+                },
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "dataTripleCount": 1876,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1876
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 1759,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1759
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 1559,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1559
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#Instant",
+                    "dataTripleCount": 830,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 830
+                },
+                {
+                    "classFullName": "http://purl.org/dc/terms/PeriodOfTime",
+                    "dataTripleCount": 415,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "dataTripleCount": 9,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#ProperInterval",
+                    "dataTripleCount": 415,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 415
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7889,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 7889
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 3752,
+                    "tripleCountBase": 3752
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 1886,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1886
+                },
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "dataTripleCount": 1876,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1876
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3752,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 3752
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 3,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "dataTripleCount": 9,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "https://triplydb.com/Triply/tv/def/patch",
+            "localName": "patch",
+            "maxCardinality": 1,
+            "namespace": "https://triplydb.com/Triply/tv/def/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/BoundingBox",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3118,
+                    "tripleCount": 3118
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/wms/def/Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1886,
+                    "tripleCount": 1886
+                },
+                {
+                    "classFullName": "https://druid.datalegend.net/IISG/historic-maps/def/Map",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1876,
+                    "tripleCount": 1876
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tg/def/Layer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1758,
+                    "tripleCount": 1758
+                },
+                {
+                    "classFullName": "http://purl.org/dc/terms/PeriodOfTime",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 830,
+                    "tripleCount": 830
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#Instant",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 830,
+                    "tripleCount": 830
+                },
+                {
+                    "classFullName": "https://triplydb.com/Triply/tv/def/SemanticVersion",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9,
+                    "tripleCount": 9
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/dcat#Catalog",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2006/time#ProperInterval",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 830,
+                    "tripleCount": 830
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 9716,
+            "tripleCount": 9716
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "https://triplydb.com/Triply/wms/def/"
+}

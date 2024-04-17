@@ -1,6 +1,6 @@
 {
     "Classes": [],
-    "HasErrors": false,
+    "HasErrors": true,
     "Parameters": {
         "addIntersectionClasses": "no",
         "calculateCardinalitiesMode": "propertyLevelOnly",
@@ -9,12 +9,12 @@
         "calculateDomainsAndRanges": true,
         "calculateImportanceIndexes": true,
         "calculateMultipleInheritanceSuperclasses": true,
-        "calculatePropertyPropertyRelations": true,
+        "calculatePropertyPropertyRelations": false,
         "calculateSourceAndTargetPairs": true,
         "calculateSubClassRelations": true,
         "checkInstanceNamespaces": false,
         "classificationPropertiesWithConnectionsOnly": [],
-        "correlationId": "7486767314062787959",
+        "correlationId": "7037288295046190193",
         "enableLogging": true,
         "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG-DA/Collectie-Interviews-Wim-Kok-deel-2/sparql",
         "exactCountCalculations": "no",
@@ -60,28 +60,7 @@
             "Followers": [],
             "IncomingProperties": [],
             "Labels": [],
-            "OutgoingProperties": [
-                {
-                    "propertyName": "http://schema.org/contentURL",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/endTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/isPartOf",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/startTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/transcript",
-                    "tripleCount": 1629
-                }
-            ],
+            "OutgoingProperties": [],
             "SourceClasses": [],
             "TargetClasses": [],
             "dataTripleCount": 1629,
@@ -104,28 +83,7 @@
             "Followers": [],
             "IncomingProperties": [],
             "Labels": [],
-            "OutgoingProperties": [
-                {
-                    "propertyName": "http://schema.org/contentURL",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/endTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/isPartOf",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/startTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/transcript",
-                    "tripleCount": 1629
-                }
-            ],
+            "OutgoingProperties": [],
             "SourceClasses": [],
             "TargetClasses": [],
             "dataTripleCount": 1629,
@@ -139,41 +97,10 @@
         {
             "ClassPairs": [],
             "DataTypes": [],
-            "Followers": [
-                {
-                    "propertyName": "http://schema.org/contentURL",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/endTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/isPartOf",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/startTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/transcript",
-                    "tripleCount": 1629
-                }
-            ],
-            "IncomingProperties": [
-                {
-                    "propertyName": "http://schema.org/hasPart",
-                    "tripleCount": 1629
-                }
-            ],
+            "Followers": [],
+            "IncomingProperties": [],
             "Labels": [],
-            "OutgoingProperties": [
-                {
-                    "propertyName": "http://schema.org/hasPart",
-                    "tripleCount": 1629
-                }
-            ],
+            "OutgoingProperties": [],
             "SourceClasses": [],
             "TargetClasses": [],
             "dataTripleCount": 0,
@@ -197,28 +124,7 @@
             "Followers": [],
             "IncomingProperties": [],
             "Labels": [],
-            "OutgoingProperties": [
-                {
-                    "propertyName": "http://schema.org/contentURL",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/endTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/isPartOf",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/startTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/transcript",
-                    "tripleCount": 1629
-                }
-            ],
+            "OutgoingProperties": [],
             "SourceClasses": [],
             "TargetClasses": [],
             "dataTripleCount": 1629,
@@ -241,28 +147,7 @@
             "Followers": [],
             "IncomingProperties": [],
             "Labels": [],
-            "OutgoingProperties": [
-                {
-                    "propertyName": "http://schema.org/contentURL",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/endTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/isPartOf",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/startTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/transcript",
-                    "tripleCount": 1629
-                }
-            ],
+            "OutgoingProperties": [],
             "SourceClasses": [],
             "TargetClasses": [],
             "dataTripleCount": 1629,
@@ -285,28 +170,7 @@
             "Followers": [],
             "IncomingProperties": [],
             "Labels": [],
-            "OutgoingProperties": [
-                {
-                    "propertyName": "http://schema.org/contentURL",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/endTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/isPartOf",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/startTime",
-                    "tripleCount": 1629
-                },
-                {
-                    "propertyName": "http://schema.org/transcript",
-                    "tripleCount": 1629
-                }
-            ],
+            "OutgoingProperties": [],
             "SourceClasses": [],
             "TargetClasses": [],
             "dataTripleCount": 1629,

@@ -1,0 +1,1130 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/locn#Address",
+            "incomingTripleCount": 489058,
+            "instanceCount": 173815,
+            "isLiteral": false,
+            "localName": "Address",
+            "namespace": "http://www.w3.org/ns/locn#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/legal#LegalEntity",
+            "instanceCount": 520928,
+            "isLiteral": false,
+            "localName": "LegalEntity",
+            "namespace": "http://www.w3.org/ns/legal#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://data.europa.eu/m8g/AdminUnit",
+            "incomingTripleCount": 420919,
+            "instanceCount": 385,
+            "isLiteral": false,
+            "localName": "AdminUnit",
+            "namespace": "http://data.europa.eu/m8g/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/adms#Identifier",
+            "incomingTripleCount": 520928,
+            "instanceCount": 520928,
+            "isLiteral": false,
+            "localName": "Identifier",
+            "namespace": "http://www.w3.org/ns/adms#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/dc/terms/Agent",
+            "incomingTripleCount": 520928,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Agent",
+            "namespace": "http://purl.org/dc/terms/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.org/ns/void#Dataset",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://rdfs.org/ns/void#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "6105508573843652753",
+        "enableLogging": true,
+        "endpointUrl": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/locn#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://data.europa.eu/m8g/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/legal#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "https://schema.org/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/adms#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "https://w3id.org/stirdata/vocabulary/",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n9"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/source",
+            "localName": "source",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 132410,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 132410
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 132410,
+            "fullName": "http://www.w3.org/ns/locn#postCode",
+            "localName": "postCode",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 132410
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/legal#LegalEntity",
+                    "TargetClass": "http://www.w3.org/ns/locn#Address",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 489058
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 489058,
+                    "tripleCount": 489058
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 489058
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://data.europa.eu/m8g/registeredAddress",
+            "localName": "registeredAddress",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://data.europa.eu/m8g/",
+            "objectTripleCount": 489058,
+            "tripleCount": 489058
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://data.europa.eu/m8g/AdminUnit",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://data.europa.eu/m8g/AdminUnit",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/spatial",
+            "localName": "spatial",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 10302,
+                    "tripleCountBase": 10302
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 10264,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10264
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10302,
+            "fullName": "https://schema.org/leiCode",
+            "localName": "leiCode",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 10302
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/Agent",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 173791,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 173791
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 173791,
+            "fullName": "http://www.w3.org/ns/locn#adminUnitL1",
+            "localName": "adminUnitL1",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 173791
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 173653,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 173653
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 173653,
+            "fullName": "http://www.w3.org/ns/locn#adminUnitL2",
+            "localName": "adminUnitL2",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 173653
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/locn#Address",
+                    "TargetClass": "http://data.europa.eu/m8g/AdminUnit",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 420533
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 420533,
+                    "tripleCount": 420533
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://data.europa.eu/m8g/AdminUnit",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 420533
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://data.europa.eu/m8g/adminUnit",
+            "localName": "adminUnit",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://data.europa.eu/m8g/",
+            "objectTripleCount": 420533,
+            "tripleCount": 420533
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTimeStamp",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://data.europa.eu/m8g/AdminUnit",
+                    "TargetClass": "http://data.europa.eu/m8g/AdminUnit",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 385
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://data.europa.eu/m8g/AdminUnit",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 385,
+                    "tripleCount": 385
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://data.europa.eu/m8g/AdminUnit",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 385
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://data.europa.eu/m8g/code",
+            "localName": "code",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://data.europa.eu/m8g/",
+            "objectTripleCount": 385,
+            "tripleCount": 385
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 520931,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 520931
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 520931,
+            "fullName": "http://www.w3.org/ns/legal#legalName",
+            "localName": "legalName",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/ns/legal#",
+            "objectTripleCount": 0,
+            "tripleCount": 520931
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://data.europa.eu/m8g/AdminUnit",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 385,
+                    "tripleCount": 385
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://data.europa.eu/m8g/level",
+            "localName": "level",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://data.europa.eu/m8g/",
+            "objectTripleCount": 385,
+            "tripleCount": 385
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 270962,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 270962
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 270962,
+            "fullName": "https://schema.org/dissolutionDate",
+            "localName": "dissolutionDate",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 270962
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/adms#Identifier",
+                    "dataTripleCount": 520926,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 520926
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 520926,
+            "fullName": "http://www.w3.org/2004/02/skos/core#notation",
+            "localName": "notation",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 520926
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 171530,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 171530
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 171530,
+            "fullName": "http://www.w3.org/ns/locn#thoroughfare",
+            "localName": "thoroughfare",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 171530
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 520926,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 520926
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 520926,
+            "fullName": "http://data.europa.eu/m8g/registrationDate",
+            "localName": "registrationDate",
+            "maxCardinality": 1,
+            "namespace": "http://data.europa.eu/m8g/",
+            "objectTripleCount": 0,
+            "tripleCount": 520926
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 101166,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 101166
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 101166,
+            "fullName": "http://www.w3.org/ns/locn#postName",
+            "localName": "postName",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 101166
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 520701,
+                    "tripleCount": 520701
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/legal#companyType",
+            "localName": "companyType",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/legal#",
+            "objectTripleCount": 520701,
+            "tripleCount": 520701
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/legal#LegalEntity",
+                    "TargetClass": "http://www.w3.org/ns/adms#Identifier",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 520928
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 520928,
+                    "tripleCount": 520928
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/adms#Identifier",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 520928
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/legal#legalIdentifier",
+            "localName": "legalIdentifier",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/legal#",
+            "objectTripleCount": 520928,
+            "tripleCount": 520928
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 161412,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 161412
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 161412,
+            "fullName": "http://www.w3.org/ns/locn#locatorDesignator",
+            "localName": "locatorDesignator",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 161412
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/adms#Identifier",
+                    "TargetClass": "http://purl.org/dc/terms/Agent",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 520928
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/adms#Identifier",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 520928,
+                    "tripleCount": 520928
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/Agent",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 520928
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 520928,
+            "tripleCount": 520928
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/adms#Identifier",
+                    "dataTripleCount": 520926,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 520926
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 520926,
+            "fullName": "http://purl.org/dc/terms/issued",
+            "localName": "issued",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 520926
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/Agent",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 173812,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 173812
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 173812,
+            "fullName": "http://www.w3.org/ns/locn#fullAddress",
+            "localName": "fullAddress",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/locn#",
+            "objectTripleCount": 0,
+            "tripleCount": 173812
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/dc/terms/Agent",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "https://w3id.org/stirdata/vocabulary/racCode",
+            "localName": "racCode",
+            "maxCardinality": 1,
+            "namespace": "https://w3id.org/stirdata/vocabulary/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/adms#Identifier",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 520928,
+                    "tripleCount": 520928
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/legal#LegalEntity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 520928,
+                    "tripleCount": 520928
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/locn#Address",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 173815,
+                    "tripleCount": 173815
+                },
+                {
+                    "classFullName": "http://data.europa.eu/m8g/AdminUnit",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 385,
+                    "tripleCount": 385
+                },
+                {
+                    "classFullName": "http://purl.org/dc/terms/Agent",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1216058,
+            "tripleCount": 1216058
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/dc/terms/"
+}

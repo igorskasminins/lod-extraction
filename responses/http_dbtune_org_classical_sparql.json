@@ -1,0 +1,2774 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://dbtune.org/classical/resource/type/Composer",
+            "incomingTripleCount": 30460,
+            "instanceCount": 8312,
+            "isLiteral": false,
+            "localName": "Composer",
+            "namespace": "http://dbtune.org/classical/resource/type/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://dbtune.org/classical/resource/type/Conductor",
+            "instanceCount": 1222,
+            "isLiteral": false,
+            "localName": "Conductor",
+            "namespace": "http://dbtune.org/classical/resource/type/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://dbtune.org/classical/resource/type/Pianist",
+            "incomingTripleCount": 103,
+            "instanceCount": 942,
+            "isLiteral": false,
+            "localName": "Pianist",
+            "namespace": "http://dbtune.org/classical/resource/type/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+            "incomingTripleCount": 554,
+            "instanceCount": 37,
+            "isLiteral": false,
+            "localName": "StylePeriod",
+            "namespace": "http://purl.org/ontology/classicalmusicnav#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Composition",
+            "incomingTripleCount": 25285,
+            "instanceCount": 22478,
+            "isLiteral": false,
+            "localName": "Composition",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/MusicalWork",
+            "incomingTripleCount": 41809,
+            "instanceCount": 25285,
+            "isLiteral": false,
+            "localName": "MusicalWork",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/similarity/Similarity",
+            "instanceCount": 722,
+            "isLiteral": false,
+            "localName": "Similarity",
+            "namespace": "http://purl.org/ontology/similarity/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/vocab/bio/0.1/Birth",
+            "incomingTripleCount": 6921,
+            "instanceCount": 6921,
+            "isLiteral": false,
+            "localName": "Birth",
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/vocab/bio/0.1/Death",
+            "incomingTripleCount": 4420,
+            "instanceCount": 4420,
+            "isLiteral": false,
+            "localName": "Death",
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "instanceCount": 37,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+            "incomingTripleCount": 123820,
+            "instanceCount": 75590,
+            "isLiteral": false,
+            "localName": "Resource",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 8312,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Document",
+            "incomingTripleCount": 5956,
+            "instanceCount": 5247,
+            "isLiteral": false,
+            "localName": "Document",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "6990980755524722198",
+        "enableLogging": true,
+        "endpointUrl": "http://dbtune.org/classical/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/ontology/mo/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/ontology/similarity/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://purl.org/ontology/classicalmusicnav#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://dbtune.org/classical/resource/type/",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://dbtune.org/musicbrainz/resource/vocab/",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://www.openrdf.org/schema/serql#",
+            "prefix": "n12"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 25267,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25267
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "dataTripleCount": 37,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 37
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 25304,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 25304
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 25304,
+            "fullName": "http://purl.org/dc/elements/1.1/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 25304
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Composition",
+                    "dataTripleCount": 597,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 597
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 597,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 597
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 597,
+            "fullName": "http://purl.org/vocab/bio/0.1/place",
+            "localName": "place",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 597
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 246,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 246
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 246,
+            "fullName": "http://dbtune.org/classical/resource/vocab/gender",
+            "localName": "gender",
+            "maxCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 246
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 6440,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6440
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 6440,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6440
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6440,
+            "fullName": "http://purl.org/ontology/mo/opus",
+            "localName": "opus",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 6440
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 8293,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8293
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Conductor",
+                    "dataTripleCount": 1223,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1223
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Pianist",
+                    "dataTripleCount": 942,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 942
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 10458,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10458
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10458,
+            "fullName": "http://xmlns.com/foaf/0.1/name",
+            "localName": "name",
+            "maxCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 10458
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://purl.org/vocab/bio/0.1/Birth",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 6921
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 6921
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/vocab/bio/0.1/Birth",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 6921
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 6921
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 6921,
+                    "tripleCount": 6921
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6921,
+                    "tripleCount": 6921
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Birth",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 6921
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 6921
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://dbtune.org/classical/resource/vocab/birth",
+            "localName": "birth",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 6921,
+            "tripleCount": 6921
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Document",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5946
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Document",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5946
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5951
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Document",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5951
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11341,
+                    "tripleCount": 11341
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5946,
+                    "tripleCount": 5946
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 17287,
+                    "tripleCount": 17287
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 5951
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 5951
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/page",
+            "localName": "page",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 17287,
+            "tripleCount": 17287
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1810
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 17
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1827
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1810
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 17
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1827
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1997,
+                    "tripleCount": 1997
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1997,
+                    "tripleCount": 1997
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1810
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1827
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/classicalmusicnav#influencedBy",
+            "localName": "influencedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/classicalmusicnav#",
+            "objectTripleCount": 1997,
+            "tripleCount": 1997
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 3922,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3922
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 3922,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3922
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3922,
+            "fullName": "http://purl.org/ontology/mo/key",
+            "localName": "key",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 3922
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.openrdf.org/schema/serql#directSubClassOf",
+            "localName": "directSubClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.openrdf.org/schema/serql#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/similarity/Similarity",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2259
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/similarity/Similarity",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/similarity/Similarity",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2260
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2259
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2260
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/similarity/Similarity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2264,
+                    "tripleCount": 2264
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2264,
+                    "tripleCount": 2264
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2259
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2260
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/similarity/object",
+            "localName": "object",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/similarity/",
+            "objectTripleCount": 2264,
+            "tripleCount": 2264
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Document",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Document",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2219,
+                    "tripleCount": 2219
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2219,
+                    "tripleCount": 2219
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 5
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/wikipedia",
+            "localName": "wikipedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 2219,
+            "tripleCount": 2219
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/similarity/Similarity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 722,
+                    "tripleCount": 722
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 722,
+                    "tripleCount": 722
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/similarity/method",
+            "localName": "method",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/similarity/",
+            "objectTripleCount": 722,
+            "tripleCount": 722
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 3183,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3183
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 3183,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3183
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3183,
+            "fullName": "http://dbtune.org/classical/resource/vocab/nationality",
+            "localName": "nationality",
+            "maxCardinality": -1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 3183
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 8624,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8624
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 8624,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8624
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8624,
+            "fullName": "http://purl.org/ontology/mo/catalogue",
+            "localName": "catalogue",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 8624
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4759
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4759
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4759
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4759
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4759,
+                    "tripleCount": 4759
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4759,
+                    "tripleCount": 4759
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4759
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4759
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/isPartOf",
+            "localName": "isPartOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 4759,
+            "tripleCount": 4759
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 7746,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7746
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 432,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 432
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 8178,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8178
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8178,
+            "fullName": "http://dbtune.org/classical/resource/vocab/remarks",
+            "localName": "remarks",
+            "maxCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 8178
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://purl.org/ontology/mo/Composition",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 25285
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 25285
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Composition",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 25285
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 25285
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 25285,
+                    "tripleCount": 25285
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 25285,
+                    "tripleCount": 25285
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Composition",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 25285
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 25285
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/composed_in",
+            "localName": "composed_in",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 25285,
+            "tripleCount": 25285
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5247
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5247
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Document",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5247
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Document",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5247
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 5247,
+                    "tripleCount": 5247
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5247,
+                    "tripleCount": 5247
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 5247
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 5247
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/primaryTopic",
+            "localName": "primaryTopic",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 5247,
+            "tripleCount": 5247
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Pianist",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 60
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 60
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Conductor",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Pianist",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 43
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Conductor",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 43
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Pianist",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 103
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 103
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 5103,
+                    "tripleCount": 5103
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Conductor",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1360,
+                    "tripleCount": 1360
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6464,
+                    "tripleCount": 6464
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Pianist",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 103
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 103
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 6464,
+            "tripleCount": 6464
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 24593,
+                    "tripleCountBase": 24593
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Composition",
+                    "dataTripleCount": 13252,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 13252
+                },
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Birth",
+                    "dataTripleCount": 6921,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6921
+                },
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Death",
+                    "dataTripleCount": 4420,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4420
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 24593,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 24593
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 24593,
+            "fullName": "http://purl.org/vocab/bio/0.1/date",
+            "localName": "date",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/vocab/bio/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 24593
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 2205,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2205
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 2205,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2205
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2205,
+            "fullName": "http://dbtune.org/classical/resource/vocab/period",
+            "localName": "period",
+            "maxCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 2205
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Composition",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 27238
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Composition",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 27238
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 27238
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 27238
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Composition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 27238,
+                    "tripleCount": 27238
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 27238,
+                    "tripleCount": 27238
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 27238
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 27238
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/produced_work",
+            "localName": "produced_work",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 27238,
+            "tripleCount": 27238
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:boolean",
+                    "tripleCount": 664,
+                    "tripleCountBase": 664
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Birth",
+                    "dataTripleCount": 333,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 333
+                },
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Death",
+                    "dataTripleCount": 331,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 331
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 664,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 664
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 664,
+            "fullName": "http://dbtune.org/classical/resource/vocab/approximate",
+            "localName": "approximate",
+            "maxCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 664
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 16906,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16906
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 6888,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6888
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 23794,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 23794
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 23794,
+            "fullName": "http://dbtune.org/musicbrainz/resource/vocab/alias",
+            "localName": "alias",
+            "maxCardinality": -1,
+            "namespace": "http://dbtune.org/musicbrainz/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 23794
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4565
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4565
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4565
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4565
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4565,
+                    "tripleCount": 4565
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4565,
+                    "tripleCount": 4565
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4565
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4565
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/elements/1.1/hasPart",
+            "localName": "hasPart",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 4565,
+            "tripleCount": 4565
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://purl.org/vocab/bio/0.1/Death",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4420
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4420
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/vocab/bio/0.1/Death",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4420
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4420
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4420,
+                    "tripleCount": 4420
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4420,
+                    "tripleCount": 4420
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Death",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4420
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4420
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://dbtune.org/classical/resource/vocab/death",
+            "localName": "death",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 4420,
+            "tripleCount": 4420
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 5247,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5247
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 5247,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5247
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5247,
+            "fullName": "http://dbtune.org/classical/resource/vocab/siteName",
+            "localName": "siteName",
+            "maxCardinality": 1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 0,
+            "tripleCount": 5247
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 4770,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4770
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 4770,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4770
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4770,
+            "fullName": "http://purl.org/ontology/mo/number",
+            "localName": "number",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 4770
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/similarity/Similarity",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2093
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/similarity/Similarity",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 17
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/similarity/Similarity",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2110
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2093
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 17
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2110
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/similarity/Similarity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2280,
+                    "tripleCount": 2280
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2280,
+                    "tripleCount": 2280
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2093
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2110
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/similarity/subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/similarity/",
+            "objectTripleCount": 2280,
+            "tripleCount": 2280
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2998,
+                    "tripleCount": 2998
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2998,
+                    "tripleCount": 2998
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://xmlns.com/foaf/0.1/based_near",
+            "localName": "based_near",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 2998,
+            "tripleCount": 2998
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 587,
+                    "tripleCount": 587
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 587,
+                    "tripleCount": 587
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://dbtune.org/classical/resource/vocab/form",
+            "localName": "form",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://dbtune.org/classical/resource/vocab/",
+            "objectTripleCount": 587,
+            "tripleCount": 587
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 518
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 518
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 518
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 518
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 518,
+                    "tripleCount": 518
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 518,
+                    "tripleCount": 518
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 518
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 518
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/classicalmusicnav#from_style_period",
+            "localName": "from_style_period",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/classicalmusicnav#",
+            "objectTripleCount": 518,
+            "tripleCount": 518
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1820
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1821
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1820
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1821
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1825,
+                    "tripleCount": 1825
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1825,
+                    "tripleCount": 1825
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1820
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1821
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/classicalmusicnav#hasInfluenced",
+            "localName": "hasInfluenced",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/classicalmusicnav#",
+            "objectTripleCount": 1825,
+            "tripleCount": 1825
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Composition",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 22478
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Composition",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 22478
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 22478
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 22478
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Composition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 22478,
+                    "tripleCount": 22478
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22478,
+                    "tripleCount": 22478
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 22478
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 22478
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/composer",
+            "localName": "composer",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 22478,
+            "tripleCount": 22478
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 8312
+                },
+                {
+                    "SourceClass": "http://dbtune.org/classical/resource/type/Composer",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8312
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 8312
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8312
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 50570,
+                    "tripleCount": 50570
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Composition",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 44956,
+                    "tripleCount": 44956
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Composer",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16624,
+                    "tripleCount": 16624
+                },
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Birth",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 13842,
+                    "tripleCount": 13842
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Document",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10494,
+                    "tripleCount": 10494
+                },
+                {
+                    "classFullName": "http://purl.org/vocab/bio/0.1/Death",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8840,
+                    "tripleCount": 8840
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Conductor",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2444,
+                    "tripleCount": 2444
+                },
+                {
+                    "classFullName": "http://dbtune.org/classical/resource/type/Pianist",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1884,
+                    "tripleCount": 1884
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/similarity/Similarity",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1444,
+                    "tripleCount": 1444
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/classicalmusicnav#StylePeriod",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 74,
+                    "tripleCount": 74
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 41,
+                    "tripleCount": 41
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 151181,
+                    "tripleCount": 151181
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 8312
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 8312
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 151216,
+            "tripleCount": 151216
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/ontology/mo/"
+}

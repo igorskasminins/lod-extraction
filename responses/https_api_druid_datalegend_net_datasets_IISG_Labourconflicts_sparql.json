@@ -1,0 +1,4404 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.org/ns/void#Dataset",
+            "incomingTripleCount": 2,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://rdfs.org/ns/void#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2002/07/owl#Ontology"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/vocommons/voaf#Vocabulary",
+            "incomingTripleCount": 41,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Vocabulary",
+            "namespace": "http://purl.org/vocommons/voaf#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "incomingTripleCount": 82,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 103366,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "instanceCount": 26,
+            "isLiteral": false,
+            "localName": "ObjectProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+            "incomingTripleCount": 2584,
+            "instanceCount": 1145,
+            "isLiteral": false,
+            "localName": "AmsterdamCode",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+            "incomingTripleCount": 9357,
+            "instanceCount": 1692,
+            "isLiteral": false,
+            "localName": "Municipality",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/provincie",
+            "incomingTripleCount": 3384,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "provincie",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/departement",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "departement",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+            "incomingTripleCount": 29461,
+            "instanceCount": 91,
+            "isLiteral": false,
+            "localName": "Resource",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+            "incomingTripleCount": 1,
+            "instanceCount": 17009,
+            "isLiteral": false,
+            "localName": "LabourConflict",
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "https://schema.org/Action"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+            "incomingTripleCount": 15518,
+            "instanceCount": 15518,
+            "isLiteral": false,
+            "localName": "Strike",
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/Action",
+            "incomingTripleCount": 17054,
+            "instanceCount": 17054,
+            "isLiteral": false,
+            "localName": "Action",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+            "incomingTripleCount": 18046,
+            "instanceCount": 18046,
+            "isLiteral": false,
+            "localName": "Demand",
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "https://schema.org/Action"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+            "incomingTripleCount": 691,
+            "instanceCount": 691,
+            "isLiteral": false,
+            "localName": "Lockout",
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/Duration",
+            "incomingTripleCount": 14816,
+            "instanceCount": 367,
+            "isLiteral": false,
+            "localName": "Duration",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/Occupation",
+            "incomingTripleCount": 17583,
+            "instanceCount": 804,
+            "isLiteral": false,
+            "localName": "Occupation",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/Corporation",
+            "incomingTripleCount": 16197,
+            "instanceCount": 9303,
+            "isLiteral": false,
+            "localName": "Corporation",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/City",
+            "incomingTripleCount": 22223,
+            "instanceCount": 1138,
+            "isLiteral": false,
+            "localName": "City",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/AdministrativeArea",
+            "incomingTripleCount": 1142,
+            "instanceCount": 23,
+            "isLiteral": false,
+            "localName": "AdministrativeArea",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+            "incomingTripleCount": 8011,
+            "instanceCount": 354,
+            "isLiteral": false,
+            "localName": "Union",
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/UnionFederation",
+            "incomingTripleCount": 412,
+            "instanceCount": 39,
+            "isLiteral": false,
+            "localName": "UnionFederation",
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://schema.org/CategoryCode",
+            "incomingTripleCount": 805,
+            "instanceCount": 326,
+            "isLiteral": false,
+            "localName": "CategoryCode",
+            "namespace": "http://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://schema.org/CategoryCode"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+            "incomingTripleCount": 805,
+            "instanceCount": 326,
+            "isLiteral": false,
+            "localName": "MicroGroup",
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "3462836129442504531",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/IISG/Labourconflicts/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "https://schema.org/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "prefix": "n10"
+        },
+        {
+            "namespace": "http://purl.org/vocab/vann/",
+            "prefix": "n11"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n12"
+        },
+        {
+            "namespace": "https://iisg.amsterdam/resource/hisco/",
+            "prefix": "n13"
+        },
+        {
+            "namespace": "http://schema.org/",
+            "prefix": "n14"
+        },
+        {
+            "namespace": "http://purl.org/vocommons/voaf#",
+            "prefix": "n15"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "prefix": "n16"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "prefix": "n17"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/org#",
+            "prefix": "n18"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "n19"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 30818,
+                    "tripleCountBase": 30818
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 30818,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 30818
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 30818,
+            "fullName": "https://schema.org/agent",
+            "localName": "agent",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 30818
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://xmlns.com/foaf/0.1/page",
+            "localName": "page",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 2
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/source",
+            "localName": "source",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3241,
+                    "tripleCount": 3241
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 3241,
+            "tripleCount": 3241
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8011
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8011,
+                    "tripleCount": 8011
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 8011
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/union",
+            "localName": "union",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 8011,
+            "tripleCount": 8011
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 14808,
+                    "tripleCountBase": 14808
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 14808,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14808
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 14808,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/numberOfStrikers",
+            "localName": "numberOfStrikers",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 0,
+            "tripleCount": 14808
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 3
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 3
+                },
+                {
+                    "dataType": "rdf:HTML",
+                    "tripleCount": 1,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 654
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 655,
+                    "tripleCount": 655
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 654
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+            "localName": "absorbed",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 655,
+            "tripleCount": 655
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 89133,
+                    "tripleCountBase": 99963
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 10830,
+                    "tripleCountBase": 99963
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+                    "dataTripleCount": 36067,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 36067
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 34018,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 34018
+                },
+                {
+                    "classFullName": "https://schema.org/Action",
+                    "dataTripleCount": 17054,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17054
+                },
+                {
+                    "classFullName": "https://schema.org/Corporation",
+                    "dataTripleCount": 9303,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 9303
+                },
+                {
+                    "classFullName": "https://schema.org/Occupation",
+                    "dataTripleCount": 1606,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1606
+                },
+                {
+                    "classFullName": "https://schema.org/City",
+                    "dataTripleCount": 1138,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1138
+                },
+                {
+                    "classFullName": "https://schema.org/Duration",
+                    "dataTripleCount": 367,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 367
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "dataTripleCount": 349,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 349
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/UnionFederation",
+                    "dataTripleCount": 39,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 39
+                },
+                {
+                    "classFullName": "https://schema.org/AdministrativeArea",
+                    "dataTripleCount": 22,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "dataTripleCount": 15518,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15518
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "dataTripleCount": 691,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 691
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 99963,
+            "fullName": "https://schema.org/name",
+            "localName": "name",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 99963
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 10
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 20,
+                    "tripleCountBase": 20
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 20,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 20
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 20,
+            "fullName": "http://purl.org/dc/terms/subject",
+            "localName": "subject",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+            "localName": "cbsCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1692,
+            "tripleCount": 1692
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 32196,
+                    "tripleCountBase": 32196
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Action",
+                    "dataTripleCount": 32196,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 32196
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "dataTripleCount": 30826,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 30826
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "dataTripleCount": 1364,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1364
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 32196,
+            "fullName": "https://schema.org/category",
+            "localName": "category",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 32196
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://rdfs.org/ns/void#Dataset",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/dcat#dataset",
+            "localName": "dataset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/dcat#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 3241,
+                    "tripleCountBase": 3241
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3241,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 3241
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 48
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 24
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 104
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 52
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 52,
+                    "tripleCount": 52
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 76
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 38
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+            "localName": "isDefinedBy",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 38,
+            "tripleCount": 38
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+            "localName": "inDepartement",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1145,
+            "tripleCount": 1145
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 462,
+                    "tripleCount": 462
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+            "localName": "resourceGeonames",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 462,
+            "tripleCount": 462
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/shacl#shapesGraph",
+            "localName": "shapesGraph",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/shacl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 5,
+                    "tripleCountBase": 7
+                },
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 7
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 7,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 7,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/Occupation",
+                    "TargetClass": "http://schema.org/CategoryCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 805
+                },
+                {
+                    "SourceClass": "https://schema.org/Occupation",
+                    "TargetClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 805
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Occupation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 805,
+                    "tripleCount": 805
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 805
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 805
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/occupationalCategory",
+            "localName": "occupationalCategory",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 805,
+            "tripleCount": 805
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "TargetClass": "https://iisg.amsterdam/vocab/labourconflicts/UnionFederation",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 412
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 412,
+                    "tripleCount": 412
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/UnionFederation",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 412
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/org#unitOf",
+            "localName": "unitOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/org#",
+            "objectTripleCount": 412,
+            "tripleCount": 412
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 378,
+                    "tripleCountBase": 378
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 378,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 378
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 378,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/numberOfActivists",
+            "localName": "numberOfActivists",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 0,
+            "tripleCount": 378
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 4,
+                    "tripleCountBase": 8
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "https://schema.org/contentUrl",
+            "localName": "contentUrl",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/vocab/vann/preferredNamespaceUri",
+            "localName": "preferredNamespaceUri",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/vocab/vann/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 18046
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 18046,
+                    "tripleCount": 18046
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 18046
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/demand",
+            "localName": "demand",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 18046,
+            "tripleCount": 18046
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 24
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 12
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "localName": "seeAlso",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 12,
+            "tripleCount": 12
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1439
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1440,
+                    "tripleCount": 1440
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1439
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+            "localName": "identifies",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1440,
+            "tripleCount": 1440
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2002/07/owl#versionInfo",
+            "localName": "versionInfo",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 11,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 34018
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 31036
+                },
+                {
+                    "SourceClass": "https://schema.org/Action",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 32418
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 15518
+                },
+                {
+                    "SourceClass": "https://schema.org/Action",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 17054
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 36092
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1382
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 691
+                },
+                {
+                    "SourceClass": "https://schema.org/Duration",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 6,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 367
+                },
+                {
+                    "SourceClass": "https://schema.org/Occupation",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 804
+                },
+                {
+                    "SourceClass": "https://schema.org/Corporation",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 9303
+                },
+                {
+                    "SourceClass": "https://schema.org/City",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1138
+                },
+                {
+                    "SourceClass": "https://schema.org/AdministrativeArea",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 9,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 23
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 708
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/UnionFederation",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 5,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 78
+                },
+                {
+                    "SourceClass": "http://schema.org/CategoryCode",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 5,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 652
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 652
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 10,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 8,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 24
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 7,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 52
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Action",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 33263,
+                    "tripleCount": 33263
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 18046,
+                    "tripleCount": 18046
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 17009,
+                    "tripleCount": 17009
+                },
+                {
+                    "classFullName": "https://schema.org/Corporation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 9303,
+                    "tripleCount": 9303
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                },
+                {
+                    "classFullName": "https://schema.org/City",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1138,
+                    "tripleCount": 1138
+                },
+                {
+                    "classFullName": "https://schema.org/Occupation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 804,
+                    "tripleCount": 804
+                },
+                {
+                    "classFullName": "http://schema.org/CategoryCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 652,
+                    "tripleCount": 652
+                },
+                {
+                    "classFullName": "https://schema.org/Duration",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 367,
+                    "tripleCount": 367
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 354,
+                    "tripleCount": 354
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 52,
+                    "tripleCount": 52
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/UnionFederation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 39,
+                    "tripleCount": 39
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 24,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "https://schema.org/AdministrativeArea",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "objectTripleCount": 23,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 17,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 18,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 19,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 31036,
+                    "tripleCount": 31036
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1382,
+                    "tripleCount": 1382
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/resource/hisco/MicroGroup",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 652,
+                    "tripleCount": 652
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 91,
+                    "tripleCount": 91
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 103314
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 29384
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 83983,
+            "tripleCount": 83983
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 4933,
+                    "tripleCountBase": 4933
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1692,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4933,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 4933
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 1337,
+                    "tripleCountBase": 1337
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1337,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1337
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1337,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+            "localName": "endDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1337
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://schema.org/Duration",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 14816
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 14816,
+                    "tripleCount": 14816
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/Duration",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 14816
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/duration",
+            "localName": "duration",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 14816,
+            "tripleCount": 14816
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 10897,
+                    "tripleCountBase": 10897
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 10897,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10897
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10897,
+            "fullName": "https://schema.org/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 10897
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 17005,
+                    "tripleCountBase": 17005
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 17005,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17005
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 17005,
+            "fullName": "https://schema.org/startDate",
+            "localName": "startDate",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 17005
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1382
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1388,
+                    "tripleCount": 1388
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1382
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+            "localName": "absorbedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1388,
+            "tripleCount": 1388
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 44
+                },
+                {
+                    "SourceClass": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 22
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 46,
+                    "tripleCount": 46
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 23,
+                    "tripleCount": 23
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 22
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#imports",
+            "localName": "imports",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 23,
+            "tripleCount": 23
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 565,
+                    "tripleCountBase": 565
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 565,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 565
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 565,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/numberOfLockouts",
+            "localName": "numberOfLockouts",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 0,
+            "tripleCount": 565
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#subSet",
+            "localName": "subSet",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 4,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2837,
+                    "tripleCount": 2837
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1692
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2837,
+            "tripleCount": 2837
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1439
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1439
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+            "localName": "amsterdamCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1692,
+            "tripleCount": 1692
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                },
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/departement",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1145
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1693,
+                    "tripleCount": 1693
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2837
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+            "localName": "municipalityIn",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 2838,
+            "tripleCount": 2838
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 1,
+            "fullName": "http://rdfs.org/ns/void#sparqlEndpoint",
+            "localName": "sparqlEndpoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 1,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 354,
+                    "tripleCountBase": 354
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Union",
+                    "dataTripleCount": 354,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 354
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 354,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/unionAbbrev",
+            "localName": "unionAbbrev",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 0,
+            "tripleCount": 354
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://schema.org/Occupation",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 17583
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 17583,
+                    "tripleCount": 17583
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/Occupation",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 17583
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/profession",
+            "localName": "profession",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 17583,
+            "tripleCount": 17583
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 18046,
+                    "tripleCountBase": 18046
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Demand",
+                    "dataTripleCount": 18046,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18046
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 18046,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/mainDemand",
+            "localName": "mainDemand",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 0,
+            "tripleCount": 18046
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#defaultEntailmentRegime",
+            "localName": "defaultEntailmentRegime",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://schema.org/City",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 19930
+                },
+                {
+                    "SourceClass": "https://schema.org/Corporation",
+                    "TargetClass": "https://schema.org/City",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2293
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 19930,
+                    "tripleCount": 19930
+                },
+                {
+                    "classFullName": "https://schema.org/Corporation",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2293,
+                    "tripleCount": 2293
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/City",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 22223
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/location",
+            "localName": "location",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 22223,
+            "tripleCount": 22223
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 65,
+                    "tripleCountBase": 67
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2,
+                    "tripleCountBase": 67
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 84,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 84
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 48,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 67,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 67
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 548,
+                    "tripleCountBase": 548
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 548,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 548
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 548,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+            "localName": "startDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 548
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                },
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/departement",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1145
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1693,
+                    "tripleCount": 1693
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1145
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrower",
+            "localName": "narrower",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2838,
+            "tripleCount": 2838
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/license",
+            "localName": "license",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+            "localName": "preferredNamespacePrefix",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/vocab/vann/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://schema.org/Corporation",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 16197
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 16197,
+                    "tripleCount": 16197
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/Corporation",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 16197
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/organization",
+            "localName": "organization",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 16197,
+            "tripleCount": 16197
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 938
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 952,
+                    "tripleCount": 952
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 938
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+            "localName": "originatedFrom",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 952,
+            "tripleCount": 952
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/City",
+                    "TargetClass": "https://schema.org/AdministrativeArea",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1142
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/City",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1142,
+                    "tripleCount": 1142
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/AdministrativeArea",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1142
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#sfWithin",
+            "localName": "sfWithin",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 1142,
+            "tripleCount": 1142
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 15225,
+                    "tripleCountBase": 15225
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 15225,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15225
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 15225,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/numberOfDays",
+            "localName": "numberOfDays",
+            "maxCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 0,
+            "tripleCount": 15225
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 84
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1781,
+                    "tripleCount": 1781
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 84
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+            "localName": "resourceWikipedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1781,
+            "tripleCount": 1781
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 3241,
+                    "tripleCountBase": 3241
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3241,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+            "localName": "year",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 3241
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#subset",
+            "localName": "subset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 15518
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://schema.org/Action",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 17054
+                },
+                {
+                    "SourceClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "TargetClass": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 691
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 17054,
+                    "tripleCount": 17054
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/Action",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 17054
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 15518
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 691
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://iisg.amsterdam/vocab/labourconflicts/action",
+            "localName": "action",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://iisg.amsterdam/vocab/labourconflicts/",
+            "objectTripleCount": 17054,
+            "tripleCount": 17054
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 104
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 52,
+                    "tripleCount": 52
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 52
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 26,
+            "tripleCount": 26
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4,
+            "fullName": "http://purl.org/dc/terms/language",
+            "localName": "language",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 4
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 24544,
+                    "tripleCountBase": 24544
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "dataTripleCount": 24544,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 24544
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 24544,
+            "fullName": "https://schema.org/result",
+            "localName": "result",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 24544
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/distribution",
+            "localName": "distribution",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 121
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1781,
+                    "tripleCount": 1781
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 121
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+            "localName": "resourceDbpedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1781,
+            "tripleCount": 1781
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 1,
+                    "tripleCountBase": 3
+                },
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 2,
+                    "tripleCountBase": 3
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 4
+                },
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 4
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 4,
+            "fullName": "http://purl.org/dc/terms/contributor",
+            "localName": "contributor",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 2,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1692
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+            "localName": "inProvince",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1692,
+            "tripleCount": 1692
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 36616,
+                    "tripleCountBase": 37773
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1157,
+                    "tripleCountBase": 37773
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Action",
+                    "dataTripleCount": 34108,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 34108
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1692,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 1145,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1145
+                },
+                {
+                    "classFullName": "https://schema.org/Duration",
+                    "dataTripleCount": 734,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 734
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#ObjectProperty",
+                    "dataTripleCount": 104,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 104
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 48,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Strike",
+                    "dataTripleCount": 31036,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 31036
+                },
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/Lockout",
+                    "dataTripleCount": 1382,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1382
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 37773,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 37773
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 7,
+                    "tripleCountBase": 7
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 3,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://purl.org/vocommons/voaf#Vocabulary",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "localName": "availableGraphs",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 210
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 210,
+                    "tripleCount": 210
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 210
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+            "localName": "originated",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 210,
+            "tripleCount": 210
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://iisg.amsterdam/vocab/labourconflicts/LabourConflict",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 1,
+            "fullName": "http://rdfs.org/ns/void#exampleResource",
+            "localName": "exampleResource",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 1,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://rdfs.org/ns/void#Dataset",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 18
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 18,
+                    "tripleCount": 18
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 18
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#vocabulary",
+            "localName": "vocabulary",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 18,
+            "tripleCount": 18
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 2
+                },
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "localName": "endpoint",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1694,
+                    "tripleCountBase": 1706
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 12,
+                    "tripleCountBase": 1706
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1692,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1706,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 1706
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#"
+}

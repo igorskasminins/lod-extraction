@@ -1,0 +1,3142 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+            "incomingTripleCount": 1488,
+            "instanceCount": 144,
+            "isLiteral": false,
+            "localName": "MaoGroupConcept",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+            "instanceCount": 4132,
+            "isLiteral": false,
+            "localName": "Esinekortti",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.yso.fi/onto/time-schema#Time",
+            "incomingTripleCount": 3027,
+            "instanceCount": 656,
+            "isLiteral": false,
+            "localName": "Time",
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+            "incomingTripleCount": 122,
+            "instanceCount": 125,
+            "isLiteral": false,
+            "localName": "tuotemerkit",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+            "incomingTripleCount": 36,
+            "instanceCount": 15,
+            "isLiteral": false,
+            "localName": "yhdistykset",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+            "incomingTripleCount": 1947,
+            "instanceCount": 530,
+            "isLiteral": false,
+            "localName": "nainen",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+            "incomingTripleCount": 993,
+            "instanceCount": 502,
+            "isLiteral": false,
+            "localName": "mies",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+            "incomingTripleCount": 34,
+            "instanceCount": 39,
+            "isLiteral": false,
+            "localName": "henkilot",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "instanceCount": 11,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#valtiot",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "valtiot",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+            "incomingTripleCount": 18,
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "kaupungit",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+            "incomingTripleCount": 25,
+            "instanceCount": 18,
+            "isLiteral": false,
+            "localName": "yhteisot",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+            "incomingTripleCount": 1369,
+            "instanceCount": 629,
+            "isLiteral": false,
+            "localName": "yritykset",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+            "incomingTripleCount": 4159,
+            "instanceCount": 14,
+            "isLiteral": false,
+            "localName": "museot",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+            "incomingTripleCount": 29,
+            "instanceCount": 10,
+            "isLiteral": false,
+            "localName": "henkil\u00f6ryhmat",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+            "incomingTripleCount": 16037,
+            "instanceCount": 6631,
+            "isLiteral": false,
+            "localName": "MaoConcept",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+            "incomingTripleCount": 6788,
+            "instanceCount": 2,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+            "incomingTripleCount": 50,
+            "instanceCount": 22,
+            "isLiteral": false,
+            "localName": "laitokset",
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": true,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": false,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "4912620406853369541",
+        "enableLogging": true,
+        "endpointUrl": "https://ldf.fi/mufi/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "prefix": "n2"
+        },
+        {
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "prefix": "n3"
+        },
+        {
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "prefix": "n4"
+        },
+        {
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#",
+            "prefix": "n5"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "n6"
+        },
+        {
+            "namespace": "http://www.yso.fi/kulttuuriSampo/paikat#",
+            "prefix": "n7"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "n8"
+        },
+        {
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "prefix": "n9"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "n10"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4123,
+                    "tripleCountBase": 4123
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4123,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4123
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4123,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_asiasanasto",
+            "localName": "www_asiasanasto",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4123
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6775,
+                    "tripleCountBase": 6775
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 6631,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6631
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 144,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 144
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6775,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 0,
+            "tripleCount": 6775
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2728,
+                    "tripleCountBase": 2728
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2728,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2728
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2728,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_tekniikka",
+            "localName": "www_tekniikka",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2728
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4521,
+                    "tripleCountBase": 4521
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4521,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4521
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4521,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kuvatiedosto_pieni_url",
+            "localName": "www_kuvatiedosto_pieni_url",
+            "maxCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4521
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.yso.fi/kulttuuriSampo/paikat#kokonaisuus",
+            "localName": "kokonaisuus",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.yso.fi/kulttuuriSampo/paikat#",
+            "objectTripleCount": 929,
+            "tripleCount": 929
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 656,
+                    "tripleCountBase": 656
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "dataTripleCount": 656,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 656
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 656,
+            "fullName": "http://www.yso.fi/onto/time-schema#latestStart",
+            "localName": "latestStart",
+            "maxCardinality": 1,
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 656
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6788,
+                    "tripleCountBase": 6788
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 6631,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6631
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 144,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 11,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 11
+                },
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6788,
+            "fullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "objectTripleCount": 0,
+            "tripleCount": 6788
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 5999,
+                    "tripleCount": 5999
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#materiaali",
+            "localName": "materiaali",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 5999,
+            "tripleCount": 5999
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 24,
+                    "tripleCountBase": 24
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 22,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 24,
+            "fullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "objectTripleCount": 0,
+            "tripleCount": 24
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 754,
+                    "tripleCountBase": 754
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 637,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 637
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 117,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 117
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 754,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#date",
+            "localName": "date",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 0,
+            "tripleCount": 754
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 4126
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4126,
+                    "tripleCount": 4126
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 4126
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#vastuumuseo",
+            "localName": "vastuumuseo",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 4126,
+            "tripleCount": 4126
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2878,
+                    "tripleCount": 2878
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#kayttopaikka",
+            "localName": "kayttopaikka",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 2878,
+            "tripleCount": 2878
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4129,
+                    "tripleCountBase": 4129
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4129,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4129
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4129,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_vastuumuseo",
+            "localName": "www_vastuumuseo",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4129
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 9968,
+                    "tripleCount": 9968
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#asiasana",
+            "localName": "asiasana",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 9968,
+            "tripleCount": 9968
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3027,
+                    "tripleCountBase": 3027
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 3027,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3027
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3027,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_valmistusaika",
+            "localName": "www_valmistusaika",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 3027
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 7,
+                    "tripleCountBase": 7
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 7,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kayttotilanne",
+            "localName": "www_kayttotilanne",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 7
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 918,
+                    "tripleCountBase": 918
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 918,
+            "fullName": "http://www.yso.fi/kulttuuriSampo/paikat#order",
+            "localName": "order",
+            "maxCardinality": 1,
+            "namespace": "http://www.yso.fi/kulttuuriSampo/paikat#",
+            "objectTripleCount": 0,
+            "tripleCount": 918
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2300,
+                    "tripleCountBase": 2300
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2300,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2300
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2300,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_tekija",
+            "localName": "www_tekija",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2300
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6744,
+                    "tripleCountBase": 6744
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 6627,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6627
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 117,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 117
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6744,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 0,
+            "tripleCount": 6744
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2032,
+                    "tripleCount": 2032
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#valmistustapa",
+            "localName": "valmistustapa",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 2032,
+            "tripleCount": 2032
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3548,
+                    "tripleCount": 3548
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#tekniikka",
+            "localName": "tekniikka",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 3548,
+            "tripleCount": 3548
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4128,
+                    "tripleCount": 4128
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#museokokoelma",
+            "localName": "museokokoelma",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 4128,
+            "tripleCount": 4128
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4132,
+                    "tripleCountBase": 4132
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4132,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4132,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kohde",
+            "localName": "www_kohde",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4132
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 3
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 5997,
+                    "tripleCountBase": 5997
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 5993,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5993
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 5997,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 0,
+            "tripleCount": 5997
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1918,
+                    "tripleCountBase": 1918
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "dataTripleCount": 636,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 636
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "dataTripleCount": 530,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 530
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "dataTripleCount": 502,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 502
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+                    "dataTripleCount": 125,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 125
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "dataTripleCount": 39,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 39
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "dataTripleCount": 22,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "dataTripleCount": 18,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "dataTripleCount": 14,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#valtiot",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1918,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#toimijan_nimi",
+            "localName": "toimijan_nimi",
+            "maxCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "objectTripleCount": 0,
+            "tripleCount": 1918
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2943
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2943,
+                    "tripleCount": 2943
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2943
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#related_term",
+            "localName": "related_term",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 2943,
+            "tripleCount": 2943
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 338,
+                    "tripleCountBase": 338
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 338,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 338
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 338,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_tyylisuunta",
+            "localName": "www_tyylisuunta",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 338
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4132,
+                    "tripleCountBase": 4132
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4132,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4132,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_esineid",
+            "localName": "www_esineid",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4132
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.yso.fi/onto/time-schema#Time",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3027
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3027,
+                    "tripleCount": 3027
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3027
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://kulttuurisampo.fi/annotaatio#valmistusaika",
+            "localName": "valmistusaika",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://kulttuurisampo.fi/annotaatio#",
+            "objectTripleCount": 3027,
+            "tripleCount": 3027
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "TargetClass": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 144
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "TargetClass": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 6631
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6631,
+                    "tripleCount": 6631
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4132,
+                    "tripleCount": 4132
+                },
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 656,
+                    "tripleCount": 656
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 629,
+                    "tripleCount": 629
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 530,
+                    "tripleCount": 530
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 502,
+                    "tripleCount": 502
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 125,
+                    "tripleCount": 125
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 39,
+                    "tripleCount": 39
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 22,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 18,
+                    "tripleCount": 18
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 14,
+                    "tripleCount": 14
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11,
+                    "tripleCount": 11
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 15,
+                    "isPrincipal": false,
+                    "objectTripleCount": 10,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 16,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 17,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#valtiot",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 18,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 6775
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 13485,
+            "tripleCount": 13485
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3773
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3773,
+                    "tripleCount": 3773
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3773
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#narrower_term",
+            "localName": "narrower_term",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 3773,
+            "tripleCount": 3773
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2244,
+                    "tripleCountBase": 2244
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2244,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2244
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2244,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kayttopaikka",
+            "localName": "www_kayttopaikka",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2244
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3942,
+                    "tripleCountBase": 3942
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 3942,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3942
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3942,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_asiasana",
+            "localName": "www_asiasana",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 3942
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1254,
+                    "tripleCount": 1254
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#tyylisuunta",
+            "localName": "tyylisuunta",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 1254,
+            "tripleCount": 1254
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4132,
+                    "tripleCountBase": 4132
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4132,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4132,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_numero",
+            "localName": "www_numero",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4132
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 886,
+                    "tripleCountBase": 886
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "dataTripleCount": 264,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 264
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "dataTripleCount": 244,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 244
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "dataTripleCount": 169,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 169
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+                    "dataTripleCount": 115,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 115
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "dataTripleCount": 45,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 45
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "dataTripleCount": 17,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 17
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "dataTripleCount": 16,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "dataTripleCount": 5,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#valtiot",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 886,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kommentti",
+            "localName": "kommentti",
+            "maxCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#",
+            "objectTripleCount": 0,
+            "tripleCount": 886
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4025,
+                    "tripleCountBase": 4025
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4025,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4025
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4025,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kuvailu",
+            "localName": "www_kuvailu",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4025
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 10,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 6,
+                    "tripleCount": 24
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 4,
+                    "tripleCount": 122
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 9,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1288
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 7,
+                    "tripleCount": 14
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 8,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 428
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 5,
+                    "tripleCount": 26
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 454
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2370,
+                    "tripleCount": 2370
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1288
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 454
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 428
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "tripleCount": 122
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "tripleCount": 26
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "tripleCount": 24
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "tripleCount": 14
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "tripleCount": 5
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#tekija",
+            "localName": "tekija",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 2370,
+            "tripleCount": 2370
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 1408
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 63
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 5481
+                },
+                {
+                    "SourceClass": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "TargetClass": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 80
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6889,
+                    "tripleCount": 6889
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 144,
+                    "tripleCount": 144
+                },
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 5544
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1488
+                },
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "objectTripleCount": 7035,
+            "tripleCount": 7035
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3777
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3777,
+                    "tripleCount": 3777
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3777
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#broader_term",
+            "localName": "broader_term",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-masa#",
+            "objectTripleCount": 3777,
+            "tripleCount": 3777
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2726,
+                    "tripleCountBase": 2726
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2726,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2726
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2726,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_valmistuspaikka",
+            "localName": "www_valmistuspaikka",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2726
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2222,
+                    "tripleCountBase": 2222
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2222,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2222
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2222,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kayttaja",
+            "localName": "www_kayttaja",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2222
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4132,
+                    "tripleCountBase": 4132
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4132,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4132
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4132,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_museokokoelma",
+            "localName": "www_museokokoelma",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4132
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 6,
+                    "tripleCount": 28
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 8,
+                    "tripleCount": 12
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 5,
+                    "tripleCount": 33
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 7,
+                    "tripleCount": 20
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 81
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 4,
+                    "tripleCount": 42
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 10,
+                    "tripleCount": 4
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 565
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 9,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "TargetClass": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1493
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2286,
+                    "tripleCount": 2286
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1493
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 565
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 81
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "tripleCount": 42
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "tripleCount": 33
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#kayttaja",
+            "localName": "kayttaja",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 2286,
+            "tripleCount": 2286
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 3683,
+                    "tripleCountBase": 3683
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 3683,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3683
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3683,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_mitat",
+            "localName": "www_mitat",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 3683
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 9
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 9,
+                    "tripleCount": 9
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 9
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/TR/1999/PR-rdf-schema-19990303#",
+            "objectTripleCount": 9,
+            "tripleCount": 9
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 8,
+                    "tripleCountBase": 8
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoGroupConcept",
+                    "dataTripleCount": 7,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#MaoConcept",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#order",
+            "localName": "order",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-mao#",
+            "objectTripleCount": 0,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2358,
+                    "tripleCountBase": 2358
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2358,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2358
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2358,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_vari",
+            "localName": "www_vari",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2358
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 656,
+                    "tripleCountBase": 656
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "dataTripleCount": 656,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 656
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 656,
+            "fullName": "http://www.yso.fi/onto/time-schema#earliestEnd",
+            "localName": "earliestEnd",
+            "maxCardinality": 1,
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 656
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 4730,
+                    "tripleCount": 4730
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#kohde",
+            "localName": "kohde",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 4730,
+            "tripleCount": 4730
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4521,
+                    "tripleCountBase": 4521
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4521,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4521
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4521,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kuvatiedostonimi",
+            "localName": "www_kuvatiedostonimi",
+            "maxCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4521
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4521,
+                    "tripleCountBase": 4521
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4521,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4521
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4521,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_kuvatiedosto_url",
+            "localName": "www_kuvatiedosto_url",
+            "maxCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4521
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2851,
+                    "tripleCount": 2851
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#valmistuspaikka",
+            "localName": "valmistuspaikka",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 2851,
+            "tripleCount": 2851
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 6041,
+                    "tripleCountBase": 7353
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1312,
+                    "tripleCountBase": 7353
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4132,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4132
+                },
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "dataTripleCount": 1312,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1312
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yritykset",
+                    "dataTripleCount": 629,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 629
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#nainen",
+                    "dataTripleCount": 530,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 530
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#mies",
+                    "dataTripleCount": 502,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 502
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#tuotemerkit",
+                    "dataTripleCount": 125,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 125
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkilot",
+                    "dataTripleCount": 39,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 39
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#laitokset",
+                    "dataTripleCount": 22,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 22
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhteisot",
+                    "dataTripleCount": 18,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#yhdistykset",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#museot",
+                    "dataTripleCount": 14,
+                    "importanceIndex": 11,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 14
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#henkil\u00f6ryhmat",
+                    "dataTripleCount": 10,
+                    "importanceIndex": 12,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#kaupungit",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 13,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-toimijat#valtiot",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 14,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7353,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 7353
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 656,
+                    "tripleCountBase": 656
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "dataTripleCount": 656,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 656
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 656,
+            "fullName": "http://www.yso.fi/onto/time-schema#earliestStart",
+            "localName": "earliestStart",
+            "maxCardinality": 1,
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 656
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 2887,
+                    "tripleCountBase": 2887
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 2887,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2887
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2887,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_valmistustapa",
+            "localName": "www_valmistustapa",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 2887
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4025,
+                    "tripleCountBase": 4025
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#Esinekortti",
+                    "dataTripleCount": 4025,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4025
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4025,
+            "fullName": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#www_materiaali",
+            "localName": "www_materiaali",
+            "maxCardinality": 1,
+            "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#",
+            "objectTripleCount": 0,
+            "tripleCount": 4025
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 656,
+                    "tripleCountBase": 656
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.yso.fi/onto/time-schema#Time",
+                    "dataTripleCount": 656,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 656
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 656,
+            "fullName": "http://www.yso.fi/onto/time-schema#latestEnd",
+            "localName": "latestEnd",
+            "maxCardinality": 1,
+            "namespace": "http://www.yso.fi/onto/time-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 656
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 922,
+                    "tripleCountBase": 14184
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 13262,
+                    "tripleCountBase": 14184
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 14184,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 14184
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.cs.helsinki.fi/group/seco/ns/2004/03/18-esinekortti#"
+}

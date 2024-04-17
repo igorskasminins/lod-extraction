@@ -6,7 +6,8 @@ class JsonReader:
     """
     Reading json data from
     """
-    __json_data = Logger()
+    __logger = Logger()
+    __json_data = []
 
     def get_config_data(self):
         """ Returns default parameters for OBIS extraction call """
@@ -27,7 +28,8 @@ class JsonReader:
                 sort_keys=True, 
                 indent=4
             )
-            self.logger.print_and_log_info(f"Response saved to {filename} Elapsed time {elapsed_time}")
+            
+            self.__logger.print_and_log_info(f"Response saved to {filename} Elapsed time {elapsed_time}")
 
     def extract_properties_data_from_json(self):
         """ Extracts information on properties from the given json """

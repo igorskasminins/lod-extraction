@@ -61,19 +61,25 @@ class ExtractorAPI:
             response = requests.post(full_endpoint_url)
         except Exception as exception:
             self.__logger.print_and_log_error(f'The connection could not have been established with {url} for the following request: {full_endpoint_url}')
+            end = time.time()
+            elapsed_time = int(round(end - start, 2) * 1000)
 
             self.__stats_reader.write_data(
                 access_url=url,
+                elapsed_time=elapsed_time,
+                classes_count_expected=endpoint_data['classes'],
+                properties_count_expected=endpoint_data['properties'],
+                triples_count_expected=endpoint_data['triples'],
                 api_call_request=full_endpoint_url,
                 error=exception
             )
 
             return
 
-        if response.status_code == 200:
-            end = time.time()
-            elapsed_time = int(round(end - start, 2) * 1000)
+        end = time.time()
+        elapsed_time = int(round(end - start, 2) * 1000)
 
+        if response.status_code == 200:
             response_result = response.json()
             self.__json_reader.save_response(response_result, output_file, elapsed_time)
             classes = self.__json_reader.extract_classes_data_from_json()
@@ -107,6 +113,10 @@ class ExtractorAPI:
 
             self.__stats_reader.write_data(
                 access_url=url,
+                elapsed_time=elapsed_time,
+                classes_count_expected=endpoint_data['classes'],
+                properties_count_expected=endpoint_data['properties'],
+                triples_count_expected=endpoint_data['triples'],
                 api_call_request=full_endpoint_url,
                 error=error_msg
             )
@@ -127,6 +137,7 @@ class ExtractorAPI:
 
             config_data = self.__json_reader.get_config_data()
             endpoint_data['output_file'] = self.get_output_file(url)
+            # continue
             self.__make_request(url, config_data, endpoint_data)
 
     def get_output_file(self, url):
