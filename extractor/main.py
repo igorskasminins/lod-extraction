@@ -37,9 +37,7 @@ class ExtractorAPI:
             self.__logger.print_and_log_info(f'Skipping as the JSON output exists: {output_file}')
 
             return
-        
-        start = time.time()
-        
+
         config_data['endpointUrl'] = url
 
         if (int(endpoint_data['properties']) > 200) or (int(endpoint_data['triples']) > 10000000):
@@ -56,6 +54,8 @@ class ExtractorAPI:
         full_endpoint_url = self.__construct_endpoint_url(config_data)
 
         most_used_properties = self.__sparql_data_extractor.get_most_used_properties_data(url)
+
+        start = time.time()
 
         self.__logger.print_and_log_info(f'Starting extraction for {url}')
         self.__logger.print_and_log_info(full_endpoint_url)
