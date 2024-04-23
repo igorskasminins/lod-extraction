@@ -1129,13 +1129,13 @@
    <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">17215669</literal></binding>
   </result>
   <result>
-   <binding name="EffectiveURL"><uri>https://opendatacommunities.org/sparql</uri></binding>
+   <binding name="EffectiveURL"><uri>http://opendatacommunities.org/sparql.json</uri></binding>
    <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">334</literal></binding>
    <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">605</literal></binding>
    <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">105079166</literal></binding>
   </result>
   <result>
-   <binding name="EffectiveURL"><uri>http://statistics.gov.scot/sparql</uri></binding>
+   <binding name="EffectiveURL"><uri>http://statistics.gov.scot/sparql.json</uri></binding>
    <binding name="classes"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">359</literal></binding>
    <binding name="properties"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">483</literal></binding>
    <binding name="triples"><literal datatype="http://www.w3.org/2001/XMLSchema#integer">773788117</literal></binding>
