@@ -39,12 +39,18 @@ class EndpointRetrieval:
 
   def retrieve_endpoints(self):
     """ calls and saves the endpoints from the given source """
-    response = requests.get(os.getenv('ENDPOINT_WITH_ACCESS_URLS'), params={"query": self.full_sparql_query, "default-graph-uri": os.getenv('DATASET_NAME')})
+    response = requests.get(
+    os.getenv('ENDPOINT_WITH_ACCESS_URLS'), 
+      params={
+        "query": self.full_sparql_query, 
+        "default-graph-uri": os.getenv('DATASET_NAME')
+      }
+    )
 
     if response.status_code == 200:
         endpoints_to_extract = os.getenv("ENDPOINTS_FROM_SOURCE")
 
-        with open(f"./{endpoints_to_extract}", "w") as file:
+        with open(f"./endpoints/{endpoints_to_extract}", "w") as file:
             file.write(response.text)
         print(f"Result saved to {endpoints_to_extract}")
     else:

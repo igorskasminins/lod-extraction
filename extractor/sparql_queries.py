@@ -59,7 +59,9 @@ class SPARQLQueries:
             self.__logger.print_and_log_info(f'Starting class extraction for {self.__endpoint_url}')
 
             self.wrapper.setQuery("""
-                select ?c (count(?x) as ?cx) where {?x a ?c} 
+                SELECT ?c (COUNT(?x) AS ?cx) WHERE {
+                ?x a ?c
+                } GROUP BY ?c
                 """
             )
 
@@ -77,7 +79,9 @@ class SPARQLQueries:
             self.__logger.print_and_log_info(f'Starting properties extraction for {self.__endpoint_url}')
 
             self.wrapper.setQuery("""
-                select ?p (count(?x) as ?px) where {?x ?p ?y} 
+                SELECT ?p (COUNT(?x) AS ?px) WHERE {
+                ?x ?p ?y
+                } GROUP BY ?p
                 """
             )
 
@@ -100,10 +104,48 @@ class SPARQLQueries:
             )
 
             result = self.wrapper.queryAndConvert()['results']['bindings']
-            self.__test_result(result)
             
             return int(result)
         except Exception as e:
-            self.__logger.print_and_log_error(f'An error occurred while executing the unique query retrieval for: {self.__endpoint_url}. {e}')
+            self.__logger.print_and_log_error(f'An error occurred while executing the unique properties query retrieval for: {self.__endpoint_url}. {e}')
+
+            return self.ERROR_NUMBER
+
+    def get_two_most_used_properties(self):
+        """ Retrievs two most used properties from the given endpoint """
+        try:
+            self.__logger.print_and_log_info(f'Starting the two most used properties extraction for {self.__endpoint_url}')
+
+            self.wrapper.setQuery("""
+                select ?p (count(?x) as ?px) where {?x ?p ?y}
+                group by ?p
+                order by desc(?px)
+                limit 2
+                """
+            )
+
+            result = self.wrapper.queryAndConvert()['results']['bindings']
+
+            return result
+        except Exception as e:
+            self.__logger.print_and_log_error(f'An error occurred while executing the two most used properties query retrieval for: {self.__endpoint_url}. {e}')
+
+            return []
+        
+    def get_distinct_object_count(self, property_iri):
+        """ Retrievs distinct instance amount with the assign propety """
+        try:
+            self.__logger.print_and_log_info(f'Starting instance count extraction for property {property_iri} from {self.__endpoint_url}')
+
+            self.wrapper.setQuery(f"""
+                select (count(distinct ?y) as ?countResult) where {{?x <{property_iri}> ?y}}
+                """
+            )
+
+            result = self.wrapper.queryAndConvert()['results']['bindings']
+            
+            return int(result[0]['countResult']['value'])
+        except Exception as e:
+            self.__logger.print_and_log_error(f'An error occurred while executing the instance count query retrieval of {property_iri} for: {self.__endpoint_url}. {e}')
 
             return self.ERROR_NUMBER

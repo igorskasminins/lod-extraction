@@ -1,4 +1,6 @@
 __pycache__
 system.log
 old.txt
-additional_responses
+manual_responses
+manual endpoints.csv
+backup

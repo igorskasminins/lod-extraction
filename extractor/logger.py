@@ -8,7 +8,7 @@ class Logger:
         """ Initialize and configure logger """
         logging.basicConfig(
             format='%(asctime)s %(levelname)-8s %(message)s',
-            filename='system.log', 
+            filename='logs/system.log', 
             level=logging.INFO,
             datefmt='%Y-%m-%d %H:%M:%S'
         )

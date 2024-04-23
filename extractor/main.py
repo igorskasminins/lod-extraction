@@ -29,16 +29,17 @@ class ExtractorAPI:
 
         return endpoint_url
 
-    def __make_request(self, url, config_data, endpoint_data):
+    def __make_request(self, url, config_data, endpoint_data, endpoint_origin):
         """ Makes a request to OBIS API endpoint """
         output_file = endpoint_data['output_file']
         
-        if os.path.exists(f'./responses_first/{output_file}.json'):
+        if os.path.exists(f'./results/responses/{output_file}.json'):
             self.__logger.print_and_log_info(f'Skipping as the JSON output exists: {output_file}')
 
             return
         
         start = time.time()
+        
         config_data['endpointUrl'] = url
 
         if (int(endpoint_data['properties']) > 200) or (int(endpoint_data['triples']) > 10000000):
@@ -54,11 +55,14 @@ class ExtractorAPI:
 
         full_endpoint_url = self.__construct_endpoint_url(config_data)
 
+        most_used_properties = self.__sparql_data_extractor.get_most_used_properties_data(url)
+
         self.__logger.print_and_log_info(f'Starting extraction for {url}')
         self.__logger.print_and_log_info(full_endpoint_url)
 
         try:
             response = requests.post(full_endpoint_url)
+
         except Exception as exception:
             self.__logger.print_and_log_error(f'The connection could not have been established with {url} for the following request: {full_endpoint_url}')
             end = time.time()
@@ -71,6 +75,7 @@ class ExtractorAPI:
                 properties_count_expected=endpoint_data['properties'],
                 triples_count_expected=endpoint_data['triples'],
                 api_call_request=full_endpoint_url,
+                endpoint_origin=endpoint_origin,
                 error=exception
             )
 
@@ -85,6 +90,13 @@ class ExtractorAPI:
             classes = self.__json_reader.extract_classes_data_from_json()
             props = self.__json_reader.extract_properties_data_from_json()
 
+            actual_class = int(classes['actual_classes'])
+            expected_class = int(endpoint_data['classes'])
+            actual_properties = int(props['actual_properties'])
+            expected_properties = int(endpoint_data['properties'])
+
+            is_extraction_full = False if (expected_class > 0 and actual_class == 0) or (expected_properties > 0 and actual_properties == 0) else True
+
             self.__stats_reader.write_data(
                 url, 
                 elapsed_time, 
@@ -98,9 +110,17 @@ class ExtractorAPI:
                 props['actual_prop_triples'],
                 props['actual_prop_data_triples'],
                 endpoint_data['triples'], 
+                most_used_properties[0]['iri'],
+                most_used_properties[0]['count'],
+                most_used_properties[0]['object_count'],
+                most_used_properties[1]['iri'],
+                most_used_properties[1]['count'],
+                most_used_properties[1]['object_count'],
                 output_file,
+                is_extraction_full,
                 full_endpoint_url,
-                'NULL'
+                endpoint_origin,
+                ''
             )
 
         else:
@@ -118,6 +138,7 @@ class ExtractorAPI:
                 properties_count_expected=endpoint_data['properties'],
                 triples_count_expected=endpoint_data['triples'],
                 api_call_request=full_endpoint_url,
+                endpoint_origin=endpoint_origin,
                 error=error_msg
             )
 
@@ -136,17 +157,19 @@ class ExtractorAPI:
                 continue
 
             config_data = self.__json_reader.get_config_data()
-            endpoint_data['output_file'] = self.get_output_file(url)
-            # continue
-            self.__make_request(url, config_data, endpoint_data)
+            endpoint_data['output_file'] = self.create_output_file_name(url)
 
-    def get_output_file(self, url):
+            self.__make_request(url, config_data, endpoint_data, 'source')
+
+    def create_output_file_name(self, url):
         """ Construct json output file from SPARQL URL """
-        file_name = url
+        file_name = url.lower()
         file_name = file_name.replace('.', '_')
         file_name = file_name.replace('//', '_')
         file_name = file_name.replace('/', '_')
         file_name = file_name.replace(':', '')
+        # "-" symbol is not allowed for PostgresSQL schema names
+        file_name = file_name.replace('-', '_')
 
         return file_name
     
@@ -155,6 +178,11 @@ class ExtractorAPI:
         endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip()
         endpoints = self.__endpoints_reader.get_custom_urls()
     
+        if len(endpoints) == 0:
+            self.__logger.print_and_log_info('There are no specified endpoints for extraction')
+
+            return
+
         for url in endpoints:
             if url in endpoints_to_skip:
                 self.__logger.print_and_log_info(f'Skipping URL: {url}')
@@ -165,7 +193,10 @@ class ExtractorAPI:
             if endpoint_data['classes'] > -1 and endpoint_data['properties'] > -1:
                 config_data = self.__json_reader.get_config_data()
 
-                endpoint_data['output_file'] = self.get_output_file(url)
-                self.__make_request(url, config_data, endpoint_data)
+                endpoint_data['output_file'] = self.create_output_file_name(url)
+                self.__make_request(url, config_data, endpoint_data, 'custom')
             else:
-                self.__stats_reader.write_data(access_url=url, error="The endpoint URL is not fully available")
+                self.__stats_reader.write_data(
+                    access_url=url, 
+                    error="The endpoint URL is not fully available"
+                )

@@ -10,11 +10,11 @@ class XMLFileReader:
 
     def __read_urls_from_xml(self):
         endpoints_to_extract = os.getenv("ENDPOINTS_FROM_SOURCE")
-
-        if not os.path.exists(f'./{endpoints_to_extract}'):
+        endpoints_to_extract_path = f'./endpoints/{endpoints_to_extract}'
+        if not os.path.exists(endpoints_to_extract_path):
             self.endpoint_retrieval.retrieve_endpoints()
 
-        tree = ET.parse(f'./{endpoints_to_extract}')
+        tree = ET.parse(endpoints_to_extract_path)
 
         root = tree.getroot()
 

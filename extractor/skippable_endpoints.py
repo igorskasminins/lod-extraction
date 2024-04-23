@@ -14,9 +14,12 @@ class SkippableEndpoints:
                 csvreader = csv.reader(csvfile)
 
                 for row in csvreader:
+                    if len(row) == 0:
+                        continue
+                    
                     endpoints_to_skip.append(row[0])
 
-        with open('./' + os.getenv('EXTRACTION_STATISTICS_OUTPUT'), 'r') as csv_file:
+        with open(os.getenv('EXTRACTION_STATISTICS_OUTPUT'), 'r') as csv_file:
             csvreader = csv.reader(csv_file, delimiter=';')
 
             for row in csvreader:

@@ -11,9 +11,7 @@ class JsonReader:
 
     def get_config_data(self):
         """ Returns default parameters for OBIS extraction call """
-        config_patameters = os.getenv('OBIS_PARAMETERS')
-
-        with open(f'./{config_patameters}', 'r') as config_file:
+        with open(os.getenv('OBIS_PARAMETERS'), 'r') as config_file:
             config_data = json.load(config_file)
 
         return config_data
@@ -21,7 +19,7 @@ class JsonReader:
     def save_response(self, json_data, filename, elapsed_time):
         """ Saves the json response to the file """
         self.__json_data = json_data
-        with open(f'./responses/{filename}.json', 'w') as outfile:
+        with open(f'./results/responses/{filename}.json', 'w') as outfile:
             json.dump(
                 self.__json_data, 
                 outfile, 
