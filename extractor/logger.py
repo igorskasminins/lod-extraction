@@ -1,6 +1,6 @@
 import logging
 import os
-from datetime import date
+import datetime
 
 class Logger:
     """
@@ -23,11 +23,11 @@ class Logger:
     def print_and_log_info(self, message):
         """ Prints and logs the message on info level """
         self.logger.info(message)
-        today = date.today()
+        today = datetime.datetime.now()
         print(today, ':', message)
 
     def print_and_log_error(self, message):
         """ Prints and logs the message on error level """
         self.logger.error(message)
-        today = date.today()
+        today = datetime.datetime.now()
         print(today, ':', message)
