@@ -10,7 +10,8 @@ class SkippableEndpoints:
         endpoints_to_skip = []
 
         if queries_from_source:
-            with open('./' + os.getenv('SKIPPABLE_ENDPOINTS_FILE'), 'r') as csvfile:
+            # Check endpoints to skip from the file only if the extraction is from the source
+            with open(os.getenv('SKIPPABLE_ENDPOINTS_FILE'), 'r') as csvfile:
                 csvreader = csv.reader(csvfile)
 
                 for row in csvreader:

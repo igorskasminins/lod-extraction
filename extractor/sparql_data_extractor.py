@@ -22,6 +22,16 @@ class SPARQLDataExtractor:
             'iri': '',
             'count': -1,
             'object_count': -1
+        },
+        {
+            'iri': '',
+            'count': -1,
+            'object_count': -1
+        },
+        {
+            'iri': '',
+            'count': -1,
+            'object_count': -1
         }
     ]
 
@@ -54,6 +64,8 @@ class SPARQLDataExtractor:
         return self.__endpoint_data
 
     def get_most_used_properties_data(self, access_url):
+        return self.__most_used_properties
+    
         self.__sparql_queries.set_wrapper(access_url)
 
         properties = self.__sparql_queries.get_two_most_used_properties()

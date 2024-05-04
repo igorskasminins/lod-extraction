@@ -1,12 +1,4 @@
-https://api.druid.datalegend.net/datasets/dataLegend/Catasto/sparql
-http://cultura.linkeddata.es/sparql
-http://ohsu.eagle-i.net/sparqler/sparql
-http://factforge.net/repositories/ff-news
-http://linkeddata.finki.ukim.mk/sparql
-http://cultura.linkeddata.es/sparql
-https://opendatacommunities.org/sparql
-http://statistics.gov.scot/sparql
-https://geosparql.demo.openlinksw.com/sparql
+----MANUAL START--------
 https://api.druid.datalegend.net/datasets/AdamNet/Heritage/sparql
 https://ontology.inrae.fr/weather/sparql
 http://aemet.linkeddata.es/sparql
@@ -19,11 +11,12 @@ https://colil.dbcls.jp/sparql
 http://linkedgeodata.org/sparql
 https://publications.europa.eu/webapi/rdf/sparql
 http://vulcan.cs.uga.edu/sparql
+---------ENDPINTS THAT WERE TRANSFORMED-----
+#http://opendatacommunities.org/sparql.json
+#http://statistics.gov.scot/sparql.json
+--------NO RESPONSE--------------------------
 http://linkeddata.finki.ukim.mk/sparql
 http://cultura.linkeddata.es/sparql
-http://opendatacommunities.org/sparql.json
-http://statistics.gov.scot/sparql.json
-https://geosparql.demo.openlinksw.com/sparql
 https://geosparql.demo.openlinksw.com/sparql
 https://api.druid.datalegend.net/datasets/dataLegend/Catasto/sparql
 http://ohsu.eagle-i.net/sparqler/sparql

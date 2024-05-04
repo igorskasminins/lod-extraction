@@ -86,6 +86,10 @@ class ExtractorAPI:
 
         if response.status_code == 200:
             response_result = response.json()
+
+            if not os.path.exists('results/responses'):
+                os.makedirs('results/responses')
+
             self.__json_reader.save_response(response_result, output_file, elapsed_time)
             classes = self.__json_reader.extract_classes_data_from_json()
             props = self.__json_reader.extract_properties_data_from_json()
@@ -116,6 +120,12 @@ class ExtractorAPI:
                 most_used_properties[1]['iri'],
                 most_used_properties[1]['count'],
                 most_used_properties[1]['object_count'],
+                most_used_properties[2]['iri'],
+                most_used_properties[2]['count'],
+                most_used_properties[2]['object_count'],
+                most_used_properties[3]['iri'],
+                most_used_properties[3]['count'],
+                most_used_properties[3]['object_count'],
                 output_file,
                 is_extraction_full,
                 full_endpoint_url,

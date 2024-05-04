@@ -37,12 +37,47 @@ class EndpointRetrieval:
     ORDER BY ?classes
   """
 
+  sparql_query_one = """
+  PREFIX n1: <http://rdf.lumii.lv/ex#>
+  PREFIX void: <http://rdfs.org/ns/void#>
+
+  SELECT ?EffectiveURL ?classes ?properties ?triples WHERE {
+  ?EffectiveURL rdf:type n1:EffectiveURL.
+    ?EffectiveURL void:classes ?classes.
+  ?EffectiveURL void:properties ?properties.
+    ?EffectiveURL void:triples ?triples.
+  FILTER(?properties >= 100)
+  FILTER(?properties <= 300)
+  FILTER(?triples >= 1000000)
+  FILTER(?triples <= 70000000)
+  FILTER(NOT EXISTS{?EffectiveURL n1:isDublicate ?isDublicate. })
+  }
+    ORDER BY ?properties
+  """
+
+  sparql_query_two = """
+  PREFIX n1: <http://rdf.lumii.lv/ex#>
+  PREFIX void: <http://rdfs.org/ns/void#>
+
+  SELECT ?EffectiveURL ?classes ?properties ?triples WHERE {
+  ?EffectiveURL rdf:type n1:EffectiveURL.
+    ?EffectiveURL void:classes ?classes.
+  ?EffectiveURL void:properties ?properties.
+    ?EffectiveURL void:triples ?triples.
+  FILTER(?classes >= 100)
+  FILTER(?classes <= 700)
+  FILTER(?triples <= 100000000)
+  FILTER(NOT EXISTS{?EffectiveURL n1:isDublicate ?isDublicate. })
+  }
+    ORDER BY ?properties
+  """
+
   def retrieve_endpoints(self):
     """ calls and saves the endpoints from the given source """
     response = requests.get(
     os.getenv('ENDPOINT_WITH_ACCESS_URLS'), 
       params={
-        "query": self.full_sparql_query, 
+        "query": self.sparql_query_one, 
         "default-graph-uri": os.getenv('DATASET_NAME')
       }
     )

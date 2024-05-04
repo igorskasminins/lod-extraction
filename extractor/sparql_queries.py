@@ -117,10 +117,10 @@ class SPARQLQueries:
             self.__logger.print_and_log_info(f'Starting the two most used properties extraction for {self.__endpoint_url}')
 
             self.wrapper.setQuery("""
-                select ?p (count(?x) as ?px) where {?x ?p ?y}
-                group by ?p
-                order by desc(?px)
-                limit 2
+                SELECT ?p (COUNT(?x) AS ?px) WHERE {?x ?p ?y}
+                GROUP BY ?p
+                ORDER BY DESC(?px)
+                LIMIT 4
                 """
             )
 
@@ -138,7 +138,7 @@ class SPARQLQueries:
             self.__logger.print_and_log_info(f'Starting instance count extraction for property {property_iri} from {self.__endpoint_url}')
 
             self.wrapper.setQuery(f"""
-                select (count(distinct ?y) as ?countResult) where {{?x <{property_iri}> ?y}}
+                SELECT (COUNT(distinct ?y) AS ?countResult) WHERE {{?x <{property_iri}> ?y}}
                 """
             )
 
@@ -149,3 +149,7 @@ class SPARQLQueries:
             self.__logger.print_and_log_error(f'An error occurred while executing the instance count query retrieval of {property_iri} for: {self.__endpoint_url}. {e}')
 
             return self.ERROR_NUMBER
+
+
+    def get_instances_count():
+        pass

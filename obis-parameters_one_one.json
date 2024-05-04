@@ -1,6 +1,6 @@
 {
   "calculateSubClassRelations": true,
-  "calculateMultipleInheritanceSuperclasses": false,
+  "calculateMultipleInheritanceSuperclasses": true,
   "calculatePropertyPropertyRelations": false,
   "calculateSourceAndTargetPairs": false,
   "calculateDomainsAndRanges": true,

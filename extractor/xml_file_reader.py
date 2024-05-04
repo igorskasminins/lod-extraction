@@ -43,7 +43,7 @@ class XMLFileReader:
     def get_custom_urls(self):
         endpoints = []
 
-        with open('./' + os.getenv('CUSTOM_ENDPOINTS'), 'r') as csv_file:
+        with open(os.getenv('CUSTOM_ENDPOINTS'), 'r') as csv_file:
             csvreader = csv.reader(csv_file, delimiter=';')
 
             for row in csvreader:
