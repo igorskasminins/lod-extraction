@@ -38,18 +38,25 @@ class ExtractorAPI:
 
             return
 
+        instance_amount = self.__sparql_data_extractor.is_instance_valid(url) 
+        print(instance_amount)
+        if instance_amount <= 1000000:
+            self.__stats_reader.write_data(access_url=url,error='cant get instance count')
+
+            return
+
         config_data['endpointUrl'] = url
 
-        if (int(endpoint_data['properties']) > 200) or (int(endpoint_data['triples']) > 10000000):
-            config_data['calculatePropertyPropertyRelations'] = False
-            config_data['calculateSourceAndTargetPairs'] = False
+        # if (int(endpoint_data['properties']) > 200) or (int(endpoint_data['triples']) > 10000000):
+        #     config_data['calculatePropertyPropertyRelations'] = False
+        #     config_data['calculateSourceAndTargetPairs'] = False
 
-        if int(endpoint_data['classes']) > 200:
-            config_data['calculateMultipleInheritanceSuperclasses'] = False
+        # if int(endpoint_data['classes']) > 200:
+        #     config_data['calculateMultipleInheritanceSuperclasses'] = False
 
-            if int(endpoint_data['classes']) > 500:
-                if int(endpoint_data['classes']) != 522:
-                    config_data['minimalAnalyzedClassSize'] = 10
+        #     if int(endpoint_data['classes']) > 500:
+        #         if int(endpoint_data['classes']) != 522:
+        #             config_data['minimalAnalyzedClassSize'] = 10
 
         full_endpoint_url = self.__construct_endpoint_url(config_data)
 
@@ -116,7 +123,7 @@ class ExtractorAPI:
                 endpoint_data['triples'], 
                 most_used_properties[0]['iri'],
                 most_used_properties[0]['count'],
-                most_used_properties[0]['object_count'],
+                instance_amount,
                 most_used_properties[1]['iri'],
                 most_used_properties[1]['count'],
                 most_used_properties[1]['object_count'],

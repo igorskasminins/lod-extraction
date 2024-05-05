@@ -41,8 +41,17 @@ class SPARQLDataExtractor:
             self.__sparql_queries.test_connection()
             
             return True
-        except Exception:
+        except Exception as e:
+            print(e)
             return False
+
+    def is_instance_valid(self, url):
+        self.__sparql_queries.set_wrapper(url)
+
+        # if self.__test_connection() == False:
+        #     return False
+        
+        return self.__sparql_queries.get_triples_count()
 
     def extract_data(
         self,

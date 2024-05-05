@@ -1,1 +1,10 @@
 Access URL;Time To Process(ms);Has JSON Errors;Expected Classes;Actual Classes;Classes instances;Classes incomingTripleCount;Expected Properties;Actual Properties;Triples with Properties;Property dataTripleCount;Expected Triples;First most used property (IRI);First most used property count;First property instance count;Second most used property (IRI);Second most used property count;Second property instance count;Output File;Is JSON full;API Call Query;Endpoint origin;Error Message
+http://utep.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://uccaribe.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://xula.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://alaska.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://jsu.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://msm.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://upr.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://vocabulary.semantic-web.at/PoolParty/sparql/semweb;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count
+http://hawaii.eagle-i.net/sparqler/sparql;;;;;;;;;;;;;;;;;;;;;;;;;;;;cant get instance count

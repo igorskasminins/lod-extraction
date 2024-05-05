@@ -1,6 +1,6 @@
 {
   "calculateSubClassRelations": true,
-  "calculateMultipleInheritanceSuperclasses": false,
+  "calculateMultipleInheritanceSuperclasses": true,
   "calculatePropertyPropertyRelations": false,
   "calculateSourceAndTargetPairs": false,
   "calculateDomainsAndRanges": true,
@@ -11,7 +11,7 @@
   "sampleLimitForDataTypeCalculation": 100000,
   "checkInstanceNamespaces": false,
   "addedLabels": "rdfs%3Alabel",
-  "minimalAnalyzedClassSize": 1,
+  "minimalAnalyzedClassSize": 10,
   "addIntersectionClasses": "no",
   "exactCountCalculations": "no",
   "excludedNamespaces": "http%3A%2F%2Fwww.openlinksw.com%2Fschemas%2Fvirtrdf%23",

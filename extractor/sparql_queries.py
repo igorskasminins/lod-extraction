@@ -27,10 +27,15 @@ class SPARQLQueries:
             SELECT * WHERE {?s ?p ?o} LIMIT 1
             """
         )
+        print('wtf')
         result = self.wrapper.queryAndConvert()
+        print('888888888')
+
         try:
             ok = 'results' in result
-        except:
+        except Exception as e:
+            print('jj')
+            print(e)
             raise Exception("Output result is not valid")
         
     def get_triples_count(self):
@@ -151,5 +156,23 @@ class SPARQLQueries:
             return self.ERROR_NUMBER
 
 
-    def get_instances_count():
+    def get_instances_count(self):
+        """ Retrievs distinct instance amount with the assign propety """
+        try:
+            self.__logger.print_and_log_info(f'Starting instance count extraction for property from {self.__endpoint_url}')
+
+            self.wrapper.setQuery(f"""
+                SELECT (COUNT(?instance) AS ?instanceCount)
+                WHERE {{
+                ?instance a ?class .
+                }}
+                """
+            )
+
+            result = self.wrapper.queryAndConvert()['results']['bindings']
+            return int(result[0]['instanceCount']['value'])
+        except Exception as e:
+            self.__logger.print_and_log_error(f'An error occurred while executing the instance count query retrieval of for: {self.__endpoint_url}. {e}')
+
+            return self.ERROR_NUMBER
         pass
