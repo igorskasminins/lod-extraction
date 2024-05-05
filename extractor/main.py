@@ -158,9 +158,11 @@ class ExtractorAPI:
     def process_endpoints_from_source(self):
         """ Reads the XML file with the data about endpoints: url, classes, parameters and triple counts """
         urls = self.__endpoints_reader.get_urls_from_source()
-        endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip(queries_from_source=True)
     
         for url, endpoint_data in urls.items():
+            # Call before each URL processing to allow skipping URLs on the go
+            endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip(queries_from_source=True)
+
             if url in endpoints_to_skip:
                 self.__logger.print_and_log_info(f'Skipping URL {url}')
 
