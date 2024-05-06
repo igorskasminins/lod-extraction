@@ -1,10 +1,10 @@
 {
-  "calculateSubClassRelations": true,
+  "calculateSubClassRelations": false,
   "calculateMultipleInheritanceSuperclasses": false,
   "calculatePropertyPropertyRelations": false,
   "calculateSourceAndTargetPairs": false,
-  "calculateDomainsAndRanges": true,
-  "calculateImportanceIndexes": false,
+  "calculateDomainsAndRanges": false,
+  "calculateImportanceIndexes": true,
   "calculateClosedClassSets": false,
   "calculateCardinalitiesMode": "propertyLevelOnly",
   "calculateDataTypes": "propertyLevelOnly",
