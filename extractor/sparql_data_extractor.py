@@ -48,10 +48,11 @@ class SPARQLDataExtractor:
     def is_instance_valid(self, url):
         self.__sparql_queries.set_wrapper(url)
 
-        # if self.__test_connection() == False:
-        #     return False
+        if self.__test_connection() == False:
+            print('error')
+            return False
         
-        return self.__sparql_queries.get_triples_count()
+        return self.__sparql_queries.get_instances_count()
 
     def extract_data(
         self,

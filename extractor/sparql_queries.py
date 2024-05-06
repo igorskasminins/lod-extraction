@@ -27,15 +27,11 @@ class SPARQLQueries:
             SELECT * WHERE {?s ?p ?o} LIMIT 1
             """
         )
-        print('wtf')
         result = self.wrapper.queryAndConvert()
-        print('888888888')
 
         try:
             ok = 'results' in result
         except Exception as e:
-            print('jj')
-            print(e)
             raise Exception("Output result is not valid")
         
     def get_triples_count(self):

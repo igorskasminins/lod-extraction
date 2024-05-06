@@ -31,6 +31,8 @@ class ExtractorAPI:
 
     def __make_request(self, url, config_data, endpoint_data, endpoint_origin):
         """ Makes a request to OBIS API endpoint """
+        self.__logger.print_and_log_info(f'Starting extraction for {url}')
+
         output_file = endpoint_data['output_file']
         
         if os.path.exists(f'./results/responses/{output_file}.json'):
@@ -40,10 +42,9 @@ class ExtractorAPI:
 
         instance_amount = self.__sparql_data_extractor.is_instance_valid(url) 
         print(instance_amount)
-        if instance_amount <= 1000000:
-            self.__stats_reader.write_data(access_url=url,error='cant get instance count')
-
-            return
+        if url == 'http://hawaii.eagle-i.net/sparqler/sparql':
+            instance_amount = 195771
+            # self.__stats_reader.write_data(access_url=url,error='cant get instance count')
 
         config_data['endpointUrl'] = url
 
@@ -64,7 +65,7 @@ class ExtractorAPI:
 
         start = time.time()
 
-        self.__logger.print_and_log_info(f'Starting extraction for {url}')
+        # self.__logger.print_and_log_info(f'Starting extraction for {url}')
         self.__logger.print_and_log_info(full_endpoint_url)
 
         try:
