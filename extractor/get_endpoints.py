@@ -94,7 +94,7 @@ class EndpointRetrieval:
     response = requests.get(
     os.getenv('ENDPOINT_WITH_ACCESS_URLS'), 
       params={
-        "query": self.sparql_query_three, 
+        "query": self.full_sparql_query, 
         "default-graph-uri": os.getenv('DATASET_NAME')
       }
     )
