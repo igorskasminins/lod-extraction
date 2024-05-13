@@ -46,8 +46,7 @@ class EndpointRetrieval:
     ?EffectiveURL void:classes ?classes.
   ?EffectiveURL void:properties ?properties.
     ?EffectiveURL void:triples ?triples.
-  FILTER(?properties >= 100)
-  FILTER(?properties <= 300)
+  FILTER(?properties >= 300)
   FILTER(?triples >= 1000000)
   FILTER(?triples <= 70000000)
   FILTER(NOT EXISTS{?EffectiveURL n1:isDublicate ?isDublicate. })
@@ -94,7 +93,7 @@ class EndpointRetrieval:
     response = requests.get(
     os.getenv('ENDPOINT_WITH_ACCESS_URLS'), 
       params={
-        "query": self.full_sparql_query, 
+        "query": self.sparql_query_one, 
         "default-graph-uri": os.getenv('DATASET_NAME')
       }
     )
