@@ -1,0 +1,4314 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://rdfs.org/ns/void#Dataset",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Dataset",
+            "namespace": "http://rdfs.org/ns/void#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+            "incomingTripleCount": 2584,
+            "instanceCount": 1145,
+            "isLiteral": false,
+            "localName": "AmsterdamCode",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+            "incomingTripleCount": 9357,
+            "instanceCount": 1692,
+            "isLiteral": false,
+            "localName": "Municipality",
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/provincie",
+            "incomingTripleCount": 3384,
+            "instanceCount": 12,
+            "isLiteral": false,
+            "localName": "provincie",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.gemeentegeschiedenis.nl/departement",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "departement",
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "5984968384940780399",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/nlgis/gemeentegeschiedenis/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "dct"
+        },
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": "skos"
+        },
+        {
+            "namespace": "http://www.gemeentegeschiedenis.nl/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "prefix": "geo"
+        },
+        {
+            "namespace": "http://rdfs.org/ns/void#",
+            "prefix": "void"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "foaf"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:anyURI",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://xmlns.com/foaf/0.1/page",
+            "localName": "page",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1382
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 1557
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 916
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 756
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 654
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 635
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 631
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 631
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 389
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 377
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 353
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 312
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 281
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 106
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 917
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 636
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 573
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 352
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 143
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 37
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 25
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 19
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2269
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 2261
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1428
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1428
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 933
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 618
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 405
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 333
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 170
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 118
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1388,
+                    "tripleCount": 1388
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1382
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+            "localName": "absorbedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1388,
+            "tripleCount": 1388
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "tripleCount": 3241
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2666
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1613
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1613
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1524
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1284
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1238
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1142
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 650
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 634
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 389
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 382
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 209
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3241,
+                    "tripleCount": 3241
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+            "localName": "hasGeometry",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 3241,
+            "tripleCount": 3241
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 1693
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1693
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 12
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2837,
+                    "tripleCount": 2837
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1692
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2837,
+            "tripleCount": 2837
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1439
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1145
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1145
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1439
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+            "localName": "amsterdamCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1692,
+            "tripleCount": 1692
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                },
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/departement",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1145
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1693
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1383
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 939
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 654
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 84
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 13
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1693,
+                    "tripleCount": 1693
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2837
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+            "localName": "municipalityIn",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 2838,
+            "tripleCount": 2838
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 654
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 1066
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 1005
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 661
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 640
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 640
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 638
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 427
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 279
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 213
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 130
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 66
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 20
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 1066
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 639
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 481
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 256
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 150
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 73
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 51
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 39
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 1287
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 622
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 341
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 339
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 339
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 281
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 197
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 195
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 170
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 104
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 87
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 59
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 655,
+                    "tripleCount": 655
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 654
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+            "localName": "absorbed",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 655,
+            "tripleCount": 655
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 548,
+                    "tripleCountBase": 548
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 611
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 550
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 546
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 546
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 416
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 406
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 177
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 106
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 548,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 548
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 548,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+            "localName": "startDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 548
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+            "localName": "cbsCode",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1692,
+            "tripleCount": 1692
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/departement",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1145
+                },
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1383
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 939
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 654
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 84
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 13
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1693,
+                    "tripleCount": 1693
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 1145
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrower",
+            "localName": "narrower",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2838,
+            "tripleCount": 2838
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 938
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 1590
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 1362
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 870
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 870
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 789
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 778
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 749
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 584
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 342
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 287
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 209
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 195
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 133
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 1363
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 779
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 704
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 575
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 60
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 57
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 56
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 40
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 608
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 545
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 541
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 541
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 415
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 405
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 173
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 92
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 952,
+                    "tripleCount": 952
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 938
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+            "localName": "originatedFrom",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 952,
+            "tripleCount": 952
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:wktLiteral",
+                    "tripleCount": 3241,
+                    "tripleCountBase": 3241
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "tripleCount": 3241
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3241,
+            "fullName": "http://www.opengis.net/ont/geosparql#asWKT",
+            "localName": "asWKT",
+            "maxCardinality": 1,
+            "namespace": "http://www.opengis.net/ont/geosparql#",
+            "objectTripleCount": 0,
+            "tripleCount": 3241
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 84
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 141
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 132
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 103
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 103
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 81
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 77
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 57
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 27
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 23
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 12
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 141
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 62
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 53
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 44
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 20
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3233
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2831
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1387
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1143
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 950
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 651
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 546
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1781,
+                    "tripleCount": 1781
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 84
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+            "localName": "resourceWikipedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1781,
+            "tripleCount": 1781
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 1145
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 2629
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2290
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1236
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1236
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 974
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 933
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 284
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 205
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+            "localName": "inDepartement",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1145,
+            "tripleCount": 1145
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 1228
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 744
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 504
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 504
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 461
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 432
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 367
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 283
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 177
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 131
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 117
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 57
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 462,
+                    "tripleCount": 462
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+            "localName": "resourceGeonames",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 462,
+            "tripleCount": 462
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 3241,
+                    "tripleCountBase": 3241
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "tripleCount": 3241
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 3241,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+            "localName": "year",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 3241
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://rdfs.org/ns/void#subset",
+            "localName": "subset",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://rdfs.org/ns/void#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 121
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 198
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 182
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 113
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 106
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 77
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 75
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 44
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 29
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 12
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 198
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 121
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 93
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 84
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 82
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 72
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 51
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 24
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3233
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2831
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1688
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1387
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1336
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1143
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 950
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 651
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 546
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1781,
+                    "tripleCount": 1781
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 121
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+            "localName": "resourceDbpedia",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1781,
+            "tripleCount": 1781
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 6,
+                    "tripleCountBase": 6
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 6,
+                    "tripleCountBase": 6
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 6,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 6,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:gYear",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1692
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 1693
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1693
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 12
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 1692
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1692
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+            "localName": "inProvince",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1692,
+            "tripleCount": 1692
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1697,
+                    "tripleCountBase": 2854
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1157,
+                    "tripleCountBase": 2854
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1697,
+                    "tripleCountBase": 2854
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2854
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2850
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1706
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1692,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 1145,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1145
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2854,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 2854
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 210
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 245
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 213
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 212
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 206
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 203
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 202
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 4
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 212
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 208
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 149
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 59
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 44
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 23
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 19
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 9
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 540
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 281
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 144
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 144
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 142
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 139
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 118
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 114
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 113
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 3
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 210,
+                    "tripleCount": 210
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 210
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+            "localName": "originated",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 210,
+            "tripleCount": 210
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "TargetClass": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1439
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 2964
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2584
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1528
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1528
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1439
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1154
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1104
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 673
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 618
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 438
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 296
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 207
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2585
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1281
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 863
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 495
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 93
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 62
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 9
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1145
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1440,
+                    "tripleCount": 1440
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1439
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+            "localName": "identifies",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 1440,
+            "tripleCount": 1440
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2851
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2851
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2851
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1706
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#identifies",
+                    "tripleCount": 1440
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://rdfs.org/ns/void#subset",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/page",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1692,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#AmsterdamCode",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1145,
+                    "tripleCount": 1145
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://rdfs.org/ns/void#Dataset",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2851,
+            "tripleCount": 2851
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 4933,
+                    "tripleCountBase": 4933
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 4933,
+                    "tripleCountBase": 4933
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 4933
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#year",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1692,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1692
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4933,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 4933
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1694,
+                    "tripleCountBase": 1706
+                },
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 12,
+                    "tripleCountBase": 1706
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1694,
+                    "tripleCountBase": 1706
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 3241
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#municipalityIn",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2838
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2837
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1781
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1706
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1706
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1705
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1692
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 1145
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 952
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 655
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 548
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 462
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 210
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1692,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1692
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/provincie",
+                    "dataTripleCount": 12,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 12
+                },
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/departement",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1706,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 1706
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 1337,
+                    "tripleCountBase": 1337
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2270
+                },
+                {
+                    "propertyName": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "tripleCount": 2262
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceDbpedia",
+                    "tripleCount": 1429
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceWikipedia",
+                    "tripleCount": 1429
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbedBy",
+                    "tripleCount": 1388
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#amsterdamCode",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#cbsCode",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inProvince",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#name",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1337
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#inDepartement",
+                    "tripleCount": 933
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originatedFrom",
+                    "tripleCount": 619
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#startDate",
+                    "tripleCount": 406
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#absorbed",
+                    "tripleCount": 334
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#originated",
+                    "tripleCount": 170
+                },
+                {
+                    "propertyName": "http://www.gemeentegeschiedenis.nl/gg-schema#resourceGeonames",
+                    "tripleCount": 118
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.gemeentegeschiedenis.nl/gg-schema#Municipality",
+                    "dataTripleCount": 1337,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1337
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1337,
+            "fullName": "http://www.gemeentegeschiedenis.nl/gg-schema#endDate",
+            "localName": "endDate",
+            "maxCardinality": 1,
+            "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1337
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.gemeentegeschiedenis.nl/gg-schema#"
+}

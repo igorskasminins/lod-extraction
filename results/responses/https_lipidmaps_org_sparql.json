@@ -1,0 +1,824 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "instanceCount": 48573,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "271880764928098898",
+        "enableLogging": true,
+        "endpointUrl": "https://lipidmaps.org/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "https://www.lipidmaps.org/ontology/",
+            "prefix": "n1"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 48009,
+                    "tripleCountBase": 48009
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 81090
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 55366
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25139
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18254
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 48009,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48009
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 48009,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+            "localName": "inchikey",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 48009
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 48009,
+                    "tripleCountBase": 48009
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 81090
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 55366
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25139
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18254
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 48009,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 48009
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 48009,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/inchi",
+            "localName": "inchi",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 48009
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 569
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 517
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 58324
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 81969
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 58324
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 48573
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47975
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25261
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18260
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 55930,
+                    "tripleCount": 55930
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 58324,
+            "tripleCount": 58324
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 18260,
+                    "tripleCountBase": 18260
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 36513
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 18308
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 18260
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18260
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 18254
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 18254
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 18254
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 18254
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 18224
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 14654
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 18260,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 18260
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 18260,
+            "fullName": "https://www.lipidmaps.org/ontology/abbrevChains",
+            "localName": "abbrevChains",
+            "maxCardinality": 1,
+            "namespace": "https://www.lipidmaps.org/ontology/",
+            "objectTripleCount": 0,
+            "tripleCount": 18260
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:double",
+                    "tripleCount": 47975,
+                    "tripleCountBase": 47975
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 81049
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 55332
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47975
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 47975
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25116
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18254
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 47975,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 47975
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 47975,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+            "localName": "monoisotopicmass",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 47975
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 47974,
+                    "tripleCountBase": 47974
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 81048
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 55331
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25116
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18254
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 47974,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 47974
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 47974,
+            "fullName": "http://purl.obolibrary.org/obo/chebi/formula",
+            "localName": "formula",
+            "maxCardinality": 1,
+            "namespace": "http://purl.obolibrary.org/obo/chebi/",
+            "objectTripleCount": 0,
+            "tripleCount": 47974
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 33141,
+                    "tripleCountBase": 33141
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 60121
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 39327
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 20861
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18224
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 33141,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 33141
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 33141,
+            "fullName": "https://www.lipidmaps.org/ontology/abbrev",
+            "localName": "abbrev",
+            "maxCardinality": 1,
+            "namespace": "https://www.lipidmaps.org/ontology/",
+            "objectTripleCount": 0,
+            "tripleCount": 33141
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 82541,
+                    "tripleCountBase": 82541
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 82541
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 56532
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 48570
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 48006
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 48006
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47972
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47971
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25261
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18260
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 81869,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 81869
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 82541,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 82541
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25261
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 39510
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 26719
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25261
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 21976
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 21855
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 21855
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 21832
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 21832
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 17627
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 12064
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 25261,
+                    "tripleCount": 25261
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#equivalentClass",
+            "localName": "equivalentClass",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 25261,
+            "tripleCount": 25261
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 48573
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 81869
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 55930
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 48573
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchi",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/inchikey",
+                    "tripleCount": 48009
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+                    "tripleCount": 47975
+                },
+                {
+                    "propertyName": "http://purl.obolibrary.org/obo/chebi/formula",
+                    "tripleCount": 47974
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrev",
+                    "tripleCount": 33141
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#equivalentClass",
+                    "tripleCount": 25261
+                },
+                {
+                    "propertyName": "https://www.lipidmaps.org/ontology/abbrevChains",
+                    "tripleCount": 18260
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 48573,
+                    "tripleCount": 48573
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 48573,
+            "tripleCount": 48573
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.obolibrary.org/obo/chebi/"
+}

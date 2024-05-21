@@ -1,0 +1,2926 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#Concept",
+            "incomingTripleCount": 3329,
+            "instanceCount": 1155,
+            "isLiteral": false,
+            "localName": "Concept",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+            "incomingTripleCount": 1545,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "ConceptScheme",
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "5469621935433234768",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/MiconSchorsij/thesaurus/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "dct"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "http://www.spinque.com/data/links/",
+            "prefix": "n1"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 169
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 140
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 89
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 82
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 88,
+                    "tripleCount": 88
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 88,
+            "tripleCount": 88
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 925,
+                    "tripleCountBase": 925
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1784
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1364
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1138
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 925
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 924
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 924
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 924
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 677
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 614
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 307
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 268
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 164
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 64
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 55
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 925,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 925
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 925,
+            "fullName": "http://www.w3.org/2004/02/skos/core#notation",
+            "localName": "notation",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 925
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1531
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 50
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1744
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1531
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1123
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 944
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 943
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 943
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 800
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 677
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 658
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 327
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 261
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 81
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 78
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 70
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 53
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1527,
+                    "tripleCount": 1527
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "localName": "exactMatch",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 1531,
+            "tripleCount": 1531
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 300,
+                    "tripleCountBase": 300
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 300,
+                    "tripleCountBase": 300
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 377
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 339
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 300
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 294
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 198
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 198
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 198
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 174
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 125
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 79
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 24
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 5
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 300,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 300
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 300,
+            "fullName": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "localName": "altLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 300
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 390
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 708
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 683
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 563
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 550
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 308
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 131
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 64
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 27
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 390,
+                    "tripleCount": 390
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 390
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "localName": "topConceptOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 390,
+            "tripleCount": 390
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1276
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1267
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1135
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 887
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 637
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 617
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 617
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 617
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 544
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 344
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 293
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 213
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 111
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 46
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 19
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 5
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1276
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 637
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 344
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 293
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1276
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1134
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 881
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 618
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 618
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 618
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 605
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 543
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 345
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 290
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 216
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 111
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 43
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 19
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 5
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1276,
+                    "tripleCount": 1276
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1276
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#related",
+            "localName": "related",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 1276,
+            "tripleCount": 1276
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 831
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 326
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 306
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 280
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 167
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 167
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 167
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 134
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 94
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 30
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 328
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1404
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 986
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 768
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 768
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 768
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 620
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 568
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 301
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 170
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 122
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 79
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 55
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 47
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 831,
+                    "tripleCount": 831
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 831
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#broader",
+            "localName": "broader",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 831,
+            "tripleCount": 831
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/description",
+            "localName": "description",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/publisher",
+            "localName": "publisher",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "localName": "narrowMatch",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 390
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 708
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 683
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 563
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 550
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 308
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 131
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 64
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 27
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 718
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 563
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 390,
+                    "tripleCount": 390
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 390
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "localName": "hasTopConcept",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 390,
+            "tripleCount": 390
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 49
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 322
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 199
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 175
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 175
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 175
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 154
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 119
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 86
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 60
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 46
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 33
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 186,
+                    "tripleCount": 186
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "localName": "closeMatch",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 186,
+            "tripleCount": 186
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1155
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 2081
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1527
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1276
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 925
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 300
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 72
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 63
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1155,
+                    "tripleCount": 1155
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1155
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "localName": "inScheme",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 1155,
+            "tripleCount": 1155
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1085
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/creator",
+            "localName": "creator",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/subject",
+            "localName": "subject",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1158
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 2081
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1528
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1276
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1158
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 925
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 300
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 75
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 63
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1155,
+                    "tripleCount": 1155
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/dc/terms/contributor",
+            "localName": "contributor",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 1158,
+            "tripleCount": 1158
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 76,
+                    "tripleCountBase": 76
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 249
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 143
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 113
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 76
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 75
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 73
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 72
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 64
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 58
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 27
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 72,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 72
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 76,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 76
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2,
+                    "tripleCountBase": 2
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2,
+            "fullName": "http://purl.org/dc/terms/title",
+            "localName": "title",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 63
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 6
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 78
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 63
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 54
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 33
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 30
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 11
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 63,
+                    "tripleCount": 63
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.spinque.com/data/links/unrelated",
+            "localName": "unrelated",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.spinque.com/data/links/",
+            "objectTripleCount": 63,
+            "tripleCount": 63
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+            "localName": "relatedMatch",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 6,
+            "tripleCount": 6
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1156
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 2081
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1527
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1276
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1156
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 925
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 300
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 73
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 63
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/description",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/title",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/publisher",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/subject",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1155,
+                    "tripleCount": 1155
+                },
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1156,
+            "tripleCount": 1156
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2081,
+                    "tripleCountBase": 2081
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 2081,
+                    "tripleCountBase": 2081
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 2081
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 1527
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 1276
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 1155
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 925
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 390
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 300
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 186
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 72
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 63
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/creator",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 2081,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2081
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 2081,
+            "fullName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "localName": "prefLabel",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 0,
+            "tripleCount": 2081
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "TargetClass": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 831
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 1404
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 986
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 768
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 768
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 768
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 620
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 568
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 301
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 170
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 122
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 79
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 55
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 47
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#relatedMatch",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+                    "tripleCount": 2
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 569
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 301
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "tripleCount": 3
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "tripleCount": 831
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#related",
+                    "tripleCount": 326
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "tripleCount": 306
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#exactMatch",
+                    "tripleCount": 280
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/contributor",
+                    "tripleCount": 167
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 167
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "tripleCount": 167
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#notation",
+                    "tripleCount": 134
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#altLabel",
+                    "tripleCount": 94
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#broader",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+                    "tripleCount": 88
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 30
+                },
+                {
+                    "propertyName": "http://www.w3.org/2004/02/skos/core#closeMatch",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.spinque.com/data/links/unrelated",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 831,
+                    "tripleCount": 831
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 831
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2004/02/skos/core#narrower",
+            "localName": "narrower",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2004/02/skos/core#",
+            "objectTripleCount": 831,
+            "tripleCount": 831
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.w3.org/2004/02/skos/core#"
+}

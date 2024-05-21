@@ -1,0 +1,463 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://semanticscience.org/resource/SIO_011120",
+            "incomingTripleCount": 187825,
+            "instanceCount": 187825,
+            "isLiteral": false,
+            "localName": "SIO_011120",
+            "namespace": "http://semanticscience.org/resource/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "4131554268492749398",
+        "enableLogging": true,
+        "endpointUrl": "https://idsm.elixir-czech.cz/sparql/endpoint/chebi",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://semanticscience.org/resource/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000008",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 0
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://semanticscience.org/resource/SIO_011120",
+                    "dataTripleCount": 187825,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 187825
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 187825,
+            "fullName": "http://semanticscience.org/resource/SIO_000300",
+            "localName": "SIO_000300",
+            "maxCardinality": 1,
+            "namespace": "http://semanticscience.org/resource/",
+            "objectTripleCount": 0,
+            "tripleCount": 187825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000008",
+                    "tripleCount": 187825
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://semanticscience.org/resource/SIO_011120",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 187825,
+                    "tripleCount": 187825
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://semanticscience.org/resource/is-attribute-of",
+            "localName": "is-attribute-of",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://semanticscience.org/resource/",
+            "objectTripleCount": 187825,
+            "tripleCount": 187825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000008",
+                    "tripleCount": 187825
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://semanticscience.org/resource/SIO_011120",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 187825,
+                    "tripleCount": 187825
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://semanticscience.org/resource/SIO_000011",
+            "localName": "SIO_000011",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://semanticscience.org/resource/",
+            "objectTripleCount": 187825,
+            "tripleCount": 187825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000008",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 0
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 0
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://semanticscience.org/resource/SIO_011120",
+                    "dataTripleCount": 187825,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 187825
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 187825,
+            "fullName": "http://semanticscience.org/resource/has-value",
+            "localName": "has-value",
+            "maxCardinality": 1,
+            "namespace": "http://semanticscience.org/resource/",
+            "objectTripleCount": 0,
+            "tripleCount": 187825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000008",
+                    "tripleCount": 187825
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000008",
+                    "tripleCount": 187825
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://semanticscience.org/resource/SIO_011120",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 187825
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://semanticscience.org/resource/SIO_000008",
+            "localName": "SIO_000008",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://semanticscience.org/resource/",
+            "objectTripleCount": 187825,
+            "tripleCount": 187825
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000011",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/SIO_000300",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/has-value",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://semanticscience.org/resource/is-attribute-of",
+                    "tripleCount": 187825
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 187825
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://semanticscience.org/resource/SIO_011120",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 187825,
+                    "tripleCount": 187825
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 187825,
+            "tripleCount": 187825
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://semanticscience.org/resource/"
+}

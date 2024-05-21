@@ -1,0 +1,3387 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/MusicArtist",
+            "incomingTripleCount": 3978,
+            "instanceCount": 2274,
+            "isLiteral": false,
+            "localName": "MusicArtist",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/MusicalWork",
+            "incomingTripleCount": 16767,
+            "instanceCount": 16767,
+            "isLiteral": false,
+            "localName": "MusicalWork",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Performance",
+            "incomingTripleCount": 41926,
+            "instanceCount": 28631,
+            "isLiteral": false,
+            "localName": "Performance",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Recording",
+            "incomingTripleCount": 7441,
+            "instanceCount": 3976,
+            "isLiteral": false,
+            "localName": "Recording",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Signal",
+            "incomingTripleCount": 5247,
+            "instanceCount": 5662,
+            "isLiteral": false,
+            "localName": "Signal",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Sound",
+            "incomingTripleCount": 7952,
+            "instanceCount": 3976,
+            "isLiteral": false,
+            "localName": "Sound",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Track",
+            "incomingTripleCount": 1861,
+            "instanceCount": 2447,
+            "isLiteral": false,
+            "localName": "Track",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://purl.org/ontology/mo/Transmission",
+            "instanceCount": 3976,
+            "isLiteral": false,
+            "localName": "Transmission",
+            "namespace": "http://purl.org/ontology/mo/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "instanceCount": 25,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+            "incomingTripleCount": 100509,
+            "instanceCount": 76230,
+            "isLiteral": false,
+            "localName": "Resource",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://xmlns.com/foaf/0.1/Person",
+            "incomingTripleCount": 15337,
+            "instanceCount": 8337,
+            "isLiteral": false,
+            "localName": "Person",
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "4802635166239899440",
+        "enableLogging": true,
+        "endpointUrl": "http://dbtune.org/bbc/peel/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://purl.org/ontology/mo/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://purl.org/NET/c4dm/event.owl#",
+            "prefix": "event"
+        },
+        {
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "prefix": "dc"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "prefix": "foaf"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:xsd_string",
+                    "tripleCount": 19214,
+                    "tripleCountBase": 19214
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 38428
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 19214
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 19214
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 1522
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 1502
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 830
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 16767,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16767
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "dataTripleCount": 2447,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2447
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 19214,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 19214
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 19214,
+            "fullName": "http://purl.org/dc/elements/1.1/title",
+            "localName": "title",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 19214
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:xsd_string",
+                    "tripleCount": 10611,
+                    "tripleCountBase": 10611
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 21222
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 10611
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2723
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1695
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 115
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 8337,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8337
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "dataTripleCount": 2274,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2274
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 10611,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 10611
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 10611,
+            "fullName": "http://xmlns.com/foaf/0.1/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "http://xmlns.com/foaf/0.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 10611
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3801
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3801
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3801
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3801
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 550
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 275
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 275
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 7
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 5
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 6882
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3416
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3801,
+                    "tripleCount": 3801
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3801,
+                    "tripleCount": 3801
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3801
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3801
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/engineer",
+            "localName": "engineer",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3801,
+            "tripleCount": 3801
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 3976,
+                    "tripleCountBase": 3976
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 3976,
+                    "tripleCountBase": 3976
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#time",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Transmission",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 3976,
+            "fullName": "http://purl.org/NET/c4dm/event.owl#time",
+            "localName": "time",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/NET/c4dm/event.owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 3976
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://purl.org/ontology/mo/Sound",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Sound",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Sound",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3976
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/recording_of",
+            "localName": "recording_of",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3976,
+            "tripleCount": 3976
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:xsd_string",
+                    "tripleCount": 115,
+                    "tripleCountBase": 115
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 487
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 230
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 115
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 115
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 115
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 69
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "dataTripleCount": 115,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 115
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 115,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 115
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 115,
+            "fullName": "http://purl.org/ontology/mo/biography",
+            "localName": "biography",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 115
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicArtist",
+                    "TargetClass": "http://purl.org/ontology/mo/Performance",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/MusicArtist",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Performance",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 11864
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 11864
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://purl.org/ontology/mo/Performance",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7888
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 7888
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30035
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 23728
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/instrument",
+                    "tripleCount": 8926
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 13295
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 11864
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 19982
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 9991
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2103
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1576
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 113
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7888,
+                    "tripleCount": 7888
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11864,
+                    "tripleCount": 11864
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 11864
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 11864
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/performed",
+            "localName": "performed",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 11864,
+            "tripleCount": 11864
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:int",
+                    "tripleCount": 1502,
+                    "tripleCountBase": 1502
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2642
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 1522
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 1502
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 1321
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1321
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 430
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "dataTripleCount": 1502,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1502
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 1502,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1502
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1502,
+            "fullName": "http://purl.org/ontology/mo/chart_position",
+            "localName": "chart_position",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 1502
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 16767
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 16767
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicalWork",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 16767
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 16767
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 33534
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 16767
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 16767
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 400
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performance_of",
+                    "tripleCount": 16767
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 33534
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performance_of",
+                    "tripleCount": 16767
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 1126
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 16767,
+                    "tripleCount": 16767
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16767,
+                    "tripleCount": 16767
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 16767
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 16767
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/performance_of",
+            "localName": "performance_of",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 16767,
+            "tripleCount": 16767
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Recording",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3801
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3801
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://purl.org/ontology/mo/Recording",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3801
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3801
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 6882
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3441
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3416
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3416
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 550
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 275
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 275
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 7
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3801,
+                    "tripleCount": 3801
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3801,
+                    "tripleCount": 3801
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3801
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3801
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/engineered",
+            "localName": "engineered",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3801,
+            "tripleCount": 3801
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:date",
+                    "tripleCount": 1522,
+                    "tripleCountBase": 1522
+                },
+                {
+                    "dataType": "rdf:langString",
+                    "tripleCount": 1522,
+                    "tripleCountBase": 1522
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2642
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 1522
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 1502
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 1321
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1321
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 430
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "dataTripleCount": 1522,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1522
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 1522,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1522
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1522,
+            "fullName": "http://purl.org/dc/elements/1.1/created",
+            "localName": "created",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/dc/elements/1.1/",
+            "objectTripleCount": 0,
+            "tripleCount": 1522
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicArtist",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 11864
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7888
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicArtist",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 11864
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 7888
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 19982
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 9991
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2103
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1576
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 113
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 5
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30035
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 23728
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/instrument",
+                    "tripleCount": 8926
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 11864,
+                    "tripleCount": 11864
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11864,
+                    "tripleCount": 11864
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 7888
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 11864
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/performer",
+            "localName": "performer",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 11864,
+            "tripleCount": 11864
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://purl.org/ontology/mo/Signal",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1126
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1126
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Signal",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1126
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1126
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2252
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1251
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 1126
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 1126
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 125
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 50
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2252
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performance_of",
+                    "tripleCount": 1126
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 1126
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1126,
+                    "tripleCount": 1126
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1126,
+                    "tripleCount": 1126
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1126
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1126
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/recorded_as",
+            "localName": "recorded_as",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 1126,
+            "tripleCount": 1126
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Signal",
+                    "TargetClass": "http://purl.org/ontology/mo/Track",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1811
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Signal",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1811
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Track",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1811
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1811
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3622
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 1811
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1811
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 853
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 835
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 226
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 1811
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 50
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3622
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1936
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 1811
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/isrc",
+                    "tripleCount": 689
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 226
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1811,
+                    "tripleCount": 1811
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1811,
+                    "tripleCount": 1811
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1811
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1811
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/published_as",
+            "localName": "published_as",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 1811,
+            "tripleCount": 1811
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3640
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3640
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3640
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3640
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 348
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 174
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 174
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 31
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7280
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3771
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3640
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3640,
+                    "tripleCount": 3640
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3640,
+                    "tripleCount": 3640
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3640
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3640
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/producer",
+            "localName": "producer",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3640,
+            "tripleCount": 3640
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://purl.org/ontology/mo/Signal",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Recording",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Signal",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 4101
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 125
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 125
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 104
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3976
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/produced_signal",
+            "localName": "produced_signal",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3976,
+            "tripleCount": 3976
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Signal",
+                    "TargetClass": "http://purl.org/ontology/mo/Signal",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 76
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Signal",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 76
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Track",
+                    "TargetClass": "http://purl.org/ontology/mo/Track",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 50
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Track",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 50
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicArtist",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 4,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Signal",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 145
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Track",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 50
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 205
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 3,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://purl.org/ontology/mo/MusicArtist",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 10
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://xmlns.com/foaf/0.1/Person",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 8
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 211
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 82
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 50
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 50
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 2956
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 104
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 82
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 50
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 50
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 7
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 5413
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 2956
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 2520
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1741
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 1686
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 864
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 755
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 416
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 412
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/isrc",
+                    "tripleCount": 175
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 175
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 69
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 31
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 913,
+                    "tripleCount": 913
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 782,
+                    "tripleCount": 782
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 430,
+                    "tripleCount": 430
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 400,
+                    "tripleCount": 400
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 226,
+                    "tripleCount": 226
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 2956,
+                    "tripleCount": 2956
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 145
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 50
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 205
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#sameAs",
+            "localName": "sameAs",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2956,
+            "tripleCount": 2956
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1370
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/isrc",
+                    "tripleCount": 689
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 685
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 685
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 226
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "dataTripleCount": 689,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 689
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 689,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 689
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 689,
+            "fullName": "http://purl.org/ontology/mo/isrc",
+            "localName": "isrc",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 689
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://purl.org/ontology/mo/Sound",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Sound",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3976
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3976
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30035
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3976,
+                    "tripleCount": 3976
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Sound",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3976
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/produced_sound",
+            "localName": "produced_sound",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3976,
+            "tripleCount": 3976
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Recording",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3640
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3640
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://purl.org/ontology/mo/Recording",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3640
+                },
+                {
+                    "SourceClass": "http://xmlns.com/foaf/0.1/Person",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3640
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7280
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3771
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3640
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3771
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3640
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 348
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 174
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 174
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 31
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3640,
+                    "tripleCount": 3640
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3640,
+                    "tripleCount": 3640
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3640
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 3640
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/ontology/mo/produced",
+            "localName": "produced",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 3640,
+            "tripleCount": 3640
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30035
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 15904
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 7952,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 7952
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 7952,
+            "fullName": "http://purl.org/NET/c4dm/event.owl#place",
+            "localName": "place",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/NET/c4dm/event.owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 7952
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://purl.org/ontology/mo/Performance",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 30035
+                },
+                {
+                    "SourceClass": "http://purl.org/ontology/mo/Performance",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 30035
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://purl.org/ontology/mo/Performance",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 30062
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 30062
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 49310
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performance_of",
+                    "tripleCount": 16767
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/instrument",
+                    "tripleCount": 8926
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 7888
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 1126
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30062
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 7888
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30062
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7955
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 3976
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 30035,
+                    "tripleCount": 30035
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 30062,
+                    "tripleCount": 30062
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 30062
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 30062
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+            "localName": "sub_event",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://purl.org/NET/c4dm/event.owl#",
+            "objectTripleCount": 30062,
+            "tripleCount": 30062
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:xsd_string",
+                    "tripleCount": 39652,
+                    "tripleCountBase": 39652
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 79054
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 39652
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30035
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 19214
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#time",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 2723
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 1876
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 1811
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 1522
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 1502
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/isrc",
+                    "tripleCount": 689
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 115
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 16767,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 16767
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "dataTripleCount": 5787,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 5787
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Transmission",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 3976,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 3976
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "dataTripleCount": 2447,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2447
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "dataTripleCount": 2274,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2274
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 449,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 449
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 39652,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 39652
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 39652,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 39652
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 15776
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/instrument",
+                    "tripleCount": 8926
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 7888
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 8926,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8926
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 8926,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 8926
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 8926,
+            "fullName": "http://purl.org/ontology/mo/instrument",
+            "localName": "instrument",
+            "maxCardinality": -1,
+            "namespace": "http://purl.org/ontology/mo/",
+            "objectTripleCount": 0,
+            "tripleCount": 8926
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 152301
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 152301
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 39652
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#sub_event",
+                    "tripleCount": 30062
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/title",
+                    "tripleCount": 19214
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performance_of",
+                    "tripleCount": 16767
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performed",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/performer",
+                    "tripleCount": 11864
+                },
+                {
+                    "propertyName": "http://xmlns.com/foaf/0.1/name",
+                    "tripleCount": 10611
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/instrument",
+                    "tripleCount": 8926
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#place",
+                    "tripleCount": 7952
+                },
+                {
+                    "propertyName": "http://purl.org/NET/c4dm/event.owl#time",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_signal",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced_sound",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recording_of",
+                    "tripleCount": 3976
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineer",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/engineered",
+                    "tripleCount": 3801
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/produced",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/producer",
+                    "tripleCount": 3640
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#sameAs",
+                    "tripleCount": 2956
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/published_as",
+                    "tripleCount": 1811
+                },
+                {
+                    "propertyName": "http://purl.org/dc/elements/1.1/created",
+                    "tripleCount": 1522
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/chart_position",
+                    "tripleCount": 1502
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/recorded_as",
+                    "tripleCount": 1126
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/isrc",
+                    "tripleCount": 689
+                },
+                {
+                    "propertyName": "http://purl.org/ontology/mo/biography",
+                    "tripleCount": 115
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Performance",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 57262,
+                    "tripleCount": 57262
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicalWork",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 33534,
+                    "tripleCount": 33534
+                },
+                {
+                    "classFullName": "http://xmlns.com/foaf/0.1/Person",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16674,
+                    "tripleCount": 16674
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Signal",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 11324,
+                    "tripleCount": 11324
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Recording",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7952,
+                    "tripleCount": 7952
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Sound",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 6,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7952,
+                    "tripleCount": 7952
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Transmission",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 7,
+                    "isPrincipal": false,
+                    "objectTripleCount": 7952,
+                    "tripleCount": 7952
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/Track",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 8,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4894,
+                    "tripleCount": 4894
+                },
+                {
+                    "classFullName": "http://purl.org/ontology/mo/MusicArtist",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 9,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4548,
+                    "tripleCount": 4548
+                },
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 10,
+                    "isPrincipal": false,
+                    "objectTripleCount": 25,
+                    "tripleCount": 25
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 152276,
+                    "tripleCount": 152276
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 152301,
+            "tripleCount": 152301
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://purl.org/ontology/mo/"
+}

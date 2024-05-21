@@ -1,0 +1,1241 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+            "incomingTripleCount": 255480,
+            "instanceCount": 122747,
+            "isLiteral": false,
+            "localName": "Word",
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+            "incomingTripleCount": 8342,
+            "instanceCount": 3747,
+            "isLiteral": false,
+            "localName": "Sentence",
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "8343641210460036368",
+        "enableLogging": true,
+        "endpointUrl": "https://relate.racai.ro/datasets/simonero/query",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "prefix": "nif"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144597
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143196
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 141075
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 122747,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 122747
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 122747,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+            "localName": "ID",
+            "maxCardinality": 1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 122747
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144597
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143196
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 141075
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 141075,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 141075
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 141075,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+            "localName": "UPOS",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 141075
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144597
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143196
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 141075
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 144597,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 144597
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 144597,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+            "localName": "XPOS",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 144597
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "TargetClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 3746
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 4678
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3746
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3745
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 4593
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3746
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 4680
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3746
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3746
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3746,
+                    "tripleCount": 3746
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 3746
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+            "localName": "nextSentence",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "objectTripleCount": 3746,
+            "tripleCount": 3746
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 127580
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 127554
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 126619
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 125347
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 123225
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 123087
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 104944
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 104944
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 104943
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 32549
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 121792,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 121792
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 121792,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+            "localName": "FEATS",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 121792
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145334
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144377
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 142976
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 140856
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 140855
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122527
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122527
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121747
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 118780
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 36931
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 145353,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 145353
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 145353,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+            "localName": "FORM",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 145353
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144422
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143021
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 140901
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 140900
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122572
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122572
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 118825
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 36931
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 145379,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 145379
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 145379,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+            "localName": "LEMMA",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 145379
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 100000,
+                    "tripleCountBase": 100000
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144597
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143196
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 141075
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 143196,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 143196
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 143196,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+            "localName": "DEPREL",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 143196
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 37046,
+                    "tripleCountBase": 37046
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 48369
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 48364
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 47973
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 46978
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 45958
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 45520
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 40736
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 35313
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 35313
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 35311
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 37046,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 37046
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 37046,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+            "localName": "MISC",
+            "maxCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 0,
+            "tripleCount": 37046
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "TargetClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 136480
+                },
+                {
+                    "SourceClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "TargetClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 2,
+                    "tripleCount": 4596
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 72472
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 72468
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 71743
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 70836
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 69665
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 68765
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 67785
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 58521
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 54774
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 54774
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 22101
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 4681
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3746
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 52645
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3746
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144597
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143196
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 141075
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 141076,
+                    "tripleCount": 141076
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 136480
+                },
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "tripleCount": 4596
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+            "localName": "HEAD",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#",
+            "objectTripleCount": 141076,
+            "tripleCount": 141076
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 4681,
+                    "tripleCountBase": 4681
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 4681
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3747
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3746
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "dataTripleCount": 4681,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4681
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 4681,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 4681
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "TargetClass": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 119000
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 140765
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 140733
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 140091
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 138821
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 136772
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 136581
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 117387
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 115253
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 36127
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 132531
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 141632
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 141606
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 140850
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 139449
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 137328
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 137320
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121791
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37044
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 119000,
+                    "tripleCount": 119000
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 119000
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+            "localName": "nextWord",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+            "objectTripleCount": 119000,
+            "tripleCount": 119000
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 126494
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#LEMMA",
+                    "tripleCount": 145379
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FORM",
+                    "tripleCount": 145353
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#XPOS",
+                    "tripleCount": 144597
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#DEPREL",
+                    "tripleCount": 143196
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#HEAD",
+                    "tripleCount": 141076
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#UPOS",
+                    "tripleCount": 141075
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 126494
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#ID",
+                    "tripleCount": 122747
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#FEATS",
+                    "tripleCount": 121792
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextWord",
+                    "tripleCount": 119000
+                },
+                {
+                    "propertyName": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#MISC",
+                    "tripleCount": 37046
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 4681
+                },
+                {
+                    "propertyName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#nextSentence",
+                    "tripleCount": 3746
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 122747,
+                    "tripleCount": 122747
+                },
+                {
+                    "classFullName": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3747,
+                    "tripleCount": 3747
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 126494,
+            "tripleCount": 126494
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#"
+}

@@ -1,0 +1,1077 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/ArchiveComponent",
+            "incomingTripleCount": 410,
+            "instanceCount": 371,
+            "isLiteral": false,
+            "localName": "ArchiveComponent",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+            "incomingTripleCount": 1269,
+            "instanceCount": 16,
+            "isLiteral": false,
+            "localName": "Resource",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/Periodical",
+            "incomingTripleCount": 455,
+            "instanceCount": 40,
+            "isLiteral": false,
+            "localName": "Periodical",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/DigitalDocument",
+            "incomingTripleCount": 457,
+            "instanceCount": 363,
+            "isLiteral": false,
+            "localName": "DigitalDocument",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "https://schema.org/Article",
+            "instanceCount": 455,
+            "isLiteral": false,
+            "localName": "Article",
+            "namespace": "https://schema.org/",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "5606413454093551335",
+        "enableLogging": true,
+        "endpointUrl": "https://api.druid.datalegend.net/datasets/MiconSchorsij/OnTheWaterfront/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "https://schema.org/",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": "rdf"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 455,
+                    "tripleCountBase": 455
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 455,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 455
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 455,
+            "fullName": "https://schema.org/datePublished",
+            "localName": "datePublished",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 455
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 408,
+                    "tripleCountBase": 408
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 405
+                },
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 377
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 377
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 376
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 375
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 375
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 375
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 375
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 121
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 408,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 408
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 408,
+            "fullName": "https://schema.org/description",
+            "localName": "description",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 408
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 455,
+                    "tripleCountBase": 455
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 455,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 455
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 455,
+            "fullName": "https://schema.org/name",
+            "localName": "name",
+            "maxCardinality": 1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 455
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 457,
+                    "tripleCountBase": 457
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 457,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 457
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 457,
+            "fullName": "https://schema.org/pageEnd",
+            "localName": "pageEnd",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 457
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/Article",
+                    "TargetClass": "https://schema.org/DigitalDocument",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 457
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 363
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 457,
+                    "tripleCount": 457
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/DigitalDocument",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 457
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/url",
+            "localName": "url",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 457,
+            "tripleCount": 457
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 456,
+                    "tripleCountBase": 456
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 456,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 456
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 456,
+            "fullName": "https://schema.org/pageStart",
+            "localName": "pageStart",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 456
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/Periodical",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 40
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "https://schema.org/archivedAt",
+                    "tripleCount": 40
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "https://schema.org/archivedAt",
+                    "tripleCount": 40
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Periodical",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 40,
+                    "tripleCount": 40
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 40
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/archivedAt",
+            "localName": "archivedAt",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 40,
+            "tripleCount": 40
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/Article",
+                    "TargetClass": "https://schema.org/Periodical",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 455
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "https://schema.org/archivedAt",
+                    "tripleCount": 40
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 455,
+                    "tripleCount": 455
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/Periodical",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 455
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/isPartOf",
+            "localName": "isPartOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 455,
+            "tripleCount": 455
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 179,
+                    "tripleCountBase": 179
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                },
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 178
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 178
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 178
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 177
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 177
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 177
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 177
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 141
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 137
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 179,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 179
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 179,
+            "fullName": "https://schema.org/author",
+            "localName": "author",
+            "maxCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 0,
+            "tripleCount": 179
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/ArchiveComponent",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 371
+                },
+                {
+                    "SourceClass": "https://schema.org/Periodical",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 40
+                },
+                {
+                    "SourceClass": "https://schema.org/DigitalDocument",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 363
+                },
+                {
+                    "SourceClass": "https://schema.org/Article",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 455
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 4
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1245
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1245
+                },
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 457
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 456
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 455
+                },
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 408
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 179
+                },
+                {
+                    "propertyName": "https://schema.org/archivedAt",
+                    "tripleCount": 40
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 455,
+                    "tripleCount": 455
+                },
+                {
+                    "classFullName": "https://schema.org/ArchiveComponent",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 371,
+                    "tripleCount": 371
+                },
+                {
+                    "classFullName": "https://schema.org/DigitalDocument",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 363,
+                    "tripleCount": 363
+                },
+                {
+                    "classFullName": "https://schema.org/Periodical",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 40,
+                    "tripleCount": 40
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 16,
+                    "tripleCount": 16
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Resource",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 1229
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 1245,
+            "tripleCount": 1245
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "https://schema.org/Article",
+                    "TargetClass": "https://schema.org/ArchiveComponent",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 410
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 371
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "https://schema.org/about",
+                    "tripleCount": 410
+                },
+                {
+                    "propertyName": "https://schema.org/description",
+                    "tripleCount": 402
+                },
+                {
+                    "propertyName": "https://schema.org/pageEnd",
+                    "tripleCount": 376
+                },
+                {
+                    "propertyName": "https://schema.org/url",
+                    "tripleCount": 376
+                },
+                {
+                    "propertyName": "https://schema.org/pageStart",
+                    "tripleCount": 375
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 374
+                },
+                {
+                    "propertyName": "https://schema.org/datePublished",
+                    "tripleCount": 374
+                },
+                {
+                    "propertyName": "https://schema.org/isPartOf",
+                    "tripleCount": 374
+                },
+                {
+                    "propertyName": "https://schema.org/name",
+                    "tripleCount": 374
+                },
+                {
+                    "propertyName": "https://schema.org/author",
+                    "tripleCount": 125
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "https://schema.org/Article",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 410,
+                    "tripleCount": 410
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "https://schema.org/ArchiveComponent",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 410
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "https://schema.org/about",
+            "localName": "about",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "https://schema.org/",
+            "objectTripleCount": 410,
+            "tripleCount": 410
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "https://schema.org/"
+}

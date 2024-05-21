@@ -1,0 +1,3586 @@
+{
+    "Classes": [
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Ontology"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Ontology",
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Ontology",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+            "instanceCount": 23,
+            "isLiteral": false,
+            "localName": "Property",
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/ns/sparql-service-description#Service",
+            "incomingTripleCount": 2,
+            "instanceCount": 1,
+            "isLiteral": false,
+            "localName": "Service",
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "OntologyProperty"
+                }
+            ],
+            "SuperClasses": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+            "instanceCount": 4,
+            "isLiteral": false,
+            "localName": "OntologyProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+            "incomingTripleCount": 43,
+            "instanceCount": 15,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "AnnotationProperty"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+            "instanceCount": 5,
+            "isLiteral": false,
+            "localName": "AnnotationProperty",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        },
+        {
+            "IntersectionClasses": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "Class"
+                }
+            ],
+            "SuperClasses": [],
+            "classificationProperty": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "fullName": "http://www.w3.org/2002/07/owl#Class",
+            "incomingTripleCount": 8,
+            "instanceCount": 3,
+            "isLiteral": false,
+            "localName": "Class",
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "propertiesInSchema": true
+        }
+    ],
+    "HasErrors": false,
+    "HasNotes": false,
+    "HasWarnings": false,
+    "Parameters": {
+        "addIntersectionClasses": "no",
+        "calculateCardinalitiesMode": "propertyLevelOnly",
+        "calculateClosedClassSets": false,
+        "calculateDataTypes": "propertyLevelOnly",
+        "calculateDomainsAndRanges": true,
+        "calculateImportanceIndexes": true,
+        "calculateMultipleInheritanceSuperclasses": true,
+        "calculatePropertyPropertyRelations": true,
+        "calculateSourceAndTargetPairs": true,
+        "calculateSubClassRelations": true,
+        "checkInstanceNamespaces": false,
+        "classificationPropertiesWithConnectionsOnly": [],
+        "correlationId": "230507709295687036",
+        "enableLogging": true,
+        "endpointUrl": "http://www.ss-framework.com/sparql",
+        "exactCountCalculations": "no",
+        "excludedNamespaces": [
+            "http://www.openlinksw.com/schemas/virtrdf#"
+        ],
+        "includedClasses": [],
+        "includedLabels": [
+            {
+                "labelPropertyFullOrPrefix": "rdfs:label",
+                "languages": []
+            },
+            {
+                "labelPropertyFullOrPrefix": "skos:prefLabel",
+                "languages": []
+            }
+        ],
+        "includedProperties": [],
+        "maxInstanceLimitForExactCount": 10000000,
+        "minimalAnalyzedClassSize": 1,
+        "principalClassificationProperties": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        ],
+        "sampleLimitForDataTypeCalculation": 100000,
+        "simpleClassificationProperties": []
+    },
+    "Prefixes": [
+        {
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "prefix": ":"
+        },
+        {
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "prefix": "owl"
+        },
+        {
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "prefix": "rdfs"
+        },
+        {
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "prefix": "sd"
+        },
+        {
+            "namespace": "http://purl.org/dc/terms/",
+            "prefix": "dct"
+        },
+        {
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "prefix": "n1"
+        }
+    ],
+    "Properties": [
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "complementOf"
+                }
+            ],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#complementOf",
+            "localName": "complementOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "imports"
+                }
+            ],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#versionInfo",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#imports",
+            "localName": "imports",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+                    "tripleCount": 742
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/extent",
+                    "tripleCount": 729
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+            "localName": "ownerUser",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.openlinksw.com/schemas/DAV#",
+            "objectTripleCount": 742,
+            "tripleCount": 742
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+                    "tripleCount": 2
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+            "localName": "rest",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 2
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 41
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 15
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 7
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 15
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 12
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 12,
+                    "tripleCount": 12
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 4
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+            "localName": "subClassOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 15,
+            "tripleCount": 15
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#versionInfo",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "localName": "comment",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 742,
+                    "tripleCountBase": 742
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/extent",
+                    "tripleCount": 729
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 742,
+            "fullName": "http://purl.org/dc/terms/modified",
+            "localName": "modified",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 742
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#noInherit",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfName",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsStable",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#item",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvFormat",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+            "localName": "_5",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#noInherit",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfName",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsStable",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 15
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#item",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvFormat",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+            "localName": "_3",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 10,
+            "tripleCount": 10
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfName",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#noInherit",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsStable",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#item",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvFormat",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 2
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 3
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+            "localName": "_4",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions",
+                    "tripleCount": 65
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 56
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 46
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfName",
+                    "tripleCount": 46
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats",
+                    "tripleCount": 46
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#noInherit",
+                    "tripleCount": 45
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl",
+                    "tripleCount": 18
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl",
+                    "tripleCount": 14
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvcAlias",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvaAlias",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvaTableName",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 66
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#item",
+                    "tripleCount": 46
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 66
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 66
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+            "localName": "_1",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 66,
+            "tripleCount": 66
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfName",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsStable",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl",
+                    "tripleCount": 5
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#noInherit",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 9
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#item",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvFormat",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+            "localName": "_2",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 13,
+            "tripleCount": 13
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 8
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 42
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 24
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 20,
+                    "tripleCount": 20
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 8
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#range",
+            "localName": "range",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 20,
+            "tripleCount": 20
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+                    "tripleCount": 2
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+            "localName": "subPropertyOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#versionInfo",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+            "localName": "isDefinedBy",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 3,
+            "tripleCount": 3
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+                    "tripleCount": 2
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 2
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+            "localName": "first",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "priorVersion"
+                }
+            ],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#versionInfo",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#priorVersion",
+            "localName": "priorVersion",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 18
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2002/07/owl#Class",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 2
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 19
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 25
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 21,
+                    "tripleCount": 21
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 4,
+                    "tripleCount": 4
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 18
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#domain",
+            "localName": "domain",
+            "maxCardinality": 1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 21,
+            "tripleCount": 21
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "localName": "supportedLanguage",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:dateTime",
+                    "tripleCount": 742,
+                    "tripleCountBase": 742
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+                    "tripleCount": 742
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/extent",
+                    "tripleCount": 729
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 742,
+            "fullName": "http://purl.org/dc/terms/created",
+            "localName": "created",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 742
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 2,
+                    "tripleCount": 2
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#feature",
+            "localName": "feature",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 2,
+            "tripleCount": 2
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:integer",
+                    "tripleCount": 729,
+                    "tripleCountBase": 729
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://purl.org/dc/terms/created",
+                    "tripleCount": 729
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/extent",
+                    "tripleCount": 729
+                },
+                {
+                    "propertyName": "http://purl.org/dc/terms/modified",
+                    "tripleCount": 729
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/DAV#ownerUser",
+                    "tripleCount": 729
+                }
+            ],
+            "SourceClasses": [],
+            "TargetClasses": [],
+            "dataTripleCount": 729,
+            "fullName": "http://purl.org/dc/terms/extent",
+            "localName": "extent",
+            "maxCardinality": 1,
+            "namespace": "http://purl.org/dc/terms/",
+            "objectTripleCount": 0,
+            "tripleCount": 729
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 40,
+                    "tripleCountBase": 40
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 45
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 23,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 23
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 2,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 2
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 15,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 4,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 4
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 40,
+            "fullName": "http://www.w3.org/2000/01/rdf-schema#label",
+            "localName": "label",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2000/01/rdf-schema#",
+            "objectTripleCount": 0,
+            "tripleCount": 40
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "localName": "resultFormat",
+            "maxCardinality": -1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 8,
+            "tripleCount": 8
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "unionOf"
+                }
+            ],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/2002/07/owl#unionOf",
+            "localName": "unionOf",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "TargetClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#url",
+            "localName": "url",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [],
+            "DataTypes": [
+                {
+                    "dataType": "xsd:string",
+                    "tripleCount": 1,
+                    "tripleCountBase": 1
+                }
+            ],
+            "Followers": [],
+            "IncomingProperties": [],
+            "Labels": [
+                {
+                    "property": "rdfs:label",
+                    "value": "versionInfo"
+                }
+            ],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#versionInfo",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 1,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 0,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [],
+            "dataTripleCount": 1,
+            "fullName": "http://www.w3.org/2002/07/owl#versionInfo",
+            "localName": "versionInfo",
+            "maxCardinality": 1,
+            "namespace": "http://www.w3.org/2002/07/owl#",
+            "objectTripleCount": 0,
+            "tripleCount": 1
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Ontology",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 4,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 1
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#Class",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 3,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 3
+                },
+                {
+                    "SourceClass": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 2,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 5
+                },
+                {
+                    "SourceClass": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "TargetClass": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "isPrincipalSource": false,
+                    "isPrincipalTarget": false,
+                    "sourceImportanceIndex": 0,
+                    "targetImportanceIndex": 0,
+                    "tripleCount": 4
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#isGcResistantType",
+                    "tripleCount": 2
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 322
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 9
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 322
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions",
+                    "tripleCount": 172
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfName",
+                    "tripleCount": 130
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#inheritFrom",
+                    "tripleCount": 99
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats",
+                    "tripleCount": 98
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_1",
+                    "tripleCount": 66
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl",
+                    "tripleCount": 57
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#noInherit",
+                    "tripleCount": 56
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl",
+                    "tripleCount": 53
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl",
+                    "tripleCount": 53
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl",
+                    "tripleCount": 53
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl",
+                    "tripleCount": 47
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection",
+                    "tripleCount": 47
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsStable",
+                    "tripleCount": 47
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl",
+                    "tripleCount": 45
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl",
+                    "tripleCount": 45
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl",
+                    "tripleCount": 45
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl",
+                    "tripleCount": 42
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "tripleCount": 40
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset",
+                    "tripleCount": 39
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl",
+                    "tripleCount": 37
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl",
+                    "tripleCount": 31
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl",
+                    "tripleCount": 29
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval",
+                    "tripleCount": 22
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "tripleCount": 21
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "tripleCount": 20
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl",
+                    "tripleCount": 19
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_2",
+                    "tripleCount": 13
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfCustomString1",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+                    "tripleCount": 12
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_3",
+                    "tripleCount": 10
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvATables",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvColumns",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvColumnsFormKey",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvTableName",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvcAlias",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype",
+                    "tripleCount": 7
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDtpOfNiceSqlval",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfShortOfNiceSqlvalTmpl",
+                    "tripleCount": 6
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfLanguageTmpl",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvftColumnName",
+                    "tripleCount": 4
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvftXmlIndex",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qsUserMaps",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_4",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#_5",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+                    "tripleCount": 3
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmGraphMap",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmMatchingFlags",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmObjectMap",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmPredicateMap",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmSubjectMap",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmTableName",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvFText",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvGeo",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvaAlias",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvaTableName",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvftAlias",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvftConds",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmvftTableName",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qsDefaultMap",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qsMatchingFlags",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#complementOf",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#imports",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#priorVersion",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#unionOf",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/2002/07/owl#versionInfo",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": false,
+                    "objectTripleCount": 28,
+                    "tripleCount": 28
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#AnnotationProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 2,
+                    "isPrincipal": false,
+                    "objectTripleCount": 6,
+                    "tripleCount": 6
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 3,
+                    "isPrincipal": false,
+                    "objectTripleCount": 3,
+                    "tripleCount": 3
+                },
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 4,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#Ontology",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 5,
+                    "isPrincipal": false,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                },
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 15,
+                    "tripleCount": 15
+                },
+                {
+                    "classFullName": "http://www.w3.org/2002/07/owl#OntologyProperty",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "objectTripleCount": 8,
+                    "tripleCount": 8
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/2000/01/rdf-schema#Class",
+                    "importanceIndex": 0,
+                    "isPrincipal": false,
+                    "tripleCount": 13
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "localName": "type",
+            "maxCardinality": -1,
+            "maxInverseCardinality": -1,
+            "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "objectTripleCount": 322,
+            "tripleCount": 322
+        },
+        {
+            "ClassPairs": [
+                {
+                    "SourceClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "TargetClass": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "isPrincipalSource": true,
+                    "isPrincipalTarget": true,
+                    "sourceImportanceIndex": 1,
+                    "targetImportanceIndex": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "DataTypes": [],
+            "Followers": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "IncomingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "Labels": [],
+            "OutgoingProperties": [
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+                    "tripleCount": 8
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#feature",
+                    "tripleCount": 2
+                },
+                {
+                    "propertyName": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+                    "tripleCount": 1
+                },
+                {
+                    "propertyName": "http://www.w3.org/ns/sparql-service-description#url",
+                    "tripleCount": 1
+                }
+            ],
+            "SourceClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "dataTripleCount": 0,
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "objectTripleCount": 1,
+                    "tripleCount": 1
+                }
+            ],
+            "TargetClasses": [
+                {
+                    "classFullName": "http://www.w3.org/ns/sparql-service-description#Service",
+                    "importanceIndex": 1,
+                    "isPrincipal": true,
+                    "tripleCount": 1
+                }
+            ],
+            "dataTripleCount": 0,
+            "fullName": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "localName": "endpoint",
+            "maxCardinality": 1,
+            "maxInverseCardinality": 1,
+            "namespace": "http://www.w3.org/ns/sparql-service-description#",
+            "objectTripleCount": 1,
+            "tripleCount": 1
+        }
+    ],
+    "SchemaName": "Schema",
+    "namespace": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+}
