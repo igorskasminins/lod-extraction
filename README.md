@@ -31,8 +31,10 @@ pip install -r requirements.txt --user
 ```
 # Available commands
 
-### 1. Extracting endpoints from http://85.254.199.72:8890/sparql.
 
+All the commands must be executed from the root directory (_lod-extraction_ by default)
+
+### 1. Extracting endpoints from http://85.254.199.72:8890/sparql.
 <br>
 
 At first a query defined in _source_qurey.txt_ will be executed on the source and endpoints will be retrieved for further extraction.
