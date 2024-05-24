@@ -20,10 +20,15 @@ The following conditions mustbe met:
 
 3. Run the command from root directory to install necessary python modules:
 
+
 ```
 pip install -r requirements.txt
 ```
 
+In case of errors related to missing/unaccasable files, try:
+```
+pip install -r requirements.txt --user
+```
 # Available commands
 
 ### 1. Extracting endpoints from http://85.254.199.72:8890/sparql.
@@ -43,7 +48,7 @@ python -m extraction start-source
 ### 2. Providing own list of endpoints.
 <br>
 
-The list of endpoints for extraction sohuld be inserted into _endpoints.csv_ file. Where each endpoint should be separated by a new line.
+The list of endpoints for extraction should be provided in _./endpoints/custom-endpoints.csv_ file. Where each endpoint should be separated by a new line.
 
 ```
 python -m extraction start-file
@@ -54,7 +59,7 @@ python -m extraction start-file
 
 Additionally, after successfull installation of the server and set up of the first database with necessary schema template, there is a script avalable that can perform bulk upload of the extracated schemas under _extractor/import_ directory. The script could be placed with _exrtaction_statistics_output.csv_ and responses directory under import_generic/scripts directory of DSS.
 
-So that the contents of _scripts_ woud look like this:
+So that the contents of _scripts_ wolud look like this:
 
 _responses_<br>
 _exrtaction_statistics_output.csv_<br>
