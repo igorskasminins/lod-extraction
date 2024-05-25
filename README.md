@@ -63,7 +63,7 @@ Additionally, after successfull installation of the server and set up of the fir
 
 So that the contents of _scripts_ wolud look like this:
 
-![alt text](https://github.com/igorskasminins/lod-extraction/blob/main/example.jpg?raw=true)
+![alt text](https://github.com/igorskasminins/lod-extraction/blob/main/img/example.jpg?raw=true)
 
 
 The _processed_ directory will be created automatically to stored already processed schemas.
