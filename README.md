@@ -61,7 +61,7 @@ python -m extraction start-file
 
 Additionally, after successfull installation of the server and set up of the first database with necessary schema templates, there is a script avalable that can perform bulk upload of the extracated schemas under _extractor/import_ directory. The script must be placed under _import-generic_ directory and under _import-generic/scripts_ directory of DSS.
 
-So that the contents of _scripts_ wolud look like this:
+So that the contents of _import-generic_ wolud look like this:
 
 ![alt text](https://github.com/igorskasminins/lod-extraction/blob/main/img/example.jpg?raw=true)
 
