@@ -59,20 +59,72 @@ python -m extraction start-file
 
 # Import to PostgresSQL - Data Shape Server ([DSS](https://github.com/LUMII-Syslab/data-shape-server))
 
-Additionally, after successfull installation of the server and set up of the first database with necessary schema template, there is a script avalable that can perform bulk upload of the extracated schemas under _extractor/import_ directory. The script could be placed with _exrtaction_statistics_output.csv_ and responses directory under import_generic/scripts directory of DSS.
+Additionally, after successfull installation of the server and set up of the first database with necessary schema template, there is a script avalable that can perform bulk upload of the extracated schemas under _extractor/import_ directory. The script must be placed with and responses directory under import_generic/scripts directory of DSS.
 
 So that the contents of _scripts_ wolud look like this:
 
-_responses_<br>
-_exrtaction_statistics_output.csv_<br>
-_import.py_<br>
-_..._<br>
-_json-importer.js_<br>
-_main.js_<br>
-_..._<br>
+![alt text](https://github.com/igorskasminins/lod-extraction/blob/main/example.jpg?raw=true)
 
-After that the python file can be run from the _scripts_ directory which will perform the import of all the schemas located inside _response_ directory to the database:
+
+The processed folder will be created automatically to stored already processed schemas.
+
+After that the python file can be run from the _scripts_ directory which will perform the import of all the schemas located inside _response_ directory to the database with the following command from the _import-generic_ folder:
 
 ```
 python import.py
 ```
+
+Additionally, to skip the authentication for DB you can modify the contents of _createSchema_ function inside _main.js_ so that it would look like this, which is the laternative way of providing credentials inside the commands:
+
+For example:
+
+user: postgres
+<br>
+passoword: admin
+<br>
+DB port: 5432
+<br>
+DB name: extraction
+```
+await $`pg_dump -E UTF8 --dbname=postgres://postgres:admin@localhost:5432/extraction -n empty -f ${EMPTY_SCHEMA}.sql `;
+	
+await $`psql --dbname=postgres://postgres:admin@localhost:5432/extraction -c "alter schema ${EMPTY_SCHEMA} rename to ${schemaName}"`
+
+await $`psql --dbname=postgres://postgres:admin@localhost:5432/extraction -f ${EMPTY_SCHEMA}.sql `;
+```
+
+Another alternative would be defining _PostgrSQL_ variables on Windows level.
+
+
+## ViziQuer
+
+As of current version of recommended db-templates for for DSS, ViziQuer does not display uploaded schemas because of the missing view "public.v_configuration".
+
+To fix the issue the following code snippet could be included in the _public-template-v2.pgsql_ before creating a base database or at any point even after scheme import by executing the SQL query:
+
+```
+--
+-- Name: v_configurations; Type: VIEW; Schema: public; Owner: rdf
+--
+
+CREATE VIEW public.v_configurations AS
+ SELECT s.display_name,
+    s.db_schema_name,
+    e.sparql_url,
+    s.is_active,
+    COALESCE(e.named_graph, ''::text) AS named_graph
+   FROM (public.endpoints e
+     JOIN public.schemata s ON ((e.id = s.endpoint_id)))
+  WHERE s.is_active
+  ORDER BY s.display_name;
+
+ALTER TABLE public.v_configurations OWNER TO rdf;
+
+--
+-- Name: TABLE v_configurations; Type: ACL; Schema: public; Owner: rdf
+--
+
+GRANT SELECT ON TABLE public.v_configurations TO rdfro;
+```
+
+The following view was created based on the first version of the template and required fields for data queries.

@@ -1,4 +1,3 @@
-import subprocess
 import os
 import json
 import shutil
@@ -10,7 +9,8 @@ folder_path = "./scripts/responses"
 files = os.listdir(folder_path)
 
 for response in files:
-    with open("./scripts/responses/" + response, 'r') as json_file:
+    with open("./scripts/responses/" + response, 'r', encoding="utf8") as json_file:
+        print(json_file)
         data = json.load(json_file)
 
     responseSchema = os.path.splitext(response)[0]
@@ -33,6 +33,8 @@ for response in files:
     request = False
 
     try:
+        print('Looking for title:')
+
         request = requests.get(url)
     except:
         pass
