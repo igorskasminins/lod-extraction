@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 
 folder_path = "./scripts/responses"
 
+processed_folder_path = "./scripts/processed"
+os.makedirs(processed_folder_path, exist_ok=True)
+
 files = os.listdir(folder_path)
 
 for response in files:

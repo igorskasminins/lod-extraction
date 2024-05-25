@@ -59,16 +59,16 @@ python -m extraction start-file
 
 # Import to PostgresSQL - Data Shape Server ([DSS](https://github.com/LUMII-Syslab/data-shape-server))
 
-Additionally, after successfull installation of the server and set up of the first database with necessary schema template, there is a script avalable that can perform bulk upload of the extracated schemas under _extractor/import_ directory. The script must be placed with and responses directory under import_generic/scripts directory of DSS.
+Additionally, after successfull installation of the server and set up of the first database with necessary schema templates, there is a script avalable that can perform bulk upload of the extracated schemas under _extractor/import_ directory. The script must be placed under _import-generic_ directory and under _import-generic/scripts_ directory of DSS.
 
 So that the contents of _scripts_ wolud look like this:
 
 ![alt text](https://github.com/igorskasminins/lod-extraction/blob/main/example.jpg?raw=true)
 
 
-The processed folder will be created automatically to stored already processed schemas.
+The _processed_ directory will be created automatically to stored already processed schemas.
 
-After that the python file can be run from the _scripts_ directory which will perform the import of all the schemas located inside _response_ directory to the database with the following command from the _import-generic_ folder:
+After that the python script can be executed from the _import-generic_ directory which will perform the import of all the schemas located inside _response_ directory to the database with the following:
 
 ```
 python import.py
