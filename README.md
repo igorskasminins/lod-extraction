@@ -94,7 +94,7 @@ So that the contents of _import-generic_ wolud look like this:
 ![alt text](https://github.com/igorskasminins/lod-extraction/blob/main/img/example.jpg?raw=true)
 
 
-The _processed_ directory will be created automatically to stored already processed schemas.
+The _processed_ directory will be created automatically to store already processed schemas.
 
 After that the python script can be executed from the _import-generic_ directory which will perform the import of all the schemas located inside _response_ directory to the database with the following:
 
