@@ -1,0 +1,13 @@
+PREFIX n1: <http://rdf.lumii.lv/ex#>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+SELECT ?EffectiveURL ?classes ?properties ?triples WHERE {
+    ?EffectiveURL rdf:type n1:EffectiveURL.
+    ?EffectiveURL void:classes ?classes.
+    ?EffectiveURL void:properties ?properties.
+    ?EffectiveURL void:triples ?triples.
+    FILTER(?properties <= 10000)
+    FILTER(?classes <= 10000)
+    FILTER(NOT EXISTS{?EffectiveURL n1:isDublicate ?isDublicate. })
+}
+ORDER BY ?classes

@@ -16,9 +16,9 @@ The following conditions mustbe met:
 
 1. Python3 is installed
 
-2. Pip is installed
+2. pip is installed
 
-3. Run the command from root directory to install necessary python modules:
+3. Run the command from root directory to install all the necessary python modules:
 
 
 ```
@@ -29,6 +29,34 @@ In case of errors related to missing/unaccasable files, try:
 ```
 pip install -r requirements.txt --user
 ```
+
+In case of the following error:
+
+_bs4.FeatureNotFound: Couldn't find a tree builder with the features you
+requested: xml. Do you need to install a parser library?_
+
+run:
+```
+pip install lxml
+```
+# .env file configuration
+
+The following parameters are available:
+
+EXTRACTION_STATISTICS_OUTPUT - Path to the output file from the root directory with the summary about the processed endpoints
+
+OBIS_API - The endpoint of the OBIS API that will process the endpoint
+
+OBIS_PARAMETERS - Parameters that will be used to process endpoints. [See more](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor/blob/master/README.md)
+
+SKIPPABLE_ENDPOINTS_FILE - List of endpoints to skip
+
+ENDPOINT_WITH_ACCESS_URLS - endpoint of endpoints, which is based on the list of active [endpoints](https://github.com/Wimmics/IndeGx/blob/main/catalogs/catalog.latest-status.ttl)
+
+ENDPOINTS_FROM_SOURCE - the name of the file which contains endpoints 
+
+CUSTOM_ENDPOINTS - the file  with a list of custom endpoints to be processed
+
 # Available commands
 
 
@@ -37,7 +65,7 @@ All the commands must be executed from the root directory (_lod-extraction_ by d
 ### 1. Extracting endpoints from http://85.254.199.72:8890/sparql.
 <br>
 
-At first a query defined in _source_qurey.txt_ will be executed on the source and endpoints will be retrieved for further extraction.
+At first the query defined in _source_qurey.txt_ will be executed on the source and endpoints will be retrieved for further extraction.
 
 Additionaly, there is available a file _endpoints-to-skip.csv_ with endpoints that will be skipped for extraction.
 
@@ -50,7 +78,7 @@ python -m extraction start-source
 ### 2. Providing own list of endpoints.
 <br>
 
-The list of endpoints for extraction should be provided in _./endpoints/custom-endpoints.csv_ file. Where each endpoint should be separated by a new line.
+The list of endpoints for extraction should be provided in _./endpoints/custom-endpoints.csv_ file (default path). Where each endpoint should be separated by a new line.
 
 ```
 python -m extraction start-file

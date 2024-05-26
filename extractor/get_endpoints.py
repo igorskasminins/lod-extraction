@@ -90,11 +90,18 @@ class EndpointRetrieval:
 
   def retrieve_endpoints(self):
     """ calls and saves the endpoints from the given source """
+
+    with open('source-query.txt', 'r') as file:
+      query = file.read()
+
+    if not query:
+       raise 'SPARQL query is not provided'
+    
     response = requests.get(
     os.getenv('ENDPOINT_WITH_ACCESS_URLS'), 
       params={
-        "query": self.full_sparql_query, 
-        "default-graph-uri": os.getenv('DATASET_NAME')
+        "query": query, 
+        "default-graph-uri": "http://sparql_endpoints.ex"
       }
     )
 
