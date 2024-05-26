@@ -67,6 +67,8 @@ All the commands must be executed from the root directory (_lod-extraction_ by d
 
 At first the query defined in _source_qurey.txt_ will be executed on the source and endpoints will be retrieved for further extraction.
 
+To update the contents of the file with recieved endpoints(endpoints-from-source.xml by default) from the query, it should be deleted. So that if some changes were applied they wouldn't be overwritten.
+
 Additionaly, there is available a file _endpoints-to-skip.csv_ with endpoints that will be skipped for extraction.
 
 Command to start the extraction from the source. 
