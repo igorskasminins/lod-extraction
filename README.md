@@ -75,6 +75,9 @@ Command to start the extraction from the source.
 ```
 python -m extraction start-source
 ```
+Available flags:
+- *--include-most-used-properties* or *-imup* - include queries for retrieving 4 most used properties for each endpoint.
+- *--ignore_existing_records* or *-f* - ignores checks for existing records, endpoints to skip and files.
 <br>
 
 ### 2. Providing own list of endpoints.
@@ -85,6 +88,11 @@ The list of endpoints for extraction should be provided in _./endpoints/custom-e
 ```
 python -m extraction start-file
 ```
+
+Available flags:
+- *--generic-only* or *-go* - retrieve only counts of classes, properties and triples.
+- *--include-most-used-properties* or *-imup* - include queries for retrieving 4 most used properties for each endpoint.
+- *--ignore_existing_records* or *-f* - ignores checks for existing records, endpoints to skip and files.
 <br>
 
 # Import to PostgresSQL - Data Shape Server ([DSS](https://github.com/LUMII-Syslab/data-shape-server))

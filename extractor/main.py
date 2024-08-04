@@ -29,11 +29,11 @@ class ExtractorAPI:
 
         return endpoint_url
 
-    def __make_request(self, url, config_data, endpoint_data, endpoint_origin):
+    def __make_request(self, url, config_data, endpoint_data, endpoint_origin, include_most_used_properties, ignore_existing_records):
         """ Makes a request to OBIS API endpoint """
         output_file = endpoint_data['output_file']
         
-        if os.path.exists(f'./results/responses/{output_file}.json'):
+        if (ignore_existing_records == False) and (os.path.exists(f'./results/responses/{output_file}.json')):
             self.__logger.print_and_log_info(f'Skipping as the JSON output exists: {output_file}')
 
             return
@@ -53,7 +53,7 @@ class ExtractorAPI:
 
         full_endpoint_url = self.__construct_endpoint_url(config_data)
 
-        most_used_properties = self.__sparql_data_extractor.get_most_used_properties_data(url)
+        most_used_properties = self.__sparql_data_extractor.get_most_used_properties_data(url, include_most_used_properties)
 
         start = time.time()
 
@@ -74,6 +74,18 @@ class ExtractorAPI:
                 classes_count_expected=endpoint_data['classes'],
                 properties_count_expected=endpoint_data['properties'],
                 triples_count_expected=endpoint_data['triples'],
+                first_most_property_iri = most_used_properties[0]['iri'],
+                first_most_property_count = most_used_properties[0]['count'],
+                first_most_property_object_count = most_used_properties[0]['object_count'],
+                second_most_property_iri = most_used_properties[1]['iri'],
+                second_most_property_count = most_used_properties[1]['count'],
+                second_most_property_object_count = most_used_properties[1]['object_count'],
+                third_most_property_iri = most_used_properties[2]['iri'],
+                third_most_property_count = most_used_properties[2]['count'],
+                third_most_property_object_count = most_used_properties[2]['object_count'],
+                fourth_most_property_iri = most_used_properties[3]['iri'],
+                fourth_most_property_count = most_used_properties[3]['count'],
+                fourth_most_property_object_count = most_used_properties[3]['object_count'],
                 api_call_request=full_endpoint_url,
                 endpoint_origin=endpoint_origin,
                 error=exception
@@ -147,6 +159,18 @@ class ExtractorAPI:
                 classes_count_expected=endpoint_data['classes'],
                 properties_count_expected=endpoint_data['properties'],
                 triples_count_expected=endpoint_data['triples'],
+                first_most_property_iri = most_used_properties[0]['iri'],
+                first_most_property_count = most_used_properties[0]['count'],
+                first_most_property_object_count = most_used_properties[0]['object_count'],
+                second_most_property_iri = most_used_properties[1]['iri'],
+                second_most_property_count = most_used_properties[1]['count'],
+                second_most_property_object_count = most_used_properties[1]['object_count'],
+                third_most_property_iri = most_used_properties[2]['iri'],
+                third_most_property_count = most_used_properties[2]['count'],
+                third_most_property_object_count = most_used_properties[2]['object_count'],
+                fourth_most_property_iri = most_used_properties[3]['iri'],
+                fourth_most_property_count = most_used_properties[3]['count'],
+                fourth_most_property_object_count = most_used_properties[3]['object_count'],
                 api_call_request=full_endpoint_url,
                 endpoint_origin=endpoint_origin,
                 error=error_msg
@@ -155,23 +179,25 @@ class ExtractorAPI:
             self.__logger.print_and_log_error(f"Error: {response.status_code}. Failed to fetch data from URL {url}")
             self.__logger.print_and_log_error(f"Response content: {response.content}")
 
-    def process_endpoints_from_source(self):
+    def process_endpoints_from_source(self, include_most_used_properties, ignore_existing_records):
         """ Reads the XML file with the data about endpoints: url, classes, parameters and triple counts """
         urls = self.__endpoints_reader.get_urls_from_source()
-    
+        if ignore_existing_records == False:
+            endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip(queries_from_source=True)
+
         for url, endpoint_data in urls.items():
             # Call before each URL processing to allow skipping URLs on the go
             endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip(queries_from_source=True)
 
-            if url in endpoints_to_skip:
-                self.__logger.print_and_log_info(f'Skipping URL {url}')
+            if (ignore_existing_records == False) and (url in endpoints_to_skip):
+                self.__logger.print_and_log_info(f'Skipping URL as it has been processed or was included in the list for skipping {url}')
 
                 continue
 
             config_data = self.__json_reader.get_config_data()
             endpoint_data['output_file'] = self.create_output_file_name(url)
 
-            self.__make_request(url, config_data, endpoint_data, 'source')
+            self.__make_request(url, config_data, endpoint_data, 'source', include_most_used_properties, ignore_existing_records)
 
     def create_output_file_name(self, url):
         """ Construct json output file from SPARQL URL """
@@ -180,14 +206,16 @@ class ExtractorAPI:
         file_name = file_name.replace('//', '_')
         file_name = file_name.replace('/', '_')
         file_name = file_name.replace(':', '')
-        # "-" symbol is not allowed for PostgresSQL schema names
+        # The "-" symbol is not allowed for PostgresSQL schema names
         file_name = file_name.replace('-', '_')
 
         return file_name
     
-    def process_custom_endpoints(self):
+    def process_custom_endpoints(self, only_generic, include_most_used_properties, ignore_existing_records):
         """ Reads the XML file with the data about endpoints: url, classes, parameters and triple counts """
-        endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip()
+        if ignore_existing_records == False:
+            endpoints_to_skip = self.__skippable_endpoints.get_endpoints_to_skip()
+
         endpoints = self.__endpoints_reader.get_custom_urls()
     
         if len(endpoints) == 0:
@@ -196,19 +224,40 @@ class ExtractorAPI:
             return
 
         for url in endpoints:
-            if url in endpoints_to_skip:
-                self.__logger.print_and_log_info(f'Skipping URL: {url}')
+            if (ignore_existing_records == False) and (url in endpoints_to_skip):
+                self.__logger.print_and_log_info(f'Skipping URL as it has been processed or was included in the list for skipping {url}')
 
                 continue
 
+            start = time.time()
+
             endpoint_data = self.__sparql_data_extractor.extract_data(url)
-            if endpoint_data['classes'] > -1 and endpoint_data['properties'] > -1:
+
+            end = time.time()
+            elapsed_time = int(round(end - start, 2) * 1000)
+
+            if only_generic == True:
+                self.__stats_reader.write_data(
+                    access_url=url,
+                    elapsed_time=elapsed_time,
+                    classes_count_expected=endpoint_data['classes'],
+                    properties_count_expected=endpoint_data['properties'],
+                    triples_count_expected=endpoint_data['triples'],
+                )
+
+                continue
+
+            if endpoint_data['classes'] > -1 and endpoint_data['properties'] > -1 and endpoint_data['triples'] > -1:
                 config_data = self.__json_reader.get_config_data()
 
                 endpoint_data['output_file'] = self.create_output_file_name(url)
-                self.__make_request(url, config_data, endpoint_data, 'custom')
+                self.__make_request(url, config_data, endpoint_data, 'custom', include_most_used_properties, ignore_existing_records)
             else:
                 self.__stats_reader.write_data(
                     access_url=url, 
-                    error="The endpoint URL is not fully available"
+                    elapsed_time=elapsed_time,
+                    classes_count_expected=endpoint_data['classes'],
+                    properties_count_expected=endpoint_data['properties'],
+                    triples_count_expected=endpoint_data['triples'],
+                    error='The endpoint URL is not fully available'
                 )

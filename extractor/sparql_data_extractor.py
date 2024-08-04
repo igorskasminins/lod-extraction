@@ -63,8 +63,9 @@ class SPARQLDataExtractor:
         
         return self.__endpoint_data
 
-    def get_most_used_properties_data(self, access_url):
-        return self.__most_used_properties
+    def get_most_used_properties_data(self, access_url, include_most_used_properties):
+        if include_most_used_properties == False:
+            return self.__most_used_properties
     
         self.__sparql_queries.set_wrapper(access_url)
 
